@@ -67,13 +67,13 @@ Page segmentation modes:
 config = r"--psm 6 --oem 3"
 
 #TesseractOCR\\InputImageFiles
-input_folder = "../InputImageFiles"
+input_folder = "TesseractOCR\\InputImageFiles"
 #TesseractOCR\\OutputTextFiles
-output_folder = "../OutputTextFiles"
+output_folder = "TesseractOCR\\OutputTextFiles"
 image_files = [file for file in os.listdir(input_folder) if file.endswith('.png') or file.endswith('.jpg')]
 
 for image_file in image_files:
     image_file_path = os.path.join(input_folder, image_file)
     text = get_text_from_image(image_file_path, config)
     language = langdetect.detect(text)
-    open(os.path.join(output_folder, image_file + ".txt"), "w").write(language + "\n" + text)
+    open(os.path.join(output_folder, image_file + ".txt"), "w").write("Detected language: " + language + "\n" + "\n" + "Found Text: " + text)

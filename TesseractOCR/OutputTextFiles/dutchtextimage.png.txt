@@ -1,5 +1,6 @@
-nl
-Ik reis regelmatig naar Istanbul, omdat mijn ouders daar
+Detected language: nl
+
+Found Text: Ik reis regelmatig naar Istanbul, omdat mijn ouders daar
 wonen. Het is altijd weer interessant om waar te
 svaarmemen dat deze stad iedere jaar ictssvijzigtverandert.
 Er komen altijdsteeds nieuwe zaken en nieuwe gebouwen

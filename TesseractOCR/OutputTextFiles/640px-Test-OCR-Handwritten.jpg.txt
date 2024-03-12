@@ -1,5 +1,6 @@
-en
-doo Numb <7 ao\ea6ls
+Detected language: en
+
+Found Text: doo Numb <7 ao\ea6ls
 
 lee ins = 2-28-2olf
 Calan > 808445127

@@ -1,5 +1,6 @@
-en
-Cedric himself knew nothing
+Detected language: en
+
+Found Text: Cedric himself knew nothing
 whatever about it. It had never been
 even mentioned to him. He knew that
 his papa had been an Englishman,

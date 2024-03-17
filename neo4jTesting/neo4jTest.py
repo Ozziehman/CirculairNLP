@@ -12,12 +12,12 @@ def upload_words(tx, sentence, words):
            "  MERGE (s)-[:CONTAINS]->(w))",  
            sentence=sentence, words=words)
         
-text = """
-The quick brown fox jumps over the lazy dog.
-Programming in Python is both fun and educational.
-Artificial intelligence is transforming the world of technology.
-"""
-sentences = text.split("\n")
+text: str   
+        
+with open('neo4jTesting/exampleText.txt', 'r') as file:
+    text = file.read()
+    
+sentences = text.split(".")
 words = [word for sentence in sentences for word in sentence.split()]
 with driver.session() as session:
     for sentence in sentences:

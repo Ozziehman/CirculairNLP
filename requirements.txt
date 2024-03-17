@@ -1,5 +1,6 @@
 pytesseract == 0.3.10
 pillow == 10.2.0
-opencv-python == 1.26.4
+opencv-python
 langdetect == 1.0.9
 spacy == 3.7.4
+neo4j 

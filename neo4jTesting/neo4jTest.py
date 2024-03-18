@@ -18,7 +18,7 @@ def upload_words(tx, file, chapter, paragraph, sentence, words):
                 MERGE (s)-[:CONTAINS]->(w))
         """, file=file, chapter=chapter, paragraph=paragraph, sentence=sentence, words=words)
         
-input_files = ["neo4jTesting/exampleText.txt", "neo4jTesting/exampleText2.txt"]
+input_files = ["..\\neo4jTesting\\exampleText.txt", "..\\neo4jTesting\\exampleText2.txt"]
 
 with driver.session() as session:
     for file in input_files:

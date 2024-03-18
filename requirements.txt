@@ -1,6 +1,9 @@
-pytesseract == 0.3.10
-pillow == 10.2.0
+pytesseract 
+pillow
 opencv-python
-langdetect == 1.0.9
-spacy == 3.7.4
+langdetect
+spacy
 neo4j 
+cv2
+PyPDF2
+

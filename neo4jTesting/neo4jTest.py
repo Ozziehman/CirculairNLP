@@ -3,26 +3,30 @@ from neo4j import GraphDatabase
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
-def upload_words(tx, sentence, words):
+def upload_words(tx, file, chapter, paragraph, sentence, words):
     for word in words:
-        # Hij maakt als het er nog niet is en merged dan alle worde in die zin.
-        tx.run("MERGE (s:Sentence {name: $sentence}) " # s is de variable naam
-           "FOREACH (word IN $words | " # $words is de words vanuit python
-           "  MERGE (w:Word {name: word}) " # word is de variable naam
-           "  MERGE (s)-[:CONTAINS]->(w))",  
-           sentence=sentence, words=words)
+        tx.run("""
+            MERGE (f:File {name: $file})
+            MERGE (c:Chapter {name: $chapter})
+            MERGE (f)-[:CONTAINS]->(c)
+            MERGE (p:Paragraph {name: $paragraph})
+            MERGE (c)-[:CONTAINS]->(p)
+            MERGE (s:Sentence {name: $sentence})
+            MERGE (p)-[:CONTAINS]->(s)
+            FOREACH (word IN $words | 
+                MERGE (w:Word {name: word}) 
+                MERGE (s)-[:CONTAINS]->(w))
+        """, file=file, chapter=chapter, paragraph=paragraph, sentence=sentence, words=words)
         
-text: str   
-        
-with open('neo4jTesting/exampleText.txt', 'r') as file:
-    text = file.read()
-    
-sentences = text.split(".")
-words = [word for sentence in sentences for word in sentence.split()]
+input_files = ["neo4jTesting/exampleText.txt", "neo4jTesting/exampleText2.txt"]
+
 with driver.session() as session:
-    for sentence in sentences:
-        words = sentence.split()
-        session.execute_write(upload_words, sentence, words)
+    for file in input_files:
+        text = open(file, "r").read()
+        sentences = text.split(".")
+        for sentence in sentences:
+            words = sentence.split()
+            session.execute_write(upload_words, file=f"File: {file}", chapter=f"Chapter 1 from file: {file}", paragraph=f"Paragraph 1 from file {file}", sentence=sentence, words=words)
 driver.close()
 
 #run both

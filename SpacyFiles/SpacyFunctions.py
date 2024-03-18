@@ -1,6 +1,7 @@
 import spacy
 from spacy import displacy
 import langdetect
+import translate
 
 # Import language-specific language models (LLMs)
 import nl_core_news_lg  # Dutch LLM
@@ -46,6 +47,15 @@ def load_language(text: str) -> spacy.language.Language:
             print(f"Language not supported. Using English (EN) by default.")
             return spacy.load("en_core_web_trf")
 
+
+def translate_to_eng(self,text: str):
+        lang = self.detect_language(text)
+        if lang == "en":
+            return text
+        else:
+            translator = translate.Translator(to_lang="en")
+            translation = translator.translate(text)
+            return translation
 
 def process_input(input_text: str) -> None:
     """Processes user input using the loaded model."""

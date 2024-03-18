@@ -5,4 +5,4 @@ langdetect
 spacy
 neo4j 
 PyPDF2
-
+translate

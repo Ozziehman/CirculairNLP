@@ -4,6 +4,5 @@ opencv-python
 langdetect
 spacy
 neo4j 
-cv2
 PyPDF2
 

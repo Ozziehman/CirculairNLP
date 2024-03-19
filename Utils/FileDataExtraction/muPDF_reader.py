@@ -18,16 +18,16 @@ class muPDF_reader:
         return file.get_toc(False)
 
     def get_tables(self, file):
-        if not hasattr(fitz.Page, "find_tables"):
-            raise RuntimeError("This PyMuPDF version does not support the table feature")
-        page = file[0]
-        tabs = page.find_tables()
+        output = [] # List of table, table number and page number triplets
         
-        for i, tab in enumerate(tabs):
-            print(f"Table {i}")
-            print(tab.to_pandas().to_markdown())
+        for page_num, page in enumerate(file):
+            tabs = page.find_tables()
+            for i, tab in enumerate(tabs):
+                print(f"Page {page_num}, Table {i}")
+                print(tab.to_pandas().to_markdown())
+                output.append((tab, i, page_num))
 
-        return tabs
+        return output
 
     def read_text_from_pdf(self, file):
         try:
@@ -70,17 +70,14 @@ class muPDF_reader:
                 with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
                     json.dump(toc, toc_file, indent=4)
 
-            self.get_tables(file)
-
             tabs = self.get_tables(file)
-            for i, tab in enumerate(tabs):
-                table_markdown = tab.to_pandas().to_markdown()
-                table_filename = f"table_{i}.md"
+            for tab in tabs:
+                table_markdown = tab[0].to_pandas().to_markdown()
+                table_filename = f"page_{tab[2]}table_{tab[1]}.md"
                 with open(os.path.join(output_folder, table_filename), "w", encoding="utf-8") as table_file:
                     table_file.write(table_markdown)
-                toc.append({"filename": table_filename, "title": f"Table {i}"})
 
-            print(f"PDF processed successfully. Text and images saved in '{output_folder}'.")
+            print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 
     def main(self):
         self.process_pdf(self.file, self.filepath)

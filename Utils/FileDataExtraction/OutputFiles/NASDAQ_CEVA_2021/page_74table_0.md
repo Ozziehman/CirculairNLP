@@ -1,0 +1,7 @@
+|    | NNuommbberre odfe m paojollur tmioanrsit immaer iotiiml sepsi lmlsajeures aux hydrocarbures   | NNuommbberre odfe m paojollur tmioanrsit immaer iotiiml sepsi lmlsajeures aux hydrocarbures   | LMimoditéerdé   |
+|    | NNuommbberre odfe c oconntateinneerus rlso spte artd suesa en mer                             |                                                                                               |                 |
+|---:|:----------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|:----------------|
+|  0 |                                                                                               |                                                                                               |                 |
+|  1 |                                                                                               |                                                                                               |                 |
+|  2 |                                                                                               |                                                                                               |                 |
+|  3 |                                                                                               |                                                                                               |                 |

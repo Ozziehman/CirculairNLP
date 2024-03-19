@@ -1,0 +1,4 @@
+|    | Col0   | SOaufteilt yS Cafaertgy oC Caorgnot rColo (nStCroCl )( tSoCoCl f)o pr othuer lceo cnotrnotrl ôolfe d daensg meraorucsh ganodoidses sa ndda nilgliceirte turasfefsci et des trafics illicites   |
+|---:|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  0 |        |                                                                                                                                                                                                |
+|  1 |        |                                                                                                                                                                                                |

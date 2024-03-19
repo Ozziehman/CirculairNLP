@@ -12,13 +12,13 @@ class TextDetectionVis:
       # detect words
       data = pytesseract.image_to_data(PIL.Image.open(image_file_path), config=config, output_type=Output.DICT)
       n_boxes = len(data['text'])
-      for i in range (n_boxes):
-          if float(data['conf'][i]) > 80:
-              img = cv2.imread(image_file_path)
+      img = cv2.imread(image_file_path)  # Move this line outside of the loop
+      for i in range(n_boxes):
+          if float(data['conf'][i]) > 60:
               height, width, _ = img.shape
-              (x,y, width, height) = (data['left'][i], data['top'][i], data['width'][i], data['height'][i])
+              (x, y, width, height) = (data['left'][i], data['top'][i], data['width'][i], data['height'][i])
               img = cv2.rectangle(img, (x, y), (x + width, y + height), (0, 255, 0), 2)
-              cv2.imwrite(os.path.join(output_folder, image_file), img)
+      cv2.imwrite(os.path.join(output_folder, image_file), img)  # Move this line outside of the loop too
               
       """
       boxes = pytesseract.image_to_boxes(PIL.Image.open(image_file_path), config=config)

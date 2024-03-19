@@ -70,11 +70,15 @@ class muPDF_reader:
                 with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
                     json.dump(toc, toc_file, indent=4)
 
+            tables_folder = os.path.join(output_folder, 'tables')
+            if not os.path.exists(tables_folder):
+                os.makedirs(tables_folder)
+
             tabs = self.get_tables(file)
             for tab in tabs:
                 table_markdown = tab[0].to_pandas().to_markdown()
                 table_filename = f"page_{tab[2]}table_{tab[1]}.md"
-                with open(os.path.join(output_folder, table_filename), "w", encoding="utf-8") as table_file:
+                with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
                     table_file.write(table_markdown)
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")

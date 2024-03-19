@@ -11,4 +11,5 @@
 |    |        | these deadlines by making an initial inventory                                                         |
 |    |        | of its activities that come within the scope of                                                        |
 |---:|:-------|:-------------------------------------------------------------------------------------------------------|
-|  0 |        |                                                                                                        |
+|  0 |        | the climate change mitigation and adaptation                                                           |
+|    |        | objectives.                                                                                            |

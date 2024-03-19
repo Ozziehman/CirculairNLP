@@ -23,10 +23,7 @@ class muPDF_reader:
         for page_num, page in enumerate(file):
             tabs = page.find_tables()
             for i, tab in enumerate(tabs):
-                print(f"Page {page_num}, Table {i}")
-                print(tab.to_pandas().to_markdown())
-                output.append((tab, i, page_num))
-
+                output.append((tab.to_pandas(), i, page_num))
         return output
 
     def read_text_from_pdf(self, file):
@@ -76,13 +73,13 @@ class muPDF_reader:
 
             tabs = self.get_tables(file)
             for tab in tabs:
-                table_markdown = tab[0].to_pandas().to_markdown()
+                table_data = tab[0]
                 table_filename = f"page_{tab[2]}table_{tab[1]}.md"
                 with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
-                    table_file.write(table_markdown)
+                    table_file.write(table_data.to_markdown())
+
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 
     def main(self):
         self.process_pdf(self.file, self.filepath)
-        

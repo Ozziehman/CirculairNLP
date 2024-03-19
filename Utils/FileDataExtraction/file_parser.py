@@ -37,7 +37,7 @@ class file_parser:
     def process_pdf(self, file_path):
         text = self.read_text_from_pdf(file_path)
         if text:
-            output_folder = os.path.join("Output Files", os.path.splitext(os.path.basename(file_path))[0])
+            output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(file_path))[0])
             os.makedirs(output_folder, exist_ok=True)
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
@@ -46,7 +46,7 @@ class file_parser:
             print(f"PDF processed successfully. Text and images saved in '{output_folder}'.")
 
     def main(self):
-        input_folder = "Input Files"
+        input_folder = "InputFiles"
         pdf_files = [f for f in os.listdir(input_folder) if f.endswith('.pdf')]
         for pdf_file in pdf_files:
             pdf_file_path = os.path.join(input_folder, pdf_file)

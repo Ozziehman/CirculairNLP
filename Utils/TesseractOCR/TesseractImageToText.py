@@ -1,5 +1,4 @@
 import pytesseract
-import cv2
 import PIL.Image
 import os
 import langdetect

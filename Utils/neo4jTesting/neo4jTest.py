@@ -1,4 +1,7 @@
 from neo4j import GraphDatabase
+import os
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))

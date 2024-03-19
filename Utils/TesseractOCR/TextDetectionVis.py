@@ -5,6 +5,9 @@ import os
 import langdetect
 from pytesseract import Output
 
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
+
 """
 --psm NUM             Specify page segmentation mode.
 --oem NUM             Specify OCR Engine mode.

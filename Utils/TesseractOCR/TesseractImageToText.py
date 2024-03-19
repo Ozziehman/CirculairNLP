@@ -4,6 +4,9 @@ import PIL.Image
 import os
 import langdetect
 
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
+
 def get_text_from_image(image_file_path, config):
     """
     --psm NUM             Specify page segmentation mode.

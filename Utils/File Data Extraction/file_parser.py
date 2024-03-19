@@ -1,6 +1,9 @@
 from PyPDF2 import PdfReader
 import os
 
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
+
 def read_text_from_pdf(file_path):
     text = ""
     try:

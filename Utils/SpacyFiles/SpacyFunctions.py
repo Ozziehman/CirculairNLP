@@ -2,6 +2,9 @@ import spacy
 from spacy import displacy
 import langdetect
 import translate
+import os 
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
 
 # Import language-specific language models (LLMs)
 import nl_core_news_lg  # Dutch LLM

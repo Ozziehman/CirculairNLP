@@ -1,9 +1,10 @@
-import fitz
 import os
-
-print(fitz.__doc__)
 current_dir = os.path.dirname(__file__)
 os.chdir(current_dir)
+
+import fitz
+print(fitz.__doc__)
+
 
 class muPDF_reader:
     def read_text_from_pdf(self, file_path):

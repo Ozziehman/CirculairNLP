@@ -1,8 +1,8 @@
-from PyPDF2 import PdfReader
 import os
-
 current_dir = os.path.dirname(__file__)
 os.chdir(current_dir)
+
+from PyPDF2 import PdfReader
 
 class file_parser:
     def read_text_from_pdf(self, file_path):

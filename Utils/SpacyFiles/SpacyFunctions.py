@@ -1,17 +1,17 @@
+import os 
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
+
 import spacy
 from spacy import displacy
 import langdetect
 import translate
-import os 
 
 # Import language-specific language models (LLMs)
 import nl_core_news_lg  # Dutch LLM
 import en_core_web_trf  # English LLM
 import fr_dep_news_trf  # French LLM
 import de_dep_news_trf  # German LLM
-
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
 
 class SpacyFunctions():
     def load_gpu(self):

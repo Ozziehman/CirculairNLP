@@ -1,11 +1,11 @@
+import os
+current_dir = os.path.dirname(__file__)
+os.chdir(current_dir)
+
 import pytesseract
 import cv2
 import PIL.Image
-import os
 from pytesseract import Output
-
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
 
 class TextDetectionVis:
     def detect_words(self, config, image_file_path, output_folder, image_file):
@@ -60,12 +60,13 @@ class TextDetectionVis:
       """
 
       config = r"--psm 6 --oem 3"
-      input_folder = "../InputImageFiles"
-      output_folder = "../OutputImagesWithVis"
+      input_folder = "InputImageFiles"
+      output_folder = "OutputImagesWithVis"
       image_files = [file for file in os.listdir(input_folder) if file.endswith('.png') or file.endswith('.jpg')]
 
       for image_file in image_files:
           image_file_path = os.path.join(input_folder, image_file)
-          self.detect_words(config, image_file_path, output_folder, image_file)
+          self.detect_words(self, config, image_file_path, output_folder, image_file)
     
-TextDetectionVis.main()
+item = TextDetectionVis 
+TextDetectionVis.main(item)

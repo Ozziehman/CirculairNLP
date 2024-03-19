@@ -5,50 +5,81 @@ os.chdir(current_dir)
 import fitz
 print(fitz.__doc__)
 
+import json
+import numpy as np
+import matplotlib.pyplot as plt
 
 class muPDF_reader:
-    def read_text_from_pdf(self, file_path):
+    def __init__(self, file_path) -> None:
+        self.filepath = file_path
+        self.file = fitz.open(file_path)
+
+    def get_table_of_contents(self, file):
+        return file.get_toc(False)
+
+    def get_tables(self, file):
+        output = [] # List of table, table number and page number triplets
+        
+        for page_num, page in enumerate(file):
+            tabs = page.find_tables()
+            for i, tab in enumerate(tabs):
+                output.append((tab.to_pandas(), i, page_num))
+        return output
+
+    def read_text_from_pdf(self, file):
         try:
             text = ""
-            with fitz.open(file_path) as doc:
-                for page in doc:
-                    text += page.get_text()
+            for page in file:
+                text += page.get_text()
             return text
         except Exception as e:
             print(f"Error reading text from PDF: {e}")
             return None
 
-    def extract_images_from_pdf(self, file_path, output_folder):
+    def extract_images_from_pdf(self, file, output_folder):
         try:
-            with fitz.open(file_path) as doc:
-                for page_num, page in enumerate(doc):
-                    image_list = page.get_images(full=True)
-                    for img_index, img in enumerate(image_list):
-                        xref = img[0]
-                        base_image = doc.extract_image(xref)
-                        image_bytes = base_image["image"]
-                        image_ext = base_image["ext"]
-                        image_filename = os.path.join(output_folder, "images", f"page_{page_num}_image_{img_index}.{image_ext}")
-                        with open(image_filename, "wb") as image_file:
-                            image_file.write(image_bytes)
+            for page_num, page in enumerate(file):
+                image_list = page.get_images(full=True)
+                for img_index, img in enumerate(image_list):
+                    xref = img[0]
+                    base_image = file.extract_image(xref)
+                    image_bytes = base_image["image"]
+                    image_ext = base_image["ext"]
+                    image_filename = os.path.join(output_folder, "images", f"page_{page_num}_image_{img_index}.{image_ext}")
+                    with open(image_filename, "wb") as image_file:
+                        image_file.write(image_bytes)
         except Exception as e:
             print(f"Error extracting images from PDF: {e}")
 
-    def process_pdf(self, file_path):
-        text = self.read_text_from_pdf(file_path)
+    def process_pdf(self, file, filepath):
+        text = self.read_text_from_pdf(file)
         if text:
-            output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(file_path))[0])
+            output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(filepath))[0])
             os.makedirs(output_folder, exist_ok=True)
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
             os.makedirs(os.path.join(output_folder, "images"), exist_ok=True)
-            self.extract_images_from_pdf(file_path, output_folder)
-            print(f"PDF processed successfully. Text and images saved in '{output_folder}'.")
+            self.extract_images_from_pdf(file, output_folder)
+
+            toc = self.get_table_of_contents(self.file)
+
+            if toc != []:
+                with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
+                    json.dump(toc, toc_file, indent=4)
+
+            tables_folder = os.path.join(output_folder, 'tables')
+            if not os.path.exists(tables_folder):
+                os.makedirs(tables_folder)
+
+            tabs = self.get_tables(file)
+            for tab in tabs:
+                table_data = tab[0]
+                table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
+                with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
+                    table_file.write(table_data.to_markdown())
+
+
+            print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 
     def main(self):
-        print(os.getcwd())
-        input_folder = "InputFiles"
-        pdf_files = [f for f in os.listdir(input_folder) if f.endswith('.pdf')]
-        for pdf_file in pdf_files:
-            pdf_file_path = os.path.join(input_folder, pdf_file)
-            self.process_pdf(pdf_file_path)
+        self.process_pdf(self.file, self.filepath)

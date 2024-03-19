@@ -66,7 +66,7 @@ class TextDetectionVis:
 
       for image_file in image_files:
           image_file_path = os.path.join(input_folder, image_file)
-          self.detect_words(self, config, image_file_path, output_folder, image_file)
+          self.detect_words(config, image_file_path, output_folder, image_file)
     
-item = TextDetectionVis 
-TextDetectionVis.main(item)
+item = TextDetectionVis()
+item.main()

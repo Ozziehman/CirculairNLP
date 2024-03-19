@@ -31,10 +31,6 @@ class muPDF_reader:
             text = ""
             for page in file:
                 text += page.get_text()
-                print("BLOCKS-----------------------------------")
-                for block in page.get_textpage().extractBLOCKS():
-                    print(block[4])
-                
             return text
         except Exception as e:
             print(f"Error reading text from PDF: {e}")
@@ -62,6 +58,9 @@ class muPDF_reader:
             print(f"Error reading text from PDF: {e}")
             return None
 
+    def get_metadata(self, file):
+        print(file.metadata)
+        return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):
         try:
@@ -91,7 +90,11 @@ class muPDF_reader:
             with open(os.path.join(output_folder, 'extracted_text_blocks.json'), 'w') as blocks_file:
                 json.dump(blocks, blocks_file, indent=4)
 
-            '''self.extract_images_from_pdf(file, output_folder)
+            metadata = self.get_metadata(file)
+            with open(os.path.join(output_folder, 'metadata.json'), 'w') as blocks_file:
+                json.dump(metadata, blocks_file, indent=4)
+
+            self.extract_images_from_pdf(file, output_folder)
 
             toc = self.get_table_of_contents(self.file)
 
@@ -99,17 +102,17 @@ class muPDF_reader:
                 with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
                     json.dump(toc, toc_file, indent=4)
 
-            tables_folder = os.path.join(output_folder, 'tables')
-            if not os.path.exists(tables_folder):
-                os.makedirs(tables_folder)
-
             tabs = self.get_tables(file)
-            for tab in tabs:
-                table_data = tab[0]
-                table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
-                with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
-                    table_file.write(table_data.to_markdown())'''
 
+            if tabs != []:
+                tables_folder = os.path.join(output_folder, 'tables')
+                if not os.path.exists(tables_folder):
+                    os.makedirs(tables_folder)
+                for tab in tabs:
+                    table_data = tab[0]
+                    table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
+                    with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
+                        table_file.write(table_data.to_markdown())
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 

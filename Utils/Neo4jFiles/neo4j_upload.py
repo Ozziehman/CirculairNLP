@@ -10,19 +10,27 @@ url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
 class neo4j_upload:
-    def neo4j_query_text(self, tx, file, metadata, paragraph, sentences, page_num, block_no):
+    def neo4j_query_text(self, tx, file, metadata, json_block):
+        block_lines = json_block["lines"]
+        page_num = json_block["page_num"] 
+        block_no = json_block["block_no"]
+        sentences = []   
+        for sentence in block_lines.split("."): # Change later to AI generated sentence splits
+            sentences.append(sentence)
         for sentence in sentences:
             words = sentence.split()
-            for word in words:
+            for word in words: # File contains Page, Page contains Block, Block contains Sentence, Sentence contains Word
                 tx.run("""
                     MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
-                    MERGE (p:Paragraph {name: 'Paragraph', paragraph: $paragraph, paragraph_page_num: $page_num, block_no: $block_no})
+                    MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
                     MERGE (f)-[:CONTAINS]->(p)
-                    MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, sentence_page_num: $page_num})
-                    MERGE (p)-[:CONTAINS]->(s)
-                    MERGE (w:Word {name: 'Word', word: $word, word_page_num: $page_num})
+                    MERGE (b:Block {name: 'Block', block_lines: $block_lines, block_lines_page_num: $page_num, block_no: $block_no, block_from_file: $file})
+                    MERGE (p)-[:CONTAINS]->(b)
+                    MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, sentence_page_num: $page_num, sentence_block_no: $block_no, sentence_from_file: $file})
+                    MERGE (b)-[:CONTAINS]->(s)
+                    MERGE (w:Word {name: 'Word', word: $word, word_from_file: $file, word_page_num: $page_num})
                     MERGE (s)-[:CONTAINS]->(w)
-                """, file=file, metadata=metadata, paragraph=paragraph, sentence=sentence, page_num=page_num, block_no=block_no, word=word)
+                """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, block_no=block_no, word=word)
     
     def neo4j_query_image(self, tx, file, images):
         for image_name, image in images:
@@ -53,17 +61,13 @@ class neo4j_upload:
                 with open(os.path.join(output_file, "metadata.json"), "r") as f:
                     metadata = f.read()
                 for json_block in text:
-                    paragraph = json_block["lines"]
-                    page_num = json_block["page_num"] 
-                    block_no = json_block["block_no"]
-                    sentences = []   
-                    for sentence in paragraph.split("."): # Change later to AI generated sentence splits
-                        sentences.append(sentence)
-                    session.execute_write(self.neo4j_query_text, file=f"File: {output_file}", metadata=metadata, paragraph=paragraph, sentences=sentences, page_num=page_num, block_no=block_no)
+                    session.execute_write(self.neo4j_query_text, file=output_file, metadata=metadata, json_block=json_block)
             print("Text uploaded to Neo4j.")
         else:
-            print("No text file found.")     
+            print("No text file found, or option disabled.")     
         
+
+        # TODO add page connections to table and image uploads
         # Upload tables
         if upload_tables and os.path.exists(os.path.join(output_file, "tables")):
             print("Uploading tables to Neo4j.")
@@ -78,9 +82,9 @@ class neo4j_upload:
                         tables.append((table_name, table_content))
                             
                 session.execute_write(self.neo4j_query_table, file=f"File: {output_file}", tables=tables)
-            print("Tables uploaded to Neo4j.")
+            print("Tables uploaded to Neo4j")
         else:
-            print("No tables found.")
+            print("No tables found, or option disabled.")
             
         # Upload images
         if upload_images and os.path.exists(os.path.join(output_file, "images")):
@@ -96,8 +100,8 @@ class neo4j_upload:
                         images.append((image_name, encoded_image))
                 
                 session.execute_write(self.neo4j_query_image, file=f"File: {output_file}", images=images)
-            print("Images uploaded to Neo4j.")
+            print("Images uploaded to Neo4j")
         else:
-            print("No images found.")
+            print("No images found, or option disabled.")
 
 # delete all nodes:  MATCH (n) DETACH DELETE n

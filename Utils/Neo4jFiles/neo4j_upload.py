@@ -32,21 +32,25 @@ class neo4j_upload:
                     MERGE (s)-[:CONTAINS]->(w)
                 """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, block_no=block_no, word=word)
     
-    def neo4j_query_image(self, tx, file, images):
-        for image_name, image in images:
+    def neo4j_query_image(self, tx, file, images): 
+        for image_name, image, page_num in images:
             tx.run("""
                 MERGE (f:File {name: 'File', file: $file})
-                MERGE (i:Image {name: 'Image', image: $image_name, contents: $image})
-                MERGE (f)-[:CONTAINS]->(i)
-            """, file=file, image_name=image_name, image=image)
+                MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
+                MERGE (f)-[:CONTAINS]->(p)
+                MERGE (i:Image {name: 'Image', imagename: $image_name, contents: $image, page: $page_num, file: $file})
+                MERGE (p)-[:CONTAINS]->(i)
+            """, file=file, image_name=image_name, page_num=page_num, image=image)
         
     def neo4j_query_table(self, tx, file, tables):
-        for table_name, table in tables:
+        for table_name, table, page_num in tables:
             tx.run("""
                 MERGE (f:File {name: 'File', file: $file})
-                MERGE (t:Table {name: 'Table', table: $table_name, contents: $table})
-                MERGE (f)-[:CONTAINS]->(t)
-            """, file=file, table_name=table_name, table=table)
+                MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
+                MERGE (f)-[:CONTAINS]->(p)
+                MERGE (t:Table {name: 'Table', tablename: $table_name, contents: $table, page: $page_num, file: $file})
+                MERGE (p)-[:CONTAINS]->(t)
+            """, file=file, table_name=table_name, page_num=page_num, table=table)
         
     def main(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool):
         """Uploads data to Neo4j database."""
@@ -79,7 +83,8 @@ class neo4j_upload:
                     with open(os.path.join(table_dir, table_file), "r", encoding="utf-8") as f:
                         table_content = f.read()
                         table_name = f"{table_file}"
-                        tables.append((table_name, table_content))
+                        table_page_num = self.find_page_number(f"{table_file}")
+                        tables.append((table_name, table_content, table_page_num))
                             
                 session.execute_write(self.neo4j_query_table, file=f"File: {output_file}", tables=tables)
             print("Tables uploaded to Neo4j")
@@ -97,11 +102,15 @@ class neo4j_upload:
                     with open(os.path.join(image_dir, image_file), "rb") as f:
                         encoded_image = base64.b64encode(f.read()).decode("utf-8")
                         image_name = f"{image_file}"
-                        images.append((image_name, encoded_image))
+                        image_page_num = self.find_page_number(f"{image_file}")
+                        images.append((image_name, encoded_image, image_page_num))
                 
                 session.execute_write(self.neo4j_query_image, file=f"File: {output_file}", images=images)
             print("Images uploaded to Neo4j")
         else:
             print("No images found, or option disabled.")
 
+    def find_page_number(self, input_string):
+        substrings = input_string.split('_')
+        return substrings[1]
 # delete all nodes:  MATCH (n) DETACH DELETE n

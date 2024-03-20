@@ -110,7 +110,7 @@ class muPDF_reader:
                     os.makedirs(tables_folder)
                 for tab in tabs:
                     table_data = tab[0]
-                    table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
+                    table_filename = f"page_{tab[2]+1}_table_{tab[1]+1}.md"
                     with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
                         table_file.write(table_data.to_markdown())
 

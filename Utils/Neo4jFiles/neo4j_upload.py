@@ -32,7 +32,7 @@ class neo4j_upload:
                     MERGE (s)-[:CONTAINS]->(w)
                 """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, block_no=block_no, word=word)
     
-    def neo4j_query_image(self, tx, file): 
+    def neo4j_query_image(self, tx, file, metadata): 
         images = []
         image_dir = os.path.join(file, "images")
         image_files = os.listdir(image_dir)
@@ -44,14 +44,14 @@ class neo4j_upload:
                 images.append((image_name, encoded_image, image_page_num))
         for image_name, image, page_num in images:
             tx.run("""
-                MERGE (f:File {name: 'File', file: $file})
+                MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
                 MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
                 MERGE (f)-[:CONTAINS]->(p)
                 MERGE (i:Image {name: 'Image', imagename: $image_name, contents: $image, page: $page_num, file: $file})
                 MERGE (p)-[:CONTAINS]->(i)
-            """, file=file, image_name=image_name, page_num=page_num, image=image)
+            """, file=file, image_name=image_name, page_num=page_num, image=image, metadata=metadata)
         
-    def neo4j_query_table(self, tx, file):
+    def neo4j_query_table(self, tx, file, metadata):
         tables = []
         table_dir = os.path.join(file, "tables")
         table_files = os.listdir(table_dir)
@@ -63,12 +63,12 @@ class neo4j_upload:
                 tables.append((table_name, table_content, table_page_num))
         for table_name, table, page_num in tables:
             tx.run("""
-                MERGE (f:File {name: 'File', file: $file})
+                MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
                 MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
                 MERGE (f)-[:CONTAINS]->(p)
                 MERGE (t:Table {name: 'Table', tablename: $table_name, contents: $table, page: $page_num, file: $file})
                 MERGE (p)-[:CONTAINS]->(t)
-            """, file=file, table_name=table_name, page_num=page_num, table=table)
+            """, file=file, table_name=table_name, page_num=page_num, table=table, metadata=metadata)
         
     def main(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool):
         """Uploads data to Neo4j database."""
@@ -91,8 +91,10 @@ class neo4j_upload:
         # Upload tables
         if upload_tables and os.path.exists(os.path.join(output_file, "tables")):
             print("Uploading tables to Neo4j.")
+            with open(os.path.join(output_file, "metadata.json"), "r") as f:
+                metadata = f.read()
             with driver.session() as session:
-                session.execute_write(self.neo4j_query_table, file=f"File: {output_file}")
+                session.execute_write(self.neo4j_query_table, file=output_file, metadata=metadata)
             print("Tables uploaded to Neo4j")
         else:
             print("No tables found, or option disabled.")
@@ -100,8 +102,10 @@ class neo4j_upload:
         # Upload images
         if upload_images and os.path.exists(os.path.join(output_file, "images")):
             print("Uploading images to Neo4j.")
+            with open(os.path.join(output_file, "metadata.json"), "r") as f:
+                metadata = f.read()
             with driver.session() as session:
-                session.execute_write(self.neo4j_query_image, file=f"File: {output_file}")
+                session.execute_write(self.neo4j_query_image, file=output_file, metadata=metadata)
             print("Images uploaded to Neo4j")
         else:
             print("No images found, or option disabled.")

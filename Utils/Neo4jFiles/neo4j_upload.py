@@ -12,25 +12,29 @@ driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 class neo4j_upload:
     def neo4j_query_text(self, tx, file, metadata, json_block):
         block_lines = json_block["lines"]
-        page_num = json_block["page_num"] 
+        page_num = json_block["page_num"]
         block_no = json_block["block_no"]
-        sentences = []   
-        for sentence in block_lines.split("."): # Change later to AI generated sentence splits
-            sentences.append(sentence)
-        for sentence in sentences:
-            words = sentence.split()
-            for word in words: # File contains Page, Page contains Block, Block contains Sentence, Sentence contains Word
+        sentences = block_lines.split(".")   
+
+        for sentence_no, sentence in enumerate(sentences, start=0):
+            words = sentence.split()     
+            for word_no, word in enumerate(words, start=0):
                 tx.run("""
                     MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
+
                     MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
                     MERGE (f)-[:CONTAINS]->(p)
-                    MERGE (b:Block {name: 'Block', block_lines: $block_lines, block_lines_page_num: $page_num, block_no: $block_no, block_from_file: $file})
+
+                    MERGE (b:Block {name: 'Block', block_lines: $block_lines, page_num: $page_num, block_no: $block_no, block_from_file: $file})
                     MERGE (p)-[:CONTAINS]->(b)
-                    MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, sentence_page_num: $page_num, sentence_block_no: $block_no, sentence_from_file: $file})
+                    
+                    MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, page_num: $page_num, block_no: $block_no, sentence_from_file: $file, sentence_no: $sentence_no})
                     MERGE (b)-[:CONTAINS]->(s)
-                    MERGE (w:Word {name: 'Word', word: $word, word_from_file: $file, word_page_num: $page_num})
+                    
+                    MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, sentence_no: $sentence_no, word_from_file: $file, word_no: $word_no})
                     MERGE (s)-[:CONTAINS]->(w)
-                """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, block_no=block_no, word=word)
+                """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, 
+                block_no=block_no, word=word, sentence_no=sentence_no, word_no=word_no)
     
     def neo4j_query_image(self, tx, file, metadata): 
         images = []

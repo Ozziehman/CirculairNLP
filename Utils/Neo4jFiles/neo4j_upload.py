@@ -20,22 +20,88 @@ class neo4j_upload:
             words = sentence.split()     
             for word_no, word in enumerate(words, start=0):
                 tx.run("""
+                    // Create a file node if it doesn't exist
                     MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
 
+                    // Create a page node if it doesn't exist
                     MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
                     MERGE (f)-[:CONTAINS]->(p)
 
+                    // Create a block node if it doesn't exist
                     MERGE (b:Block {name: 'Block', block_lines: $block_lines, page_num: $page_num, block_no: $block_no, block_from_file: $file})
                     MERGE (p)-[:CONTAINS]->(b)
                     
+                    // Create a sentence node if it doesn't exist
                     MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, page_num: $page_num, block_no: $block_no, sentence_from_file: $file, sentence_no: $sentence_no})
                     MERGE (b)-[:CONTAINS]->(s)
                     
+                    // Create a word node if it doesn't exist
                     MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, sentence_no: $sentence_no, word_from_file: $file, word_no: $word_no})
                     MERGE (s)-[:CONTAINS]->(w)
                 """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num, 
                 block_no=block_no, word=word, sentence_no=sentence_no, word_no=word_no)
     
+    def neo4j_query_organize_pages(self, tx):
+        tx.run("""
+            // Organize pages in order
+            MATCH (f:File)-[:CONTAINS]->(p:Page)
+            WITH f, p ORDER BY p.page_num
+            WITH f, collect(p) as pages
+            WITH f, apoc.coll.pairsMin(pages) as pairs
+            UNWIND pairs as pair
+            WITH f, pair[0] as page1, pair[1] as page2
+            MERGE (page1)-[:NEXT_PAGE]->(page2)
+        """)
+        
+    def neo4j_query_organize_blocks(self, tx):
+        tx.run("""
+            // Organize blocks in order
+            MATCH (p:Page)-[:CONTAINS]->(b:Block)
+            WITH p, b ORDER BY b.block_no
+            WITH p, collect(b) as blocks
+            WITH p, apoc.coll.pairsMin(blocks) as pairs
+            UNWIND pairs as pair
+            WITH pair[0] as block1, pair[1] as block2
+            MERGE (block1)-[:NEXT_BLOCK]->(block2)
+        """)
+    
+    def neo4j_query_organize_sentences(self, tx):
+        tx.run("""
+            // Organize sentences in order
+            MATCH (b:Block)-[:CONTAINS]->(s:Sentence)
+            WITH b, s ORDER BY s.sentence_no
+            WITH b, collect(s) as sentences
+            WITH b, apoc.coll.pairsMin(sentences) as pairs
+            UNWIND pairs as pair
+            WITH pair[0] as sentence1, pair[1] as sentence2
+            MERGE (sentence1)-[:NEXT_SENTENCE]->(sentence2)
+        """)
+
+    def neo4j_query_organize_words(self, tx):
+        tx.run("""
+            // Organize words in order
+            MATCH (s:Sentence)-[:CONTAINS]->(w:Word)
+            WITH s, w ORDER BY w.word_no
+            WITH s, collect(w) as words
+            WITH s, apoc.coll.pairsMin(words) as pairs
+            UNWIND pairs as pair
+            WITH pair[0] as word1, pair[1] as word2
+            MERGE (word1)-[:NEXT_WORD]->(word2)
+        """)
+
+    def neo4j_query_connect_matching_words(self, tx):
+        tx.run("""
+            // Connect matching words
+            MATCH (w1:Word)
+            // Parameters on what to match on, this can be changed but will heavily impact performance
+            WITH w1.word as word, w1.word_from_file as file, w1.page_num as page, collect(w1) as words
+            UNWIND words as w1
+            UNWIND words as w2
+            WITH w1, w2 WHERE id(w1) < id(w2)
+            MERGE (w1)-[:MATCHES]-(w2)
+        """)
+        
+        
     def neo4j_query_image(self, tx, file, metadata): 
         images = []
         image_dir = os.path.join(file, "images")
@@ -113,7 +179,18 @@ class neo4j_upload:
             print("Images uploaded to Neo4j")
         else:
             print("No images found, or option disabled.")
-
+            
+        
+        with driver.session() as session:
+            print("Making relations in between pages, blocks, sentences and words. . . ")
+            session.execute_write(self.neo4j_query_organize_pages)
+            session.execute_write(self.neo4j_query_organize_blocks)
+            session.execute_write(self.neo4j_query_organize_sentences)
+            session.execute_write(self.neo4j_query_organize_words)
+            print("Matching similar words. . . ")
+            session.execute_write(self.neo4j_query_connect_matching_words)
+        
+            
     def find_page_number(self, input_string):
         substrings = input_string.split('_')
         return substrings[1]

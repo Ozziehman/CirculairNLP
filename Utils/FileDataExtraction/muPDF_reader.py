@@ -1,7 +1,4 @@
 import os
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
-
 import fitz
 print(fitz.__doc__)
 
@@ -35,6 +32,32 @@ class muPDF_reader:
         except Exception as e:
             print(f"Error reading text from PDF: {e}")
             return None
+        
+    def extract_textblocks_from_pdf(self, file):
+        try:
+            text_blocks = []
+            for page_num, page in enumerate(file):
+                for block in page.get_textpage().extractBLOCKS():
+                    coords = (block[0], block[1], block[2], block[3])
+                    lines = str(block[4])
+                    block_no = block[5]
+                    block_type = block[6]
+                    text_block = {
+                        "coords": coords,
+                        "lines": lines,
+                        "block_no": block_no,
+                        "block_type": block_type,
+                        "page_num": page_num
+                    }
+                    text_blocks.append(text_block)
+            return text_blocks
+        except Exception as e:
+            print(f"Error reading text from PDF: {e}")
+            return None
+
+    def get_metadata(self, file):
+        #print(file.metadata)
+        return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):
         try:
@@ -59,6 +82,15 @@ class muPDF_reader:
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
             os.makedirs(os.path.join(output_folder, "images"), exist_ok=True)
+
+            blocks = self.extract_textblocks_from_pdf(file)
+            with open(os.path.join(output_folder, 'extracted_text_blocks.json'), 'w') as blocks_file:
+                json.dump(blocks, blocks_file, indent=4)
+
+            metadata = self.get_metadata(file)
+            with open(os.path.join(output_folder, 'metadata.json'), 'w') as blocks_file:
+                json.dump(metadata, blocks_file, indent=4)
+
             self.extract_images_from_pdf(file, output_folder)
 
             toc = self.get_table_of_contents(self.file)
@@ -67,17 +99,17 @@ class muPDF_reader:
                 with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
                     json.dump(toc, toc_file, indent=4)
 
-            tables_folder = os.path.join(output_folder, 'tables')
-            if not os.path.exists(tables_folder):
-                os.makedirs(tables_folder)
-
             tabs = self.get_tables(file)
-            for tab in tabs:
-                table_data = tab[0]
-                table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
-                with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
-                    table_file.write(table_data.to_markdown())
 
+            if tabs != []:
+                tables_folder = os.path.join(output_folder, 'tables')
+                if not os.path.exists(tables_folder):
+                    os.makedirs(tables_folder)
+                for tab in tabs:
+                    table_data = tab[0]
+                    table_filename = f"page_{tab[2]+1}_table_{tab[1]+1}.md"
+                    with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
+                        table_file.write(table_data.to_markdown())
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 

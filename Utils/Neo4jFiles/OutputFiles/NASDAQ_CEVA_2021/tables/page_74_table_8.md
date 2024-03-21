@@ -1,2 +1,0 @@
-| Col0   | MPoalnitidqauteo rdy'a tcrahiantisn gre osnp othnes afubnledsa emt ernétsaullst aotfs d ata protection   |
-|--------|----------------------------------------------------------------------------------------------------------|

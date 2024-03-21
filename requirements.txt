@@ -6,3 +6,4 @@ spacy
 neo4j 
 PyPDF2
 translate
+tabulate

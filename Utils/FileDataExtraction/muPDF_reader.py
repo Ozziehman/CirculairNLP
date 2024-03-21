@@ -1,7 +1,4 @@
 import os
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
-
 import fitz
 print(fitz.__doc__)
 
@@ -59,7 +56,7 @@ class muPDF_reader:
             return None
 
     def get_metadata(self, file):
-        print(file.metadata)
+        #print(file.metadata)
         return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):

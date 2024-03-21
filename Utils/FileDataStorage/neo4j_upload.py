@@ -131,7 +131,7 @@ class Neo4j_Uploader:
                 // Create an image node if it doesn't exist
                 MERGE (i:Image {name: 'Image', imagename: $image_name, contents: $image, page: $page_num, file: $file})
                 MERGE (p)-[:CONTAINS]->(i)
-            """, file=file, image_name=image_name, page_num=page_num, image=image, metadata=metadata)
+            """, file=file, image_name=image_name, page_num=page_num+1, image=image, metadata=metadata)
         
     def neo4j_query_table(self, tx, file, metadata):
         tables = []

@@ -1,2 +1,0 @@
-| TEoftfaelc ntiuf maub e3r1 o/1f2 e mrépplaorytie peasr tranche d’âge, genre et zone géographique   | Col1   |
-|----------------------------------------------------------------------------------------------------|--------|

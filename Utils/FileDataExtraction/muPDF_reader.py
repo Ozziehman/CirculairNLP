@@ -6,8 +6,6 @@ import fitz
 print(fitz.__doc__)
 
 import json
-import numpy as np
-import matplotlib.pyplot as plt
 
 class muPDF_reader:
     def __init__(self, file_path) -> None:

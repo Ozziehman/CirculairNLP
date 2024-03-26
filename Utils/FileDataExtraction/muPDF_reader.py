@@ -3,6 +3,7 @@ import fitz
 print(fitz.__doc__)
 
 import json
+from collections import defaultdict
 
 class muPDF_reader:
     def __init__(self, file_path) -> None:
@@ -54,7 +55,6 @@ class muPDF_reader:
             return None
 
     def get_metadata(self, file):
-        #print(file.metadata)
         return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):
@@ -72,11 +72,81 @@ class muPDF_reader:
         except Exception as e:
             print(f"Error extracting images from PDF: {e}")
 
+    def extract_full_text_structure(self, file):
+        try:
+            full_dict = {}
+            for page_num, page in enumerate(file):
+                full_dict[f"page_{page_num}"] = page.get_textpage().extractDICT(sort=True)
+            return full_dict
+        except Exception as e:
+            print(f"Error reading text from PDF: {e}")
+            return None
+        
+    def generate_paragraphs(self, file):
+        #try:
+        text_structure = {}
+        for page_num, page in enumerate(file):
+                text_structure[f"page_{page_num}"] = {}
+                current = text_structure[f"page_{page_num}"]
+                all_fonts = {}
+                page_info = page.get_textpage().extractDICT(sort=False)
+                for block in page_info['blocks']:
+                    for line in block['lines']:
+                        for span in line['spans']:
+                            key = (span['font'], span['size'])
+                            all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
+
+                font_name_directory = defaultdict(str)
+                paragraph_font = max(all_fonts, key=all_fonts.get)
+                font_name_directory[paragraph_font] = 'paragraph'
+                all_fonts = [font for font in all_fonts if font != paragraph_font]
+
+                # Find the font with the highest size value for 'title'
+                title_font = max(all_fonts, key=lambda x: x[1])
+                font_name_directory[title_font] = 'title'
+
+                all_fonts = [font for font in all_fonts if font != title_font]
+                all_fonts.sort(key=lambda x: x[1], reverse=True)
+
+                subtitle_counter = 1
+                subtext_counter = 1
+                for font in all_fonts:
+                    if font[1] > paragraph_font[1]:  # Larger than paragraph
+                        font_name_directory[font] = f'subtitle{subtitle_counter}'
+                        subtitle_counter += 1
+                    else:  # Smaller than paragraph
+                        font_name_directory[font] = f'subtext{subtext_counter}'
+                        subtext_counter += 1
+                font_name_directory = dict(font_name_directory)
+
+                font_occurrence = {}
+                prev_font_size = None
+
+                for block in page_info['blocks']:
+                    block_num = block['number']
+                    for line in block['lines']:
+                        for span in line['spans']:
+                            font_key = (span['font'], span['size'])
+                            if prev_font_size == font_key[1]:
+                                current[text_key]['text'] += span['text']
+                                if block_num not in current[text_key]['blocks']:
+                                    current[text_key]['blocks'].append(block_num) 
+                            else:
+                                font_occurrence[font_key] = font_occurrence.get(font_key, 0) + 1
+                                text_key = (str(font_name_directory[font_key]) + '_' + str(font_occurrence[font_key]))
+
+                                current[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_num': page_num}
+                                prev_font_size = font_key[1]
+        return text_structure            
+        # except Exception as e:
+        #     print(f"Error reading text from PDF: {e}")
+        #     return None
+
     def process_pdf(self, file, filepath):
         text = self.read_text_from_pdf(file)
         if text:
             output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(filepath))[0])
-            os.makedirs(output_folder, exist_ok=True)
+            '''os.makedirs(output_folder, exist_ok=True)
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
             os.makedirs(os.path.join(output_folder, "images"), exist_ok=True)
@@ -108,9 +178,18 @@ class muPDF_reader:
                     table_filename = f"page_{tab[2]+1}_table_{tab[1]+1}.md"
                     with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
                         table_file.write(table_data.to_markdown())
+            
+            file_dict = self.extract_full_text_structure(self.file)
+            if file_dict:
+                with open(os.path.join(output_folder, "file_structured.json"), "w") as structured_file:
+                    json.dump(file_dict, structured_file, indent=4)'''
+
+            structure_dict_for_page = self.generate_paragraphs(file)
+            if structure_dict_for_page:
+                with open(os.path.join(output_folder, "page_layout_structured.json"), "w") as structured_file:
+                    json.dump(structure_dict_for_page, structured_file, indent=4)
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 
     def main(self):
         self.process_pdf(self.file, self.filepath)
-        

@@ -113,3 +113,4 @@ class muPDF_reader:
 
     def main(self):
         self.process_pdf(self.file, self.filepath)
+        

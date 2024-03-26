@@ -10,8 +10,8 @@ import translate
 # Import language-specific language models (LLMs)
 import nl_core_news_lg  # Dutch LLM
 import en_core_web_trf  # English LLM
-import fr_dep_news_trf  # French LLM
-import de_dep_news_trf  # German LLM
+#import fr_dep_news_trf  # French LLM
+#import de_dep_news_trf  # German LLM
 
 class SpacyFunctions():
     def load_gpu(self):
@@ -38,12 +38,12 @@ class SpacyFunctions():
             case "en":
                 print("Loaded English")
                 return spacy.load("en_core_web_trf")
-            case "fr":
-                print("Loaded French")
-                return spacy.load("fr_dep_news_trf")
-            case "de":
-                print("Loaded German")
-                return spacy.load("de_dep_news_trf")
+            #case "fr":
+            #    print("Loaded French")
+            #    return spacy.load("fr_dep_news_trf")
+            #case "de":
+            #    print("Loaded German")
+            #    return spacy.load("de_dep_news_trf")
             case _:
                 print(f"Language not supported. Using English (EN) by default.")
                 return spacy.load("en_core_web_trf")
@@ -67,3 +67,22 @@ class SpacyFunctions():
             # Identify named entities (e.g., PERSON, ORG)
             for entity in doc.ents:
                 print(f"Found entity: {entity.text} ({entity.label_})")
+
+    def calculate_similarity(self, block1: str, block2:str, lang:str="en"):
+        nlp = self.load_language(lang)
+        if nlp is not None:
+            block1 = nlp(block1)
+            block2 = nlp(block2)
+            similarity_score = block1.similarity(block2)
+            return similarity_score
+        else:
+            raise ValueError(f"Language model for '{lang}' is not loaded.")
+
+scy = SpacyFunctions()
+scy.load_gpu()
+
+# Example usage
+text_block1 = "\u2013  We verified that the Statement presents the business \nmodel and a description of principal risks associated \nwith all the consolidated entities\u2019 activities, including \n"
+text_block2 = "where relevant and proportionate, the risks associated \nwith their business relationships, their products or ser-\nvices, as well as their policies, measures and the out-\ncomes thereof, including key performance indicators \nassociated to the principal risks;\n"
+similarity_score = scy.calculate_similarity(text_block1, text_block2)
+print("Similarity score:", similarity_score)

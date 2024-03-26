@@ -5,6 +5,16 @@ print(fitz.__doc__)
 import json
 from collections import defaultdict
 
+import nltk
+from nltk.corpus import words
+
+# Download the words corpus if not already downloaded
+nltk.download('words')
+nltk.download('punkt')
+
+# Set of English words
+english_words = set(words.words())
+
 class muPDF_reader:
     def __init__(self, file_path) -> None:
         self.filepath = file_path
@@ -80,9 +90,16 @@ class muPDF_reader:
             return full_dict
         except Exception as e:
             print(f"Error reading text from PDF: {e}")
-            return None
+            return None   
         
-    def generate_paragraphs(self, file):
+    def contains_english_word(self, input_string):
+        words_in_string = nltk.word_tokenize(input_string.lower())
+        for word in words_in_string:
+            if word in english_words:
+                return True
+        return False
+        
+    def generate_paragraphs_per_page(self, file, garbage_filter: bool = True):
         try:
             text_structure = {}
             for page_num, page in enumerate(file):
@@ -93,8 +110,11 @@ class muPDF_reader:
                     for block in page_info['blocks']:
                         for line in block['lines']:
                             for span in line['spans']:
-                                key = (span['font'], span['size'])
-                                all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
+                                if self.contains_english_word(span['text']) and garbage_filter:
+                                    key = (span['font'], span['size'])
+                                    all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
+                                else: 
+                                    print(f"Garbage: {span['text']}")
 
                     font_name_directory = defaultdict(str)
                     paragraph_font = max(all_fonts, key=all_fonts.get)
@@ -126,16 +146,79 @@ class muPDF_reader:
                         block_num = block['number']
                         for line in block['lines']:
                             for span in line['spans']:
+                                if self.contains_english_word(span['text']) and garbage_filter:
+                                    font_key = (span['font'], span['size'])
+                                    if prev_font_size == font_key[1]:
+                                        current[text_key]['text'] += span['text']
+                                        if block_num not in current[text_key]['blocks']:
+                                            current[text_key]['blocks'].append(block_num) 
+                                    else:
+                                        font_occurrence[font_key] = font_occurrence.get(font_key, 0) + 1
+                                        text_key = (str(font_name_directory[font_key]) + '_' + str(font_occurrence[font_key]))
+
+                                        current[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_num': page_num}
+                                        prev_font_size = font_key[1]
+            return text_structure            
+        except Exception as e:
+            print(f"Error reading text from PDF: {e}")
+            return None
+        
+    def generate_paragraphs_per_file(self, file, garbage_filter: bool = True):
+        try:
+            text_structure = {}
+            all_fonts = {}
+            font_occurrence = {}
+            prev_font_size = None
+            for page_num, page in enumerate(file):
+                    page_info = page.get_textpage().extractDICT(sort=False)
+                    for block in page_info['blocks']:
+                        for line in block['lines']:
+                            for span in line['spans']:
+                                if self.contains_english_word(span['text']) and garbage_filter:
+                                    key = (span['font'], span['size'])
+                                    all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
+
+            font_name_directory = defaultdict(str)
+            paragraph_font = max(all_fonts, key=all_fonts.get)
+            font_name_directory[paragraph_font] = 'paragraph'
+            all_fonts = [font for font in all_fonts if font != paragraph_font]
+
+            # Find the font with the highest size value for 'title'
+            title_font = max(all_fonts, key=lambda x: x[1])
+            font_name_directory[title_font] = 'title'
+
+            all_fonts = [font for font in all_fonts if font != title_font]
+            all_fonts.sort(key=lambda x: x[1], reverse=True)
+
+            subtitle_counter = 1
+            subtext_counter = 1
+            for font in all_fonts:
+                if font[1] > paragraph_font[1]:  # Larger than paragraph
+                    font_name_directory[font] = f'subtitle{subtitle_counter}'
+                    subtitle_counter += 1
+                else:  # Smaller than paragraph
+                    font_name_directory[font] = f'subtext{subtext_counter}'
+                    subtext_counter += 1
+            font_name_directory = dict(font_name_directory)
+            for page_num, page in enumerate(file):
+                page_info = page.get_textpage().extractDICT(sort=False)
+                for block in page_info['blocks']:
+                    block_num = block['number']
+                    for line in block['lines']:
+                        for span in line['spans']:
+                            if self.contains_english_word(span['text']) and garbage_filter:
                                 font_key = (span['font'], span['size'])
                                 if prev_font_size == font_key[1]:
-                                    current[text_key]['text'] += span['text']
-                                    if block_num not in current[text_key]['blocks']:
-                                        current[text_key]['blocks'].append(block_num) 
+                                    text_structure[text_key]['text'] += span['text']
+                                    if block_num not in text_structure[text_key]['blocks']:
+                                        text_structure[text_key]['blocks'].append(block_num)
+                                    if page_num not in text_structure[text_key]['page_nums']:
+                                        text_structure[text_key]['page_nums'].append(page_num)  
                                 else:
                                     font_occurrence[font_key] = font_occurrence.get(font_key, 0) + 1
                                     text_key = (str(font_name_directory[font_key]) + '_' + str(font_occurrence[font_key]))
 
-                                    current[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_num': page_num}
+                                    text_structure[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_nums': [page_num]}
                                     prev_font_size = font_key[1]
             return text_structure            
         except Exception as e:
@@ -184,10 +267,15 @@ class muPDF_reader:
                 with open(os.path.join(output_folder, "file_structured.json"), "w") as structured_file:
                     json.dump(file_dict, structured_file, indent=4)'''
 
-            structure_dict_for_page = self.generate_paragraphs(file)
+            structure_dict_for_page = self.generate_paragraphs_per_page(file)
             if structure_dict_for_page:
-                with open(os.path.join(output_folder, "page_layout_structured.json"), "w") as structured_file:
+                with open(os.path.join(output_folder, "page_layout_structured_per_page.json"), "w") as structured_file:
                     json.dump(structure_dict_for_page, structured_file, indent=4)
+
+            structure_dict_for_file = self.generate_paragraphs_per_file(file)
+            if structure_dict_for_file:
+                with open(os.path.join(output_folder, "page_layout_structured_per_file.json"), "w") as structured_file:
+                    json.dump(structure_dict_for_file, structured_file, indent=4)
 
             print(f"PDF processed successfully. Output saved in '{output_folder}'.")
 

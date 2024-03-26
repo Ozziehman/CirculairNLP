@@ -12,35 +12,34 @@ class Neo4j_Uploader:
     
     def neo4j_query_text(self, tx, file, metadata, json_block):
         # get data from json block
-        block_lines = json_block["lines"]
+        lines = json_block["lines"]
         page_num = json_block["page_num"]
-        block_no = json_block["block_no"]
-        sentences = block_lines.split(".") #change depending on hwo sentences are seperated by the OCR  
+        block_no = json_block["block_no"] 
+        block_coords = json_block["coords"]
 
-        for sentence_no, sentence in enumerate(sentences, start=0):
-            words = sentence.split()     
-            for word_no, word in enumerate(words, start=0):
-                tx.run("""
-                    // Create a file node if it doesn't exist
-                    MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
+        words = lines.split()     
+        for word_no, word in enumerate(words, start=0):
+            tx.run("""
+                // Create a file node if it doesn't exist
+                MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
 
-                    // Create a page node if it doesn't exist
-                    MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
-                    MERGE (f)-[:CONTAINS]->(p)
+                // Create a page node if it doesn't exist
+                MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
+                MERGE (f)-[:CONTAINS]->(p)
 
-                    // Create a block node if it doesn't exist
-                    MERGE (b:Block {name: 'Block', block_lines: $block_lines, page_num: $page_num, block_no: $block_no, block_from_file: $file})
-                    MERGE (p)-[:CONTAINS]->(b)
-                    
-                    // Create a sentence node if it doesn't exist
-                    MERGE (s:Sentence {name: 'Sentence' , sentence: $sentence, page_num: $page_num, block_no: $block_no, sentence_from_file: $file, sentence_no: $sentence_no})
-                    MERGE (b)-[:CONTAINS]->(s)
-                    
-                    // Create a word node if it doesn't exist
-                    MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, sentence_no: $sentence_no, word_from_file: $file, word_no: $word_no})
-                    MERGE (s)-[:CONTAINS]->(w)
-                """, file=file, metadata=metadata, block_lines=block_lines, sentence=sentence, page_num=page_num+1,  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
-                block_no=block_no, word=word, sentence_no=sentence_no, word_no=word_no)
+                // Create a block node if it doesn't exist
+                MERGE (b:Block {name: 'Block', page_num: $page_num, block_no: $block_no, block_coords: $block_coords, block_from_file: $file})
+                MERGE (p)-[:CONTAINS]->(b)
+                
+                // Create a lines node if it doesn't exist
+                MERGE (l:Lines {name: 'Lines' , lines: $lines, page_num: $page_num, block_no: $block_no, lines_from_file: $file})
+                MERGE (b)-[:CONTAINS]->(l)
+                
+                // Create a word node if it doesn't exist
+                MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, word_from_file: $file, word_no: $word_no})
+                MERGE (l)-[:CONTAINS]->(w)
+            """, file=file, metadata=metadata, lines=lines, page_num=page_num+1,  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
+            block_no=block_no, word=word, word_no=word_no, block_coords=block_coords)
     
     def neo4j_query_organize_pages(self, tx):
         """Organizes pages in order."""
@@ -68,27 +67,27 @@ class Neo4j_Uploader:
             MERGE (block1)-[:NEXT_BLOCK]->(block2)
         """)
 
-    def neo4j_query_organize_sentences(self, tx):
-        """Organizes sentences in order."""
-        tx.run("""
-            // Organize sentences in order
-            MATCH (b:Block)-[:CONTAINS]->(s:Sentence)
-            WITH b, s ORDER BY toInteger(s.sentence_no)
-            WITH b, collect(s) as sentences
-            WITH b, apoc.coll.pairsMin(sentences) as pairs
-            UNWIND pairs as pair
-            WITH pair[0] as sentence1, pair[1] as sentence2
-            MERGE (sentence1)-[:NEXT_SENTENCE]->(sentence2)
-        """)
+    # def neo4j_query_organize_lines(self, tx):
+    #     """Organizes lines in order."""
+    #     tx.run("""
+    #         // Organize lines in order
+    #         MATCH (b:Block)-[:CONTAINS]->(l:line)
+    #         WITH b, l ORDER BY toInteger(l.line_no)
+    #         WITH b, collect(s) as lines
+            # WITH b, apoc.coll.pairsMin(lines) as pairs
+    #         UNWIND pairs as pair
+            # WITH pair[0] as line1, pair[1] as line2
+    #         MERGE (line1)-[:NEXT_LINE]->(line2)
+    #     """)
 
     def neo4j_query_organize_words(self, tx):
         """Organizes words in order."""
         tx.run("""
             // Organize words in order
-            MATCH (s:Sentence)-[:CONTAINS]->(w:Word)
-            WITH s, w ORDER BY toInteger(w.word_no)
-            WITH s, collect(w) as words
-            WITH s, apoc.coll.pairsMin(words) as pairs
+            MATCH (l:Lines)-[:CONTAINS]->(w:Word)
+            WITH l, w ORDER BY toInteger(w.word_no)
+            WITH l, collect(w) as words
+            WITH l, apoc.coll.pairsMin(words) as pairs
             UNWIND pairs as pair
             WITH pair[0] as word1, pair[1] as word2
             MERGE (word1)-[:NEXT_WORD]->(word2)
@@ -206,12 +205,12 @@ class Neo4j_Uploader:
             print("No images found.")
 
     def structurize_neo4j_database(self):       
-        """"Structurizes the Neo4j database. Puts Pages, blocks, sentences and words in order. Connects matching words."""
+        """"Structurizes the Neo4j database. Puts Pages, blocks, lines and words in order. Connects matching words."""
         with driver.session() as session:
-            print("Making relations in between pages, blocks, sentences and words. . . ")
+            print("Making relations in between pages, blocks, lines and words. . . ")
             session.execute_write(self.neo4j_query_organize_pages)
             session.execute_write(self.neo4j_query_organize_blocks)
-            session.execute_write(self.neo4j_query_organize_sentences)
+            #session.execute_write(self.neo4j_query_organize_lines)
             session.execute_write(self.neo4j_query_organize_words)
             print("Matching similar words. . . ")
             session.execute_write(self.neo4j_query_connect_matching_words)    

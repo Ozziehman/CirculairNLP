@@ -1,7 +1,4 @@
 import os
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
-
 import fitz
 print(fitz.__doc__)
 
@@ -57,7 +54,7 @@ class muPDF_reader:
             return None
 
     def get_metadata(self, file):
-        print(file.metadata)
+        #print(file.metadata)
         return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):
@@ -108,7 +105,7 @@ class muPDF_reader:
                     os.makedirs(tables_folder)
                 for tab in tabs:
                     table_data = tab[0]
-                    table_filename = f"page_{tab[2]+1}table_{tab[1]+1}.md"
+                    table_filename = f"page_{tab[2]+1}_table_{tab[1]+1}.md"
                     with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
                         table_file.write(table_data.to_markdown())
 

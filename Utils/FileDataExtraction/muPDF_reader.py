@@ -229,7 +229,7 @@ class muPDF_reader:
         text = self.read_text_from_pdf(file)
         if text:
             output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(filepath))[0])
-            '''os.makedirs(output_folder, exist_ok=True)
+            os.makedirs(output_folder, exist_ok=True)
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
             os.makedirs(os.path.join(output_folder, "images"), exist_ok=True)
@@ -265,7 +265,7 @@ class muPDF_reader:
             file_dict = self.extract_full_text_structure(self.file)
             if file_dict:
                 with open(os.path.join(output_folder, "file_structured.json"), "w") as structured_file:
-                    json.dump(file_dict, structured_file, indent=4)'''
+                    json.dump(file_dict, structured_file, indent=4)
 
             structure_dict_for_page = self.generate_paragraphs_per_page(file)
             if structure_dict_for_page:

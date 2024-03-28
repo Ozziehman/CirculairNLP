@@ -1,11 +1,6 @@
 import os
-import sys
 from pathlib import Path
-
-# Append the path to the coreference model to sys.path
-sys.path.append('assets/fast-coref/src')
-
-from inference.model_inference import Inference
+from assets.inference.model_inference import Inference
 
 class CoreferenceResolver:
     def __init__(self, model_path):
@@ -25,7 +20,9 @@ class CoreferenceResolver:
         return coreference_clusters
 
 def process_files(input_folder, output_folder):
-    resolver = CoreferenceResolver("./assets")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    resolver = CoreferenceResolver(script_dir)
+    
     for file_name in os.listdir(input_folder):
         if file_name.endswith(".txt"):
             with open(os.path.join(input_folder, file_name), 'r') as file:
@@ -38,16 +35,13 @@ def process_files(input_folder, output_folder):
 
 
 if __name__ == "__main__":
-    input_folder = "input"
-    output_folder = "output"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_folder = os.path.join(script_dir, "input")
+    output_folder = os.path.join(script_dir, "output")
 
-    # Check if input and output folders exist
-    if not os.path.exists(input_folder):
-        print(f"Input folder '{input_folder}' does not exist.")
-        sys.exit(1)
-    if not os.path.exists(output_folder):
-        print(f"Output folder '{output_folder}' does not exist.")
-        sys.exit(1)
+    # Create input and output folders if they don't exist
+    os.makedirs(input_folder, exist_ok=True)
+    os.makedirs(output_folder, exist_ok=True)
 
     process_files(input_folder, output_folder)
     print("Coreference resolution completed and saved to output folder.")

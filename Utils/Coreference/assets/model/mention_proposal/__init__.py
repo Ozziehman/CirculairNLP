@@ -1,0 +1,1 @@
+from assets.model.mention_proposal.mention_proposal_module import MentionProposalModule

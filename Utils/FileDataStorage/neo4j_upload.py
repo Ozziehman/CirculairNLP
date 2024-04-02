@@ -87,9 +87,9 @@ class Neo4j_Uploader:
         """Make paragraph_word nodes from all words in a paragraph and connect each word to paragrahps with BELONGS_TO relation."""
         tx.run("""
             // Unravel paragraphs
-            MATCH (p:Paragraph {paragraph_from_file: $file})-[:BELONGS_TO]->(s:Subtitle {subtitle_from_file: $file})
+            MATCH (p:Paragraph {paragraph_from_file: $file})
             MATCH (w:Paragraph_Word {word_from_file: $file})-[:BELONGS_TO]->(p)
-            MERGE (w)-[:BELONGS_TO]->(s)
+            MERGE (w)-[:BELONGS_TO]->(p)
         """, file=file)
 
         tx.run("""

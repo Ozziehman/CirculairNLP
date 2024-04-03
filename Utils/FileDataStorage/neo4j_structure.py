@@ -77,30 +77,25 @@ class Neo4j_Structurizer:
 
     def neo4j_query_connect_block(self, tx):
         tx.run("""
-        // Connect matching blocks
-            MATCH (b1:Block)
-            MATCH (t1:Title)
-            MATCH (p1:Paragraph)
-            MATCH (s1:Subtitle)
-        // Parameters on what to match on, this can be changed but will heavily impact performance
-            WITH b1.block AS block, collect(b1) AS blocks, p1 AS paragraph, collect(p1) AS paragraphs, s1 AS subtitle, collect(s1) AS subtitles, t1 AS title, collect(t1) as titles
-            UNWIND blocks AS b1
-            UNWIND subtitles AS s1
-            UNWIND paragraphs AS p1
-            UNWIND titles AS t1
-            UNWIND t1.blocks AS block_t1
-            UNWIND p1.blocks AS block_p1
-            UNWIND s1.blocks AS block_s1
-            WITH b1, block_p1
-            WHERE b1.block_no < block_p1
-            MERGE (b1)-[:APPEARS_IN]-(p1)
-            WITH b1, block_s1 
-            WHERE b1.block_no < block_s1
-            MERGE (b1)-[:APPEARS_IN]-(s1)
-            WITH b1, block_t1 
-            WHERE b1.block_no < block_t1
-            MERGE (b1)-[:APPEARS_IN]-(t1)
-    """)
+            MATCH (b:Block), (t:Title)
+            WHERE b.block_no IN t.blocks AND b.page_num = t.page_num
+            MERGE (b)-[:APPEARS_IN]->(t)
+            """)
+        tx.run("""
+            MATCH (b:Block), (s:Subtitle)
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            MERGE (b)-[:APPEARS_IN]->(s)
+            """)
+        tx.run("""
+            MATCH (b:Block), (p:Paragraph)
+            WHERE b.block_no IN p.blocks AND b.page_num = p.page_num
+            MERGE (b)-[:APPEARS_IN]->(p)
+            """)
+        tx.run("""
+            MATCH (b:Block), (s:Subtext)
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            MERGE (b)-[:APPEARS_IN]->(s)
+            """)
 
     def structurize_neo4j_database(self):       
         """"Structurizes the Neo4j database. Puts Pages, blocks, lines and words in order. Connects matching words."""

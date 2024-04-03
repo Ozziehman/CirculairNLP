@@ -1,0 +1,4310 @@
+[
+    {
+        "coords": [
+            125.21209716796875,
+            636.6583251953125,
+            329.6540832519531,
+            690.9393310546875
+        ],
+        "lines": "ALLIANZ GROUP AND ALLIANZ SE\nCOMBINED SEPARATE\nNON-FINANCIAL REPORT 2017\n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 0
+    },
+    {
+        "coords": [
+            32.79679870605469,
+            322.4443054199219,
+            448.476806640625,
+            562.684326171875
+        ],
+        "lines": "COMPETENCE\nCHANGE\nFUTURE\n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 0
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            19.4998779296875,
+            43.801170349121094,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            822.1559448242188,
+            43.91999816894531,
+            829.6079711914062
+        ],
+        "lines": " \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            808.0260009765625,
+            557.6799926757812,
+            819.2039794921875
+        ],
+        "lines": "Non-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n1 \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            536.739990234375,
+            819.906005859375,
+            555.5409545898438,
+            831.083984375
+        ],
+        "lines": "Repor\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            553.2999877929688,
+            831.7860107421875,
+            557.6799926757812,
+            842.9639892578125
+        ],
+        "lines": "t \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            83.92999267578125,
+            130.23500061035156,
+            102.55998992919922
+        ],
+        "lines": "About the report \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            113.72600555419922,
+            293.90313720703125,
+            160.0677947998047
+        ],
+        "lines": "This report has been compiled in accordance with the CSR Directive \nImplementation Act (EU Directive 2014/95/EU). It focuses on the key \nperformance indicators (KPIs) that reflect our most material sustain-\nability issues (see \n page 2 on materiality) as well as on the KPIs we \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            161.365966796875,
+            293.974853515625,
+            267.10784912109375
+        ],
+        "lines": "use across the Group to manage our business (such as, e.g., the Net \nPromoter Score (NPS)). The structure and content of the report is \nbased on the legal requirements set out by the CSR legislation. It is \nalso based on the G4 guidelines, but only reflects the respective parts \nof the G4 requirements. All information published is in line with the \ncontent of our 2017 Group Sustainability Report (GSR), which is com-\npiled in accordance with the G4 guidelines set out by the Global \nReporting Initiative (GRI), and its Financial Services Sector Supple-\nment. \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            268.5260009765625,
+            293.8118896484375,
+            279.10784912109375
+        ],
+        "lines": "The 2017 Non-Financial Report covers the entire Allianz Group \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            280.43597412109375,
+            293.9788513183594,
+            398.0578308105469
+        ],
+        "lines": "and also includes the relevant non-financial information for Allianz \nSE. If Allianz SE\u2019s concepts and processes differ from those applied by \nthe Allianz Group, they are described separately. All measures, activi-\nties, and key figures refer to the 2017 financial year (1 January to \n31 December 2017) and the collection of data follows a consistent \napproach across the Group. This data, however, does not fall under \nthe scope of our system of internal controls over financial data. For a \nmore detailed overview of the calculation methodology behind some \nof the data reported in this report, please refer to the GSR 2017, \nwhich is to be published in April 2018 on our website at \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            55.31999969482422,
+            399.3559875488281,
+            293.8555908203125,
+            409.9378356933594
+        ],
+        "lines": " www.allianz.com/sustainability. Unless otherwise stated, the \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            411.3559875488281,
+            293.6929931640625,
+            433.8178405761719
+        ],
+        "lines": "scope of this report includes all entities, which are fully consolidated \naccording to the International Financial Reporting Standards. \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            435.1159973144531,
+            293.7767333984375,
+            445.6978454589844
+        ],
+        "lines": "PricewaterhouseCoopers GmbH WPG (PwC) has been engaged \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            446.9960021972656,
+            292.0459899902344,
+            469.45782470703125
+        ],
+        "lines": "to perform a limited assurance engagement on the 2017 Non-\nFinancial Report as well as on the 2017 GSR of the Allianz Group.  \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            470.7760009765625,
+            293.8789978027344,
+            481.35784912109375
+        ],
+        "lines": "Any references to information published outside Allianz SE's \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            482.7760009765625,
+            293.7611083984375,
+            528.9978637695312
+        ],
+        "lines": "Group Management Report and Management Report are supple-\nmentary, do not form an integral part of this combined separate non-\nfinancial report, and are not subject to an assurance engagement \n(unless specified in the respective document). \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            548.02001953125,
+            153.39500427246094,
+            566.6500244140625
+        ],
+        "lines": "Company description \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            577.9359741210938,
+            293.718505859375,
+            600.3978271484375
+        ],
+        "lines": "The Allianz Group offers a wide range of insurance and investment \nproducts to over 88 million customers in more than 70 countries. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            612.2080078125,
+            293.9690246582031,
+            719.4678344726562
+        ],
+        "lines": "INSURANCE BUSINESS  \nOur retail and corporate clients enjoy an extensive range of products \nin all insurance business lines, which are all designed to protect them \nagainst risks. We are the leading property and casualty insurer \nworldwide and rank among the top five companies in life and health \ninsurance. In most markets we operate local Allianz companies; in \naddition, we have business segments with a global reach which \nprovide, among others, the insurance of global corporate customers, \ncredit insurance, assistance services, and reinsurance.  \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            88.5979995727539,
+            557.5467529296875,
+            267.10784912109375
+        ],
+        "lines": "ASSET MANAGEMENT \nAs of 31 December 2017, with approximately \u20ac 1,960 bn of assets \nunder management, we are one of the largest asset managers in the \nworld that manage assets by means of active investment strategies. \nWe run our Asset Management business through two distinct invest-\nment management units, Allianz Global Investors (AllianzGI) and \nPIMCO, both of which operate under the umbrella of Allianz Asset \nManagement GmbH (AAM). Particular strongholds include the United \nStates of America, Germany, France, Italy, the United Kingdom and \nthe Asia-Pacific region. As of 31 December 2017, Allianz managed \n\u20ac  1,448 bn in third-party assets. \n \nFor additional information on our business model, please refer to the \nGroup Management Report of the Allianz Group Annual Report 2017 \non our website at \n www.allianz.com/annualreport. \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            286.27996826171875,
+            520.5650634765625,
+            322.66998291015625
+        ],
+        "lines": "Corporate Responsibility Governance and \nStrategy \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            339.95599365234375,
+            557.5162353515625,
+            457.5778503417969
+        ],
+        "lines": "At Allianz, we aim to create sustainable economic value by pursuing \na long-term approach to corporate governance, social responsibility, \nand environmental stewardship. In the course of our history of 128 \nyears, we have developed the culture, systems, and processes that \nenable us to do just that. This is critical to our business success, as we \nare committed to delivering on our promises to customers, to inves-\ntors, to communities, and to society as a whole. To achieve on our \nambition of being the most trusted financial institution and a global \nsustainability leader, we must continually adapt our business strategy \nto any issues that arise.   \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            469.4079895019531,
+            557.4578857421875,
+            600.3978271484375
+        ],
+        "lines": "CORPORATE RESPONSIBILITY GOVERNANCE \nThe highest governing body for sustainability-related issues at Allianz \nis the Group ESG1  Board. Established in 2012, it is comprised of three \nAllianz SE Board members and meets quarterly. The Group ESG \nBoard is responsible for the whole Corporate Responsibility agenda, \nincluding climate-related topics, the integration of ESG into all busi-\nness lines and core processes dealing with insurance and investment, \nand the Allianz Group\u2019s corporate citizenship activities. The three \nBoard members each assume responsibility for specific sustainability \ntopics, and functional departments provide regular updates on sus-\ntainability issues directly to the Group ESG Board.  \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            601.6959838867188,
+            557.2869873046875,
+            612.27783203125
+        ],
+        "lines": "In addition to the Group ESG Board, there are other committees \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            613.5759887695312,
+            557.2796020507812,
+            636.1578369140625
+        ],
+        "lines": "under Board member leadership which play an important role in our \ndecision-making processes: \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            648.27099609375,
+            555.7360229492188,
+            659.9774780273438
+        ],
+        "lines": "\u2212 The Group Finance and Risk Committee oversees risk manage-\n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            661.2459716796875,
+            557.4740600585938,
+            695.5878295898438
+        ],
+        "lines": "ment and monitoring, including sustainability risk. The Committee \nis the point of escalation for ESG-related topics, based on analysis \nand deliberations within the ESG Board. \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            695.9409790039062,
+            557.337646484375,
+            707.6474609375
+        ],
+        "lines": "\u2212 The Group Underwriting Committee monitors the underwriting \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            708.885986328125,
+            555.7360229492188,
+            731.3478393554688
+        ],
+        "lines": "business and related risk management. It also develops new un-\nderwriting policies and strategies. \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            746.7959594726562,
+            307.4900207519531,
+            754.2479858398438
+        ],
+        "lines": " \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            767.4359741210938,
+            402.4119873046875,
+            774.8880004882812
+        ],
+        "lines": "1_ESG = Environment, Social, and Governance. \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 1
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            19.4998779296875,
+            40.921173095703125,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            808.0260009765625,
+            554.260009765625,
+            829.6079711914062
+        ],
+        "lines": " \n2 \nNon-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            89.96599578857422,
+            291.0973815917969,
+            148.18785095214844
+        ],
+        "lines": "Our group-level Corporate Responsibility management team is re-\nsponsible for managing the strategic framework for all group-wide \nsustainability activities, developing and introducing relevant policies, \nreporting on non-financial matters, and supporting operating entities \nin integrating the Group\u2019s strategic approach and policies. \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            149.4859619140625,
+            290.85418701171875,
+            160.0677947998047
+        ],
+        "lines": "The corporate responsibility function reports to the Head of \n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            161.365966796875,
+            291.05218505859375,
+            195.7078094482422
+        ],
+        "lines": "Group Communications and Corporate Responsibility at Allianz SE, \nwho in turn reports directly to the CEO of Allianz SE. This ensures close \nalignment with the CEO\u2019s agenda. \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            197.1259765625,
+            289.2860412597656,
+            207.7078094482422
+        ],
+        "lines": "Allianz Climate Solutions GmbH (ACS) is the Allianz Group\u2019s cen-\n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            209.0059814453125,
+            291.0858459472656,
+            291.017822265625
+        ],
+        "lines": "ter of excellence in charge of all issues related to climate change. It \nacts as a collector and pool of Allianz\u2019s global risk and investment \nexpertise, thus promoting the development of solutions for a chang-\ning climate. In addition, ACS offers insurance and advisory services for \ngreen energy projects to external clients and Allianz entities world-\nwide. The environmental management function reports to Allianz \nClimate Solutions.  \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            292.31597900390625,
+            289.166015625,
+            302.8978271484375
+        ],
+        "lines": "ACS has been associated with Allianz Re since 2016. As of 1 Jan-\n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            304.19598388671875,
+            291.0940246582031,
+            338.537841796875
+        ],
+        "lines": "uary 2018, both of the teams at ACS in charge of our Climate Change \nStrategy and the Group\u2019s Environmental Office will become part of \nthe Corporate Responsibility function. \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            350.4679870605469,
+            291.0660095214844,
+            445.6978454589844
+        ],
+        "lines": "STAKEHOLDER ENGAGEMENT & MATERIALITY \nAs we are a multinational business, the challenges we face are in-\ncreasingly diverse and interconnected. Therefore we make sure our \nCorporate Responsibility Strategy takes into account our stakehold-\ners' feedback, so we will be able to respond to our most material \nissues. Related activities focus on the four stakeholder groups most \nimmediately affected by our business activities: customers, employ-\nees, investors, and society.  \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            446.9960021972656,
+            290.8455810546875,
+            457.5778503417969
+        ],
+        "lines": "In our last stakeholder survey in August and September 2016, \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            458.8759765625,
+            293.01885986328125,
+            505.2378234863281
+        ],
+        "lines": "GfK SE surveyed over 6,000 individual stakeholders about what  \nthey consider to be the most important global issues for Allianz  \nand what they think of the potential solutions we provide. For  \nmore details please see our GSR 2016, on our website at \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            50.7599983215332,
+            506.5360107421875,
+            290.94696044921875,
+            517.1178588867188
+        ],
+        "lines": " www.allianz.com/sustainability. The perceived most important \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            518.416015625,
+            290.9114685058594,
+            552.7578735351562
+        ],
+        "lines": "megatrends and risks for Allianz across all target groups and coun-\ntries surveyed which we are able to address with our solutions and \nour Corporate Responsibility Strategy are:  \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            564.9910278320312,
+            289.2860412597656,
+            576.697509765625
+        ],
+        "lines": "\u2212 climate change and environmental issues, such as natural catas-\n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            577.9359741210938,
+            86.23284149169922,
+            588.517822265625
+        ],
+        "lines": "trophes;  \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            588.7509765625,
+            267.2188415527344,
+            612.3374633789062
+        ],
+        "lines": "\u2212 personal customer safety, including data security risks; and  \n\u2212 societal change.  \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            625.5759887695312,
+            290.959716796875,
+            648.037841796875
+        ],
+        "lines": "The material topics and KPIs addressing those risks and megatrends \nare covered in this report. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            659.8779907226562,
+            290.7959899902344,
+            695.5878295898438
+        ],
+        "lines": "CORPORATE RESPONSIBILITY STRATEGY \nWe have used the outcomes of this assessment to further develop our \nstrategy and reporting approach.  \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            697.0059814453125,
+            291.0784606933594,
+            707.5878295898438
+        ],
+        "lines": "Within the three main themes of our Corporate Responsibility \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            708.885986328125,
+            290.8641662597656,
+            766.9838256835938
+        ],
+        "lines": "Strategy (Low-Carbon Economy, Social Inclusion, and Business Inte-\ngration), we address risks and trends that might affect Allianz. We \nalso look into the social and environmental risks/effects arising from \nour business activities and business relations through our ESG Busi-\nness Integration approach. Finally, we seize business opportunities \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            89.96599578857422,
+            554.5624389648438,
+            112.42784118652344
+        ],
+        "lines": "associated with sustainability matters, for example in the area of \nsustainable solutions and renewable energy investments.  \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            124.3580093383789,
+            556.5888061523438,
+            231.4678192138672
+        ],
+        "lines": "RISK MANAGEMENT  \nIn the context of the requirements introduced through the CSR  \nDirective Implementation Act in 2017, we have not identified any \nprincipal risks resulting from our business activities, business relations, \nproducts, and services that could have severe adverse effects on \nmaterial non-financial matters (Environmental, Social, Human Rights, \nEmployee, Compliance/Anti-Corruption and Bribery). We address our \nimpact on those matters along with the concepts described in this \nreport.  \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            232.7659912109375,
+            554.7797241210938,
+            243.3478240966797
+        ],
+        "lines": "Furthermore, as a global insurer, investor and asset manager, \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            244.64599609375,
+            556.7088012695312,
+            314.77783203125
+        ],
+        "lines": "understanding ESG issues allows Allianz to reduce risks and capture \nopportunities in underwriting, claims, investment management, and \nasset management. The ESG approach is described in the following \nsection; our concepts for all other matters for which reporting is  \nrequired will be addressed in the subsequent chapters. The ESG \napproach provides part of the foundation for these concepts. \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            326.5879821777344,
+            554.767822265625,
+            409.9378356933594
+        ],
+        "lines": "ESG APPROACH \nThe types of ESG risks Allianz considers to be material in its insurance \nand investment activities are disclosed in the Allianz ESG Integration \nFramework. ESG risks can turn into legal risks, reputational risks, \nsupply chain and business disruption risks, quality risks, operational \nrisks, human rights risks, financial risks, and/or investment risks for \nAllianz, its customers, and/or its invested companies. \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            411.3559875488281,
+            554.552490234375,
+            421.9378356933594
+        ],
+        "lines": "ESG concerns are integrated in our insurance, investment, and \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            423.2359924316406,
+            554.7908325195312,
+            493.35784912109375
+        ],
+        "lines": "asset management business through multiple instruments, including \ninternal standards, guidelines, and processes, such as the Allianz \nStandard for Reputational Risk and Issue Management (AS RRIM), \nthe Allianz Standards for Underwriting (ASU) and the Allianz ESG \nFunctional Rule for Investments (EFRI). Below is an overview of the \nGroup\u2019s key ESG processes. \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            505.47100830078125,
+            554.7167358398438,
+            517.177490234375
+        ],
+        "lines": "\u2212 For underwriting and investments in non-listed asset classes, ESG \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            518.416015625,
+            554.6567993164062,
+            576.6378784179688
+        ],
+        "lines": "risks have been managed through the ESG sensitive business \nguidelines outlined in the AS RRIM since 2014. Applying this pro-\ncess, 583 transactions underwent in-depth ESG assessments at \ngroup-level, of which 44.9 % were approved, 48.4 % achieved con-\nditional approvals, and for 6.7 % approval was declined. \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            576.8709716796875,
+            554.763671875,
+            588.5774536132812
+        ],
+        "lines": "\u2212 For investments in listed asset classes, the Allianz ESG Scoring \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            589.8159790039062,
+            554.7424926757812,
+            648.037841796875
+        ],
+        "lines": "Approach (defined in EFRI) is applied to manage related risks. \nSince December 2016, the ESG Scoring has provided Allianz in-\nvestment and asset managers with ESG performance information \non approximately 6,400 issuers, to be included in investment deci-\nsions. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            648.27099609375,
+            554.5691528320312,
+            659.9774780273438
+        ],
+        "lines": "\u2212 As a general rule, Allianz has excluded investments in companies \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            661.2459716796875,
+            552.9760131835938,
+            683.7078247070312
+        ],
+        "lines": "involved in controversial weapons1 as from 2011, and in coal-\nbased business models2 as from November 2015.  \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            683.9409790039062,
+            553.0960083007812,
+            695.6474609375
+        ],
+        "lines": "\u2212 Additional ESG integration methods include systematic engage-\n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            697.0059814453125,
+            552.8560180664062,
+            719.4678344726562
+        ],
+        "lines": "ment with investee companies (since 2017), and ESG considera-\ntions in asset manager selection and management. \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            730.8399658203125,
+            304.7300109863281,
+            738.2919921875
+        ],
+        "lines": " \n",
+        "block_no": 36,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            751.35595703125,
+            554.1881713867188,
+            766.8480224609375
+        ],
+        "lines": "1_Cluster munitions, anti-personnel landmines, chemical and biological weapons. \n2_Utilities generating 30 % or more of their electricity from coal, and mining companies generating 30 % or more of their \n",
+        "block_no": 37,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            308.2099914550781,
+            767.4359741210938,
+            364.25201416015625,
+            774.8880004882812
+        ],
+        "lines": "revenue from thermal coal. \n",
+        "block_no": 38,
+        "block_type": 0,
+        "page_num": 2
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            19.4998779296875,
+            43.801170349121094,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            822.1559448242188,
+            43.91999816894531,
+            829.6079711914062
+        ],
+        "lines": " \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            808.0260009765625,
+            557.6799926757812,
+            819.2039794921875
+        ],
+        "lines": "Non-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n3 \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            536.739990234375,
+            819.906005859375,
+            555.5409545898438,
+            831.083984375
+        ],
+        "lines": "Repor\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            553.2999877929688,
+            831.7860107421875,
+            557.6799926757812,
+            842.9639892578125
+        ],
+        "lines": "t \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            89.96599578857422,
+            293.9788513183594,
+            112.42784118652344
+        ],
+        "lines": "An in-depth overview of our approach to integrating ESG is published \nin the Allianz ESG Integration Framework on our website at \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            53.040000915527344,
+            113.72600555419922,
+            177.42884826660156,
+            124.30784606933594
+        ],
+        "lines": " www.allianz.com/esg-framework. \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            125.72600555419922,
+            293.9605712890625,
+            136.30784606933594
+        ],
+        "lines": "In the Asset Management business segment, AllianzGI and \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            137.60601806640625,
+            293.9775085449219,
+            207.7078094482422
+        ],
+        "lines": "PIMCO have developed and implemented their own processes to \nmanage risks and capture opportunities from ESG issues. For proprie-\ntary assets managed by AllianzGI and PIMCO on behalf of other \nAllianz Group entities, their own guidelines complement the Group \nrequirements. More detailed information can be found on their re-\nspective websites at \n www.allianzgi.com and \n www.pimco.com. \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            220.4299774169922,
+            196.69400024414062,
+            243.407470703125
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n\u2212 Status/progress:  \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            243.58099365234375,
+            293.9649963378906,
+            267.16748046875
+        ],
+        "lines": "\u2212 583 ESG assessments in 2017. \n\u2212 Enhanced ESG scoring approach by systematic engagement \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            70.46399688720703,
+            268.5260009765625,
+            220.8988494873047,
+            279.10784912109375
+        ],
+        "lines": "with low performing investee companies.  \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            291.2509765625,
+            88.15283966064453,
+            302.95745849609375
+        ],
+        "lines": "\u2212 Targets:  \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            303.1309814453125,
+            293.7561340332031,
+            314.83746337890625
+        ],
+        "lines": "\u2212 Full implementation of the ESG engagement approach with \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            70.46399688720703,
+            316.07598876953125,
+            184.1488494873047,
+            326.6578369140625
+        ],
+        "lines": "investee companies until 2019.  \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            326.8909912109375,
+            293.8533020019531,
+            338.59747314453125
+        ],
+        "lines": "\u2212 Support UNEP-FI Principles for Sustainable Insurance (PSI) to \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            70.46399688720703,
+            339.95599365234375,
+            253.53884887695312,
+            350.537841796875
+        ],
+        "lines": "develop an industry-wide ESG standard until 2019. \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            369.55999755859375,
+            161.5550079345703,
+            388.19000244140625
+        ],
+        "lines": "Environmental Matters \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            399.3559875488281,
+            293.7867126464844,
+            433.8178405761719
+        ],
+        "lines": "This chapter describes how we address the impacts on environmental \nmatters that result from our business activities and relationships, \ndifferentiating by concepts, KPIs, and targets.  \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            445.62799072265625,
+            293.9685363769531,
+            588.517822265625
+        ],
+        "lines": "CONCEPTS  \nWithin our Corporate Responsibility Strategy, the pillar entitled Low-\nCarbon Economy addresses climate change and environmental \nissues as one of the three most material risks and megatrends. As a \nbusiness that deals with risk, managing our environmental impact is \nan important part of our approach. Climate change remains our \nnumber one environmental risk and, at the same time, opportunity \nacross the entire value chain that stretches across both our in-house \noperations and all our investment and insurance products. We are \ncommitted to tackling the climate challenge and related health risks \nby managing emissions from our operations, as we strive to remain a \ncarbon-neutral company. \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            600.3280029296875,
+            293.7185974121094,
+            659.9178466796875
+        ],
+        "lines": "CLIMATE CHANGE STRATEGY \nAt Allianz, we anticipate the risks of climate change, we protect and \ncare for our customers through our insurance products, while using \nour leverage as one of the world\u2019s largest institutional investors and \ninsurers to enable the transition to a low-carbon economy.  \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            661.2459716796875,
+            293.7341613769531,
+            671.8278198242188
+        ],
+        "lines": "We are committed to making climate protection an integral part \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            673.1259765625,
+            293.9417724609375,
+            755.1038208007812
+        ],
+        "lines": "of our core business. Our Climate Change Strategy anticipates the \nrisks associated with a changing climate across all our lines of busi-\nness. For the investment business, we consider climate-related criteria \nsuch as carbon emissions, energy efficiency, climate change vulnera-\nbility, or opportunities in clean tech as part of our ESG integration for \nlisted and non-listed assets. Furthermore, we have stopped financing \ncoal-based business models.  \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            756.4019775390625,
+            293.7511901855469,
+            766.9838256835938
+        ],
+        "lines": "We care for our customers and advise on how they can reduce \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            768.4019775390625,
+            293.7270202636719,
+            778.9838256835938
+        ],
+        "lines": "risks and minimize damage, while compensating those who have \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            89.96599578857422,
+            555.6160278320312,
+            112.42784118652344
+        ],
+        "lines": "suffered losses. We are also developing insurance solutions for cli-\nmate-vulnerable people in developing countries.  \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            113.72600555419922,
+            555.7360229492188,
+            124.30784606933594
+        ],
+        "lines": "We enable positive change as an insurer, developing and offer-\n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            125.72600555419922,
+            559.3488159179688,
+            219.5878143310547
+        ],
+        "lines": "ing insurance solutions for renewable technologies and energy effi-\nciency. We have also invested more than \u20ac 5.6 bn in equity and debt \nin renewable energies, an amount we intend to grow in the mid-term. \nAllianz also offers a variety of funds for institutional investors who \nwant to invest in low-carbon assets like renewable energy or green \nbonds. More information on our low-carbon investments can be \nfound in the Notes to the Consolidated Financial Statements of  \nthe Allianz Group Annual Report 2017 on our website at \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            316.6099853515625,
+            220.885986328125,
+            434.63885498046875,
+            231.4678192138672
+        ],
+        "lines": " www.allianz.com/annualreport. \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            232.7659912109375,
+            555.7360229492188,
+            243.3478240966797
+        ],
+        "lines": "Furthermore, Allianz actively supports an expansion of compa-\n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            244.64599609375,
+            557.548828125,
+            291.017822265625
+        ],
+        "lines": "nies\u2019 climate-related risk disclosure. We report on opportunities and \nrisks based on the framework developed by the G20\u2019s Task Force on \nClimate-related Financial Disclosures (TCFD). The disclosure can be \nfound in our GSR 2017, which is available on our website at \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            316.6099853515625,
+            292.31597900390625,
+            435.3588562011719,
+            302.8978271484375
+        ],
+        "lines": " www.allianz.com/sustainability. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            314.7079772949219,
+            557.3983154296875,
+            374.2978515625
+        ],
+        "lines": "ENVIRONMENTAL CONCEPT  \nAllianz is committed to effectively managing its most significant \nenvironmental impacts, including the prevention of pollution, and \nstrives to continually improve the environmental performance of its \noperations. Specifically we seek to: \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            386.4109802246094,
+            557.51123046875,
+            398.1174621582031
+        ],
+        "lines": "\u2212 reduce the amount and carbon intensity of the energy we use for \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            399.3559875488281,
+            557.5293579101562,
+            421.9378356933594
+        ],
+        "lines": "our operations, for instance by ensuring the energy-efficient \nplanning, construction, and operation of buildings,  \n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            422.1709899902344,
+            557.3543701171875,
+            445.7574768066406
+        ],
+        "lines": "\u2212 reduce the environmental impact of our business travels, \n\u2212 operate in a resource-efficient way, particularly with regard to our \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            446.9960021972656,
+            423.5988464355469,
+            457.5778503417969
+        ],
+        "lines": "use of paper and water, and \n",
+        "block_no": 36,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            457.81097412109375,
+            557.2525634765625,
+            469.5174560546875
+        ],
+        "lines": "\u2212 minimize the environmental impact of the waste we produce \n",
+        "block_no": 37,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            470.7760009765625,
+            504.74884033203125,
+            481.35784912109375
+        ],
+        "lines": "through avoidance, reduction, re-use and recycling. \n",
+        "block_no": 38,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            494.6559753417969,
+            557.2542724609375,
+            540.8778686523438
+        ],
+        "lines": "We also take into account various environmental factors in our sourc-\ning and procurement processes. By doing so, we seek to raise aware-\nness of our environmental commitments amongst suppliers as well as \ncontractors, and to encourage them to act accordingly. \n",
+        "block_no": 39,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            542.176025390625,
+            557.5462646484375,
+            552.7578735351562
+        ],
+        "lines": "Our group-wide Environmental Management System (EMS) \n",
+        "block_no": 40,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            554.176025390625,
+            557.5382690429688,
+            636.1578369140625
+        ],
+        "lines": "provides standards and controls, supports environmental data collec-\ntion, and promotes transparent reporting on environmental impacts \nacross our operations. It guides us in monitoring and managing our \nuse of resources. In 2017, the scope of our EMS included 91.1 % of \nemployees. Operational implementation is monitored by the Group \nEnvironmental Officer, and supported by the Board of Management \nof Allianz SE.  \n",
+        "block_no": 41,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            648.8800048828125,
+            557.5186767578125,
+            719.5274658203125
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \nTo ensure effective and coherent actions, we have set the following \ntargets for the most material topics. \n \nDebt and equity investments in renewable energy \n\u2212 Status/progress: In 2017 we invested \u20ac 1 bn new debt and equity \n",
+        "block_no": 42,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            720.7659912109375,
+            557.3037719726562,
+            743.2278442382812
+        ],
+        "lines": "investments in renewable energy, raising the current total to \n\u20ac 5.6 bn.  \n",
+        "block_no": 43,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            743.4569702148438,
+            483.26885986328125,
+            755.1634521484375
+        ],
+        "lines": "\u2212 Target: Increase investments in the mid-term.  \n",
+        "block_no": 44,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            768.4019775390625,
+            324.81884765625,
+            778.9838256835938
+        ],
+        "lines": " \n",
+        "block_no": 45,
+        "block_type": 0,
+        "page_num": 3
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            19.4998779296875,
+            40.921173095703125,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            808.0260009765625,
+            554.260009765625,
+            829.6079711914062
+        ],
+        "lines": " \n4 \nNon-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            89.96599578857422,
+            290.9475402832031,
+            112.48748016357422
+        ],
+        "lines": "GHG emissions per employee, Allianz SE1  \n\u2212 Status/progress: In 2017, our carbon footprint per employee was \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            113.72600555419922,
+            84.912841796875,
+            124.30784606933594
+        ],
+        "lines": "3.3 tons. \n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            124.66100311279297,
+            291.0304260253906,
+            136.36749267578125
+        ],
+        "lines": "\u2212 Target: Reduce carbon emissions by 2 % per employee by 2020, \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            137.60601806640625,
+            150.0944061279297,
+            148.18785095214844
+        ],
+        "lines": "against the 2016 baseline. \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            161.365966796875,
+            291.04443359375,
+            183.887451171875
+        ],
+        "lines": "GHG emissions per employee, Allianz Group \n\u2212 Status/progress: In 2017, we achieved a 17 % reduction through \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            185.1259765625,
+            290.90570068359375,
+            207.7078094482422
+        ],
+        "lines": "energy-efficiency measures, increasing use of renewable energy, \nand promoting lower-carbon travel, against a 2010 baseline. \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            207.94097900390625,
+            291.0085754394531,
+            219.6474609375
+        ],
+        "lines": "\u2212 Target: Reduce carbon emissions by 30 % per employee by 2020, \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            220.885986328125,
+            150.06884765625,
+            231.4678192138672
+        ],
+        "lines": "against the 2010 baseline. \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            244.64599609375,
+            290.98809814453125,
+            267.16748046875
+        ],
+        "lines": "Energy consumption per employee of office buildings, Allianz SE1  \n\u2212 Status/progress: In 2017, our energy consumption per employee \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            268.5260009765625,
+            99.07283782958984,
+            279.10784912109375
+        ],
+        "lines": "was 32.2 GJ. \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            279.3709716796875,
+            289.16595458984375,
+            291.07745361328125
+        ],
+        "lines": "\u2212 Target: Achieve 8 % reduction in energy consumption per employ-\n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            292.31597900390625,
+            174.42884826660156,
+            302.8978271484375
+        ],
+        "lines": "ee by 2020, compared with 2016. \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            316.07598876953125,
+            289.92437744140625,
+            350.59747314453125
+        ],
+        "lines": "Energy consumption per employee of office buildings, Allianz Group  \n\u2212 Status/progress: In 2017, we achieved a 29 % reduction. \n\u2212 Target: Achieve 30 % reduction in energy consumption per em-\n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            351.83599853515625,
+            191.82884216308594,
+            362.4178466796875
+        ],
+        "lines": "ployee by 2020, compared with 2010.  \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            375.5959777832031,
+            291.0828857421875,
+            398.1174621582031
+        ],
+        "lines": "Green electricity, Allianz SE1 \n\u2212 Status/progress: In 2017, we achieved a share of 100 % green \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            399.3559875488281,
+            174.30885314941406,
+            409.9378356933594
+        ],
+        "lines": "electricity of total electricity used. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            410.2909851074219,
+            196.8688507080078,
+            421.9974670410156
+        ],
+        "lines": "\u2212 Target: Maintain 100 % green electricity. \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            435.1159973144531,
+            289.1659851074219,
+            457.6374816894531
+        ],
+        "lines": "Green electricity, Allianz Group  \n\u2212 Status/progress: In 2017 we achieved a share of 40 % green elec-\n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            458.8759765625,
+            159.42884826660156,
+            469.45782470703125
+        ],
+        "lines": "tricity of total electricity used. \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            469.71099853515625,
+            291.04962158203125,
+            481.41748046875
+        ],
+        "lines": "\u2212 Target: Further investigate a more holistic role of green energy in \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            482.7760009765625,
+            109.74884033203125,
+            493.35784912109375
+        ],
+        "lines": "our operations. \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            512.3800048828125,
+            116.19499969482422,
+            531.010009765625
+        ],
+        "lines": "Social Matters \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            542.176025390625,
+            292.7788391113281,
+            600.3978271484375
+        ],
+        "lines": "This chapter describes how we address the impacts on social matters \nthat result from our business activities and relationships. The chapter \ndistinguishes three types of social matters \u2013 social inclusion, responsi-\nble consumer/sales policies, and data privacy \u2013 describing our con-\ncepts as well as our achievements and targets for each of these fields.  \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            612.2080078125,
+            291.07025146484375,
+            731.3478393554688
+        ],
+        "lines": "SOCIAL INCLUSION CONCEPTS  \nAs a global insurer, we rely on the principle of solidarity. Pooling risks \nis inherent in our business model and we have a major interest in \ncreating stable communities. Civil unrest, social tensions, and societal \nupheaval all pose a major business risk for Allianz. Of course, we also \nhave an interest in creating empowerment and access to employ-\nment for members of society, which in turn creates the talented and \ndiverse workforce we rely on. We believe social inclusion is one of the \nmost important challenges society is facing. That is why, in 2016, we \nmade it one of the three priorities of our Corporate Responsibility \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            738.8759765625,
+            41.040000915527344,
+            746.3280029296875
+        ],
+        "lines": " \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            759.39599609375,
+            290.1841125488281,
+            766.8480224609375
+        ],
+        "lines": "1_The majority of the reported environmental impacts are in scope of an SE environmental management system certified \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            44.52000045776367,
+            767.4359741210938,
+            153.0019989013672,
+            774.8880004882812
+        ],
+        "lines": "to ISO14001, the scope currently excludes Allianz Re. \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            89.96599578857422,
+            554.7791137695312,
+            183.8278045654297
+        ],
+        "lines": "Strategy. Using our role as an Insurer, an Employer, and a Committed \nCorporate Citizen, we want to contribute to more inclusive societies. \nWe are committed to expanding our emerging-consumer business \noffer to close the gap for more people who need access to low-cost \nfinancial services. Internally, we support social inclusion through our \ndiversity and well-being programs, and by supporting groups, such as \nwomen in management and people with disabilities. Our social con-\ntributions consist of time, skills, and money.  \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            195.63796997070312,
+            554.7274780273438,
+            291.017822265625
+        ],
+        "lines": "ENCOURAGING FUTURE GENERATIONS PROGRAM \n(CONCEPT) \nIn 2016, we launched Encouraging Future Generations, our new \nSocial Inclusion program. It aims to empower young people to devel-\nop in confidence and to shape inclusive, resilient societies. It provides \na global framework and focus to scale up Allianz\u2019s social contribution \nand builds on the success of projects carried out by our operating \nentities. Our group-wide initiatives are: \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            303.2509765625,
+            554.7783813476562,
+            314.95745849609375
+        ],
+        "lines": "\u2212 SOS Children\u2019s Villages partnership to support underprivileged \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            316.19598388671875,
+            411.2388610839844,
+            326.77783203125
+        ],
+        "lines": "kids (relaunched in 2016). \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            327.010986328125,
+            554.526611328125,
+            338.71746826171875
+        ],
+        "lines": "\u2212 Social Innovation Fund to incentivize projects in local Allianz \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            339.95599365234375,
+            371.87884521484375,
+            350.537841796875
+        ],
+        "lines": "entities (2017). \n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            350.8909912109375,
+            554.7318725585938,
+            362.59747314453125
+        ],
+        "lines": "\u2212 Allianz Future Generation Award, promoting start-ups that offer \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            363.83599853515625,
+            481.2288513183594,
+            374.4178466796875
+        ],
+        "lines": "solutions for societal challenges (2017-2019). \n",
+        "block_no": 36,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            374.6510009765625,
+            554.8038940429688,
+            386.35748291015625
+        ],
+        "lines": "\u2212 My Finance Coach, engaging employees in skill-based corporate \n",
+        "block_no": 37,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            387.5959777832031,
+            522.3887939453125,
+            398.1778259277344
+        ],
+        "lines": "volunteering to promote financial literacy among pupils.  \n",
+        "block_no": 38,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            409.98797607421875,
+            554.7939453125,
+            636.1578369140625
+        ],
+        "lines": "EMERGING CONSUMERS CONCEPT \nOur first ever microinsurance was launched in 1926: It was a life \ninsurance product aimed at lower-income customers in Germany. \nEver since then, we have refocused our portfolio to support low-\nincome customers in Asia, Africa, and South America. We are commit-\nted to expanding our emerging-consumers business offer to continue \nclosing the gap for people who need access to low-cost financial \nservices. In 2015, we managed to break through the 50-million-\ncustomer mark in the rapidly expanding emerging-consumers mar-\nket. In 2017, due to a challenging environment, revenues were at \naround \u20ac 256 mn \u2013 equivalent to around \u20ac 4.37 in annual revenue per \ncustomer for this market. 99 % of these revenues still stem from micro-\ninsurance. The great majority of these customers hold one insurance \npolicy only, mostly life insurance, which clearly shows that our cus-\ntomers are still severely underinsured. We are also aware they are \nunderserved in many other areas as well, such as savings, invest-\nments, and health services. In response, we have expanded our solu-\ntions beyond microinsurance and now offer microsavings and micro-\nequity options.  \n",
+        "block_no": 39,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            637.5759887695312,
+            554.6467895507812,
+            648.1578369140625
+        ],
+        "lines": "Overall, the emerging-consumers market includes a potential of \n",
+        "block_no": 40,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            649.4559936523438,
+            554.5707397460938,
+            695.7078247070312
+        ],
+        "lines": "3.5 billion customers. We expect exponential business growth in this \narea, as the global middle class is predicted to grow to around five \nbillion by 2030. Most of this growth is expected to take place in Africa, \nAsia, and South America \u2013 our primary emerging-consumers markets. \n",
+        "block_no": 41,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            697.0059814453125,
+            552.9760131835938,
+            707.5878295898438
+        ],
+        "lines": "In June 2016, we launched a new microequity program in Indo-\n",
+        "block_no": 42,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            709.0059814453125,
+            554.7752685546875,
+            778.9838256835938
+        ],
+        "lines": "nesia. Our aim is to help transform informal microenterprises into \nformal companies that create reliable employment. The model, \nwhich has never been tested before, is compliant with Islamic finance \nprinciples and fully relies on digital money. Investees receive start-up \nfinancing starting as low as 75 U.S. Dollars, at no interest, without \ncollateral, and on flexible repayment plans that allow for full default \n",
+        "block_no": 43,
+        "block_type": 0,
+        "page_num": 4
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            19.4998779296875,
+            43.801170349121094,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            822.1559448242188,
+            43.91999816894531,
+            829.6079711914062
+        ],
+        "lines": " \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            808.0260009765625,
+            557.6799926757812,
+            819.2039794921875
+        ],
+        "lines": "Non-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n5 \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            536.739990234375,
+            819.906005859375,
+            555.5409545898438,
+            831.083984375
+        ],
+        "lines": "Repor\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            553.2999877929688,
+            831.7860107421875,
+            557.6799926757812,
+            842.9639892578125
+        ],
+        "lines": "t \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            89.96599578857422,
+            293.7184753417969,
+            136.30784606933594
+        ],
+        "lines": "and failure. Successful investees who return their investment with \nvoluntary profit sharing will be selected for dedicated mentoring and \ntraining \u2013 the ultimate goal being to enable the formation of a com-\npany, allowing Allianz to take a minority stake in these companies. \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            149.0299530029297,
+            293.94879150390625,
+            195.7674560546875
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n \nEncouraging Future Generations Program \n\u2212 Status/progress: Distributed in total \u20ac 250,000 through the Social \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            197.1259765625,
+            293.9566345214844,
+            231.4678192138672
+        ],
+        "lines": "Innovation fund to five OEs. Successfully launched Allianz Future \nGenerations Award Program in four countries. Ten social ventures \nwere selected for the 2018 Investment Ready program. \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            231.70098876953125,
+            293.7253723144531,
+            243.407470703125
+        ],
+        "lines": "\u2212 Target: Align program with UN SDGs. Address broader audience \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            244.64599609375,
+            293.8202209472656,
+            279.10784912109375
+        ],
+        "lines": "in second circle of Allianz Future Generations Award. Involve more \nOEs with the Social Innovation Fund. Define measurable targets \nand KPIs. \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            292.31597900390625,
+            292.0460205078125,
+            314.83746337890625
+        ],
+        "lines": "SOS Children\u2019s Villages partnership \n\u2212 Status/progress: Active partnerships in 15 countries (a 36 % in-\n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            316.07598876953125,
+            293.83935546875,
+            338.537841796875
+        ],
+        "lines": "crease) in 2017 and activated 10,234 employees via the Allianz \nWorld Run 2017 that supported 10 SOS Children\u2019s Villages. \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            338.8909912109375,
+            292.0462951660156,
+            350.59747314453125
+        ],
+        "lines": "\u2212 Target: Continue to roll out our active partnership with SOS Chil-\n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            351.83599853515625,
+            238.8988494873047,
+            362.4178466796875
+        ],
+        "lines": "dren\u2019s Villages to 18 countries in total during 2018. \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            375.5959777832031,
+            293.94476318359375,
+            398.1174621582031
+        ],
+        "lines": "Emerging Consumers \n\u2212 Status/progress: 58 million customers in the emerging consumers \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            399.3559875488281,
+            200.46884155273438,
+            409.9378356933594
+        ],
+        "lines": "market with \u20ac 256 mn revenues in 2017. \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            410.2909851074219,
+            150.78884887695312,
+            421.9974670410156
+        ],
+        "lines": "\u2212 Target: No target defined. \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            433.74798583984375,
+            293.9347839355469,
+            564.7578735351562
+        ],
+        "lines": "RESPONSIBLE CONSUMER / SALES CONCEPTS  \nOur strong reputation is built on customers\u2019, shareholders\u2019, employees\u2019 \nand the general public\u2019s trust in our integrity. This trust depends on \nthe quality of our products, the way we inform and advise our cus-\ntomers, and on the personal conduct and capability of our sales \nemployees and representatives. Since 2011, we have a global Sales \nCompliance Program in place, which describes standardized pro-\ncesses and controls for communication, monitoring, and audit. Recent \ninitiatives include an enhancement of product governance principles \nand new solutions to deal with the low-interest-rate environment in \nlife insurance. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            566.0560302734375,
+            293.7767639160156,
+            576.6378784179688
+        ],
+        "lines": "Another key feature of our responsible sales concept is our \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            577.9359741210938,
+            293.9424743652344,
+            778.9838256835938
+        ],
+        "lines": "Allianz Broker Remuneration Principles, which state that \u201cAllianz \ncommits itself not to devise or agree to remuneration schemes, which \nare aimed at inducing Brokers to act to the detriment of our custom-\ners or to distort fair competition\u201d. We have defined Minimum Stand-\nards for Asset Management Marketing Practices, which include the \nprinciples of truthful, clear, and accurate information on investment \nstyles and philosophies. Across all of these responsible sales controls \nis the globally binding Allianz Code of Conduct for Business Ethics \nand Compliance, which specifies: Employees of Allianz Group must \nnot, either by their action or statements, seek to mislead the market \nor customers; and when establishing a customer relationship or \nproviding financial services to a client, appropriate care shall be \ntaken to ensure that the customer receives information that is neces-\nsary for a reasonable decision to be taken by the customer. A respon-\nsible approach to sales is more likely to lead to customer satisfaction. \nIn turn, satisfied customers are loyal customers and are more willing \nto recommend us. Our customers\u2019 interests take priority whenever \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            89.96599578857422,
+            555.7360229492188,
+            112.42784118652344
+        ],
+        "lines": "they seek advice from us and exemplary sales practices are of partic-\nular importance. \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            113.72600555419922,
+            555.7615966796875,
+            124.30784606933594
+        ],
+        "lines": "Since 2006, we measure customer loyalty using the Net Promot-\n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            125.72600555419922,
+            557.548828125,
+            314.77783203125
+        ],
+        "lines": "er Score (NPS). NPS measures our customers\u2019 willingness to recom-\nmend Allianz, and the top-down NPS is applied regularly according \nto global cross-industry standards, allowing benchmarking against \ncompetitors in the respective markets. In 2016 we refined the NPS \nmethodology and established a group-wide standard for retail end \ncustomer NPS, which helps to rate Allianz businesses along the key \nbusiness divers like brand, product, price and service. At the same \ntime we introduced our Customer Excellence Program to systemati-\ncally measure customer experience, identify key areas for improve-\nment, and holistically enhance drivers of satisfaction along the entire \ncustomer journey, as opposed to at individual touch points. Com-\nplaints are another important source of customer feedback and we \nanalyze them closely to identify potential improvements. We have \ninternally certified our subsidiaries since 2006 to ensure group-wide \nquality standards for handling complaints are met and that custom-\ners are treated fairly. \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            327.5,
+            557.5380249023438,
+            374.35748291015625
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n \nGlobal NPS performance \n\u2212 Status/progress: 60 % of Allianz Group business segments score \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            375.5959777832031,
+            508.4688415527344,
+            386.1778259277344
+        ],
+        "lines": "above market or in a loyalty leader position in 2017. \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            386.4109802246094,
+            557.3865966796875,
+            398.1174621582031
+        ],
+        "lines": "\u2212 Target: 75 % of Allianz Group business segments score above \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            399.3559875488281,
+            483.74884033203125,
+            409.9378356933594
+        ],
+        "lines": "market or in a loyalty leader position in 2018. \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            421.86798095703125,
+            557.5602416992188,
+            576.6378784179688
+        ],
+        "lines": "DATA PRIVACY CONCEPTS  \nDigitalization enables more people to access insurance as we em-\nbrace the opportunities through our Digital by Default strategy, im-\nplemented with our Renewal Agenda in 2015. But it comes with data \nprivacy and protection risks. We take these risks seriously by enforcing \nrobust security and privacy controls, in order to give our customers the \ncertainty that their personal data is safe and secure. Our Allianz \nPrivacy Framework, which has been in place since 2013, includes the \nfollowing: a global standard for data privacy, a privacy risk man-\nagement process; integration with information security core functions; \nand employee training on the appropriate processing of the personal \ndata of our customers, employees, and third parties. All measures are \nsubject to regular audit and assurance activities. \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            577.9359741210938,
+            557.52880859375,
+            588.517822265625
+        ],
+        "lines": "The Allianz Standard for Data Protection and Privacy defines \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            589.8159790039062,
+            557.5281372070312,
+            659.9178466796875
+        ],
+        "lines": "rules and principles for collecting and processing personal data. \nEstablished in 2013, it sets out six privacy principles that we expect all \nour employees to respect: due care, purpose specification, reasona-\nble limitation, transparency and openness, choice and consent, and \nprivacy by design. We also publish a Privacy Notice, which clearly \nstates what information we collect, and why. \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            661.2459716796875,
+            557.2612915039062,
+            671.8278198242188
+        ],
+        "lines": "At the operational process level, we consider the identification \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            673.1259765625,
+            557.4781494140625,
+            778.9838256835938
+        ],
+        "lines": "and management of privacy risks to ensure we measure, monitor, and \nremediate risks across Allianz\u2019s core businesses. Privacy Impact As-\nsessments (PIAs) of high-risk processes using personal data enable us \nto identify risks early on and ensure they are appropriately managed \nover the project lifecycle, including when we change existing products \nor services. These PIAs have been implemented in 2013. Privacy risks \nare also covered by the Allianz Group-level risk processes. These \ninclude self-assessments which help us measure and monitor privacy \nrisks across the organization. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 5
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            19.4998779296875,
+            40.921173095703125,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            808.0260009765625,
+            554.260009765625,
+            829.6079711914062
+        ],
+        "lines": " \n6 \nNon-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            89.96599578857422,
+            290.7860107421875,
+            100.54783630371094
+        ],
+        "lines": "Equally important is the security of the personal data we handle. \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            101.84600067138672,
+            291.08740234375,
+            195.7078094482422
+        ],
+        "lines": "Our robust Information Security Framework applies strict security \nprocesses, standards, and tools globally; it also defines minimum \nrequirements, based on the ISO 27001 standard for information \nsecurity management. This standard specifies requirements regard-\ning vulnerability assessment along the software development value \nchain (including penetration tests and security audits), the monitoring \nof systems via multi-level security systems, and effective IT security \nmanagement and business continuity management. \n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            197.1259765625,
+            291.0968933105469,
+            207.7078094482422
+        ],
+        "lines": "We keep abreast of regulatory and industry developments and \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            209.0059814453125,
+            291.0567321777344,
+            267.10784912109375
+        ],
+        "lines": "aim to reflect these in our operational and governance processes and \nprocedures. Across the entire Allianz Group, we have established a \nglobal cross-functional project to address upcoming changes in the \nE.U. General Data Protection Regulation (GDPR), which will come \ninto effect in May 2018.  \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            268.5260009765625,
+            289.166015625,
+            279.10784912109375
+        ],
+        "lines": "We have strengthened employee engagement and understand-\n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            280.43597412109375,
+            291.0972900390625,
+            350.537841796875
+        ],
+        "lines": "ing of privacy requirements. Our Digital Privacy Guidelines provide \nguidance on privacy-related topics impacting digital projects \u2013 both \nprivacy by design (as part of new product and service design pro-\ncesses) and privacy by default (meaning that wherever individuals \nare given choices on the use and sharing of their personal data, the \ninitial settings restrict disclosure). \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            363.260009765625,
+            289.2859802246094,
+            386.2374572753906
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n\u2212 Status/progress: 70+ local projects commenced activities to re-\n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            387.4759826660156,
+            291.0881652832031,
+            421.9378356933594
+        ],
+        "lines": "mediate gaps in organizational set-up, processes and IT systems \nidentified against the future state requirements of the E.U. Gen-\neral Data Protection Regulation (GDPR) in 2017.  \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            422.1709899902344,
+            289.2860107421875,
+            433.8774719238281
+        ],
+        "lines": "\u2212 Target: Compliance with the E.U. General Data Protection Regula-\n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            53.63999938964844,
+            435.1159973144531,
+            223.65884399414062,
+            445.6978454589844
+        ],
+        "lines": "tion (GDPR) across Allianz Group by May 2018. \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            464.739990234375,
+            157.8350067138672,
+            483.3699951171875
+        ],
+        "lines": "Human-Rights Matters \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            494.6559753417969,
+            291.08013916015625,
+            528.9978637695312
+        ],
+        "lines": "This chapter describes how we address the impacts on human-rights \nmatters that result from our business activities and relationships, \ndifferentiating by concepts and KPIs/targets.  \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            540.8080444335938,
+            291.1091003417969,
+            683.7078247070312
+        ],
+        "lines": "CONCEPTS \nWe actively support employee rights. We also make an effort to \napply key human-rights principles, as described in the United Nations \nUniversal Declaration of Human Rights, across our entire global \norganization. As a participant to the United Nations Global Compact \nsince 2002, we have integrated its 10 principles into our globally \nbinding Code of Conduct. We communicate our progress annually, \nincluding both human rights and labor standards. Since 2015, we \nencourage our vendors to sign a Vendor Code of Conduct, which \nstipulates what our vendors must fulfill with regards to fair labor \npractices, including modern slavery in the supply chain and human \nrights. \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            685.0059814453125,
+            291.08935546875,
+            695.5878295898438
+        ],
+        "lines": "As part of our support and engagement for these human-rights \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            697.0059814453125,
+            291.06329345703125,
+            778.9838256835938
+        ],
+        "lines": "principles, we also take an active stance against modern slavery or \nhuman trafficking \u2013 within the boundaries of the risk-based approach \nwe pursue \u2013 in all of the Allianz Group\u2019s businesses and supply chains. \nIn the 2016 Allianz Group \u2013 Modern Slavery Statement, the Group \nconfirms that for the five preceding years, no incident of modern \nslavery, human trafficking, or child labor had been reported that \nwould have involved an Allianz Group entity. \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            89.96599578857422,
+            554.62060546875,
+            100.54783630371094
+        ],
+        "lines": "For insurance transactions and direct investments, such as real \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            101.84600067138672,
+            554.7594604492188,
+            148.18785095214844
+        ],
+        "lines": "estate, infrastructure, and private equity, we address ESG risks using \nour referral process. As the issue of human rights cuts across most \nsensitive business areas, an ESG screening is mandatory for each \ntransaction therein.  \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            149.4859619140625,
+            552.7360229492188,
+            160.0677947998047
+        ],
+        "lines": "Please refer to our ESG approach on \n page 2 for further de-\n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            161.365966796875,
+            380.2788391113281,
+            171.9477996826172
+        ],
+        "lines": "tails on the concepts. \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            184.6699676513672,
+            554.5436401367188,
+            207.7674560546875
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n\u2212 Status/progress: In 2017, 15 ESG assessments took place with a \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            209.0059814453125,
+            400.31884765625,
+            219.5878143310547
+        ],
+        "lines": "focus on human rights. \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            219.82098388671875,
+            554.7659912109375,
+            231.5274658203125
+        ],
+        "lines": "\u2212 Target: We will continue to apply ESG Sector Guidelines and \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            232.7659912109375,
+            554.5862426757812,
+            267.10784912109375
+        ],
+        "lines": "Human Rights Guidelines for sensitive countries into all business \nlines and core processes dealing with insurance and investment \ndecisions. \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            286.27996826171875,
+            399.44500732421875,
+            304.90997314453125
+        ],
+        "lines": "Employee Matters \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            316.07598876953125,
+            554.725341796875,
+            350.537841796875
+        ],
+        "lines": "This chapter describes how we address the impacts on employee \nmatters that result from our business activities and relationships, \ndifferentiating by concepts and KPIs/targets. \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            362.3479919433594,
+            554.73291015625,
+            540.8778686523438
+        ],
+        "lines": "CONCEPTS \nTo successfully deliver on our business strategy and goals, we depend \non retaining the best people and keeping them motivated and com-\nmitted. Our approach is based on managing and rewarding talent, \npromoting inclusivity and employee rights, and supporting wellbeing \nand commitment \u2013 underpinned by strategic HR frameworks, princi-\nples and tools. These include our globally consistent 4x3 People \nAttributes \u2013 Customer and Market Excellence, Collaborative Leader-\nship, Entrepreneurship and Trust \u2013 along the entire people value \nchain: from recruiting and talent management to learning and per-\nformance management. We make employee engagement a high \npriority as we work to build a committed workforce that excels by \nintegrity and maintains a strong customer focus. In all these aspects, \nthe Allianz Engagement Survey (AES), introduced in 2010, has been \nestablished as a valuable employee feedback platform.  \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            542.176025390625,
+            552.8560791015625,
+            552.7578735351562
+        ],
+        "lines": "We use the Inclusive Meritocracy Index (IMIX) to measure pro-\n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            554.176025390625,
+            554.788818359375,
+            624.1578369140625
+        ],
+        "lines": "gress towards a culture where people and performance both matter \nand the Work Well index (WWi) to analyze the root causes of work-\nrelated stress, identify effective solutions and make changes to the \nwork environment to enable employees to reach their full potential. \nAs of 2015, the IMIX comprises 10 AES items covering the areas of \nleadership, performance and corporate culture.  \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            625.5759887695312,
+            554.7550659179688,
+            636.1578369140625
+        ],
+        "lines": "The results of the AES (and thus the WWi and IMIX) are directly \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            637.4559936523438,
+            552.9760131835938,
+            671.8278198242188
+        ],
+        "lines": "linked to the performance objectives of the Group\u2019s Board of Man-\nagement. The Group Chief HR Officer is responsible for all people-\nrelated activities and reports directly to the CEO. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            673.1259765625,
+            554.5779418945312,
+            683.7078247070312
+        ],
+        "lines": "In response to feedback from the AES, Allianz SE in 2016 \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            685.0059814453125,
+            554.77685546875,
+            719.4678344726562
+        ],
+        "lines": "launched VOICE, an initiative to provide bottom-up impetus for the \njourney of cultural change and empower employees to develop \npragmatic, implementable solutions.  \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            720.7659912109375,
+            554.5694580078125,
+            731.3478393554688
+        ],
+        "lines": "Sponsored by the CEO, VOICE brought together employees from \n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            732.64599609375,
+            554.6152954101562,
+            778.9838256835938
+        ],
+        "lines": "different levels and functions to work on key focal areas of employee \nengagement. They were mentored by five Board members and jointly \ncame up with a broad range of ideas, nine of which were developed \nfurther. Examples include: \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 6
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            19.4998779296875,
+            43.801170349121094,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            822.1559448242188,
+            43.91999816894531,
+            829.6079711914062
+        ],
+        "lines": " \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            808.0260009765625,
+            557.6799926757812,
+            819.2039794921875
+        ],
+        "lines": "Non-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n7 \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            536.739990234375,
+            819.906005859375,
+            555.5409545898438,
+            831.083984375
+        ],
+        "lines": "Repor\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            553.2999877929688,
+            831.7860107421875,
+            557.6799926757812,
+            842.9639892578125
+        ],
+        "lines": "t \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            88.90099334716797,
+            293.725341796875,
+            100.60747528076172
+        ],
+        "lines": "\u2212 Simplithon, a collaborative method in which Allianz SE staff \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            101.84600067138672,
+            293.69976806640625,
+            136.30784606933594
+        ],
+        "lines": "submit ideas concerning the methods and tools used, the aim be-\ning to simplify work life at Allianz. Top ideas have been selected \nand implemented.  \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            136.541015625,
+            292.1659851074219,
+            148.24749755859375
+        ],
+        "lines": "\u2212 Feedback dialogs, a tool that promotes open and honest two-\n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            149.4859619140625,
+            293.7594909667969,
+            195.7078094482422
+        ],
+        "lines": "way communication by having employees and managers con-\nduct regular feedback sessions. The developed trainings and ma-\nterials make feedback giving and receiving more structured, easy \nand helpful for all participants.    \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            196.06097412109375,
+            292.04595947265625,
+            207.7674560546875
+        ],
+        "lines": "\u2212 Short video sessions during which managers from different de-\n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            209.0059814453125,
+            255.9388427734375,
+            219.5878143310547
+        ],
+        "lines": "partments provide insights into their business activities.  \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            219.82098388671875,
+            293.96038818359375,
+            231.5274658203125
+        ],
+        "lines": "\u2212 New platforms, such as fireside chats with HR heads, open-door \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            232.7659912109375,
+            293.8276062011719,
+            255.2278289794922
+        ],
+        "lines": "formats, and HR road shows, facilitating a more regular and open \nexchange between employees and HR. \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            268.5260009765625,
+            293.9117431640625,
+            338.537841796875
+        ],
+        "lines": "Our Board of Management is committed to diversity. The Allianz \nGlobal Inclusion Council is responsible for driving the success of our \ndiversity strategy. We aim to increase the number of women in man-\nagement positions and take appropriate steps to support future \nfemale leaders. Specific initiatives aimed at achieving gender parity, \nand equal opportunities in general, include: \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            350.77099609375,
+            293.97882080078125,
+            362.47747802734375
+        ],
+        "lines": "\u2212 the JET-program, our new initiative to support non-executive \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            363.71600341796875,
+            216.57884216308594,
+            374.2978515625
+        ],
+        "lines": "women in driving their career development.  \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            374.5309753417969,
+            293.9788513183594,
+            386.2374572753906
+        ],
+        "lines": "\u2212 sponsorship and mentoring programs for women in nearly all \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            387.4759826660156,
+            136.9888458251953,
+            398.0578308105469
+        ],
+        "lines": "operating companies. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            398.2909851074219,
+            293.77349853515625,
+            409.9974670410156
+        ],
+        "lines": "\u2212 better opportunities for parents to manage a career alongside \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            411.3559875488281,
+            132.66885375976562,
+            421.9378356933594
+        ],
+        "lines": "family commitments. \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            434.6600036621094,
+            293.37884521484375,
+            493.41748046875
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n \nAES for Allianz SE \n\u2212 Status/progress: 68 % IMIX score in 2017. 66 % WWi score in 2017.  \n\u2212 Targets: 72 % IMIX score in 2018. 69 % WWi score in 2018. \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            506.5360107421875,
+            291.4588317871094,
+            540.9375
+        ],
+        "lines": "AES for Allianz Group \n\u2212 Status/progress: 72 % IMIX score in 2017. 66 % WWi score in 2017. \n\u2212 Targets: 72 % IMIX score in 2018. 69 % WWi score in 2018. \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            554.176025390625,
+            116.58883666992188,
+            576.697509765625
+        ],
+        "lines": "Diversity Allianz SE \n\u2212 Status/progress: \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            61.31999969482422,
+            576.8709716796875,
+            292.1659851074219,
+            588.5774536132812
+        ],
+        "lines": "\u2212 In 2017 20.6 % woman at first level and 25.0 % at second lev-\n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            75.26399993896484,
+            589.8159790039062,
+            135.54884338378906,
+            600.3978271484375
+        ],
+        "lines": "el below Board.  \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            61.31999969482422,
+            600.6309814453125,
+            251.1388397216797,
+            636.1578369140625
+        ],
+        "lines": "\u2212 22.2 % women in Board of Management in 2017. \n\u2212 42.4 % women in talent pools in 2017.1 \n \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            636.3909912109375,
+            88.15283966064453,
+            648.0974731445312
+        ],
+        "lines": "\u2212 Targets:  \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            648.27099609375,
+            293.8570556640625,
+            659.9774780273438
+        ],
+        "lines": "\u2212 20 % women for the first and 25 % for the second level below \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            70.46399688720703,
+            661.2459716796875,
+            239.8588409423828,
+            671.8278198242188
+        ],
+        "lines": "the Board of Management by the end of 2018. \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            672.0609741210938,
+            279.3388366699219,
+            695.6474609375
+        ],
+        "lines": "\u2212 20 % women in Board of Management by the end of 2018 \n\u2212 40 % women in talent pools by the end of 2018. \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            89.96599578857422,
+            390.8388366699219,
+            112.48748016357422
+        ],
+        "lines": "Diversity Allianz Group \n\u2212 Status/progress: \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            323.2099914550781,
+            112.66100311279297,
+            518.4288330078125,
+            148.18785095214844
+        ],
+        "lines": "\u2212 23.4 % women in Board of Management in 2017.   \n\u2212 36.1 % women in talent pools in 2017. \n \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            148.42095947265625,
+            351.7188415527344,
+            160.12744140625
+        ],
+        "lines": "\u2212 Targets:  \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            160.30096435546875,
+            548.1888427734375,
+            183.887451171875
+        ],
+        "lines": "\u2212 20 % women in Board of Management by the end of 2018.   \n\u2212 40 % women in talent pools the end of 2018. \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            197.1259765625,
+            557.5110473632812,
+            231.4678192138672
+        ],
+        "lines": "The diversity concept for our Board of Directors and Supervisory \nBoard is published in our group governance declaration, which can \nbe found on our website at \n www.allianz.com/corporate-\n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            232.7659912109375,
+            351.5988464355469,
+            243.3478240966797
+        ],
+        "lines": "governance. \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            262.3699951171875,
+            520.5850219726562,
+            298.90997314453125
+        ],
+        "lines": "Compliance / Anti-Corruption and Bribery \nMatters  \n",
+        "block_no": 36,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            316.07598876953125,
+            557.3733520507812,
+            362.4178466796875
+        ],
+        "lines": "In this chapter, we describe how we address the impacts on compli-\nance, anti-corruption, and bribery matters that can result from our \nbusiness activities and relationships, differentiating by concepts and \nKPIs/targets. \n",
+        "block_no": 37,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            374.22796630859375,
+            557.2713623046875,
+            433.8178405761719
+        ],
+        "lines": "CONCEPTS AND PROGRAMS \nThe Allianz Compliance Management System (CMS) aims at ensur-\ning adherence with internationally recognized laws, rules and regula-\ntions, and to promote a culture of integrity in order to safeguard the \ncompany's reputation. \n",
+        "block_no": 38,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            435.1159973144531,
+            557.370361328125,
+            445.6978454589844
+        ],
+        "lines": "Compliance is firmly embedded in Allianz\u2019s corporate culture. \n",
+        "block_no": 39,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            446.9960021972656,
+            557.5640258789062,
+            493.35784912109375
+        ],
+        "lines": "The standards of conduct established by the Allianz Group\u2019s Code of \nConduct for Business Ethics and Compliance (\u201cCode of Conduct\u201d) are \nobligatory for all employees worldwide. The Code of Conduct was \nimplemented in 2000. \n",
+        "block_no": 40,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            494.6559753417969,
+            557.2527465820312,
+            505.2378234863281
+        ],
+        "lines": "Management plays a key role in acting as a role model and \n",
+        "block_no": 41,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            506.5360107421875,
+            557.5497436523438,
+            600.3978271484375
+        ],
+        "lines": "providing the so-called \u201ctone from the top\u201d. Members of manage-\nment must consistently demonstrate their commitment to integrity \nand high ethical values through their attitudes and actions. They are \nresponsible for effectively implementing compliance programs and \nbest practices in consideration of local laws and regulations and \nethical market practices. In 2015 and 2017, a global value-based \nintegrity campaign was initiated and approximately 6,000 executives \nparticipated in integrity encounters. \n",
+        "block_no": 42,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            601.6959838867188,
+            559.4688110351562,
+            612.27783203125
+        ],
+        "lines": "Compliance risk is covered as part of the operational risk in  \n",
+        "block_no": 43,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            613.5759887695312,
+            557.4707641601562,
+            659.9178466796875
+        ],
+        "lines": "Allianz\u2019s Integrated Risk and Control System (IRCS). In 2017, all OEs \nconducted a compliance risk assessment based on the compliance-\nrisk scenarios. The following top inherent compliance risk areas have \nbeen identified: \n",
+        "block_no": 44,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            672.0609741210938,
+            395.87884521484375,
+            719.5274658203125
+        ],
+        "lines": "\u2212 economic sanctions,  \n\u2212 money laundering, \n\u2212 anti-trust, and \n\u2212 corruption. \n",
+        "block_no": 45,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            43.31999969482422,
+            781.595947265625,
+            120.48200225830078,
+            789.0479736328125
+        ],
+        "lines": "1_Figure does not include Allianz Re.  \n",
+        "block_no": 46,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            19.4998779296875,
+            40.921173095703125,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            808.0260009765625,
+            554.260009765625,
+            829.6079711914062
+        ],
+        "lines": " \n8 \nNon-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            89.96599578857422,
+            289.166015625,
+            112.42784118652344
+        ],
+        "lines": "In view of upcoming regulatory requirements, data privacy and con-\nsumer protection are emerging risks. \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            113.72600555419922,
+            289.2860412597656,
+            124.30784606933594
+        ],
+        "lines": "Our Risk Management Framework includes a Compliance Man-\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            125.72600555419922,
+            291.0527648925781,
+            195.7078094482422
+        ],
+        "lines": "agement System, which helps to ensure compliance with internation-\nally recognized laws, rules, and regulations. We take a proactive \nstance, working with organizations such as the German Institute for \nCompliance and the Global Insurance Chief Compliance Officers \nForum (CCO Forum) to enhance our understanding of compliance \nissues and share best practice.  \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            197.1259765625,
+            289.2860412597656,
+            207.7078094482422
+        ],
+        "lines": "To ensure continuous improvement, all risks are regularly as-\n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            209.0059814453125,
+            291.13427734375,
+            302.8978271484375
+        ],
+        "lines": "sessed, monitored, and reported within the Group. Our Compliance \nQuality Assurance Program, rolled out in 2012, is comprised of self-\nassessments, independent on-site reviews, local spot checks, and \ntesting of key controls. An online compliance issue management tool \nprovides an overview over mitigating activities and key risk indicator \ntracking. Our online compliance case management tool provides the \nconsistent group-wide management of and authority over all cases. It \nalso facilitates reporting to the Audit and Integrity Committees.  \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            304.19598388671875,
+            289.2859802246094,
+            314.77783203125
+        ],
+        "lines": "Anti-corruption and anti-fraud risk assessments are now inte-\n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            316.07598876953125,
+            290.8470458984375,
+            362.4178466796875
+        ],
+        "lines": "grated into the IRCS and mitigation activities are monitored through \na global tracking tool. Further assessments and on-site reviews, in-\ncluding key control testing and follow-ups, are conducted as neces-\nsary, following a risk based approach.  \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            363.71600341796875,
+            290.87115478515625,
+            374.2978515625
+        ],
+        "lines": "In 2017, we successfully integrated our compliance risk scoping \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            375.5959777832031,
+            291.0611877441406,
+            457.5778503417969
+        ],
+        "lines": "and assessment activities into our group-wide integrated Risk and \nControl System. This involved adjusting the risk parameters and pro-\ncess, introducing a compliance program maturity model, and \nstrengthening the risk-based focus of control reviews and testing. We \nalso implemented new IT solutions as well as improvements to exist-\ning ones, in order to optimize and harmonize all these activities as \nwell as the related reporting activities across the Group.  \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            458.8759765625,
+            289.166015625,
+            469.45782470703125
+        ],
+        "lines": "As part of our global compliance program, we follow interna-\n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            470.7760009765625,
+            290.8554992675781,
+            517.1178588867188
+        ],
+        "lines": "tional standards and applicable laws related to corruption and brib-\nery, money laundering and terrorism financing, trade and financial \nsanctions, capital markets compliance, data privacy, sales compli-\nance, antitrust, and other relevant compliance risk areas. \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            518.416015625,
+            291.0790100097656,
+            528.9978637695312
+        ],
+        "lines": "We take a zero-tolerance approach to fraud and corruption. At \n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            530.2960205078125,
+            290.903564453125,
+            588.517822265625
+        ],
+        "lines": "a minimum, that means adhering to local and international anti-\ncorruption and anti-bribery laws. Going further than just compliance, \nthe Allianz Anti-Corruption Program, established in 2010 is a group-\nwide program setting minimum standards for a consistent and com-\nprehensive approach in every jurisdiction.  \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            589.8159790039062,
+            289.2861328125,
+            600.3978271484375
+        ],
+        "lines": "Directed at both our employees and our third parties, the pro-\n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            601.6959838867188,
+            290.9884948730469,
+            659.9178466796875
+        ],
+        "lines": "gram and policy prohibit the offer, acceptance, payment, or authori-\nzation of any bribe or other form of corruption, be it with the private \nsector or with governments. Anti-corruption training is compulsory for \nall employees, with online and in-class trainings delivered in more \nthan 20 languages.  \n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            89.96599578857422,
+            554.52685546875,
+            112.42784118652344
+        ],
+        "lines": "All operating entities are required to perform an IRCS annually. \nThe obligations laid down in the various program components \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            113.72600555419922,
+            554.7113647460938,
+            148.18785095214844
+        ],
+        "lines": "are derived from both the Allianz Code of Conduct for Business Ethics \nand Compliance, and from our risk assessment. They are detailed in \nthe following Allianz Standards: \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            320.2099914550781,
+            149.4859619140625,
+            322.058837890625,
+            160.0677947998047
+        ],
+        "lines": " \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            161.365966796875,
+            554.5861206054688,
+            183.887451171875
+        ],
+        "lines": "Economic Sanctions Program components include \n\u2212 Allianz Standard for Compliance with Economic Sanctions and \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            185.1259765625,
+            385.9188537597656,
+            195.7078094482422
+        ],
+        "lines": "Related Guidance, \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            196.06097412109375,
+            552.8560180664062,
+            207.7674560546875
+        ],
+        "lines": "\u2212 requirements for financial sanctions screening and trade sanc-\n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            209.0059814453125,
+            378.9588317871094,
+            219.5878143310547
+        ],
+        "lines": "tions review, and \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            219.82098388671875,
+            554.560546875,
+            267.16748046875
+        ],
+        "lines": "\u2212 a centralized compliance review of high risk transactions. \n \nAnti-Money Laundering Program components include \n\u2212 the Allianz Standard for the Prevention of Money Laundering and \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            268.5260009765625,
+            405.7188415527344,
+            279.10784912109375
+        ],
+        "lines": "Terrorism Financing and \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            279.3709716796875,
+            554.7659301757812,
+            291.07745361328125
+        ],
+        "lines": "\u2212 requirements for monitoring in accordance with risk assessments \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            292.31597900390625,
+            402.11883544921875,
+            302.8978271484375
+        ],
+        "lines": "and risk classifications.  \n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            304.19598388671875,
+            508.3488464355469,
+            350.59747314453125
+        ],
+        "lines": " \nAntitrust Program components include \n\u2212 our Minimum Standard for Antitrust Compliance and \n\u2212 the Allianz Antitrust Code \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            363.71600341796875,
+            506.9088439941406,
+            421.9974670410156
+        ],
+        "lines": "Anti-Corruption Program components include \n\u2212 the Allianz Anti-Corruption Policy, \n\u2212 the Allianz Gifts and Entertainment Policy, \n\u2212 our due-diligence requirements for third parties, and \n\u2212 requirements for maintenance of books and records. \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            434.6600036621094,
+            554.6371459960938,
+            469.5174560546875
+        ],
+        "lines": "KPIS: TARGETS AND ACHIEVEMENTS \n\u2212 Status/progress: approximately 6,000 trained leaders in integrity. \n\u2212 Targets: In 2018, we will further roll out an enhanced assurance \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            317.3299865722656,
+            470.7760009765625,
+            554.5606689453125,
+            493.35784912109375
+        ],
+        "lines": "approach, comprising of a more detailed risk scoping, a maturity \nself-assessment and further control testing. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            303.4100036621094,
+            504.93994140625,
+            450.68499755859375,
+            526.2378540039062
+        ],
+        "lines": " \n \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 8
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            19.4998779296875,
+            43.801170349121094,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            822.1559448242188,
+            43.91999816894531,
+            829.6079711914062
+        ],
+        "lines": " \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            808.0260009765625,
+            557.6799926757812,
+            819.2039794921875
+        ],
+        "lines": "Non-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n9 \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            536.739990234375,
+            819.906005859375,
+            555.5409545898438,
+            831.083984375
+        ],
+        "lines": "Repor\n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            553.2999877929688,
+            831.7860107421875,
+            557.6799926757812,
+            842.9639892578125
+        ],
+        "lines": "t \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            83.92999267578125,
+            282.7699890136719,
+            138.20001220703125
+        ],
+        "lines": "Independent Practitioner\u2019s Report on a Limited \nAssurance Engagement on Non-Financial \nReporting \n",
+        "block_no": 5,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            149.365966796875,
+            120.18883514404297,
+            159.9477996826172
+        ],
+        "lines": "To Allianz SE, Munich \n",
+        "block_no": 6,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            161.2459716796875,
+            61.24884033203125,
+            171.8278045654297
+        ],
+        "lines": " \n",
+        "block_no": 7,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            173.1259765625,
+            293.9438171386719,
+            243.2278289794922
+        ],
+        "lines": "We have performed a limited assurance engagement on the com-\nbined separate non-financial report within the meaning of \u00a7\u00a7 (Arti-\ncles) 289b Abs. (paragraph) 3 and 315b Abs. 3 HGB (\u201cHan-\ndelsgesetzbuch\u201d: \u201cGerman Commercial Code\u201d) of Allianz SE, Munich, \n(hereinafter the \u201cCompany\u201d) for the period from 1 January to \n31 December 2017 (hereinafter the \u201cNon-financial Report\u201d).  \n",
+        "block_no": 8,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            255.03799438476562,
+            293.822509765625,
+            302.77783203125
+        ],
+        "lines": "RESPONSIBILITIES OF THE EXECUTIVE DIRECTORS \nThe executive directors of the Company are responsible for the prep-\naration of the Non-financial Report in accordance with \u00a7\u00a7 315b and \n315c in conjunction with 289c to 289e HGB. \n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            304.07598876953125,
+            293.8865966796875,
+            314.6578369140625
+        ],
+        "lines": "This responsibility of the Company\u2019s executive directors includes \n",
+        "block_no": 10,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            315.95599365234375,
+            293.9788513183594,
+            397.9378356933594
+        ],
+        "lines": "the selection and application of appropriate methods of non-\nfinancial reporting as well as making assumptions and estimates \nrelated to individual non-financial disclosures which are reasonable \nin the circumstances. Furthermore, the executive directors are respon-\nsible for such internal control as they have considered necessary to \nenable the preparation of a Non-Financial Report that is free of \nmaterial misstatements, whether due to fraud or error. \n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            409.86798095703125,
+            292.0460205078125,
+            457.45782470703125
+        ],
+        "lines": "INDEPENDENCE AND QUALITY CONTROL OF THE \nAUDIT FIRM \nWe have complied with the German professional provisions regard-\ning independence as well as other ethical requirements. \n",
+        "block_no": 12,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            458.7559814453125,
+            292.166015625,
+            469.33782958984375
+        ],
+        "lines": "Our audit firm applies the national legal requirements and pro-\n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            470.7760009765625,
+            293.9139099121094,
+            612.1578369140625
+        ],
+        "lines": "fessional standards \u2013 in particular the Professional Code for German \nPublic Auditors and German Chartered Auditors (\u201cBerufssatzung f\u00fcr \nWirtschaftspr\u00fcfer und vereidigte Buchpr\u00fcfer\u201c: \u201cBS WP/vBP\u201d) as well \nas the Standard on Quality Control 1 published by the Institut der \nWirtschaftspr\u00fcfer (Institute of Public Auditors in Germany; IDW): \nRequirements to quality control for audit firms (IDW Quali-\nt\u00e4tssicherungsstandard 1: Anforderungen an die Qualit\u00e4tssicherung \nin der Wirtschaftspr\u00fcferpraxis \u2013 IDW QS 1) \u2013 and accordingly main-\ntains a comprehensive system of quality control including document-\ned policies and procedures regarding compliance with ethical re-\nquirements, professional standards and applicable legal and \nregulatory requirements. \n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            624.0880126953125,
+            293.9769287109375,
+            671.7078247070312
+        ],
+        "lines": "PRACTITIONER\u00b4S RESPONSIBILITY \nOur responsibility is to express a limited assurance conclusion on the \ninformation in the Non-Financial Report based on the assurance \nengagement we have performed.  \n",
+        "block_no": 15,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            673.0059814453125,
+            292.2860412597656,
+            683.5878295898438
+        ],
+        "lines": "Within the scope of our engagement, we did not perform an au-\n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            685.0059814453125,
+            293.9480285644531,
+            707.4678344726562
+        ],
+        "lines": "dit on external sources of information or expert opinions referred to in \nthe Non-Financial Report. \n",
+        "block_no": 17,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            59.400001525878906,
+            708.7659912109375,
+            293.94677734375,
+            719.3478393554688
+        ],
+        "lines": "We conducted our assurance engagement in accordance with \n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            42.599998474121094,
+            720.64599609375,
+            293.9422607421875,
+            778.8638305664062
+        ],
+        "lines": "the International Standard on Assurance Engagements (ISAE) 3000 \n(Revised): Assurance Engagements other than Audits or Reviews of \nHistorical Financial Information issued by the IAASB. This Standard \nrequires that we plan and perform the assurance engagement to \nallow us to conclude with limited assurance that nothing has come to \n",
+        "block_no": 19,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            89.96599578857422,
+            557.4910888671875,
+            136.30784606933594
+        ],
+        "lines": "our attention that causes us to believe that the Company\u2019s Non-\nfinancial Report for the period from 1 January to 31 December 2017 \nhas not been prepared, in all material respects, in accordance with \n\u00a7\u00a7 315b and 315c in conjunction with 289c to 289e HGB.  \n",
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            137.60601806640625,
+            557.5052490234375,
+            148.18785095214844
+        ],
+        "lines": "In a limited assurance engagement the assurance gathering \n",
+        "block_no": 21,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            149.4859619140625,
+            557.5241088867188,
+            195.7078094482422
+        ],
+        "lines": "procedures are less in extent than for a reasonable assurance en-\ngagement, and therefore a substantially lower level of assurance is \nobtained. The procedures selected depend on the practitioner\u2019s \njudgment.  \n",
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            322.9700012207031,
+            197.1259765625,
+            557.2952880859375,
+            207.7078094482422
+        ],
+        "lines": "Within the scope of our assurance engagement, we performed \n",
+        "block_no": 23,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            209.0059814453125,
+            557.3223266601562,
+            231.4678192138672
+        ],
+        "lines": "amongst others the following assurance procedures and further \nactivities: \n",
+        "block_no": 24,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            243.58099365234375,
+            557.4524536132812,
+            255.2874755859375
+        ],
+        "lines": "\u2212 Obtaining an understanding of the structure of the sustainability \n",
+        "block_no": 25,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            256.5260009765625,
+            500.1888427734375,
+            267.10784912109375
+        ],
+        "lines": "organization and of the stakeholder engagement \n",
+        "block_no": 26,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            267.46099853515625,
+            555.7360229492188,
+            279.16748046875
+        ],
+        "lines": "\u2212 Inquiries of personnel involved in the preparation of the Non-\n",
+        "block_no": 27,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            280.43597412109375,
+            557.5316162109375,
+            314.77783203125
+        ],
+        "lines": "Financial Report regarding the preparation process, the internal \ncontrol system relating to this process, and selected disclosures in \nthe Non-Financial Report \n",
+        "block_no": 28,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            315.010986328125,
+            557.3209228515625,
+            326.71746826171875
+        ],
+        "lines": "\u2212 Performance of site visits as part of the inspection of processes for \n",
+        "block_no": 29,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            327.95599365234375,
+            513.2688598632812,
+            338.537841796875
+        ],
+        "lines": "collecting, analyzing, and aggregating selected data: \n",
+        "block_no": 30,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            350.77099609375,
+            557.4684448242188,
+            398.1174621582031
+        ],
+        "lines": "\u2212 Allianz Global Investors GmbH in Munich, Germany \n\u2212 Allianz Global Corporate & Specialty SE in Munich, Germany \n\u2212 Allianz Technology SE in Munich, Germany \n\u2212 Allianz Suisse Versicherungs-Gesellschaft AG in Zurich, \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            334.010009765625,
+            399.3559875488281,
+            378.4788513183594,
+            409.9378356933594
+        ],
+        "lines": "Switzerland \n",
+        "block_no": 32,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            410.2909851074219,
+            557.4608764648438,
+            421.9974670410156
+        ],
+        "lines": "\u2212 Allianz Elementar Versicherungs-Aktiengesellschaft in Vienna, \n",
+        "block_no": 33,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            334.010009765625,
+            423.2359924316406,
+            360.8388366699219,
+            433.8178405761719
+        ],
+        "lines": "Austria \n",
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            434.0509948730469,
+            431.3988342285156,
+            445.7574768066406
+        ],
+        "lines": "\u2212 Allianz S.p.A. in Milan, Italy \n",
+        "block_no": 35,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            457.81097412109375,
+            557.5478515625,
+            469.5174560546875
+        ],
+        "lines": "\u2212 Identification of the likely risks of material misstatements in the \n",
+        "block_no": 36,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            470.7760009765625,
+            399.5988464355469,
+            481.35784912109375
+        ],
+        "lines": "Non-Financial Report \n",
+        "block_no": 37,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            481.71099853515625,
+            557.539306640625,
+            493.41748046875
+        ],
+        "lines": "\u2212 Analytical evaluation of selected disclosures in the Non-Financial \n",
+        "block_no": 38,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            494.6559753417969,
+            346.7988586425781,
+            505.2378234863281
+        ],
+        "lines": "Report \n",
+        "block_no": 39,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            505.47100830078125,
+            557.3206176757812,
+            517.177490234375
+        ],
+        "lines": "\u2212 Comparison of selected disclosures with corresponding data in \n",
+        "block_no": 40,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            320.0899963378906,
+            518.416015625,
+            552.3887939453125,
+            528.9978637695312
+        ],
+        "lines": "the financial statements and in the (group) management report  \n",
+        "block_no": 41,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            529.2310180664062,
+            546.3887939453125,
+            540.9375
+        ],
+        "lines": "\u2212 Evaluation of the presentation of the non-financial information \n",
+        "block_no": 42,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            306.1700134277344,
+            552.8080444335938,
+            557.4542846679688,
+            648.4583129882812
+        ],
+        "lines": "ASSURANCE CONCLUSION \nBased on the assurance procedures performed and assurance evi-\ndence obtained, nothing has come to our attention that causes us to \nbelieve that the Company\u2019s Non-Financial Report for the period from \n1 January to 31 December 2017 has not been prepared, in all mate-\nrial aspects, in accordance with \u00a7\u00a7 315b and 315c in conjunction with \n289c to 289e HGB. \n \n \n",
+        "block_no": 43,
+        "block_type": 0,
+        "page_num": 9
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            19.4998779296875,
+            40.921173095703125,
+            25.4998779296875
+        ],
+        "lines": " \n",
+        "block_no": 0,
+        "block_type": 0,
+        "page_num": 10
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            808.0260009765625,
+            554.260009765625,
+            829.6079711914062
+        ],
+        "lines": " \n10 \nNon-Financial Report 2017 \u2212 Allianz Group and Allianz SE \n",
+        "block_no": 1,
+        "block_type": 0,
+        "page_num": 10
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            88.5979995727539,
+            290.9842224121094,
+            326.6578369140625
+        ],
+        "lines": "INTENDED USE OF THE ASSURANCE REPORT \nWe issue this report on the basis of the engagement agreed with the \nCompany. The assurance engagement has been performed for pur-\nposes of the Company and the report is solely intended to inform the \nCompany about the results of the limited assurance engagement. \nThe report is not intended for any third parties to base any (financial) \ndecision thereon. Our responsibility lies only with the Company. We \ndo not assume any responsibility towards third parties. \n \n \n \n \nMunich, 26 February 2018 \nPricewaterhouseCoopers GmbH \nWirtschaftspr\u00fcfungsgesellschaft \n \n \n \n \nHendrik Fink \n \n \nppa. Annette Daschner \n",
+        "block_no": 2,
+        "block_type": 0,
+        "page_num": 10
+    },
+    {
+        "coords": [
+            39.720001220703125,
+            327.95599365234375,
+            128.58883666992188,
+            362.4178466796875
+        ],
+        "lines": "Wirtschaftspr\u00fcfer \n[German public auditor] \n. \n",
+        "block_no": 3,
+        "block_type": 0,
+        "page_num": 10
+    },
+    {
+        "coords": [
+            56.52000045776367,
+            363.71600341796875,
+            58.368839263916016,
+            374.2978515625
+        ],
+        "lines": " \n",
+        "block_no": 4,
+        "block_type": 0,
+        "page_num": 10
+    }
+]

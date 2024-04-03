@@ -113,7 +113,7 @@ class muPDF_reader:
                     text_structure[f"page_{page_num}"] = {}
                     current = text_structure[f"page_{page_num}"]
                     all_fonts = {}
-                    page_info = page.get_textpage().extractDICT(sort=False)
+                    page_info = page.get_textpage().extractDICT(sort=True)
                     for block in page_info['blocks']:
                         for line in block['lines']:
                             for span in line['spans']:
@@ -176,7 +176,7 @@ class muPDF_reader:
             font_occurrence = {}
             prev_font_size = None
             for page_num, page in enumerate(file):
-                    page_info = page.get_textpage().extractDICT(sort=False)
+                    page_info = page.get_textpage().extractDICT(sort=True)
                     for block in page_info['blocks']:
                         for line in block['lines']:
                             for span in line['spans']:
@@ -211,7 +211,7 @@ class muPDF_reader:
 
 
             for page_num, page in enumerate(file):
-                page_info = page.get_textpage().extractDICT(sort=False)
+                page_info = page.get_textpage().extractDICT(sort=True)
                 for block in page_info['blocks']:
                     block_num = block['number']
                     for line in block['lines']:

@@ -1,13 +1,13 @@
 {
     "page_0": {
-        "title_1": {
-            "text": "PERFORMANCE  STATEMENT",
+        "paragraph_1": {
+            "text": "NON-FINANCIAL  PERFORMANCE  STATEMENT",
             "blocks": [
                 0
             ],
             "page_num": 0
         },
-        "paragraph_1": {
+        "title_1": {
             "text": "Together, beyond animal health",
             "blocks": [
                 1
@@ -246,22 +246,38 @@
             ],
             "page_num": 4
         },
+        "subtitle10_1": {
+            "text": "TabletsLiquidsImplantsVaccines",
+            "blocks": [
+                4,
+                5,
+                6
+            ],
+            "page_num": 4
+        },
         "subtitle7_1": {
-            "text": "Swine",
+            "text": "SwineRuminants",
             "blocks": [
                 7
             ],
             "page_num": 4
         },
+        "subtitle10_2": {
+            "text": "Powders",
+            "blocks": [
+                8
+            ],
+            "page_num": 4
+        },
         "subtitle6_1": {
-            "text": "Direct presence in ",
+            "text": "Direct presence in  countries",
             "blocks": [
                 9
             ],
             "page_num": 4
         },
         "subtitle3_1": {
-            "text": "Leader in France and  at  global level",
+            "text": "Leader in France and global level",
             "blocks": [
                 10
             ],
@@ -275,7 +291,7 @@
             "page_num": 4
         },
         "subtext1_1": {
-            "text": "More than  female\u2022 Industrial:        \u2022 I&D:\u2022 Commercial:       \u2022 Other: ",
+            "text": "More than  employees,  female\u2022 Industrial: \u2022 Commercial:       \u2022 Other: ",
             "blocks": [
                 11,
                 12
@@ -307,27 +323,19 @@
             "page_num": 4
         },
         "paragraph_2": {
-            "text": "consumables and servicesDistributors, cooperatives and resellers  (specialty stores, e-commerce)With our shareholders, investors, regulatory agencies, subsidiaries and contractors production sitesgender pay equalityof employees took training courses   in 2021emissions, scopes 1 and 2",
+            "text": "- serums , diluents, excipients - consumables and servicesDistributors, cooperatives and resellers  (specialty stores, e-commerce)With our shareholders, investors, regulatory agencies, subsidiaries and contractors production sitesgender pay equalityof employees took training courses   emissions, scopes 1 and 2",
             "blocks": [
                 18,
                 19,
                 20,
                 21,
                 22,
-                23,
                 24
             ],
             "page_num": 4
         },
         "subtitle5_1": {
             "text": "\u20ac100 Million",
-            "blocks": [
-                25
-            ],
-            "page_num": 4
-        },
-        "subtitle9_1": {
-            "text": " invested in I&D in 2021",
             "blocks": [
                 25
             ],
@@ -340,8 +348,15 @@
             ],
             "page_num": 4
         },
-        "subtitle10_1": {
+        "subtitle11_1": {
             "text": "Commercial presence in",
+            "blocks": [
+                26
+            ],
+            "page_num": 4
+        },
+        "subtitle2_2": {
+            "text": " 110 countries",
             "blocks": [
                 26
             ],
@@ -356,35 +371,23 @@
             "page_num": 4
         },
         "subtext1_2": {
-            "text": "veterinarians - farmers - pet owners",
+            "text": "veterinarians - farmers - pet ownersDigitization: website & applicationsCommercial and scientific partnershipsTowards sustained growth, balanced between prevention and treatment ",
             "blocks": [
-                28
-            ],
-            "page_num": 4
-        },
-        "subtitle8_4": {
-            "text": "Sharing of expertise ",
-            "blocks": [
-                29
-            ],
-            "page_num": 4
-        },
-        "subtext1_3": {
-            "text": "Commercial and scientific partnershipsTowards sustained growth, balanced between prevention and treatment ",
-            "blocks": [
+                28,
                 29,
                 30
             ],
             "page_num": 4
         },
-        "subtitle5_2": {
-            "text": "\u20ac771 million",
+        "subtitle4_2": {
+            "text": " suppliers\u20ac771 million",
             "blocks": [
+                31,
                 32
             ],
             "page_num": 4
         },
-        "subtitle9_2": {
+        "subtitle9_1": {
             "text": "in purchases made in 2021",
             "blocks": [
                 32
@@ -392,7 +395,7 @@
             "page_num": 4
         },
         "subtitle7_2": {
-            "text": "PoultryCompanion ",
+            "text": "PoultryCompanion Animals",
             "blocks": [
                 33
             ],
@@ -415,7 +418,7 @@
             "page_num": 5
         },
         "subtitle3_1": {
-            "text": "Policy and  2 - INDUSTRIAL RELATIONS",
+            "text": "Policy and indicators 2 - INDUSTRIAL RELATIONS",
             "blocks": [
                 0,
                 1
@@ -423,7 +426,7 @@
             "page_num": 5
         },
         "subtext1_1": {
-            "text": "Employee health and safetyFailure to protect the health and safety of employees in the workplaceTo guarantee employees\u2019 physical and moral integrity and reduce the number of accidents in the workplace, thus reducing the number of work stoppages Development of employee skillsInadequate management of employee skills leading to a lack of commitment and weakened implementation of the strategy To bring job descriptions, career path management and skillsets into alignment; to promote professional training dialogueDeterioration of dialogue between em-ployer and employeesTo promote labor-management dialogue so as to help prevent tension in labor relations",
+            "text": "Employee health and safetyFailure to protect the health and safety of employees in the workplaceTo guarantee employees\u2019 physical and moral integrity and reduce the number of accidents in the workplace, thus reducing the number of work stoppages Development of employee skillsInadequate management of employee skills leading to a lack of commitment and weakened implementation of the strategy To bring job descriptions, career path management and skillsets into alignment; to promote professional training Labor-management dialogueDeterioration of dialogue between em-ployer and employeesTo promote labor-management dialogue so as to help prevent tension in labor relations",
             "blocks": [
                 2,
                 4,
@@ -440,7 +443,7 @@
             "page_num": 5
         },
         "subtext1_2": {
-            "text": "Product quality and safetyLack of product quality and safetyTo ensure the quality and safety of products at all stages of their life cycle in order to avoid risks to animal and human health (ineffective-ness, danger)Responsible Failure to apply the principles of the \u00abResponsible Supplier Relations\u00bb Charter adopted by Ceva To ensure that the 10 commitments of the Charter are properly applied in the Purcha-sing process Ethics and animal welfareFailure to ensure animal welfare in the context of activitiesTo strengthen animal welfare standards and ",
+            "text": "Product quality and safetyLack of product quality and safetyTo ensure the quality and safety of products at all stages of their life cycle in order to avoid risks to animal and human health (ineffective-ness, danger)Responsible Failure to apply the principles of the \u00abResponsible Supplier Relations\u00bb Charter adopted by Ceva To ensure that the 10 commitments of the Charter are properly applied in the Purcha-sing process Ethics and animal welfareFailure to ensure animal welfare in the context of activitiesTo strengthen animal welfare standards and policies",
             "blocks": [
                 8,
                 9,
@@ -472,7 +475,7 @@
             "page_num": 5
         },
         "subtext1_3": {
-            "text": "Environmental footprintLack of control of environmental To reduce emissions into air, water and soilBusiness ethicsFailure to conduct business in accordance with principles of integrity and laws on corruption  To detect and take measures to prevent acts contrary to business ethics  ",
+            "text": "Environmental footprintLack of control of environmental impactsTo reduce emissions into air, water and soilBusiness ethicsFailure to conduct business in accordance with principles of integrity and laws on corruption  To detect and take measures to prevent acts contrary to business ethics  ",
             "blocks": [
                 18,
                 20,
@@ -614,7 +617,7 @@
             "page_num": 9
         },
         "paragraph_1": {
-            "text": "Ceva believes that dedication to the business project and employee well-being are drivers of engagement, and the-refore of collective performance Furthermore, the group is convinced that by cultivating its connection to all its employees and the quality of dialogue at the local level, everyone\u2019s concerns can be made known, and thus better addressed by working together Ceva has therefore decided to consult with its employees on a regular basis in order to take the pulse of the organization and jointly develop action plans to improve the employee experience, particularly in terms of working conditions and Starting in 2017, a major employee satisfaction and com-mitment survey, entitled \u201cWe Share,\u201d has been conducted at group level  The results of the first of these surveys made it possible to refocus the group\u2019s HR strategy around six main priorities: improving the new hire intake, clarifying the standard operating procedures for each occupa-tional division, strengthening skill development systems, streamlining communications, improving working condi-tions, and strengthening individual and collective employee recognition  This collaborative, inclusive, characteristically teamwork-oriented approach allowed for the reconstruction of a comprehensive picture, supplemented by local presen-tations of results achieved and in-depth workshops As a result of the health crisis, Ceva postponed the second edition of its global engagement survey, initially scheduled for 2020  The Group has preferred to conduct satisfaction surveys in a shorter format, focusing on how its teams have experienced the Covid-19 period, crisis management, and the implementation of new working methods  Thus the group conducted three \u00abPulse\u00bb surveys in spring of 2020, in January 2021, and again in December 2021, asking employees to reflect on their concerns, and on how the company was handling the Covid crisis (satisfaction with the group\u2019s communication, perception of the group\u2019s collective response, etc ), encouraging them to give feedback  The two surveys held in 2021 also focused on how teleworking was being implemented and how it was impacting employees, as well as on the societal objectives that the company sought to set for itself  The feedback thus obtained, which only stren-gthened Ceva\u2019s willingness to pursue its societal and envi-ronmental commitments and the roll out of new working methods (remote work, collaboration, remote management, etc ), also provided new avenues for exploring how better to support those objectives Ceva\u2019s aim is to maintain this momentum and integrate a culture of dialogue into its DNA, so as to make it a real driver of continuous improvement and commitment ",
+            "text": "Ceva believes that dedication to the business project and employee well-being are drivers of engagement, and the-refore of collective performance Furthermore, the group is convinced that by cultivating its connection to all its employees and the quality of dialogue at the local level, everyone\u2019s concerns can be made known, and thus better addressed by working together Ceva has therefore decided to consult with its employees on a regular basis in order to take the pulse of the organization and jointly develop action plans to improve the employee experience, particularly in terms of working conditions and well-being Starting in 2017, a major employee satisfaction and com-mitment survey, entitled \u201cWe Share,\u201d has been conducted at group level  The results of the first of these surveys made it possible to refocus the group\u2019s HR strategy around six main priorities: improving the new hire intake, clarifying the standard operating procedures for each occupa-tional division, strengthening skill development systems, streamlining communications, improving working condi-tions, and strengthening individual and collective employee recognition  This collaborative, inclusive, characteristically teamwork-oriented approach allowed for the reconstruction of a comprehensive picture, supplemented by local presen-tations of results achieved and in-depth workshops As a result of the health crisis, Ceva postponed the second edition of its global engagement survey, initially scheduled for 2020  The Group has preferred to conduct satisfaction surveys in a shorter format, focusing on how its teams have experienced the Covid-19 period, crisis management, and the implementation of new working methods  Thus the group conducted three \u00abPulse\u00bb surveys in spring of 2020, in January 2021, and again in December 2021, asking employees to reflect on their concerns, and on how the company was handling the Covid crisis (satisfaction with the group\u2019s communication, perception of the group\u2019s collective response, etc ), encouraging them to give feedback  The two surveys held in 2021 also focused on how teleworking was being implemented and how it was impacting employees, as well as on the societal objectives that the company sought to set for itself  The feedback thus obtained, which only stren-gthened Ceva\u2019s willingness to pursue its societal and envi-ronmental commitments and the roll out of new working methods (remote work, collaboration, remote management, etc ), also provided new avenues for exploring how better to support those objectives Ceva\u2019s aim is to maintain this momentum and integrate a culture of dialogue into its DNA, so as to make it a real driver of continuous improvement and commitment ",
             "blocks": [
                 0,
                 1
@@ -639,7 +642,7 @@
     },
     "page_10": {
         "paragraph_1": {
-            "text": "Ceva\u2019s ambition for growth is based on the ability of its employees to take initiatives and collaborate   It is driven by their commitment and development  Ceva also stands out on the market because of its solution-oriented, cus-Ceva\u2019s strategy is implemented by a leadership and management responsible for guiding their teams toward the development of \u00abbest in class\u00bb skills, and creating the conditions for high-performance autonomy and expanded spheres of responsibility for all  Ceva\u2019s leaders and managers have an essential role to play in ensuring appeal, retention, performance and development in Ceva That\u2019s why Ceva supports the development of everyone\u2019s skills: whether employees, managers or leaders  In 2021, Ceva strengthened its business culture based on the 24 new job types created in 2020, promoting new working methods rooted in independence and responsibility  ",
+            "text": "Ceva\u2019s ambition for growth is based on the ability of its employees to take initiatives and collaborate   It is driven by their commitment and development  Ceva also stands out on the market because of its solution-oriented, cus-tomer-focused know-how  Ceva\u2019s strategy is implemented by a leadership and management responsible for guiding their teams toward the development of \u00abbest in class\u00bb skills, and creating the conditions for high-performance autonomy and expanded spheres of responsibility for all  Ceva\u2019s leaders and managers have an essential role to play in ensuring appeal, retention, performance and development in Ceva teams  That\u2019s why Ceva supports the development of everyone\u2019s skills: whether employees, managers or leaders  In 2021, Ceva strengthened its business culture based on the 24 new job types created in 2020, promoting new working methods rooted in independence and responsibility  ",
             "blocks": [
                 0
             ],
@@ -653,7 +656,7 @@
             "page_num": 10
         },
         "paragraph_2": {
-            "text": "Ceva seeks to foster autonomy and increased responsi-bility  In 2021, Ceva reinforced this culture by encouraging remote and autonomous working practices, particularly in certain laboratories (on a smaller scale than offices) and promoting interaction beyond the workplace in pro-ject-focused groups, with the creation of remote work After defining the roles, responsibilities and technical skills of the 24 job families in all its occupational divi-sions, Ceva set ambitious new standards of responsi-bility, technical skills and soft skills, allowing employees to flourish and develop in their jobs, while also enhancing their employability  Skills management, hiring mana-gement and talent development management have all been comprehensively reviewed in light of the highest standards on the market, under the supervision of the Human Resources Department, with assistance from the directors of our job families  Employees from the various job families took part in this review, to account for the reality on the ground   ",
+            "text": "Ceva seeks to foster autonomy and increased responsi-bility  In 2021, Ceva reinforced this culture by encouraging remote and autonomous working practices, particularly in certain laboratories (on a smaller scale than offices) and promoting interaction beyond the workplace in pro-ject-focused groups, with the creation of remote work communities   After defining the roles, responsibilities and technical skills of the 24 job families in all its occupational divi-sions, Ceva set ambitious new standards of responsi-bility, technical skills and soft skills, allowing employees to flourish and develop in their jobs, while also enhancing their employability  Skills management, hiring mana-gement and talent development management have all been comprehensively reviewed in light of the highest standards on the market, under the supervision of the Human Resources Department, with assistance from the directors of our job families  Employees from the various job families took part in this review, to account for the reality on the ground   ",
             "blocks": [
                 1
             ],
@@ -748,31 +751,24 @@
             ],
             "page_num": 12
         },
-        "subtitle2_1": {
+        "subtitle1_1": {
             "text": "Performance indicators",
             "blocks": [
                 2
             ],
             "page_num": 12
         },
-        "subtitle1_1": {
+        "title_1": {
             "text": "QUALITY OF LABOR-MANAGEMENT  DIALOGUE",
             "blocks": [
                 3
             ],
             "page_num": 12
         },
-        "subtitle3_1": {
+        "subtitle2_1": {
             "text": "Rate of employees covered by the presence of staff or union representatives  ",
             "blocks": [
                 5
-            ],
-            "page_num": 12
-        },
-        "title_1": {
-            "text": " NA",
-            "blocks": [
-                6
             ],
             "page_num": 12
         }
@@ -845,7 +841,7 @@
             "page_num": 14
         },
         "paragraph_4": {
-            "text": "The Manual of Good Pharmacovigilance Practices provides the essential elements for pharmacovigilance training and defines the local procedures to be implemented  Distributed at each site, it ensures harmony with the highest standards of pharma-covigilance within the Group  Ceva\u2019s Pharmacovigilance Department monitors the safety and efficacy of the products it markets in accordance with its regulatory obligations in this domain  Made up of specialist members - veterinarians, pharmacists, scientists and pharma-covigilance technicians - the department\u2019s primary mission is to: report pharmacovigilance cases to the authorities in com-pliance with local regulations;analyze pharmacovigilance cases involving the Group\u2019s pro-detect and manage potential pharmacovigilance signals;reassess product risk-benefit ratios and update product information sheets 100% of our products, whether subject to pharmaceutical registration or not, are monitored via the Group\u2019s pharmaco-vigilance system  The information collected enables Ceva to improve its knowledge of the products and make their usage safer, in particular by updating the information on the instruc-Furthermore, Ceva asks each new hire, and all employees once every two years, to take an e-learning course on phar-macovigilance and validate their skills with a quiz ",
+            "text": "The Manual of Good Pharmacovigilance Practices provides the essential elements for pharmacovigilance training and defines the local procedures to be implemented  Distributed at each site, it ensures harmony with the highest standards of pharma-covigilance within the Group  Ceva\u2019s Pharmacovigilance Department monitors the safety and efficacy of the products it markets in accordance with its regulatory obligations in this domain  Made up of specialist members - veterinarians, pharmacists, scientists and pharma-covigilance technicians - the department\u2019s primary mission is to: report pharmacovigilance cases to the authorities in com-pliance with local regulations;analyze pharmacovigilance cases involving the Group\u2019s pro-ducts reported worldwide;detect and manage potential pharmacovigilance signals;reassess product risk-benefit ratios and update product information sheets 100% of our products, whether subject to pharmaceutical registration or not, are monitored via the Group\u2019s pharmaco-vigilance system  The information collected enables Ceva to improve its knowledge of the products and make their usage safer, in particular by updating the information on the instruc-tional leaflets Furthermore, Ceva asks each new hire, and all employees once every two years, to take an e-learning course on phar-macovigilance and validate their skills with a quiz ",
             "blocks": [
                 4
             ],
@@ -888,7 +884,7 @@
         }
     },
     "page_15": {
-        "subtitle2_1": {
+        "subtitle1_1": {
             "text": "RESPONSIBLE PURCHASING",
             "blocks": [
                 0
@@ -896,13 +892,6 @@
             "page_num": 15
         },
         "title_1": {
-            "text": "771 M",
-            "blocks": [
-                2
-            ],
-            "page_num": 15
-        },
-        "subtitle1_1": {
             "text": "IN PURCHASES",
             "blocks": [
                 2
@@ -916,7 +905,7 @@
             ],
             "page_num": 15
         },
-        "subtitle3_1": {
+        "subtitle2_1": {
             "text": "Responsible purchasing governance ",
             "blocks": [
                 4
@@ -930,8 +919,8 @@
             ],
             "page_num": 15
         },
-        "subtitle3_2": {
-            "text": "Integration into the local community, ",
+        "subtitle2_2": {
+            "text": "Integration into the local community, applying geo-purchasing ",
             "blocks": [
                 5
             ],
@@ -944,9 +933,10 @@
             ],
             "page_num": 15
         },
-        "subtitle1_2": {
-            "text": "IN 110 COUNTRIES",
+        "title_2": {
+            "text": "SUPPLIERSIN 110 COUNTRIES",
             "blocks": [
+                6,
                 7
             ],
             "page_num": 15
@@ -954,14 +944,14 @@
     },
     "page_16": {
         "title_1": {
-            "text": "Building responsible and supportive business ",
+            "text": "Building responsible and supportive business relationships",
             "blocks": [
                 1
             ],
             "page_num": 16
         },
         "paragraph_1": {
-            "text": "Since 2018, Ceva has adhered to the Responsible Supplier Relations Charter, developed jointly by the National Purchasing Council (CNA) and the Corporate Ombudsman  The Group thus undertakes to apply best practices in pur-chasing from its suppliers, acting within a framework of mutual trust, and in particular to:ensure financial fairness vis-\u00e0-vis its suppliers;promote collaboration; reduce the risk of mutual dependence; integrate environmental issues, ensure the responsibility\u2019s accountability to the local com-munity; manage the purchasing division in a comprehensive, inte-grated manner The Group\u2019s Purchasing Department is dedicated to implementing and developing this Charter  In particular, it participates on its steering committee  In 2021, Ceva continued applying the principles of this charter in its relations with suppliers  Also in 2021, the position of Manager of Strategic Partnerships and Alliances was created, tasked with managing Ceva\u2019s ten key partners, emphasizing the impor-tance of the quality of maintaining responsible business relations  One of the tasks of the position is to increase the maturity of our supplier relations, while maintaining com-pliance with the charter   Criteria set forth in the Responsible Supplier Relations Charter are now universally integrated into Ceva\u2019s partnership choices In 2021, the Purchasing Department created a training module, together with a questionnaire  The training program will be implemented in 2022, to ensure that all Ceva buyers are familiar with this Charter  In 2022, the Purchasing Department will ensure the proper implementation of the Charter within the various ",
+            "text": "Since 2018, Ceva has adhered to the Responsible Supplier Relations Charter, developed jointly by the National Purchasing Council (CNA) and the Corporate Ombudsman  The Group thus undertakes to apply best practices in pur-chasing from its suppliers, acting within a framework of mutual trust, and in particular to:ensure financial fairness vis-\u00e0-vis its suppliers;promote collaboration; reduce the risk of mutual dependence; integrate environmental issues, ensure the responsibility\u2019s accountability to the local com-munity; manage the purchasing division in a comprehensive, inte-grated manner The Group\u2019s Purchasing Department is dedicated to implementing and developing this Charter  In particular, it participates on its steering committee  In 2021, Ceva continued applying the principles of this charter in its relations with suppliers  Also in 2021, the position of Manager of Strategic Partnerships and Alliances was created, tasked with managing Ceva\u2019s ten key partners, emphasizing the impor-tance of the quality of maintaining responsible business relations  One of the tasks of the position is to increase the maturity of our supplier relations, while maintaining com-pliance with the charter   Criteria set forth in the Responsible Supplier Relations Charter are now universally integrated into Ceva\u2019s partnership choices In 2021, the Purchasing Department created a training module, together with a questionnaire  The training program will be implemented in 2022, to ensure that all Ceva buyers are familiar with this Charter  In 2022, the Purchasing Department will ensure the proper implementation of the Charter within the various purchasing processes   ",
             "blocks": [
                 1,
                 2,
@@ -977,7 +967,7 @@
             "page_num": 16
         },
         "paragraph_2": {
-            "text": "Ceva\u2019s global strategy to secure its component supply is based on an assessment of the risks of its supply chain, and on a global approach seeking to: diversify supplier sources, to the greatest extent possible, so as to guarantee supplies (Business Continuity); work on going back to sourcing certain active ingredients and other critical components locally, using French and  secure existing supplier relationships over the long term, using contracts that address the primary risks identified;improve the monitoring of its suppliers\u2019 financial performance, so as to better analyze their degree of dependence In 2019, Ceva performed an overall risk assessment for its supply chain, covering the Group\u2019s twenty-five (25) most strategic products (the \u00abTop 25\u00bb), i e  the products posting the highest turnover Ceva has analyzed the key components going into each of its strategic products, and their suppliers  The Group has assessed their exposure to the following risk factors likely to result in supply chain ruptures: product availability, supplier solvency, legal risks, insurance liability, financial risks (in particular our degree of dependence on a given supplier), human resources, quality, compliance with regulatory requirements, business ethics, environment and transportation This assessment process enabled the Group to avoid being caught off-guard by the global health crisis and its successive waves since 2020  In particular, working with local teams, Ceva has set up targeted action plans to prevent component supply disruptions In 2020, Ceva further enhanced its risk assessment approach with regard to the supply of components  The Group reviewed its assessments of the critical components of its most strategic products and their specific action plans, to increase their stocks or diversify their supply sources, for example  This assessment activity is currently ongoing, and is now addressed in detailed action plans for each key component-key supplier pair, reflecting the severity and frequency of the risks identified In 2020, Ceva extended its risk analysis, beyond compo-nents, to a global risk analysis by product manufactured, over the entire production chain: warehousing, inventory management, transport, asset availability, process robustness, etc  The percentage of products covered by an industrial risk analysis in 2020 came to 49 5% (in % of gross margin)     Ceva has entered an agreement with one of its primary distributors, to have it perform HSE audits of the Chinese suppliers of its main components  Due to the health crisis, these audits could not be carried out in 2021  In 2021, no supply disruption occurred  The objective for 2022 is to prevent supply disruptions in a highly volatile and competitive market  ",
+            "text": "Ceva\u2019s global strategy to secure its component supply is based on an assessment of the risks of its supply chain, and on a global approach seeking to: diversify supplier sources, to the greatest extent possible, so as to guarantee supplies (Business Continuity); work on going back to sourcing certain active ingredients and other critical components locally, using French and European suppliers; secure existing supplier relationships over the long term, using contracts that address the primary risks identified;improve the monitoring of its suppliers\u2019 financial performance, so as to better analyze their degree of dependence In 2019, Ceva performed an overall risk assessment for its supply chain, covering the Group\u2019s twenty-five (25) most strategic products (the \u00abTop 25\u00bb), i e  the products posting the highest turnover Ceva has analyzed the key components going into each of its strategic products, and their suppliers  The Group has assessed their exposure to the following risk factors likely to result in supply chain ruptures: product availability, supplier solvency, legal risks, insurance liability, financial risks (in particular our degree of dependence on a given supplier), human resources, quality, compliance with regulatory requirements, business ethics, environment and transportation This assessment process enabled the Group to avoid being caught off-guard by the global health crisis and its successive waves since 2020  In particular, working with local teams, Ceva has set up targeted action plans to prevent component supply disruptions In 2020, Ceva further enhanced its risk assessment approach with regard to the supply of components  The Group reviewed its assessments of the critical components of its most strategic products and their specific action plans, to increase their stocks or diversify their supply sources, for example  This assessment activity is currently ongoing, and is now addressed in detailed action plans for each key component-key supplier pair, reflecting the severity and frequency of the risks identified In 2020, Ceva extended its risk analysis, beyond compo-nents, to a global risk analysis by product manufactured, over the entire production chain: warehousing, inventory management, transport, asset availability, process robustness, etc  The percentage of products covered by an industrial risk analysis in 2020 came to 49 5% (in % of gross margin)     Ceva has entered an agreement with one of its primary distributors, to have it perform HSE audits of the Chinese suppliers of its main components  Due to the health crisis, these audits could not be carried out in 2021  In 2021, no supply disruption occurred  The objective for 2022 is to prevent supply disruptions in a highly volatile and competitive market  ",
             "blocks": [
                 4,
                 5,
@@ -1003,7 +993,7 @@
             "page_num": 17
         },
         "paragraph_1": {
-            "text": "*Includes the French sites at Laval, Libourne and Loud\u00e9ac (excluding Ecat and Desvac), accounting for 45% of total indirect purchases, in turn representing 50% of all ",
+            "text": "*Includes the French sites at Laval, Libourne and Loud\u00e9ac (excluding Ecat and Desvac), accounting for 45% of total indirect purchases, in turn representing 50% of all purchases   ",
             "blocks": [
                 2
             ],
@@ -1026,7 +1016,7 @@
             "page_num": 18
         },
         "paragraph_2": {
-            "text": "Ceva\u2019s commitment to the cause of veterinarians as protectors of animal health and well-being is nothing new  Indeed, 10 years ago the company established the Ceva Animal Welfare Awards in the UK to \u00abcelebrate the achievements of remarkable persons who go above and beyond and dedicate their lives to the improvement of animal health and well-being both in the UK and abroad \u00bb These prestigious awards are open to distinguished breeders, veterinarians, veterinary nurses, animal welfare professionals and animal protection teams, who may be nominated by their peers, friends or family  There are nine nomination categories, ranging from Vet of the Year to Charity Team of the Year In 2017, Ceva extended this commitment globally, inaugurating the Global Animal Welfare Awards in collaboration with the World Veterinary Association (WVA) In 2021, the WVA and Ceva Sant\u00e9 Animale organized the fifth edition of the Global Animal Welfare Awards, which was held remotely for the first time due to the health crisis  Two new categories were created: one for veterinary technicians and nurses, and the other for veterinary schools  The six winners, each working to improve animal welfare in their respective fields, were awarded a prize of \u20ac5,000  This partnership continues today, and the 2021 Global Animal Welfare Awards will be presented at the 37th Congress of the World Veterinary Association, to be held in Abu Dhabi from March 29 to 31, 2022 After the WVA Global Animal Welfare awards prize recognizing the Veterinary Student of the Year in 2019, Ceva entered a new agreement with the International Veterinary Students Association (IVSA) in January 2020 to provide support for the Standing Committee for Animal Welfare, which sponsors national animal welfare projects proposed by student non-profits In November 2021, Ceva also agreed to provide support to its long-time partner International Cat Care (ICC) for its work with abandoned cats  The health and welfare of stray cat populations is a significant issue in many countries, and Ceva\u2019s support will facilitate the creation of an international community with the expertise to improve the current situation   In 2021, Ceva provided full funding for two scholarships to attend the ICC courses on \u00abCat-Friendly Homing,\u00bb as well as for the network\u2019s communications ",
+            "text": "Ceva\u2019s commitment to the cause of veterinarians as protectors of animal health and well-being is nothing new  Indeed, 10 years ago the company established the Ceva Animal Welfare Awards in the UK to \u00abcelebrate the achievements of remarkable persons who go above and beyond and dedicate their lives to the improvement of animal health and well-being both in the UK and abroad \u00bb These prestigious awards are open to distinguished breeders, veterinarians, veterinary nurses, animal welfare professionals and animal protection teams, who may be nominated by their peers, friends or family  There are nine nomination categories, ranging from Vet of the Year to Charity Team of the Year In 2017, Ceva extended this commitment globally, inaugurating the Global Animal Welfare Awards in collaboration with the World Veterinary Association (WVA) In 2021, the WVA and Ceva Sant\u00e9 Animale organized the fifth edition of the Global Animal Welfare Awards, which was held remotely for the first time due to the health crisis  Two new categories were created: one for veterinary technicians and nurses, and the other for veterinary schools  The six winners, each working to improve animal welfare in their respective fields, were awarded a prize of \u20ac5,000  This partnership continues today, and the 2021 Global Animal Welfare Awards will be presented at the 37th Congress of the World Veterinary Association, to be held in Abu Dhabi from March 29 to 31, 2022 After the WVA Global Animal Welfare awards prize recognizing the Veterinary Student of the Year in 2019, Ceva entered a new agreement with the International Veterinary Students Association (IVSA) in January 2020 to provide support for the Standing Committee for Animal Welfare, which sponsors national animal welfare projects proposed by student non-profits In November 2021, Ceva also agreed to provide support to its long-time partner International Cat Care (ICC) for its work with abandoned cats  The health and welfare of stray cat populations is a significant issue in many countries, and Ceva\u2019s support will facilitate the creation of an international community with the expertise to improve the current situation   In 2021, Ceva provided full funding for two scholarships to attend the ICC courses on \u00abCat-Friendly Homing,\u00bb as well as for the network\u2019s communications activities ",
             "blocks": [
                 2,
                 3
@@ -1076,7 +1066,7 @@
             "page_num": 19
         },
         "paragraph_2": {
-            "text": "When the use of animals for research purposes is a scien-tific or legal necessity, Ceva strictly complies with all regulations and accepted standards on animal welfare, in particular by its universal application of the \u00ab3 Rs\u00bb rule (Replacement, Reduction and Refinement): REPLACEMENT: Limiting the use of animals   Animals are used when no recognized alternative exists, and only in compliance with regulatory requirements for the regis-tration of medicinal products or the release of batches of vaccines intended to protect domestic animals; REDUCTION: Limiting the number of animals used, and the number of studies performed; REFINEMENT: Continually seeking to refine procedures using animals, and determine endpoints for stopping procedures on an animal Ceva is a member of the non-profit organizations Health for Animals, Animal Health Europe and SIMV (the French Animal Health Industry Association), which work to protect animal health and ensure that treatments do not negatively affect animal welfare  That\u2019s why Ceva works hard to develop alternatives to tests involving animals  In 2021, Ceva joined an international think tank focusing on ways to reduce the use of animals for purposes of the registration and production of veterinary vaccines  To further this shared approach, Ceva is also working with other partners, including the European Commission, on the European Union platform on animal welfare  Ceva is working to change regulations in this area, so as to better guarantee animal welfare and reduce the use of animals  This year, Ceva obtained authorization from the authorities for the refinement of an experimental procedure used in the development of one of its vaccines, by administering the vaccine by a less invasive route  In strict compliance with the regulatory framework, expe-rimental studies involving animals are universally subject to regulatory submissions or pre-study approvals  Study sites are subject to regular inspections by local autho-rities  To date, no inspection conducted by the competent authorities has reported any regulatory violation in this regard in connection with Ceva\u2019s activities   At the same time, in 2021, the French authorities conducted an inspection of Good Clinical Practices (GCP) at Ceva: the inspectors did not report any regulatory vio-lation in this regard in connection with Ceva\u2019s activities  Ceva also ensures that its primary partners are in com-pliance with regulations on the subject, generally per-forming audits once every one to three years (no audits were conducted in 2021)  In 2018, Ceva enshrined its commitment to animal welfare in research in its Code of Ethics and Good Conduct  This Code also stipulates that all persons involved in research and development processes must take appropriate mea-sures to promote and support the welfare of laboratory Ceva has been continually developing Group-wide rules for animal studies  These rules govern internal authori-zations for studies using animals, allow the verification that such use is strictly necessary, ensure compliance with the regulations in force, and authorize the tracea-bility of studies  Using these pre-established guidelines, the Group drafted and published an Ethics and Animal Welfare Charter in 2021  The charter will be distributed to all subsidiaries in 2022, accompanied by an employee training program ",
+            "text": "When the use of animals for research purposes is a scien-tific or legal necessity, Ceva strictly complies with all regulations and accepted standards on animal welfare, in particular by its universal application of the \u00ab3 Rs\u00bb rule (Replacement, Reduction and Refinement): REPLACEMENT: Limiting the use of animals   Animals are used when no recognized alternative exists, and only in compliance with regulatory requirements for the regis-tration of medicinal products or the release of batches of vaccines intended to protect domestic animals; REDUCTION: Limiting the number of animals used, and the number of studies performed; REFINEMENT: Continually seeking to refine procedures using animals, and determine endpoints for stopping procedures on an animal Ceva is a member of the non-profit organizations Health for Animals, Animal Health Europe and SIMV (the French Animal Health Industry Association), which work to protect animal health and ensure that treatments do not negatively affect animal welfare  That\u2019s why Ceva works hard to develop alternatives to tests involving animals  In 2021, Ceva joined an international think tank focusing on ways to reduce the use of animals for purposes of the registration and production of veterinary vaccines  To further this shared approach, Ceva is also working with other partners, including the European Commission, on the European Union platform on animal welfare  Ceva is working to change regulations in this area, so as to better guarantee animal welfare and reduce the use of animals  This year, Ceva obtained authorization from the authorities for the refinement of an experimental procedure used in the development of one of its vaccines, by administering the vaccine by a less invasive route  In strict compliance with the regulatory framework, expe-rimental studies involving animals are universally subject to regulatory submissions or pre-study approvals  Study sites are subject to regular inspections by local autho-rities  To date, no inspection conducted by the competent authorities has reported any regulatory violation in this regard in connection with Ceva\u2019s activities   At the same time, in 2021, the French authorities conducted an inspection of Good Clinical Practices (GCP) at Ceva: the inspectors did not report any regulatory vio-lation in this regard in connection with Ceva\u2019s activities  Ceva also ensures that its primary partners are in com-pliance with regulations on the subject, generally per-forming audits once every one to three years (no audits were conducted in 2021)  In 2018, Ceva enshrined its commitment to animal welfare in research in its Code of Ethics and Good Conduct  This Code also stipulates that all persons involved in research and development processes must take appropriate mea-sures to promote and support the welfare of laboratory animals Ceva has been continually developing Group-wide rules for animal studies  These rules govern internal authori-zations for studies using animals, allow the verification that such use is strictly necessary, ensure compliance with the regulations in force, and authorize the tracea-bility of studies  Using these pre-established guidelines, the Group drafted and published an Ethics and Animal Welfare Charter in 2021  The charter will be distributed to all subsidiaries in 2022, accompanied by an employee training program ",
             "blocks": [
                 6,
                 7,
@@ -1138,7 +1128,7 @@
             "page_num": 20
         },
         "paragraph_3": {
-            "text": "The use of antibiotics for the treatment of bacterial infectious pathologies is a necessity, required not only for the fulfillment of our animal welfare commitments, but also for the support of veterinarians in their role as animal treatment providers For the use of antibiotic treatments, Ceva goes by a simple principle: \u00abas much as necessary, and as little as possible \u00bbCeva\u2019s Strategic Position in regard to Antibiotics is guided by 4 principles:   The Right Person: supporting the veterinarian as a prescriber and user of antibiotics The Right Product: offering a wide range of molecules, in order to provide the veterinarian with the right choice for a given pathology The Right Time: offering diagnostic services, providing training in the rational use of antibiotics The Right Future: continuing to invest in research and the development of innovative approaches on the subject Product Range StrategyCeva is fully aligned with the recommendations of the WHO (World Health Organization) and the IOE (International Office of Epizootics) in regard to the cri-tical importance of antibiotics in veterinary medicine vis-\u00e0-vis the risk of developing antibiotic resistance (both for human and animal health) Ceva prohibits the use of any drug classified in category A (Avoid)  Drugs in Category B (Restrict) account for only 11% of Ceva\u2019s antibiotics sales, while drugs in Category C (Caution) account for 43% and Category D (Prudence) Thus, almost all of Ceva\u2019s product offering consists of 1st or 2nd line drugs Insofar as its antibiotic product line primarily consists of injectables, it is important to note that Ceva is also actively involved in seeking to reduce the consumption of antibiotics in animal health care: over the past 10 years the consumption of veterinary antibiotics has been almost halved in the European Union (from 161mg/PCU 2021 to 91 6mg/PCU)Ceva has also greatly reduced its range of oral anti-biotics: efforts now focus on injectable products (more than 50% of sales), which are individual treatments, and thus expose commensal flora to the risks of trans-mitting antibiotic resistance to a lesser degree ",
+            "text": "The use of antibiotics for the treatment of bacterial infectious pathologies is a necessity, required not only for the fulfillment of our animal welfare commitments, but also for the support of veterinarians in their role as animal treatment providers For the use of antibiotic treatments, Ceva goes by a simple principle: \u00abas much as necessary, and as little as possible \u00bbCeva\u2019s Strategic Position in regard to Antibiotics is guided by 4 principles:   The Right Person: supporting the veterinarian as a prescriber and user of antibiotics The Right Product: offering a wide range of molecules, in order to provide the veterinarian with the right choice for a given pathology The Right Time: offering diagnostic services, providing training in the rational use of antibiotics The Right Future: continuing to invest in research and the development of innovative approaches on the subject Product Range StrategyCeva is fully aligned with the recommendations of the WHO (World Health Organization) and the IOE (International Office of Epizootics) in regard to the cri-tical importance of antibiotics in veterinary medicine vis-\u00e0-vis the risk of developing antibiotic resistance (both for human and animal health) Ceva prohibits the use of any drug classified in category A (Avoid)  Drugs in Category B (Restrict) account for only 11% of Ceva\u2019s antibiotics sales, while drugs in Category C (Caution) account for 43% and Category D (Prudence) Thus, almost all of Ceva\u2019s product offering consists of 1st or 2nd line drugs Insofar as its antibiotic product line primarily consists of injectables, it is important to note that Ceva is also actively involved in seeking to reduce the consumption of antibiotics in animal health care: over the past 10 years the consumption of veterinary antibiotics has been almost halved in the European Union (from Ceva has also greatly reduced its range of oral anti-biotics: efforts now focus on injectable products (more than 50% of sales), which are individual treatments, and thus expose commensal flora to the risks of trans-mitting antibiotic resistance to a lesser degree ",
             "blocks": [
                 12,
                 13,
@@ -1213,7 +1203,7 @@
     },
     "page_23": {
         "subtext1_1": {
-            "text": "Since the end of 2017, the Libourne plant has applied a comprehensive environmental policy. It is known as C-Green, and pertains to industrial waste treatment and the reduction of gas, elec-tricity and water consumption levels. - Since an increase in its production activities has led to an increase in its industrial wastewater pro-duction, the plant has implemented an industrial water management system. - The site performed a study on effluent sorting at the source, and renovated its wastewater treatment plant. Effluents containing material content, excipients or detergents are now treated by evapoconcentration. - The plant has also implemented daily monitoring of electricity, gas and fluid consumption levels and environmental performance indicators. ",
+            "text": "Since the end of 2017, the Libourne plant has applied a comprehensive environmental policy. It is known as C-Green, and pertains to industrial waste treatment and the reduction of gas, elec-tricity and water consumption levels. - Since an increase in its production activities has led to an increase in its industrial wastewater pro-duction, the plant has implemented an industrial water management system. - The site performed a study on effluent sorting at the source, and renovated its wastewater treatment plant. Effluents containing material content, excipients or detergents are now treated - The plant has also implemented daily monitoring of electricity, gas and fluid consumption levels and environmental performance indicators. ",
             "blocks": [
                 0,
                 1,
@@ -1228,7 +1218,6 @@
                 10,
                 11,
                 12,
-                13,
                 14,
                 15,
                 16
@@ -1307,21 +1296,21 @@
     },
     "page_25": {
         "subtitle1_1": {
-            "text": "HUMAN  ",
+            "text": "HUMAN  RIGHTS",
             "blocks": [
                 0
             ],
             "page_num": 25
         },
         "title_1": {
-            "text": "RESPECT FOR HUMAN  RIGHTS AND FUNDAMENTAL  ",
+            "text": "RESPECT FOR HUMAN  RIGHTS AND FUNDAMENTAL  FREEDOMS",
             "blocks": [
                 1
             ],
             "page_num": 25
         },
         "paragraph_1": {
-            "text": "As an employer and a principal, Ceva ensures that its associates\u2019 funda-mental rights are respected in all the countries where it operates, and that its products and services are developed, manufactured and marketed by its subcontractors with respect for human rights and fundamental ",
+            "text": "As an employer and a principal, Ceva ensures that its associates\u2019 funda-mental rights are respected in all the countries where it operates, and that its products and services are developed, manufactured and marketed by its subcontractors with respect for human rights and fundamental freedoms. ",
             "blocks": [
                 2
             ],
@@ -1398,7 +1387,7 @@
             ],
             "page_num": 27
         },
-        "subtitle3_1": {
+        "subtitle1_1": {
             "text": "Prevention of harassment and discrimination",
             "blocks": [
                 1
@@ -1412,7 +1401,7 @@
             ],
             "page_num": 27
         },
-        "subtitle3_2": {
+        "subtitle1_2": {
             "text": "Monitoring industrial relations impacts in the supply chain",
             "blocks": [
                 1
@@ -1427,7 +1416,7 @@
             ],
             "page_num": 27
         },
-        "subtitle3_3": {
+        "subtitle1_3": {
             "text": "Performance indicators ",
             "blocks": [
                 3
@@ -1441,7 +1430,7 @@
             ],
             "page_num": 27
         },
-        "subtitle2_1": {
+        "title_1": {
             "text": "HUMAN RIGHTS",
             "blocks": [
                 4
@@ -1455,7 +1444,7 @@
             ],
             "page_num": 27
         },
-        "subtitle4_1": {
+        "subtitle2_1": {
             "text": "Percentage of female staff with a salary gap of less than 10% from that of male staff*:Proportion of women in the workforce:Proportion of men in the workforce:Gender mix in management:Gender mix among directors:",
             "blocks": [
                 7,
@@ -1463,24 +1452,6 @@
                 10,
                 11,
                 12
-            ],
-            "page_num": 27
-        },
-        "title_1": {
-            "text": "NANA",
-            "blocks": [
-                23,
-                24
-            ],
-            "page_num": 27
-        },
-        "subtitle1_1": {
-            "text": "40.1% (F) 20.3% (F) 59.9% (H)79.7%  (H)",
-            "blocks": [
-                27,
-                28,
-                29,
-                30
             ],
             "page_num": 27
         }
@@ -1517,7 +1488,7 @@
             "page_num": 29
         },
         "paragraph_1": {
-            "text": "The Code of Ethics and Good Conduct and related proce-dures - anti-money laundering, anti-corruption and inter-national sanctions - specify rules of conduct, principles of action and ethical obligations to be observed by all employees in their daily activities, in particular in the fol-Efforts to combat corruption;Efforts to combat money laundering and the financing of terrorism;Laws and regulations on embargoes, boycotts and trade sanctions;Fair competition;Conflicts of interest The Code also provides policies and responsibilities in regard to health and safety (section 2 a), quality and inno-vation (section 3 a), animal welfare (section 3 c), and IT security  In 2021, as part of efforts to combat corruption, Ceva implemented a procedure for gifts and hospitality, with a regularly updated FAQ  This procedure now requires employees to submit a form declaring any gifts or hospi-tality offered or received   In 2021, Ceva developed its verification process, by which all new customers are checked for compliance with inter-national sanctions and anti-corruption measures before being approved  In 2022, Ceva will roll out its new cus-tomer verification process for application at subsidiaries still not wholly integrated  The Compliance Committee, made up of regional repre-sentatives of that department, has met every month since 2021 to discuss Compliance topics  A network of Compliance Sponsors has also been created, with a Compliance Sponsor appointed in each subsidiary and department of the Group to support the Ethics and Compliance Department in the implementation of the program and to act as intermediaries for their teams  Their initial task was to implement the gift and hospitality policy  ",
+            "text": "The Code of Ethics and Good Conduct and related proce-dures - anti-money laundering, anti-corruption and inter-national sanctions - specify rules of conduct, principles of action and ethical obligations to be observed by all employees in their daily activities, in particular in the fol-lowing areas:Efforts to combat corruption;Efforts to combat money laundering and the financing of terrorism;Laws and regulations on embargoes, boycotts and trade sanctions;Fair competition;Conflicts of interest The Code also provides policies and responsibilities in regard to health and safety (section 2 a), quality and inno-vation (section 3 a), animal welfare (section 3 c), and IT security  In 2021, as part of efforts to combat corruption, Ceva implemented a procedure for gifts and hospitality, with a regularly updated FAQ  This procedure now requires employees to submit a form declaring any gifts or hospi-tality offered or received   In 2021, Ceva developed its verification process, by which all new customers are checked for compliance with inter-national sanctions and anti-corruption measures before being approved  In 2022, Ceva will roll out its new cus-tomer verification process for application at subsidiaries still not wholly integrated  The Compliance Committee, made up of regional repre-sentatives of that department, has met every month since 2021 to discuss Compliance topics  A network of Compliance Sponsors has also been created, with a Compliance Sponsor appointed in each subsidiary and department of the Group to support the Ethics and Compliance Department in the implementation of the program and to act as intermediaries for their teams  Their initial task was to implement the gift and hospitality policy  ",
             "blocks": [
                 1,
                 2,
@@ -1550,7 +1521,7 @@
             "page_num": 30
         },
         "paragraph_1": {
-            "text": "Ceva has mapped the primary corruption and influence peddling risks at Group level, and has established action plans for activities and procedures posing the greatest risk  Among the actions taken subsequent to these ana-lyses, Ceva established specific policies for its employees, implemented due diligence procedures for third parties, and expanded the ethics and compliance clauses in its In 2021, Ceva continued to update this risk map in collaboration with the various contributors and the Risk Department to ensure that it faithfully reflects any new risks to which Ceva may be exposed  Action plans were prepared to address each risk identified  This update identified priority issues, namely compliance with international sanctions, GDPR compliance and anti-corruption measures, and defined the corresponding action plans for 2021 and subsequent years, such as the roll out of the new customer verification process, employee training in GDPR regulations, and the implementation of the ethics and compliance program outreach campaign  In 2020, Ceva established a due diligence questionnaire for its partners  This questionnaire is now used as part of the investigations carried out for all new customers  Ceva has an internal and external alert system in place to investigate any behavior contrary to or non-com-pliant with ethics and compliance rules, or in particular with anti-corruption rules  This allows employees and third parties to report confidentially and anonymously suspected breaches to the Ethics and Compliance Department  This department will then examine the reports, investigate the facts and adopt the appropriate corrective measures if necessary  ",
+            "text": "Ceva has mapped the primary corruption and influence peddling risks at Group level, and has established action plans for activities and procedures posing the greatest risk  Among the actions taken subsequent to these ana-lyses, Ceva established specific policies for its employees, implemented due diligence procedures for third parties, and expanded the ethics and compliance clauses in its contracts  In 2021, Ceva continued to update this risk map in collaboration with the various contributors and the Risk Department to ensure that it faithfully reflects any new risks to which Ceva may be exposed  Action plans were prepared to address each risk identified  This update identified priority issues, namely compliance with international sanctions, GDPR compliance and anti-corruption measures, and defined the corresponding action plans for 2021 and subsequent years, such as the roll out of the new customer verification process, employee training in GDPR regulations, and the implementation of the ethics and compliance program outreach campaign  In 2020, Ceva established a due diligence questionnaire for its partners  This questionnaire is now used as part of the investigations carried out for all new customers  Ceva has an internal and external alert system in place to investigate any behavior contrary to or non-com-pliant with ethics and compliance rules, or in particular with anti-corruption rules  This allows employees and third parties to report confidentially and anonymously suspected breaches to the Ethics and Compliance Department  This department will then examine the reports, investigate the facts and adopt the appropriate corrective measures if necessary  ",
             "blocks": [
                 0,
                 1
@@ -1669,7 +1640,7 @@
     },
     "page_32": {
         "subtext1_1": {
-            "text": "8.1. / ORGANIZATIONAL AFFILIATION OF INDUSTRIAL, I&D AND AUTOVACCINATION SITESThe Group\u2019s governance is organized into different operational departments bringing together most of Ceva\u2019s occupational divisions and activities, including: GMSQ, I&D, Group Operations, Digital Transformation and Autovaccines Each Ceva site or campus, which may bring together several activities (i e , I&D, production, warehousing, distribution, mar-keting, commercial functions, support functions, etc ), is organi-zationally subordinate to one of these departments, depending on its primary activity  A campus is a site that includes both I&D and production activities  IIndustrial sites and campuses under the supervision of the GMSQ Department Germany (Riems), Brazil (Campinas, Juatuba and Paulinia), China (Hangzhou and Beijing), Canada (Guelph), United States (Lenexa, Verona and Anniston), France (Laval, Libourne and Loud\u00e9ac), Italy (Cavriago and Porto Empedocle), Hungary (Budapest), Mexico Other industrial sites under the supervision of the Group Operations DepartmentSouth Africa (Johannesburg), Algeria (Algiers), Australia (Glenorie), India (Pune), Morocco (Casablanca), Tunisia (Tunis).Research and development sites under the supervision of the I&D DepartmentGermany (Dessau), Japan (Yokohama).Industrial equipment sites under the supervision of the Digital Transformation DepartmentAutovaccination sites under the supervision of the Autovaccines DepartmentGermany (Felgentrager), Canada (Gallant), France (Angers), United Kingdom (Compton).This list of sites does not include all of the Group\u2019s subsidiaries, in particular its commercial subsidiaries, which are present in more than 40 countries 8.2. / CORPORATE AND SOCIAL INDICATORSThe values determined for the Group\u2019s corporate and social indi-cators cover the period from January 1, 2021 to December 31, 2021 Corporate indicatorsHuman rightsGender mix of Group personnel  Group personnel refers to the workforce (permanent employees) present on December 31 of the reporting year  Employees who left on December 31 of the reporting year are also taken into account Percentage of female staff with less than 10% difference in salaries from those of male staff L\u2019Equal pay for men and women is determined on the basis of the classification method for professional positions known as the Hay method  Equal pay for men and women is obtained by the following calculation: female personnel at the Group as of December 31, 2021 with a salary difference of less than 10% from the male personnel by country and by Hay category/ Group personnel at December 31 with comparable salaries  Exclusion from scope:- Expatriation - Hay category by country with only men or only women - Employees with no salary currency information available Skills developmentStaff turnover rate  The staff turnover rate corresponds to the rate of renewal of the Group\u2019s permanent employees  The staff turnover rate is determined as follows: (number of new hires on permanent contracts in 2021 + number of resignations on permanent contracts in 2021) / 2 / per-sonnel (permanent employees) on permanent contracts at December 31, 2021 Percentage of employees having received at least one training course  A trained employee is a Group employee who has taken at least one training course (face-to-face or e-learning) during the year   The percentage of trained employees determined for 2021 includes the Libourne, Loud\u00e9ac and Laval sites, accounting for 21% of Group personnel   The training courses taken into consideration for the calcu-lation include those implemented locally as well as group-wide training courses on discrimination and harassment  The percentage of employees having received at least one training session during the year is determined as follows: number of permanent employees having received at least one training session in 2021 / number of permanent employees present at December 31, 2021 Workplace Health and SafetyWorkplace accidents  A workplace accident is an unforeseen occurrence in the course of work, resulting in an injury or illness causing death, loss of consciousness, lost workdays, work restric-tions, medical attention or job transfers  It does not include first aid cases  Home-to-work commuting accidents are not counted as workplace accidents Lost workdays resulting from workplace   Lost workdays refers to the number of calendar days off, as ordered by a doctor, counted from the day following the occurrence of the accident Hours worked  Hours worked corresponds to the working hours of Group employees  These are determined on the basis of theo-retical working hours  They are calculated every month using the average number of monthly hours worked for an employee in the country and all active full-time equivalent employees  This data is provided by the Group\u2019s Human Resources Department ",
+            "text": "8.1. / ORGANIZATIONAL AFFILIATION OF INDUSTRIAL, I&D AND AUTOVACCINATION SITESThe Group\u2019s governance is organized into different operational departments bringing together most of Ceva\u2019s occupational divisions and activities, including: GMSQ, I&D, Group Operations, Digital Transformation and Autovaccines Each Ceva site or campus, which may bring together several activities (i e , I&D, production, warehousing, distribution, mar-keting, commercial functions, support functions, etc ), is organi-zationally subordinate to one of these departments, depending on its primary activity  A campus is a site that includes both I&D and production activities  IIndustrial sites and campuses under the supervision of the GMSQ Department Germany (Riems), Brazil (Campinas, Juatuba and Paulinia), China (Hangzhou and Beijing), Canada (Guelph), United States (Lenexa, Verona and Anniston), France (Laval, Libourne and Loud\u00e9ac), Italy (Cavriago and Porto Empedocle), Hungary (Budapest), Mexico Other industrial sites under the supervision of the Group Operations DepartmentSouth Africa (Johannesburg), Algeria (Algiers), Australia (Glenorie), India (Pune), Morocco (Casablanca), Tunisia (Tunis).Research and development sites under the supervision of the I&D DepartmentGermany (Dessau), Japan (Yokohama).Industrial equipment sites under the supervision of the Digital Transformation DepartmentAutovaccination sites under the supervision of the Autovaccines DepartmentGermany (Felgentrager), Canada (Gallant), France (Angers), United Kingdom (Compton).This list of sites does not include all of the Group\u2019s subsidiaries, in particular its commercial subsidiaries, which are present in more than 40 countries 8.2. / CORPORATE AND SOCIAL INDICATORSThe values determined for the Group\u2019s corporate and social indi-cators cover the period from January 1, 2021 to December 31, 2021 Corporate indicatorsHuman rightsGender mix of Group personnel  Group personnel refers to the workforce (permanent employees) present on December 31 of the reporting year  Employees who left on December 31 of the reporting year are also taken into account Percentage of female staff with less than 10% difference in salaries from those of male staff L\u2019Equal pay for men and women is determined on the basis of the classification method for professional positions known as the Hay method  Equal pay for men and women is obtained by the following calculation: female personnel at the Group as of December 31, 2021 with a salary difference of less than 10% from the male personnel by country and by Hay category/ Group personnel at December 31 with comparable salaries  Exclusion from scope:- Expatriation - Hay category by country with only men or only women - Employees with no salary currency information available Skills developmentStaff turnover rate  The staff turnover rate corresponds to the rate of renewal of the Group\u2019s permanent employees  The staff turnover rate is determined as follows: (number of new hires on permanent contracts in 2021 + number of resignations on permanent contracts in 2021) / 2 / per-sonnel (permanent employees) on permanent contracts Percentage of employees having received at least one training course  A trained employee is a Group employee who has taken at least one training course (face-to-face or e-learning) during the year   The percentage of trained employees determined for 2021 includes the Libourne, Loud\u00e9ac and Laval sites, accounting for 21% of Group personnel   The training courses taken into consideration for the calcu-lation include those implemented locally as well as group-wide training courses on discrimination and harassment  The percentage of employees having received at least one training session during the year is determined as follows: number of permanent employees having received at least one training session in 2021 / number of permanent employees present at December 31, 2021 Workplace Health and SafetyWorkplace accidents  A workplace accident is an unforeseen occurrence in the course of work, resulting in an injury or illness causing death, loss of consciousness, lost workdays, work restric-tions, medical attention or job transfers  It does not include first aid cases  Home-to-work commuting accidents are not counted as workplace accidents Lost workdays resulting from workplace accidents   Lost workdays refers to the number of calendar days off, as ordered by a doctor, counted from the day following the occurrence of the accident Hours worked  Hours worked corresponds to the working hours of Group employees  These are determined on the basis of theo-retical working hours  They are calculated every month using the average number of monthly hours worked for an employee in the country and all active full-time equivalent employees  This data is provided by the Group\u2019s Human Resources Department ",
             "blocks": [
                 0,
                 1,
@@ -1723,7 +1694,7 @@
     },
     "page_33": {
         "title_1": {
-            "text": "Lost-time workplace accident frequency rate  The lost-time workplace accident frequency rate corres-ponds to the number of accidents that by order of a health professional must result in a work stoppage lasting one or more day after the day of the accident, per million working hours The frequency rate is calculated on the scope of per-manent employees (excluding temporary workers)  Lost-time workplace accident severity rate The lost-time workplace accident severity rate corresponds to the number of workdays lost due to a workplace accident per thousand working hours  The severity rate is calculated on the scope of permanent employees (excluding temporary workers) Reporting scope  The reporting scope for these indicators covers all of the Group\u2019s campuses, industrial sites and commercial subsidiaries  The frequency rate and severity rate indicators cover 100% of the Group\u2019s internal workforce in 2021 Social indicators Product quality and safetyPercentage of product recall events vs. total products sold  UA manufactured batch is a set of units resulting from a series of processes (manufacturing, packaging) conducted under almost identical circumstances  Each batch is registered and identified with a unique batch number  Batch recalls may be carried out following a report of an incident or accident during its manufacture or its use  Batch recalls are always subject to regulatory reporting The product recall percentage corresponds to the number of batch recalls that occurred during the year, divided by the total number of batches manu-factured during the same year, multiplied by 100  The scope of this indicator covers all batches of Ceva products manufactured by industrial sites or campuses attached to the GMSQ Department or managed by subcontractors, representing 80% of Group sales in 2021 Percentage of indirect purchases made in proximity to Ceva Sant\u00e9 Animale SA sites LThe percentage of indirect purchases made in proximity to Ceva\u2019s sites corresponds to the percentage of indirect purchases made from 1 January 2021 to 31 December 2021 from suppliers operating in the same regions where the facilities of Ceva Sant\u00e9 Animale SA are located, in Nouvelle Aquitaine (Libourne), Pays de la Loire (Laval) and Bretagne (Loud\u00e9ac)  This scope does not cover the Ecat and Desvac sites, also located in France, which account for 45% of the indirect purchases made by the Group  This percentage is calculated as follows: total expenditure incurred by Ceva Sant\u00e9 Animale SA in the regions of its sites over the reporting period / total expenditure incurred by Ceva Sant\u00e9 Animale SA over the reporting period * 100  Business ethicsPercentage of assigned employees trained in at least one of the Ethics & Compliance modules  The percentage of assigned employees trained in at least one of the Ethics & Compliance modules corresponds to the percentage of employees who have taken at least one training course in at least one of the three modules - Business Ethics, Anti-Corruption, or Anti-Money Laundering- since the launch of the training campaign on January 18, 2019 to December 31, 2021 (non-cumulative indicator)  An employee is considered trained when the training has been validated - i e , when the employee has passed the proficiency test accompanying the training course Assigned employees include employees in job grades 16 to 29  Some employees in these job grades were not included (configuration error in the tool or change of job grade after the launch of the training courses), and some employees not belonging to the targeted grades were assigned  8.3. / ENVIRONMENTAL INDICATORSCarbon footprint, water, gas and electricity   consumptionMethodology Direct and indirect emissions (Scope 1 and Scope 2) were cal-culated using the methodology recommended by the \u00abGHG Protocol\u00bb:\u2022  Scope 1: stationary combustion sources (natural gas, fuel oil, wood, etc ), mobile combustion sources (commercial fleets, service vehicles), refrigerants, emissions related to \u2022  Scope 2: consumption of purchased electricity, steam, heating or cooling  The data needed for the calculations was collected from each entity included in the scope over the whole of 2021  The emission factors associated with each emission source come from national agency databases (IEA, ADEME, DEFRA, IPCC) and from data specific to energy suppliers  The most up-to-date emission factors were used upon their release Scope The calculations for scope 1 and scope 2 (excluding commercial fleet) cover all of the Group\u2019s campuses, I&D sites and industrial sites  Water, electricity and gas consumption cover the same scope  The scope includes 100% of production sites and I&D sites  The 20% of group employees not covered will be counted in future calculations for Scope 3 in the Upstream leased assets section, since they work in leased office spaces  For emissions associated with employee business travel by car, the scope considered covers the countries where the Group\u2019s main commercial fleets are located (approximately 80% of the commercial fleet) and includes the vehicles operated by facilities management at production sites  ",
+            "text": "Lost-time workplace accident frequency rate  The lost-time workplace accident frequency rate corres-ponds to the number of accidents that by order of a health professional must result in a work stoppage lasting one or more day after the day of the accident, per million working hours The frequency rate is calculated on the scope of per-manent employees (excluding temporary workers)  Lost-time workplace accident severity rate The lost-time workplace accident severity rate corresponds to the number of workdays lost due to a workplace accident per thousand working hours  The severity rate is calculated on the scope of permanent employees (excluding temporary workers) Reporting scope  The reporting scope for these indicators covers all of the Group\u2019s campuses, industrial sites and commercial subsidiaries  The frequency rate and severity rate indicators cover 100% of the Group\u2019s internal workforce in 2021 Social indicators Product quality and safetyPercentage of product recall events vs. total products sold  UA manufactured batch is a set of units resulting from a series of processes (manufacturing, packaging) conducted under almost identical circumstances  Each batch is registered and identified with a unique batch number  Batch recalls may be carried out following a report of an incident or accident during its manufacture or its use  Batch recalls are always subject to regulatory reporting The product recall percentage corresponds to the number of batch recalls that occurred during the year, divided by the total number of batches manu-factured during the same year, multiplied by 100  The scope of this indicator covers all batches of Ceva products manufactured by industrial sites or campuses attached to the GMSQ Department or managed by subcontractors, representing 80% of Group sales in 2021 Percentage of indirect purchases made in proximity to Ceva Sant\u00e9 Animale SA sites LThe percentage of indirect purchases made in proximity to Ceva\u2019s sites corresponds to the percentage of indirect purchases made from 1 January 2021 to 31 December 2021 from suppliers operating in the same regions where the facilities of Ceva Sant\u00e9 Animale SA are located, in Nouvelle Aquitaine (Libourne), Pays de la Loire (Laval) and Bretagne (Loud\u00e9ac)  This scope does not cover the Ecat and Desvac sites, also located in France, which account for 45% of the indirect purchases made by the Group  This percentage is calculated as follows: total expenditure incurred by Ceva Sant\u00e9 Animale SA in the regions of its sites over the reporting period / total expenditure incurred by Ceva Sant\u00e9 Animale SA over the reporting period * 100  Business ethicsPercentage of assigned employees trained in at least one of the Ethics & Compliance modules  The percentage of assigned employees trained in at least one of the Ethics & Compliance modules corresponds to the percentage of employees who have taken at least one training course in at least one of the three modules - Business Ethics, Anti-Corruption, or Anti-Money Laundering- since the launch of the training campaign on January 18, 2019 to December 31, 2021 (non-cumulative indicator)  An employee is considered trained when the training has been validated - i e , when the employee has passed the proficiency test accompanying the training course Assigned employees include employees in job grades 16 to 29  Some employees in these job grades were not included (configuration error in the tool or change of job grade after the launch of the training courses), and some employees not belonging to the targeted grades were assigned  8.3. / ENVIRONMENTAL INDICATORSCarbon footprint, water, gas and electricity   consumptionMethodology Direct and indirect emissions (Scope 1 and Scope 2) were cal-culated using the methodology recommended by the \u00abGHG Protocol\u00bb:\u2022  Scope 1: stationary combustion sources (natural gas, fuel oil, wood, etc ), mobile combustion sources (commercial fleets, service vehicles), refrigerants, emissions related to manufacturing processes \u2022  Scope 2: consumption of purchased electricity, steam, heating or cooling  The data needed for the calculations was collected from each entity included in the scope over the whole of 2021  The emission factors associated with each emission source come from national agency databases (IEA, ADEME, DEFRA, IPCC) and from data specific to energy suppliers  The most up-to-date emission factors were used upon their release Scope The calculations for scope 1 and scope 2 (excluding commercial fleet) cover all of the Group\u2019s campuses, I&D sites and industrial sites  Water, electricity and gas consumption cover the same scope  The scope includes 100% of production sites and I&D sites  The 20% of group employees not covered will be counted in future calculations for Scope 3 in the Upstream leased assets section, since they work in leased office spaces  For emissions associated with employee business travel by car, the scope considered covers the countries where the Group\u2019s main commercial fleets are located (approximately 80% of the commercial fleet) and includes the vehicles operated by facilities management at production sites  ",
             "blocks": [
                 0,
                 1,
@@ -1755,39 +1726,24 @@
         }
     },
     "page_34": {
-        "subtitle2_1": {
+        "subtitle1_1": {
             "text": "Year ended the 31",
             "blocks": [
                 6
             ],
             "page_num": 34
         },
-        "subtext2_1": {
-            "text": "st",
-            "blocks": [
-                6
-            ],
-            "page_num": 34
-        },
-        "subtitle1_1": {
+        "title_1": {
             "text": "Independent third party\u2019s report on consolidated non-financial statement ",
             "blocks": [
                 8
             ],
             "page_num": 34
         },
-        "subtext1_1": {
-            "text": "EY & Associ\u00e9sThis is a free translation into English of the original report issued in the French language and it is provided solely for the convenience of English-speaking users. This report should be read in conjunction with, and construed in accordance with, French law and professional standards applicable in France.",
+        "paragraph_1": {
+            "text": "This is a free translation into English of the original report issued in the French language and it is provided solely for the convenience of English-speaking users. This report should be read in conjunction with, and construed in accordance with, French law and professional standards applicable in France.",
             "blocks": [
-                10,
                 11
-            ],
-            "page_num": 34
-        },
-        "title_1": {
-            "text": "AVIS DE L\u2019OTI",
-            "blocks": [
-                12
             ],
             "page_num": 34
         }
@@ -1815,23 +1771,9 @@
             "page_num": 35
         },
         "paragraph_1": {
-            "text": "To the General Assembly, In our quality as an independent third party, accredited by the COFRAC under the number n\u00b0 3-1681 (scope of accreditation available on the website www.cofrac.fr), and as a member of the network of one of the statutory auditors of your entity (hereinafter \u201centity\u201d), we conducted our work in order to provide a conclusion expressing a limited level of assurance on the compliance of the consolidated non-financial statement for the year ended 31",
+            "text": "To the General Assembly, In our quality as an independent third party, accredited by the COFRAC under the number n\u00b0 3-1681 (scope of accreditation available on the website www.cofrac.fr), and as a member of the network of one of the statutory auditors of your entity (hereinafter \u201centity\u201d), we conducted our work in order to provide a conclusion expressing a limited level of assurance on the compliance of the consolidated non-financial statement for the year ended 31 December 2021 (hereinafter the \"Statement\") with the provisions of Article R. 225-105 of the French Commercial Code (Code de commerce) and on the fairness of the historical information (whether observed or extrapolated) provided pursuant to 3\u00b0 of I and II of Article R. 225-105 of the French Commercial Code (hereinafter the \"Information\") prepared in accordance with the entity's procedures (hereinafter the \"Guidelines\"), included in the management report pursuant to the requirements of articles L. 225 102-1, R. 225-105 and R. 225-105-1 of the French Commercial Code (Code de commerceConclusion Based on the procedures performed, as described in \u201cNature and scope of the work\u201d, and on the elements we have collected, we did not identify any material misstatements that would call into question the fact that the consolidated non-financial statement is not presented in accordance with the applicable regulatory requirements and that the Information, taken as a whole, is not presented fairly in accordance with the Guidelines, in all material respects. Without modifying our conclusion and in accordance with article A. 225-3 of the French Commercial Code, we have the following comments: As indicated in the section \"Employee independence, responsibility and development\", the training indicator covers a partial scope representing 21% of the consolidated workforce. Regarding responsible purchasing, the policy, action plans and key performance indicators have not yet been formalized. ",
             "blocks": [
                 5,
-                6
-            ],
-            "page_num": 35
-        },
-        "subtext4_1": {
-            "text": "st",
-            "blocks": [
-                6
-            ],
-            "page_num": 35
-        },
-        "paragraph_2": {
-            "text": " December 2021 (hereinafter the \"Statement\") with the provisions of Article R. 225-105 of the French Commercial Code (Code de commerce) and on the fairness of the historical information (whether observed or extrapolated) provided pursuant to 3\u00b0 of I and II of Article R. 225-105 of the French Commercial Code (hereinafter the \"Information\") prepared in accordance with the entity's procedures (hereinafter the \"Guidelines\"), included in the management report pursuant to the requirements of articles L. 225 102-1, R. 225-105 and R. 225-105-1 of the French Commercial Code (Code de commerceConclusion Based on the procedures performed, as described in \u201cNature and scope of the work\u201d, and on the elements we have collected, we did not identify any material misstatements that would call into question the fact that the consolidated non-financial statement is not presented in accordance with the applicable regulatory requirements and that the Information, taken as a whole, is not presented fairly in accordance with the Guidelines, in all material respects. Without modifying our conclusion and in accordance with article A. 225-3 of the French Commercial Code, we have the following comments: As indicated in the section \"Employee independence, responsibility and development\", the training indicator covers a partial scope representing 21% of the consolidated workforce. Regarding responsible purchasing, the policy, action plans and key performance indicators have not yet been formalized. ",
-            "blocks": [
                 6,
                 7,
                 8,
@@ -1891,7 +1833,7 @@
     },
     "page_38": {
         "paragraph_1": {
-            "text": "we verified that the Statement provides the information required under article R. 225-105 II of the French Commercial Code, where relevant with respect to the principal risks, and includes, where applicable, an explanation for the absence of the information required under article L. 225-102-1 III, paragraph 2 of the French Commercial Code;  we verified that the Statement presents the business model and a description of principal risks associated with all the consolidated entities\u2019 activities, including where relevant and proportionate, the risks associated with their business relationships, their products or services, as well as their policies, measures and the outcomes thereof, including key performance indicators associated to the principal risks; we referred to documentary sources and conducted interviews to  oassess the process used to identify and confirm the principal risks as well as the consistency of the outcomes, including the key performance indicators used, with respect to the principal risks and the policies presented, and  ocorroborate the qualitative information (measures and outcomes) that we considered to be the most important presented in Appendix 1; concerning certain risks (Responsible Purchasing, Ethics and animal welfare, Business Ethics, Product Quality and safety, Personal Data), our work was carried out on the consolidating entity, for the others risks, our work was carried out on the consolidating entity and on a selection of entities : Lenexa (United States), Loud\u00e9ac (France); we verified that the Statement covers the scope of consolidation, i.e. all the consolidated entities in accordance with article L. 233-16 of the French Commercial Code within the limitations set out in the Statement; we obtained an understanding of internal control and risk management procedures the entity has put in place and assessed the data collection process to ensure the completeness and fairness of the Information; for the key performance indicators and other quantitative outcomes that we considered to be the most important presented in Appendix 1, we implemented: oanalytical procedures to verify the proper consolidation of the data collected and the consistency of any changes in those data; otests of details, using sampling techniques, in order to verify the proper application of the definitions and procedures and reconcile the data with the supporting documents. This work was carried out on a selection of contributing entities and covers between 12% and 18% of the consolidated data relating to the key performance indicators and outcomes selected for these tests (12% of the workforce and 18% of electricity consumption); we assessed the overall consistency of the Statement based on our knowledge of all the consolidated entities. We believe that the work carried out, based on our professional judgement, is sufficient to provide a basis for our limited assurance conclusion; a higher level of assurance would have required us to carry out more extensive procedures. ",
+            "text": "we verified that the Statement provides the information required under article R. 225-105 II of the French Commercial Code, where relevant with respect to the principal risks, and includes, where applicable, an explanation for the absence of the information required under article L. 225-102-1 III, paragraph 2 of the French Commercial Code;  we verified that the Statement presents the business model and a description of principal risks associated with all the consolidated entities\u2019 activities, including where relevant and proportionate, the risks associated with their business relationships, their products or services, as well as their policies, measures and the outcomes thereof, including key performance indicators associated to the principal risks; we referred to documentary sources and conducted interviews to  assess the process used to identify and confirm the principal risks as well as the consistency of the outcomes, including the key performance indicators used, with respect to the principal risks and the policies presented, and  corroborate the qualitative information (measures and outcomes) that we considered to be the most important presented in Appendix 1; concerning certain risks (Responsible Purchasing, Ethics and animal welfare, Business Ethics, Product Quality and safety, Personal Data), our work was carried out on the consolidating entity, for the others risks, our work was carried out on the consolidating entity and on a selection of entities : Lenexa (United States), Loud\u00e9ac (France); we verified that the Statement covers the scope of consolidation, i.e. all the consolidated entities in accordance with article L. 233-16 of the French Commercial Code within the limitations set out in the Statement; we obtained an understanding of internal control and risk management procedures the entity has put in place and assessed the data collection process to ensure the completeness and fairness of the Information; for the key performance indicators and other quantitative outcomes that we considered to be the most important presented in Appendix 1, we implemented: analytical procedures to verify the proper consolidation of the data collected and the consistency of any changes in those data; tests of details, using sampling techniques, in order to verify the proper application of the definitions and procedures and reconcile the data with the supporting documents. This work was carried out on a selection of contributing entities and covers between 12% and 18% of the consolidated data relating to the key performance indicators and outcomes selected for these tests (12% of the workforce and 18% of electricity consumption); we assessed the overall consistency of the Statement based on our knowledge of all the consolidated entities. We believe that the work carried out, based on our professional judgement, is sufficient to provide a basis for our limited assurance conclusion; a higher level of assurance would have required us to carry out more extensive procedures. ",
             "blocks": [
                 3,
                 4,
@@ -1911,26 +1853,11 @@
     },
     "page_39": {
         "paragraph_1": {
-            "text": "Paris-La D\u00e9fense, the 5",
-            "blocks": [
-                2
-            ],
-            "page_num": 39
-        },
-        "subtext1_1": {
-            "text": "th",
-            "blocks": [
-                2
-            ],
-            "page_num": 39
-        },
-        "paragraph_2": {
-            "text": " of May 2022 French original signed by: Independent third party EY & Associ\u00e9s  Partner, Sustainable Development ",
+            "text": "Paris-La D\u00e9fense, the 5 of May 2022 French original signed by: Independent third party Partner, Sustainable Development ",
             "blocks": [
                 2,
                 3,
                 4,
-                5,
                 9
             ],
             "page_num": 39
@@ -1945,7 +1872,7 @@
             "page_num": 40
         },
         "subtext1_1": {
-            "text": "Social Information Quantitative Information (including key performance Qualitative Information (actions or results) Proportion of men/women in the workforce (%) Lost-time injury frequency rate (TF1) Injury severity rate (TG) Staff turnover rate (with resignations) (%) Percentage of employees who received training during the year - scope: France (%) Rate of employees covered by the presence of staff or union Health and safety (accident prevention, working conditions and well-being) Employee development (training, support for skills development, social dialogue)Environmental Information Quantitative Information (including key performance Qualitative Information (actions or results) Electricity consumed (MWh) Natural gas consumed (MWh) Water consumed (m3) CO2 emissions scope 1 and scope 2 (tons CO2e) Actions to reduce energy and water consumption Societal Information Quantitative Information (including key performance Qualitative Information (actions or results) Share of indirect purchases made in proximity to Ceva Sant\u00e9 Animale SA (%) Percentage of product recall events vs. total products sold (%) Share of female staff with a salary gap of less than 10% from that of male staff (%) Share of assigned employees trained in at least one of the Ethics & Compliance modules since January 2019 (%) Responsible purchasing (continuity of supply and inclusion in the local fabric) Actions in favor of animal welfare  Actions to guarantee business ethics ",
+            "text": "Social Information Quantitative Information (including key performance indicators) Qualitative Information (actions or results) Proportion of men/women in the workforce (%) Lost-time injury frequency rate (TF1) Injury severity rate (TG) Staff turnover rate (with resignations) (%) Percentage of employees who received training during the year - scope: France (%) Rate of employees covered by the presence of staff or union representatives (%) Health and safety (accident prevention, working conditions and well-being) Employee development (training, support for skills development, social dialogue)Environmental Information Quantitative Information (including key performance indicators) Qualitative Information (actions or results) Electricity consumed (MWh) Natural gas consumed (MWh) Water consumed (m3) CO2 emissions scope 1 and scope 2 (tons CO2e) Actions to reduce energy and water consumption Societal Information Quantitative Information (including key performance indicators) Qualitative Information (actions or results) Share of indirect purchases made in proximity to Ceva Sant\u00e9 Percentage of product recall events vs. total products sold (%) Share of female staff with a salary gap of less than 10% from that of male staff (%) Share of assigned employees trained in at least one of the Ethics & Compliance modules since January 2019 (%) Responsible purchasing (continuity of supply and inclusion in the local fabric) Actions in favor of animal welfare  Actions to guarantee business ethics ",
             "blocks": [
                 3,
                 4,

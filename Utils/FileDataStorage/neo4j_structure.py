@@ -2,6 +2,8 @@ import os
 from neo4j import GraphDatabase
 import base64
 import json
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
@@ -96,17 +98,53 @@ class Neo4j_Structurizer:
             WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
             MERGE (b)-[:APPEARS_IN]->(s)
             """)
+ 
+    def neo4j_query_make_lemmetized_nodes(self, tx):
+        """Make lemmetized nodes in the Neo4j database."""
+        tx.run("""
+            // Make lemmetized nodes for Word nodes
+            MATCH (w:Word)
+            MERGE (l:LemmetizedWord {lemma: w.lemma})
+        """)
+
+        tx.run("""
+            // Make lemmetized nodes for Paragraph_Word nodes
+            MATCH (pw:Paragraph_Word)
+            MERGE (l2:LemmetizedWord {lemma: pw.lemma})
+        """)
+
+    def neo4j_query_connect_words_to_lemmetized_nodes(self, tx):
+        """Connect words to lemmetized nodes in the Neo4j database."""
+        tx.run("""
+            // Connect Word nodes to lemmetized nodes
+            MATCH (w:Word)
+            MATCH (l:LemmetizedWord {lemma: w.lemma})
+            MERGE (w)-[:IS_LEMMETIZED]->(l)
+        """)
+
+        tx.run("""
+            // Connect Paragraph_Word nodes to lemmetized nodes
+            MATCH (pw:Paragraph_Word)
+            MATCH (l2:LemmetizedWord {lemma: pw.lemma})
+            MERGE (pw)-[:IS_LEMMETIZED]->(l2)
+        """)
 
     def structurize_neo4j_database(self):       
-        """"Structurizes the Neo4j database. Puts Pages, blocks, lines and words in order. Connects matching words."""
+        """"Structurizes the Neo4j database."""
         with driver.session() as session:
             print("Making relations in between pages, blocks, lines and words. . . ")
             session.execute_write(self.neo4j_query_organize_pages)
+            print("Organizing blocks in order. . . ")
             session.execute_write(self.neo4j_query_organize_blocks)
-            #session.execute_write(self.neo4j_query_organize_lines)
+            print("Organizing words in order. . . ")
             session.execute_write(self.neo4j_query_organize_words)
             print("Matching similar words. . . ")
             session.execute_write(self.neo4j_query_connect_matching_words) 
-            session.execute_write(self.neo4j_query_connect_block)   
+            print("Connecting blocks to interpreted titles, subtitles, paragraphs and subtexts. . . ")
+            session.execute_write(self.neo4j_query_connect_block)  
+            print("Making lemmetized nodes. . . ")
+            session.execute_write(self.neo4j_query_make_lemmetized_nodes)
+            print("Connecting words to lemmetized nodes. . . ")
+            session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

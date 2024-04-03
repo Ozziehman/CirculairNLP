@@ -2,14 +2,18 @@ import os
 from neo4j import GraphDatabase
 import base64
 import json
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
+
 class Neo4j_Uploader:
     def __init__(self):
-        pass
-
+        nltk.download("wordnet")
+        self.lemmatizer = WordNetLemmatizer()
+    
     def neo4j_query_interpreted_structure(self, tx, file, json_block, metadata):
         last_title = None
         last_subtitle = None
@@ -21,7 +25,7 @@ class Neo4j_Uploader:
                 elif inner_key == "blocks":
                     blocks = inner_value
                 elif inner_key == "page_num":
-                    page_num = inner_value
+                    page_num = inner_value + 1  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
             if "title" in text_type and "sub" not in text_type:  # store title for future connection with subtitles and/or paragraphs
                 last_title = text
                 last_subtitle = None  # reset last subtitle when encountered new title
@@ -88,16 +92,24 @@ class Neo4j_Uploader:
             MERGE (w:Paragraph_Word {word: words[index], index: index, word_from_file: $file, page_num: p.page_num})
             MERGE (w)-[:BELONGS_TO]->(p)
         """, file=file)
+
+        paragraph_word_nodes = tx.run("MATCH (pw:Paragraph_Word {word_from_file: $file}) RETURN pw", file=file).data()
+
+        for node in paragraph_word_nodes:
+            word = node['pw']['word']
+            lemma = self.lemmatizer.lemmatize(word)
+            tx.run("MATCH (pw:Paragraph_Word {word: $word, word_from_file: $file}) SET pw.lemma = $lemma", word=word, lemma=lemma, file=file)
     
     def neo4j_query_text(self, tx, file, metadata, json_block):
         # get data from json block
         lines = json_block["lines"]
-        page_num = json_block["page_num"]
+        page_num = json_block["page_num"] + 1  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
         block_no = json_block["block_no"] 
         block_coords = json_block["coords"]
 
         words = lines.split()     
         for word_no, word in enumerate(words, start=0):
+            lemma = self.lemmatizer.lemmatize(word)
             tx.run("""
                 // Create a file node if it doesn't exist
                 MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
@@ -115,10 +127,10 @@ class Neo4j_Uploader:
                 MERGE (b)-[:CONTAINS]->(l)
                 
                 // Create a word node if it doesn't exist
-                MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, word_from_file: $file, word_no: $word_no})
+                MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, word_from_file: $file, word_no: $word_no, lemma: $lemma})
                 MERGE (l)-[:CONTAINS]->(w)
-            """, file=file, metadata=metadata, lines=lines, page_num=page_num+1,  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
-            block_no=block_no, word=word, word_no=word_no, block_coords=block_coords)    
+            """, file=file, metadata=metadata, lines=lines, page_num=page_num, 
+            block_no=block_no, word=word, word_no=word_no, block_coords=block_coords, lemma=lemma) 
         
     def neo4j_query_image(self, tx, file, metadata): 
         images = []

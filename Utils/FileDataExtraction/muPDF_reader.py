@@ -107,7 +107,7 @@ class muPDF_reader:
         return False
         
     def generate_paragraphs_per_page(self, file, garbage_filter: bool = True):
-        try:
+        # try:
             text_structure = {}
             for page_num, page in enumerate(file):
                     text_structure[f"page_{page_num}"] = {}
@@ -122,26 +122,27 @@ class muPDF_reader:
                                     all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
 
                     font_name_directory = defaultdict(str)
-                    paragraph_font = max(all_fonts, key=all_fonts.get)
-                    font_name_directory[paragraph_font] = 'paragraph'
-                    all_fonts = [font for font in all_fonts if font != paragraph_font]
 
                     if all_fonts:
-                        # Find the font with the highest size value for 'title'
-                        title_font = max(all_fonts, key=lambda x: x[1])
-                        font_name_directory[title_font] = 'title'
-                        all_fonts = [font for font in all_fonts if font != title_font]
-                        all_fonts.sort(key=lambda x: x[1], reverse=True)
+                        paragraph_font = max(all_fonts, key=all_fonts.get)
+                        font_name_directory[paragraph_font] = 'paragraph'
+                        all_fonts = [font for font in all_fonts if font != paragraph_font]
+                        if all_fonts:
+                            # Find the font with the highest size value for 'title'
+                            title_font = max(all_fonts, key=lambda x: x[1])
+                            font_name_directory[title_font] = 'title'
+                            all_fonts = [font for font in all_fonts if font != title_font]
+                            all_fonts.sort(key=lambda x: x[1], reverse=True)
 
-                        subtitle_counter = 1
-                        subtext_counter = 1
-                        for font in all_fonts:
-                            if font[1] > paragraph_font[1]:  # Larger than paragraph
-                                font_name_directory[font] = f'subtitle{subtitle_counter}'
-                                subtitle_counter += 1
-                            else:  # Smaller than paragraph
-                                font_name_directory[font] = f'subtext{subtext_counter}'
-                                subtext_counter += 1
+                            subtitle_counter = 1
+                            subtext_counter = 1
+                            for font in all_fonts:
+                                if font[1] > paragraph_font[1]:  # Larger than paragraph
+                                    font_name_directory[font] = f'subtitle{subtitle_counter}'
+                                    subtitle_counter += 1
+                                else:  # Smaller than paragraph
+                                    font_name_directory[font] = f'subtext{subtext_counter}'
+                                    subtext_counter += 1
                         font_name_directory = dict(font_name_directory)
 
                     font_occurrence = {}
@@ -164,12 +165,12 @@ class muPDF_reader:
                                         current[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_num': page_num}
                                         prev_font_size = font_key[1]
             return text_structure            
-        except Exception as e:
-            print(f"Error reading text from PDF: {e}")
-            return None
+        # except Exception as e:
+        #     print(f"Error reading text from PDF: {e}")
+        #     return None
         
     def generate_paragraphs_per_file(self, file, garbage_filter: bool = True):
-        try:
+        # try:
             text_structure = {}
             all_fonts = {}
             font_occurrence = {}
@@ -183,28 +184,32 @@ class muPDF_reader:
                                     key = (span['font'], span['size'])
                                     all_fonts[key] = all_fonts.get(key, 0) + len(span['text'])
 
-            font_name_directory = defaultdict(str)
-            paragraph_font = max(all_fonts, key=all_fonts.get)
-            font_name_directory[paragraph_font] = 'paragraph'
-            all_fonts = [font for font in all_fonts if font != paragraph_font]
+            if all_fonts:
+                font_name_directory = defaultdict(str)
+                paragraph_font = max(all_fonts, key=all_fonts.get)
+                font_name_directory[paragraph_font] = 'paragraph'
+                all_fonts = [font for font in all_fonts if font != paragraph_font]
 
-            # Find the font with the highest size value for 'title'
-            title_font = max(all_fonts, key=lambda x: x[1])
-            font_name_directory[title_font] = 'title'
+                if all_fonts:
+                    # Find the font with the highest size value for 'title'
+                    title_font = max(all_fonts, key=lambda x: x[1])
+                    font_name_directory[title_font] = 'title'
 
-            all_fonts = [font for font in all_fonts if font != title_font]
-            all_fonts.sort(key=lambda x: x[1], reverse=True)
+                    all_fonts = [font for font in all_fonts if font != title_font]
+                    all_fonts.sort(key=lambda x: x[1], reverse=True)
 
-            subtitle_counter = 1
-            subtext_counter = 1
-            for font in all_fonts:
-                if font[1] > paragraph_font[1]:  # Larger than paragraph
-                    font_name_directory[font] = f'subtitle{subtitle_counter}'
-                    subtitle_counter += 1
-                else:  # Smaller than paragraph
-                    font_name_directory[font] = f'subtext{subtext_counter}'
-                    subtext_counter += 1
-            font_name_directory = dict(font_name_directory)
+                    subtitle_counter = 1
+                    subtext_counter = 1
+                    for font in all_fonts:
+                        if font[1] > paragraph_font[1]:  # Larger than paragraph
+                            font_name_directory[font] = f'subtitle{subtitle_counter}'
+                            subtitle_counter += 1
+                        else:  # Smaller than paragraph
+                            font_name_directory[font] = f'subtext{subtext_counter}'
+                            subtext_counter += 1
+                font_name_directory = dict(font_name_directory)
+
+
             for page_num, page in enumerate(file):
                 page_info = page.get_textpage().extractDICT(sort=False)
                 for block in page_info['blocks']:
@@ -226,9 +231,9 @@ class muPDF_reader:
                                     text_structure[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_nums': [page_num]}
                                     prev_font_size = font_key[1]
             return text_structure            
-        except Exception as e:
-            print(f"Error reading text from PDF: {e}")
-            return None
+        # except Exception as e:
+        #     print(f"Error reading text from PDF: {e}")
+        #     return None
         
     def add_to_nested_dict(self, nested_dict, path, new_thing):
         current = nested_dict

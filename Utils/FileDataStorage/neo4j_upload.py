@@ -2,23 +2,114 @@ import os
 from neo4j import GraphDatabase
 import base64
 import json
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
+
 class Neo4j_Uploader:
     def __init__(self):
-        pass
+        nltk.download("wordnet")
+        self.lemmatizer = WordNetLemmatizer()
+    
+    def neo4j_query_interpreted_structure(self, tx, file, json_block, metadata):
+        last_title = None
+        last_subtitle = None
+        for key, value in json_block.items():
+            text_type = key
+            for inner_key, inner_value in value.items():
+                if inner_key == "text":
+                    text = inner_value
+                elif inner_key == "blocks":
+                    blocks = inner_value
+                elif inner_key == "page_num":
+                    page_num = inner_value + 1  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
+            if "title" in text_type and "sub" not in text_type:  # store title for future connection with subtitles and/or paragraphs
+                last_title = text
+                last_subtitle = None  # reset last subtitle when encountered new title
+                tx.run("""
+                    MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
+                    MERGE (p:Page {name: 'Page', page_num: $page_num, page_from_file: $file})
+                    MERGE (p)-[:BELONGS_TO]->(f)
+                    // Create a title node if it doesn't exist
+                    MERGE (t:Title {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, title_from_file: $file})
+                    MERGE (t)-[:BELONGS_TO]->(p)
+                    """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file, metadata=metadata)
+            elif "subtitle" in text_type:  # store subtitle for future connection with paragraphs
+                last_subtitle = text
+                tx.run("""
+                    // Create a subtitle node if it doesn't exist
+                    MERGE (s:Subtitle {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtitle_from_file: $file})
+                    """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
+                if last_title: # connect subtitle to the last encountered title if available
+                    tx.run("""
+                        // Create a title node if it doesn't exist
+                        MATCH (t:Title {text: $last_title, page_num: $page_num, title_from_file: $file})
+                        MATCH (s:Subtitle {text: $text, page_num: $page_num, subtitle_from_file: $file})
+                        MERGE (s)-[:BELONGS_TO]->(t)
+                        """, last_title=last_title, text=text, file=file, page_num=page_num)
+                else: # create standalone subtitle if no title is available
+                    tx.run("""
+                        // Create a subtitle node if it doesn't exist
+                        MERGE (s:Subtitle {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtitle_from_file: $file})
+                        """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
+            elif "paragraph" in text_type:  # connect paragraph to the last encountered subtitle if available
+                if last_subtitle:
+                    tx.run("""
+                        // Create a subtitle node if it doesn't exist
+                        MATCH (s:Subtitle {text: $last_subtitle, page_num: $page_num, subtitle_from_file: $file})
+                        MERGE (p:Paragraph {text: $text, blocks: $blocks, page_num: $page_num, paragraph_from_file: $file})
+                        MERGE (p)-[:BELONGS_TO]->(s)
+                        """, last_subtitle=last_subtitle, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
+                else: # create standalone paragraph if no subtitle is available
+                    tx.run("""
+                        // Create a paragraph node if it doesn't exist
+                        MERGE (p:Paragraph {text: $text, blocks: $blocks, page_num: $page_num, paragraph_from_file: $file})
+                        """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
+            elif "subtext" in text_type: # create standalone subtext as this is not reliable connected to any other node
+                tx.run("""
+                    // Create a subtext node if it doesn't exist
+                    MERGE (t:Subtext {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtext_from_file: $file})
+                    """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
+            else: print("error") # <<<<<<< wat is dit???? 💀
+                
+    def neo4j_query_unravel_paragraphs(self, tx, file):
+        """Make paragraph_word nodes from all words in a paragraph and connect each word to paragrahps with BELONGS_TO relation."""
+        tx.run("""
+            // Unravel paragraphs
+            MATCH (p:Paragraph {paragraph_from_file: $file})
+            MATCH (w:Paragraph_Word {word_from_file: $file})-[:BELONGS_TO]->(p)
+            MERGE (w)-[:BELONGS_TO]->(p)
+        """, file=file)
+
+        tx.run("""
+            // Split paragraph into Paragraph_Word nodes
+            MATCH (p:Paragraph {paragraph_from_file: $file})
+            WITH p, split(p.text, ' ') as words
+            UNWIND range(0, size(words)-1) as index
+            MERGE (w:Paragraph_Word {word: words[index], index: index, word_from_file: $file, page_num: p.page_num})
+            MERGE (w)-[:BELONGS_TO]->(p)
+        """, file=file)
+
+        paragraph_word_nodes = tx.run("MATCH (pw:Paragraph_Word {word_from_file: $file}) RETURN pw", file=file).data()
+
+        for node in paragraph_word_nodes:
+            word = node['pw']['word']
+            lemma = self.lemmatizer.lemmatize(word)
+            tx.run("MATCH (pw:Paragraph_Word {word: $word, word_from_file: $file}) SET pw.lemma = $lemma", word=word, lemma=lemma, file=file)
     
     def neo4j_query_text(self, tx, file, metadata, json_block):
         # get data from json block
         lines = json_block["lines"]
-        page_num = json_block["page_num"]
+        page_num = json_block["page_num"] + 1  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
         block_no = json_block["block_no"] 
         block_coords = json_block["coords"]
 
         words = lines.split()     
         for word_no, word in enumerate(words, start=0):
+            lemma = self.lemmatizer.lemmatize(word)
             tx.run("""
                 // Create a file node if it doesn't exist
                 MERGE (f:File {name: 'File', file: $file, metadata: $metadata})
@@ -36,76 +127,10 @@ class Neo4j_Uploader:
                 MERGE (b)-[:CONTAINS]->(l)
                 
                 // Create a word node if it doesn't exist
-                MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, word_from_file: $file, word_no: $word_no})
+                MERGE (w:Word {name: 'Word', word: $word, page_num: $page_num, block_no: $block_no, word_from_file: $file, word_no: $word_no, lemma: $lemma})
                 MERGE (l)-[:CONTAINS]->(w)
-            """, file=file, metadata=metadata, lines=lines, page_num=page_num+1,  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
-            block_no=block_no, word=word, word_no=word_no, block_coords=block_coords)
-    
-    def neo4j_query_organize_pages(self, tx):
-        """Organizes pages in order."""
-        tx.run("""
-            // Organize pages in order
-            MATCH (f:File)-[:CONTAINS]->(p:Page)
-            WITH f, p ORDER BY toInteger(p.page_num)
-            WITH f, collect(p) as pages
-            WITH f, apoc.coll.pairsMin(pages) as pairs
-            UNWIND pairs as pair
-            WITH f, pair[0] as page1, pair[1] as page2
-            MERGE (page1)-[:NEXT_PAGE]->(page2)
-        """)
-
-    def neo4j_query_organize_blocks(self, tx):
-        """Organizes blocks in order."""
-        tx.run("""
-            // Organize blocks in order
-            MATCH (p:Page)-[:CONTAINS]->(b:Block)
-            WITH p, b ORDER BY toInteger(b.block_no)
-            WITH p, collect(b) as blocks
-            WITH p, apoc.coll.pairsMin(blocks) as pairs
-            UNWIND pairs as pair
-            WITH pair[0] as block1, pair[1] as block2
-            MERGE (block1)-[:NEXT_BLOCK]->(block2)
-        """)
-
-    # def neo4j_query_organize_lines(self, tx):
-    #     """Organizes lines in order."""
-    #     tx.run("""
-    #         // Organize lines in order
-    #         MATCH (b:Block)-[:CONTAINS]->(l:line)
-    #         WITH b, l ORDER BY toInteger(l.line_no)
-    #         WITH b, collect(s) as lines
-            # WITH b, apoc.coll.pairsMin(lines) as pairs
-    #         UNWIND pairs as pair
-            # WITH pair[0] as line1, pair[1] as line2
-    #         MERGE (line1)-[:NEXT_LINE]->(line2)
-    #     """)
-
-    def neo4j_query_organize_words(self, tx):
-        """Organizes words in order."""
-        tx.run("""
-            // Organize words in order
-            MATCH (l:Lines)-[:CONTAINS]->(w:Word)
-            WITH l, w ORDER BY toInteger(w.word_no)
-            WITH l, collect(w) as words
-            WITH l, apoc.coll.pairsMin(words) as pairs
-            UNWIND pairs as pair
-            WITH pair[0] as word1, pair[1] as word2
-            MERGE (word1)-[:NEXT_WORD]->(word2)
-        """)
-
-    def neo4j_query_connect_matching_words(self, tx):
-        """Connects matching words in the Neo4j database, withing the same page."""
-        tx.run("""
-            // Connect matching words
-            MATCH (w1:Word)
-            // Parameters on what to match on, this can be changed but will heavily impact performance
-            WITH w1.word as word, w1.word_from_file as file, w1.page_num as page, collect(w1) as words
-            UNWIND words as w1
-            UNWIND words as w2
-            WITH w1, w2 WHERE id(w1) < id(w2)
-            MERGE (w1)-[:MATCHES]-(w2)
-        """)
-        
+            """, file=file, metadata=metadata, lines=lines, page_num=page_num, 
+            block_no=block_no, word=word, word_no=word_no, block_coords=block_coords, lemma=lemma) 
         
     def neo4j_query_image(self, tx, file, metadata): 
         images = []
@@ -157,10 +182,8 @@ class Neo4j_Uploader:
                 MERGE (p)-[:CONTAINS]->(t)
             """, file=file, table_name=table_name, page_num=page_num, table=table, metadata=metadata)
         
-    def upload_data(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool):
-        """Uploads data to Neo4j database."""
-        print(f"loaded: {output_file}")
-        # Upload text
+    def upload_text(self, output_file, upload_text: bool):
+        """Uploads text to Neo4j database."""
         if upload_text and os.path.exists(os.path.join(output_file, "extracted_text_blocks.json")):
             print("Uploading text to Neo4j.")
             with driver.session() as session:
@@ -176,9 +199,11 @@ class Neo4j_Uploader:
         else:
             if not upload_text:
                 print("Text upload disabled.")
-            print("No 'extracted_text_blocks.json' file found.")     
-        
-        # Upload tables
+            else:
+                print("No 'extracted_text_blocks.json' file found.")
+
+    def upload_tables(self, output_file, upload_tables: bool):
+        """Uploads tables to Neo4j database."""
         if upload_tables and os.path.exists(os.path.join(output_file, "tables")):
             print("Uploading tables to Neo4j.")
             with open(os.path.join(output_file, "metadata.json"), "r") as f:
@@ -189,9 +214,11 @@ class Neo4j_Uploader:
         else:
             if not upload_tables:
                 print("Table upload disabled.")
-            print("No tables found.")
-            
-        # Upload images
+            else:
+                print("No tables found.")
+
+    def upload_images(self, output_file, upload_images: bool):
+        """Uploads images to Neo4j database."""
         if upload_images and os.path.exists(os.path.join(output_file, "images")):
             print("Uploading images to Neo4j.")
             with open(os.path.join(output_file, "metadata.json"), "r") as f:
@@ -202,21 +229,43 @@ class Neo4j_Uploader:
         else:
             if not upload_images:
                 print("Image upload disabled.")
-            print("No images found.")
+            else:
+                print("No images found.")
 
-    def structurize_neo4j_database(self):       
-        """"Structurizes the Neo4j database. Puts Pages, blocks, lines and words in order. Connects matching words."""
-        with driver.session() as session:
-            print("Making relations in between pages, blocks, lines and words. . . ")
-            session.execute_write(self.neo4j_query_organize_pages)
-            session.execute_write(self.neo4j_query_organize_blocks)
-            #session.execute_write(self.neo4j_query_organize_lines)
-            session.execute_write(self.neo4j_query_organize_words)
-            print("Matching similar words. . . ")
-            session.execute_write(self.neo4j_query_connect_matching_words)    
-                
+    def upload_interpreted_structure(self, output_file, interpreted_structure: bool):
+        """Uploads data to Neo4j database."""
+
+        if interpreted_structure and os.path.exists(os.path.join(output_file, "page_layout_structured_per_page.json")):
+            print("Uploading interpreted structure to Neo4j.")
+            with driver.session() as session:
+                # Read text from file
+                with open(os.path.join(output_file, "metadata.json"), "r") as f:
+                    metadata = f.read()
+                with open(os.path.join(output_file, "page_layout_structured_per_page.json"), "r") as f:
+                    json_file = json.load(f)
+                for key, json_block in json_file.items():
+                    session.execute_write(self.neo4j_query_interpreted_structure, file=output_file, json_block=json_block, metadata=metadata)
+                # Get interpreted word structure to use in coreference
+                session.execute_write(self.neo4j_query_unravel_paragraphs, file=output_file)
+            print("Interpreted structure uploaded to Neo4j.")
+        else:
+            if not interpreted_structure:
+                print("Interpreted structure upload disabled.")
+            else:
+                print("No 'page_layout_structured_per_page.json' file found.")     
+      
     def find_page_number(self, input_string):
         substrings = input_string.split('_')
         return substrings[1]
+                
+    def upload_data(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool, interpreted_structure: bool):
+        """Uploads data to Neo4j database."""
+        # walk through all the options
+        print(f"\nloaded: {output_file}")
+        self.upload_text(output_file, upload_text)
+        self.upload_tables(output_file, upload_tables)
+        self.upload_images(output_file, upload_images)
+        self.upload_interpreted_structure(output_file, interpreted_structure)
     
+
 # delete all nodes:  MATCH (n) DETACH DELETE n

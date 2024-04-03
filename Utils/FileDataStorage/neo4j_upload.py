@@ -22,9 +22,7 @@ class Neo4j_Uploader:
                     blocks = inner_value
                 elif inner_key == "page_num":
                     page_num = inner_value
-
-            if "title" in text_type and "sub" not in text_type:
-                # store title for future connection with subtitles and/or paragraphs
+            if "title" in text_type and "sub" not in text_type:  # store title for future connection with subtitles and/or paragraphs
                 last_title = text
                 last_subtitle = None  # reset last subtitle when encountered new title
                 tx.run("""
@@ -35,31 +33,25 @@ class Neo4j_Uploader:
                     MERGE (t:Title {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, title_from_file: $file})
                     MERGE (t)-[:BELONGS_TO]->(p)
                     """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file, metadata=metadata)
-
-            elif "subtitle" in text_type:
-                # store subtitle for future connection with paragraphs
+            elif "subtitle" in text_type:  # store subtitle for future connection with paragraphs
                 last_subtitle = text
                 tx.run("""
                     // Create a subtitle node if it doesn't exist
                     MERGE (s:Subtitle {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtitle_from_file: $file})
                     """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-                # connect subtitle to the last encountered title if available
-                if last_title:
+                if last_title: # connect subtitle to the last encountered title if available
                     tx.run("""
                         // Create a title node if it doesn't exist
                         MATCH (t:Title {text: $last_title, page_num: $page_num, title_from_file: $file})
                         MATCH (s:Subtitle {text: $text, page_num: $page_num, subtitle_from_file: $file})
                         MERGE (s)-[:BELONGS_TO]->(t)
                         """, last_title=last_title, text=text, file=file, page_num=page_num)
-                else:
-                    # create standalone subtitle if no title is available
+                else: # create standalone subtitle if no title is available
                     tx.run("""
                         // Create a subtitle node if it doesn't exist
                         MERGE (s:Subtitle {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtitle_from_file: $file})
                         """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-
-            elif "paragraph" in text_type:
-                # connect paragraph to the last encountered subtitle if available
+            elif "paragraph" in text_type:  # connect paragraph to the last encountered subtitle if available
                 if last_subtitle:
                     tx.run("""
                         // Create a subtitle node if it doesn't exist
@@ -67,21 +59,17 @@ class Neo4j_Uploader:
                         MERGE (p:Paragraph {text: $text, blocks: $blocks, page_num: $page_num, paragraph_from_file: $file})
                         MERGE (p)-[:BELONGS_TO]->(s)
                         """, last_subtitle=last_subtitle, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-                else:
-                    # create standalone paragraph if no subtitle is available
+                else: # create standalone paragraph if no subtitle is available
                     tx.run("""
                         // Create a paragraph node if it doesn't exist
                         MERGE (p:Paragraph {text: $text, blocks: $blocks, page_num: $page_num, paragraph_from_file: $file})
                         """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-
-            elif "subtext" in text_type:
-                # create standalone subtext as this is not reliable connected to any other node
+            elif "subtext" in text_type: # create standalone subtext as this is not reliable connected to any other node
                 tx.run("""
                     // Create a subtext node if it doesn't exist
                     MERGE (t:Subtext {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtext_from_file: $file})
                     """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-            else:
-                print("error") # <<<<<<< wat is dit???? 💀
+            else: print("error") # <<<<<<< wat is dit???? 💀
                 
     def neo4j_query_unravel_paragraphs(self, tx, file):
         """Make paragraph_word nodes from all words in a paragraph and connect each word to paragrahps with BELONGS_TO relation."""
@@ -234,7 +222,6 @@ class Neo4j_Uploader:
 
     def upload_interpreted_structure(self, output_file, interpreted_structure: bool):
         """Uploads data to Neo4j database."""
-        print(f"loaded: {output_file}")
 
         if interpreted_structure and os.path.exists(os.path.join(output_file, "page_layout_structured_per_page.json")):
             print("Uploading interpreted structure to Neo4j.")
@@ -262,7 +249,7 @@ class Neo4j_Uploader:
     def upload_data(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool, interpreted_structure: bool):
         """Uploads data to Neo4j database."""
         # walk through all the options
-        print(f"loaded: {output_file}")
+        print(f"\nloaded: {output_file}")
         self.upload_text(output_file, upload_text)
         self.upload_tables(output_file, upload_tables)
         self.upload_images(output_file, upload_images)

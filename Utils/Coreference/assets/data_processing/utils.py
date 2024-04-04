@@ -2,7 +2,16 @@ import argparse
 import os
 import collections
 from os import path
-from assets.data_processing.constants import MODEL_TO_MAX_LEN, MODEL_TO_MODEL_STR
+import sys
+
+# Get the absolute path of the directory containing this script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Add the parent directory of the current directory to the Python path
+parent_directory = os.path.dirname(current_directory)
+sys.path.append(parent_directory)
+from Coreference.assets.data_processing.constants import MODEL_TO_MAX_LEN, MODEL_TO_MODEL_STR
+
 from transformers import LongformerTokenizerFast, AutoTokenizer
 
 

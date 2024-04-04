@@ -1,10 +1,22 @@
 import torch
 import torch.nn as nn
 
-from assets.model.mention_proposal import MentionProposalModule
-from assets.model.utils import get_gt_actions
-from assets.model.memory.entity_memory import EntityMemory
-from assets.model.memory.entity_memory_bounded import EntityMemoryBounded
+import sys
+import os
+
+# Get the absolute path of the directory containing this script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Add the parent directory of the current directory to the Python path
+parent_directory = os.path.dirname(current_directory)
+sys.path.append(parent_directory)
+
+# Now you should be able to import the modules
+from Coreference.assets.model.mention_proposal import MentionProposalModule
+from Coreference.assets.model.utils import get_gt_actions
+from Coreference.assets.model.memory.entity_memory import EntityMemory
+from Coreference.assets.model.memory.entity_memory_bounded import EntityMemoryBounded
+
 
 from typing import Dict, List, Tuple
 from omegaconf import DictConfig

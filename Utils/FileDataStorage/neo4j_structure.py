@@ -183,6 +183,6 @@ class Neo4j_Structurizer:
             print("Connecting words to lemmetized nodes. . . ")
             session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
             print("Resolving coreferences and connecting the words. . . ")
-            session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
+            session.execute_write(self.neo4j_query_resolve_coreferences_and_connect_words)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

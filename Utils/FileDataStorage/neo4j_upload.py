@@ -74,7 +74,7 @@ class Neo4j_Uploader:
                     // Create a subtext node if it doesn't exist
                     MERGE (t:Subtext {name: $text_type, text: $text, blocks: $blocks, page_num: $page_num, subtext_from_file: $file})
                     """, text=text, blocks=blocks, page_num=page_num, text_type=text_type, file=file)
-            else: print("error") # <<<<<<< wat is dit???? 💀
+            else: print("error")
       
     def neo4j_query_hierarchial_interpreted_structure(self, tx, file, json_block, metadata):
         for key, value in json_block.items():  
@@ -126,13 +126,6 @@ class Neo4j_Uploader:
                 
     def neo4j_query_unravel_paragraphs(self, tx, file):
         """Make paragraph_word nodes from all words in a paragraph and connect each word to paragrahps with BELONGS_TO relation."""
-        tx.run("""
-            // Unravel paragraphs
-            MATCH (p:Paragraph {paragraph_from_file: $file})
-            MATCH (w:Paragraph_Word {word_from_file: $file})-[:BELONGS_TO]->(p)
-            MERGE (w)-[:BELONGS_TO]->(p)
-        """, file=file)
-
         tx.run("""
             // Split paragraph into Paragraph_Word nodes
             MATCH (p:Paragraph {paragraph_from_file: $file})
@@ -315,7 +308,6 @@ class Neo4j_Uploader:
                 with open(os.path.join(output_file, "hierarchical_structure_for_file.json"), "r") as f:
                     json_file = json.load(f)
                     
-                # menno aub hier even naar kijken want ik uuuuuhhh ja 🦍
                 def process_json_block(json_block):
                     for key, value in json_block.items():
                         if isinstance(value, dict):

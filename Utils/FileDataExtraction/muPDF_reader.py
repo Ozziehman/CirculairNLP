@@ -5,16 +5,10 @@ print(fitz.__doc__)
 import json
 from collections import defaultdict
 import re
-import sys
 
 import nltk
 from nltk.corpus import words
 from nltk.stem import WordNetLemmatizer
-
-# Add parent directory to Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from Coreference.coreference_resolution import CoreferenceResolver
 
 
 # Download the words corpus if not already downloaded
@@ -29,9 +23,6 @@ class muPDF_reader:
     def __init__(self, file_path) -> None:
         self.filepath = file_path
         self.file = fitz.open(file_path)
-        coreference_model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Coreference")
-        self.coreference_resolver = CoreferenceResolver(coreference_model_path)
-        self.MIN_CHAR_FOR_COREF = 100
 
     def get_table_of_contents(self, file):
         return file.get_toc(False)
@@ -240,18 +231,6 @@ class muPDF_reader:
 
                                     text_structure[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_nums': [page_num]}
                                     prev_font_size = font_key[1]
-
-            # Coreference resolution
-            for paragraph_key, paragraph_data in text_structure.items():
-                if len(paragraph_data['text']) >= self.MIN_CHAR_FOR_COREF:
-                    resolved_paragraph = self.coreference_resolver.resolve_coreferences(paragraph_data['text'])
-                    if resolved_paragraph != []:
-                        paragraph_data['coref_connections'] = resolved_paragraph
-                    else:
-                        paragraph_data['coref_connections'] = None
-                else:
-                    paragraph_data['coref_connections'] = 'Unchecked'
-
             return text_structure 
                        
         # except Exception as e:

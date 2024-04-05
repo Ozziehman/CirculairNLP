@@ -4,13 +4,21 @@ import base64
 import json
 import nltk
 from nltk.stem import WordNetLemmatizer
+import sys
+
+# Add parent directory to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from Coreference.coreference_resolution import CoreferenceResolver
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
 class Neo4j_Structurizer:
     def __init__(self):
-        pass
+        coreference_model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Coreference")
+        self.coreference_resolver = CoreferenceResolver(coreference_model_path)
+        self.MIN_CHAR_FOR_COREF = 100
 
     def neo4j_query_organize_pages(self, tx):
         """Organizes pages in order."""
@@ -129,6 +137,34 @@ class Neo4j_Structurizer:
             MERGE (pw)-[:IS_LEMMETIZED]->(l2)
         """)
 
+    def neo4j_query_resolve_coreferences_and_connect_words(self, tx):
+        # Retrieve paragraphs from Neo4j
+        paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
+
+        for paragraph_node in paragraphs:
+            paragraph_text = paragraph_node['text']
+            if len(paragraph_text) >= self.MIN_CHAR_FOR_COREF:
+                resolved_coreferences = self.coreference_resolver.resolve_coreferences(paragraph_text)
+                if resolved_coreferences:
+                    # Iterate over resolved coreferences
+                    for location, word in resolved_coreferences:
+                        # Extract start and end indices
+                        start, end = location
+                        # Find the referred word
+                        referred_word = tx.run(
+                            "MATCH (p:Paragraph)-[:CONTAINS]->(w:Word) WHERE p = $paragraph_node AND w.word_no >= $start AND w.word_no <= $end AND w.word = $word RETURN w",
+                            paragraph_node=paragraph_node, start=start, end=end, word=word).single()
+                        if referred_word:
+                            referred_word_node = referred_word['w']
+                            # Connect the referring word to the referred word
+                            referring_word = tx.run(
+                                "MATCH (p:Paragraph)-[:CONTAINS]->(w:Word) WHERE p = $paragraph_node AND w.word_no = $start RETURN w",
+                                paragraph_node=paragraph_node, start=start).single()
+                            if referring_word:
+                                referring_word_node = referring_word['w']
+                                tx.run("MERGE (w1:Word {word_no: $referring_start})-[:REFERS_TO]->(w2:Word {word_no: $referred_start})",
+                                       referring_start=referring_word_node['word_no'], referred_start=referred_word_node['word_no'])
+
     def structurize_neo4j_database(self):       
         """"Structurizes the Neo4j database."""
         with driver.session() as session:
@@ -146,5 +182,7 @@ class Neo4j_Structurizer:
             session.execute_write(self.neo4j_query_make_lemmetized_nodes)
             print("Connecting words to lemmetized nodes. . . ")
             session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
+            print("Resolving coreferences and connecting the words. . . ")
+            session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

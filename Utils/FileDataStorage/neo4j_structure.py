@@ -88,22 +88,22 @@ class Neo4j_Structurizer:
     def neo4j_query_connect_block(self, tx):
         tx.run("""
             MATCH (b:Block), (t:Title)
-            WHERE b.block_no IN t.blocks AND b.page_num = t.page_num
+            WHERE b.block_no IN t.blocks AND b.page_num = t.page_num AND b.block_from_file = t.title_from_file
             MERGE (b)-[:APPEARS_IN]->(t)
             """)
         tx.run("""
             MATCH (b:Block), (s:Subtitle)
-            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num AND b.block_from_file = s.subtitle_from_file
             MERGE (b)-[:APPEARS_IN]->(s)
             """)
         tx.run("""
             MATCH (b:Block), (p:Paragraph)
-            WHERE b.block_no IN p.blocks AND b.page_num = p.page_num
+            WHERE b.block_no IN p.blocks AND b.page_num = p.page_num AND b.block_from_file = p.paragraph_from_file
             MERGE (b)-[:APPEARS_IN]->(p)
             """)
         tx.run("""
             MATCH (b:Block), (s:Subtext)
-            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num AND b.block_from_file = s.subtext_from_file
             MERGE (b)-[:APPEARS_IN]->(s)
             """)
  

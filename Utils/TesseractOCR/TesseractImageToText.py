@@ -1,7 +1,4 @@
 import os
-current_dir = os.path.dirname(__file__)
-os.chdir(current_dir)
-
 import pytesseract
 import PIL.Image
 import langdetect

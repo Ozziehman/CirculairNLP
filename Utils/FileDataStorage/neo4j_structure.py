@@ -88,22 +88,22 @@ class Neo4j_Structurizer:
     def neo4j_query_connect_block(self, tx):
         tx.run("""
             MATCH (b:Block), (t:Title)
-            WHERE b.block_no IN t.blocks AND b.page_num = t.page_num
+            WHERE b.block_no IN t.blocks AND b.page_num = t.page_num AND b.block_from_file = t.title_from_file
             MERGE (b)-[:APPEARS_IN]->(t)
             """)
         tx.run("""
             MATCH (b:Block), (s:Subtitle)
-            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num AND b.block_from_file = s.subtitle_from_file
             MERGE (b)-[:APPEARS_IN]->(s)
             """)
         tx.run("""
             MATCH (b:Block), (p:Paragraph)
-            WHERE b.block_no IN p.blocks AND b.page_num = p.page_num
+            WHERE b.block_no IN p.blocks AND b.page_num = p.page_num AND b.block_from_file = p.paragraph_from_file
             MERGE (b)-[:APPEARS_IN]->(p)
             """)
         tx.run("""
             MATCH (b:Block), (s:Subtext)
-            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num
+            WHERE b.block_no IN s.blocks AND b.page_num = s.page_num AND b.block_from_file = s.subtext_from_file
             MERGE (b)-[:APPEARS_IN]->(s)
             """)
  
@@ -142,28 +142,20 @@ class Neo4j_Structurizer:
         paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
 
         for paragraph_node in paragraphs:
-            paragraph_text = paragraph_node['text']
+            # Accessing the 'text' property correctly
+            paragraph_text = paragraph_node[0]['text']
             if len(paragraph_text) >= self.MIN_CHAR_FOR_COREF:
                 resolved_coreferences = self.coreference_resolver.resolve_coreferences(paragraph_text)
                 if resolved_coreferences:
-                    # Iterate over resolved coreferences
-                    for location, word in resolved_coreferences:
-                        # Extract start and end indices
-                        start, end = location
-                        # Find the referred word
-                        referred_word = tx.run(
-                            "MATCH (p:Paragraph)-[:CONTAINS]->(w:Word) WHERE p = $paragraph_node AND w.word_no >= $start AND w.word_no <= $end AND w.word = $word RETURN w",
-                            paragraph_node=paragraph_node, start=start, end=end, word=word).single()
-                        if referred_word:
-                            referred_word_node = referred_word['w']
-                            # Connect the referring word to the referred word
-                            referring_word = tx.run(
-                                "MATCH (p:Paragraph)-[:CONTAINS]->(w:Word) WHERE p = $paragraph_node AND w.word_no = $start RETURN w",
-                                paragraph_node=paragraph_node, start=start).single()
-                            if referring_word:
-                                referring_word_node = referring_word['w']
-                                tx.run("MERGE (w1:Word {word_no: $referring_start})-[:REFERS_TO]->(w2:Word {word_no: $referred_start})",
-                                       referring_start=referring_word_node['word_no'], referred_start=referred_word_node['word_no'])
+                    for cluster_id, cluster in enumerate(resolved_coreferences, 1):
+                        first_entity = cluster[0][1]
+                        tx.run("MERGE (e:Entity {name: $name})", name=first_entity)
+
+                        for mention, _ in cluster:
+                            tx.run("MATCH (pw:Paragraph_Word {mention: $mention}) "
+                                "MATCH (e:Entity {name: $entity_name}) "
+                                "MERGE (pw)-[:MENTIONS]->(e)", mention=_, entity_name=first_entity)
+
 
     def structurize_neo4j_database(self):       
         """"Structurizes the Neo4j database."""
@@ -183,6 +175,6 @@ class Neo4j_Structurizer:
             print("Connecting words to lemmetized nodes. . . ")
             session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
             print("Resolving coreferences and connecting the words. . . ")
-            session.execute_write(self.neo4j_query_resolve_coreferences_and_connect_words)
+            session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

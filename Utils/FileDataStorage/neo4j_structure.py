@@ -19,6 +19,7 @@ class Neo4j_Structurizer:
         coreference_model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Coreference")
         self.coreference_resolver = CoreferenceResolver(coreference_model_path)
         self.MIN_CHAR_FOR_COREF = 100
+        self.USE_COREF = True
 
     def neo4j_query_organize_pages(self, tx):
         """Organizes pages in order."""
@@ -142,7 +143,6 @@ class Neo4j_Structurizer:
         paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
 
         for paragraph_node in paragraphs:
-            # Accessing the 'text' property correctly
             paragraph_text = paragraph_node[0]['text']
             if len(paragraph_text) >= self.MIN_CHAR_FOR_COREF:
                 resolved_coreferences = self.coreference_resolver.resolve_coreferences(paragraph_text)
@@ -152,9 +152,10 @@ class Neo4j_Structurizer:
                         tx.run("MERGE (e:Entity {name: $name})", name=first_entity)
 
                         for mention, _ in cluster:
-                            tx.run("MATCH (pw:Paragraph_Word {mention: $mention}) "
+                            tx.run("MATCH (p:Paragraph)-[:BELONGS_TO]->(pw:Paragraph_Word {mention: $mention}) "
                                 "MATCH (e:Entity {name: $entity_name}) "
-                                "MERGE (pw)-[:MENTIONS]->(e)", mention=_, entity_name=first_entity)
+                                "MERGE (pw)-[:REFERS_TO]->(e)", mention=_, entity_name=first_entity)
+
 
 
     def structurize_neo4j_database(self):       
@@ -174,7 +175,8 @@ class Neo4j_Structurizer:
             session.execute_write(self.neo4j_query_make_lemmetized_nodes)
             print("Connecting words to lemmetized nodes. . . ")
             session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
-            print("Resolving coreferences and connecting the words. . . ")
-            session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
+            if self.USE_COREF == True:
+                print("Resolving coreferences and connecting the words. . . ")
+                session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

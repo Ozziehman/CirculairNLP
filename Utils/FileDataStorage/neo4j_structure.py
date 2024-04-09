@@ -152,9 +152,9 @@ class Neo4j_Structurizer:
                         tx.run("MERGE (e:Entity {name: $name})", name=first_entity)
 
                         for mention, _ in cluster:
-                            tx.run("MATCH (pw:Paragraph_Word {mention: $mention})-[:BELONGS_TO]->(p:Paragraph) "
+                            tx.run("MATCH (pw:Paragraph_Word {word: $word})-[:BELONGS_TO]->(p:Paragraph) "
                                 "MATCH (e:Entity {name: $entity_name}) "
-                                "MERGE (pw)-[:REFERS_TO]->(e)", mention=_, entity_name=first_entity)
+                                "MERGE (pw)-[:REFERS_TO]->(e)", word=_, entity_name=first_entity)
 
 
 

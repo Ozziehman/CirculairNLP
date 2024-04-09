@@ -9,7 +9,6 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 parent_directory = os.path.dirname(current_directory)
 sys.path.append(parent_directory)
 
-# Now you should be able to import submodules from the assets module
 from Coreference.assets.model.utils import action_sequences_to_clusters
 from Coreference.assets.model.entity_ranking_model import EntityRankingModel
 from Coreference.assets.inference.tokenize_doc import tokenize_and_segment_doc, basic_tokenize_doc

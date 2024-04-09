@@ -4,13 +4,22 @@ import base64
 import json
 import nltk
 from nltk.stem import WordNetLemmatizer
+import sys
+
+# Add parent directory to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from Coreference.coreference_resolution import CoreferenceResolver
 
 url = "neo4j://localhost:7687"
 driver = GraphDatabase.driver(url, auth=("neo4j", "password"))
 
 class Neo4j_Structurizer:
     def __init__(self):
-        pass
+        coreference_model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "Coreference")
+        self.coreference_resolver = CoreferenceResolver(coreference_model_path)
+        self.MIN_CHAR_FOR_COREF = 100
+        self.USE_COREF = True
 
     def neo4j_query_organize_pages(self, tx):
         """Organizes pages in order."""
@@ -129,6 +138,27 @@ class Neo4j_Structurizer:
             MERGE (pw)-[:IS_LEMMETIZED]->(l2)
         """)
 
+    def neo4j_query_resolve_coreferences_and_connect_words(self, tx):
+        # Retrieve paragraphs from Neo4j
+        paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
+
+        for paragraph_node in paragraphs:
+            paragraph_text = paragraph_node[0]['text']
+            if len(paragraph_text) >= self.MIN_CHAR_FOR_COREF:
+                resolved_coreferences = self.coreference_resolver.resolve_coreferences(paragraph_text)
+                if resolved_coreferences:
+                    for cluster_id, cluster in enumerate(resolved_coreferences, 1):
+                        first_entity = cluster[0][1]
+                        tx.run("MERGE (e:Entity {name: $name})", name=first_entity)
+
+                        for mention, _ in cluster:
+                            tx.run("MATCH (pw:Paragraph_Word {word: $word})-[:BELONGS_TO]->(p:Paragraph) "
+                                "MATCH (e:Entity {name: $entity_name}) "
+                                "MERGE (pw)-[:REFERS_TO]->(e)", word=_, entity_name=first_entity)
+
+
+
+
     def structurize_neo4j_database(self):       
         """"Structurizes the Neo4j database."""
         with driver.session() as session:
@@ -146,5 +176,8 @@ class Neo4j_Structurizer:
             session.execute_write(self.neo4j_query_make_lemmetized_nodes)
             print("Connecting words to lemmetized nodes. . . ")
             session.execute_write(self.neo4j_query_connect_words_to_lemmetized_nodes)
+            if self.USE_COREF == True:
+                print("Resolving coreferences and connecting the words. . . ")
+                session.write_transaction(self.neo4j_query_resolve_coreferences_and_connect_words)
                 
 # delete all nodes:  MATCH (n) DETACH DELETE n

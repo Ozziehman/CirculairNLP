@@ -10,6 +10,7 @@ import nltk
 from nltk.corpus import words
 from nltk.stem import WordNetLemmatizer
 
+
 # Download the words corpus if not already downloaded
 nltk.download('words')
 nltk.download('wordnet')
@@ -230,7 +231,8 @@ class muPDF_reader:
 
                                     text_structure[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_nums': [page_num]}
                                     prev_font_size = font_key[1]
-            return text_structure            
+            return text_structure 
+                       
         # except Exception as e:
         #     print(f"Error reading text from PDF: {e}")
         #     return None
@@ -349,3 +351,10 @@ class muPDF_reader:
 
     def main(self):
         self.process_pdf(self.file, self.filepath)
+
+
+""" if __name__ == "__main__":
+    pdf_reader = muPDF_reader("InputFiles/NASDAQ_CEVA_2021.pdf")
+
+    paragraphs_with_coref = pdf_reader.generate_paragraphs_per_file(pdf_reader.file) """
+

@@ -1,8 +1,18 @@
 import torch
 from os import path
-from assets.model.utils import action_sequences_to_clusters
-from assets.model.entity_ranking_model import EntityRankingModel
-from assets.inference.tokenize_doc import tokenize_and_segment_doc, basic_tokenize_doc
+import sys
+import os
+# Get the absolute path of the directory containing this script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Add the parent directory of the current directory to the Python path
+parent_directory = os.path.dirname(current_directory)
+sys.path.append(parent_directory)
+
+from Coreference.assets.model.utils import action_sequences_to_clusters
+from Coreference.assets.model.entity_ranking_model import EntityRankingModel
+from Coreference.assets.inference.tokenize_doc import tokenize_and_segment_doc, basic_tokenize_doc
+
 from omegaconf import OmegaConf
 from transformers import AutoModel, AutoTokenizer
 

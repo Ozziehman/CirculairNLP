@@ -1,6 +1,17 @@
 import os
 from pathlib import Path
-from assets.inference.model_inference import Inference
+import sys
+import os
+
+# Get the absolute path of the directory containing this script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Add the parent directory of the current directory to the Python path
+parent_directory = os.path.dirname(current_directory)
+sys.path.append(parent_directory)
+
+from Coreference.assets.inference.model_inference import Inference
+
 
 class CoreferenceResolver:
     def __init__(self, model_path):

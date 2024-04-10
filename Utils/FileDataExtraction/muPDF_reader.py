@@ -25,9 +25,11 @@ class muPDF_reader:
         self.file = fitz.open(file_path)
 
     def get_table_of_contents(self, file):
+        """Get the table of contents from the PDF file."""
         return file.get_toc(False)
 
     def get_tables(self, file):
+        """Get the tables from the PDF file."""
         output = [] # List of table, table number and page number triplets
         
         for page_num, page in enumerate(file):
@@ -37,6 +39,7 @@ class muPDF_reader:
         return output
 
     def read_text_from_pdf(self, file):
+        """Read text from the PDF file."""
         try:
             text = ""
             for page in file:
@@ -47,6 +50,7 @@ class muPDF_reader:
             return None
         
     def extract_textblocks_from_pdf(self, file):
+        """Extract text blocks from the PDF file."""
         try:
             text_blocks = []
             for page_num, page in enumerate(file):
@@ -69,9 +73,11 @@ class muPDF_reader:
             return None
 
     def get_metadata(self, file):
+        """Get the metadata of the PDF file."""
         return file.metadata
 
     def extract_images_from_pdf(self, file, output_folder):
+        """Extract images from the PDF file and save them in the output folder."""
         try:
             for page_num, page in enumerate(file):
                 image_list = page.get_images(full=True)
@@ -87,6 +93,7 @@ class muPDF_reader:
             print(f"Error extracting images from PDF: {e}")
 
     def extract_full_text_structure(self, file):
+        """Extract the full text structure from the PDF file."""
         try:
             full_dict = {}
             for page_num, page in enumerate(file):
@@ -97,6 +104,7 @@ class muPDF_reader:
             return None   
         
     def contains_english_word(self, input_string):
+        """Check if the input string contains an English word."""
         wnl = WordNetLemmatizer()
         words_in_string = nltk.word_tokenize(input_string.lower())
         words_in_string = [word for s in words_in_string for word in s.split("-")]
@@ -238,12 +246,14 @@ class muPDF_reader:
         #     return None
         
     def add_to_nested_dict(self, nested_dict, path, new_thing):
+        """Add a new thing to a nested dictionary at the specified path."""
         current = nested_dict
         for key in path[:-1]:
             current = current.setdefault(key, {})
         current[path[-1]] = new_thing
 
     def structure_paragraphs_per_file(self, text_structure):
+        """Structure the paragraphs per file in a hierarchical manner."""
         final_structured_text = {}
         current_path = []
         text_type_to_int = {
@@ -290,6 +300,7 @@ class muPDF_reader:
 
 
     def process_pdf(self, file, filepath):
+        """Process the PDF file and save the output in the OutputFiles folder."""
         text = self.read_text_from_pdf(file)
         if text:
             output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(filepath))[0])
@@ -353,8 +364,8 @@ class muPDF_reader:
         self.process_pdf(self.file, self.filepath)
 
 
-""" if __name__ == "__main__":
-    pdf_reader = muPDF_reader("InputFiles/NASDAQ_CEVA_2021.pdf")
+    # if __name__ == "__main__":
+    # pdf_reader = muPDF_reader("InputFiles/NASDAQ_CEVA_2021.pdf")
 
-    paragraphs_with_coref = pdf_reader.generate_paragraphs_per_file(pdf_reader.file) """
+    # paragraphs_with_coref = pdf_reader.generate_paragraphs_per_file(pdf_reader.file) 
 

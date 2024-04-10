@@ -139,6 +139,7 @@ class Neo4j_Structurizer:
         """)
 
     def neo4j_query_resolve_coreferences_and_connect_words(self, tx):
+        """Resolves coreferences and connects the words in the Neo4j database."""
         # Retrieve paragraphs from Neo4j
         paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
 

@@ -155,29 +155,39 @@ class Neo4j_Structurizer:
                                 "MATCH (e:Entity {name: $entity_name}) "
                                 "MERGE (pw)-[:REFERS_TO]->(e)", word=_, entity_name=first_entity)
                             
-    def neo4j_query_fetch_word_entity_mappings(self, tx, paragraph_text):
-        result = tx.run("MATCH (pw:Paragraph_Word)-[:BELONGS_TO]->(p:Paragraph {text: $paragraph_text}) "
+                            
+    def neo4j_query_fetch_word_entity_mappings(self, tx, paragraph_name):
+        query = tx.run("MATCH (pw:Paragraph_Word)-[:BELONGS_TO]->(p:Paragraph {name: $paragraph_name}) "
                         "MATCH (pw)-[:REFERS_TO]->(e:Entity) "
-                        "RETURN pw.word AS word, e.name AS entity_name", paragraph_text=paragraph_text)
-        return result
+                        "RETURN pw.word AS word, e.name AS entity_name", paragraph_name=paragraph_name)
+        paragraph_text = tx.run("MATCH (p:Paragraph {name: $paragraph_name}) return p.text AS text", paragraph_name=paragraph_name)
+        paragraph_text = paragraph_text.single()["text"]
+        return query, paragraph_text
 
-    def replace_pronouns_with_entities(self, tx, paragraph_text):
-        result = self.neo4j_query_fetch_word_entity_mappings(tx, paragraph_text)
-        
-        pronoun_map = {}
-        for record in result:
-            word = record["word"]
-            entity_name = record["entity_name"]
-            pronoun_map[word] = entity_name
+    def replace_pronouns_with_entities(self, tx, paragraph_name):
+        result, paragraph_text = self.neo4j_query_fetch_word_entity_mappings(tx, paragraph_name)
+        if paragraph_text:
+            pronoun_map = {}
+            for record in result:
+                word = record["word"]
+                entity_name = record["entity_name"]
+                pronoun_map[word] = entity_name
 
-        replaced_paragraph = []
-        for word in paragraph_text.split():
-            if word in pronoun_map:
-                replaced_paragraph.append(pronoun_map[word])
-            else:
-                replaced_paragraph.append(word)
-        
-        return ' '.join(replaced_paragraph)
+            replaced_paragraph = []
+            for word in paragraph_text.split():
+                if word in pronoun_map:
+                    replaced_paragraph.append(pronoun_map[word])
+                else:
+                    replaced_paragraph.append(word)
+            
+            return ' '.join(replaced_paragraph)
+        else:
+            print("Specified paragraph not found or empty")
+
+    def coref_replacement(self, id):
+        with driver.session() as session:
+            result = self.replace_pronouns_with_entities(session, id)
+            return result
 
 
 

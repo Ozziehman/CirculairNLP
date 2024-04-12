@@ -23,21 +23,26 @@ class CoreferenceInContext:
         self.n4l = n4l
 
     def input(self) -> str:
-        x = input("What's the ID of the paragraph you wish to fetch? \n")
-        return self.n4l.replace_pronouns_with_entities(x)
+        x = input("\nWhat's the name of the paragraph you wish to fetch? \nFor example: paragraph_1 \nInput: ")
+        text = self.n4l.entity_replacement(x)
+        return text
     
-    def grammar_check(self) -> str:
-        input = CoreferenceInContext.input()
+    def grammar_check(self, text) -> None:
+        input_text = text
         grammar_checker = language_tool_python.LanguageTool("en-US")
-        grammar_checker.close()
-        return print(grammar_checker.correct(input))
+        corrected_text = grammar_checker.correct(input_text)
+        print("New text:", corrected_text)
 
 
 if __name__ == "__main__":
-    #mprl = muPDF_reader_layer.muPDF_reader_layer()
-    #n4l = neo4j_layer.neo4j_layer()
+    mprl = muPDF_reader_layer.muPDF_reader_layer()
+    n4l = neo4j_layer.neo4j_layer()
     
-    #pipeline = Pipeline(mprl, n4l)
-    coref_in_context = CoreferenceInContext()
-    # pipeline.execute()
-    coref_in_context.grammar_check()
+    choice = input("Do you wish to load the full pipeline or apply coreference? \n 1 = Pipeline \n 2 = Coreference  \nInput: ")
+    if choice == '1':
+        pipeline = Pipeline(mprl, n4l)
+        pipeline.execute()
+        print("Pipeline Executed")
+    elif choice == '2':
+        coref_in_context = CoreferenceInContext(n4l)
+        coref_in_context.grammar_check(coref_in_context.input())

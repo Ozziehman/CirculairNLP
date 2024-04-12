@@ -1,6 +1,6 @@
 # IMPORT EVERYTHING HERE
-#from Utils.FileDataExtraction import muPDF_reader_layer
-#from Utils.FileDataStorage import neo4j_layer
+from Utils.FileDataExtraction import muPDF_reader_layer
+from Utils.FileDataStorage import neo4j_layer
 import language_tool_python
 
 class Pipeline:
@@ -19,11 +19,12 @@ class Pipeline:
         self.n4l.structurize_neo4j_database()
 
 class CoreferenceInContext:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, n4l) -> None:
+        self.n4l = n4l
 
-    def input() -> str:
-        return input("Please enter your text: \n")
+    def input(self) -> str:
+        x = input("What's the ID of the paragraph you wish to fetch? \n")
+        return self.n4l.replace_pronouns_with_entities(x)
     
     def grammar_check(self) -> str:
         input = CoreferenceInContext.input()

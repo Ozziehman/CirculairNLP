@@ -139,7 +139,6 @@ class Neo4j_Structurizer:
         """)
 
     def neo4j_query_resolve_coreferences_and_connect_words(self, tx):
-        # Retrieve paragraphs from Neo4j
         paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
 
         for paragraph_node in paragraphs:
@@ -155,6 +154,30 @@ class Neo4j_Structurizer:
                             tx.run("MATCH (pw:Paragraph_Word {word: $word})-[:BELONGS_TO]->(p:Paragraph) "
                                 "MATCH (e:Entity {name: $entity_name}) "
                                 "MERGE (pw)-[:REFERS_TO]->(e)", word=_, entity_name=first_entity)
+                            
+    def neo4j_query_fetch_word_entity_mappings(self, tx, paragraph_text):
+        result = tx.run("MATCH (pw:Paragraph_Word)-[:BELONGS_TO]->(p:Paragraph {text: $paragraph_text}) "
+                        "MATCH (pw)-[:REFERS_TO]->(e:Entity) "
+                        "RETURN pw.word AS word, e.name AS entity_name", paragraph_text=paragraph_text)
+        return result
+
+    def replace_pronouns_with_entities(self, tx, paragraph_text):
+        result = self.neo4j_query_fetch_word_entity_mappings(tx, paragraph_text)
+        
+        pronoun_map = {}
+        for record in result:
+            word = record["word"]
+            entity_name = record["entity_name"]
+            pronoun_map[word] = entity_name
+
+        replaced_paragraph = []
+        for word in paragraph_text.split():
+            if word in pronoun_map:
+                replaced_paragraph.append(pronoun_map[word])
+            else:
+                replaced_paragraph.append(word)
+        
+        return ' '.join(replaced_paragraph)
 
 
 

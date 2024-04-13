@@ -6,6 +6,7 @@ class muPDF_reader_layer:
         pass
     
     def ParseAllFiles(self, input_folder: str):
+        """Parse all pdf files in the input folder."""
         pdf_files = [f for f in os.listdir(input_folder) if f.endswith('.pdf')]
         for pdf_file in pdf_files:
             pdf_file_path = os.path.join(input_folder, pdf_file)

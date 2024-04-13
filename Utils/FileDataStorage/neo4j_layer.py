@@ -18,3 +18,8 @@ class neo4j_layer:
         """Structurize the neo4j database"""
         n4st = neo4j_structure.Neo4j_Structurizer()
         n4st.structurize_neo4j_database()
+        
+    def entity_replacement(self, id):
+        """ Replace all references to the entity within a specified paragraph with the entity """
+        n4st = neo4j_structure.Neo4j_Structurizer()
+        return n4st.coref_replacement(id)

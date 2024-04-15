@@ -7,3 +7,11 @@ Run the batch file: DownloadApocAndRunNeo4j.bat as administrator, be sure to che
 ## Usage
 
 For ease of use, use the main.py file in the root directory to run the program, this way you can easily access the modules and classes in the program.
+
+
+## Contributors
+
+- [Oscar Theelen](https://github.com/Ozziehman)
+- [Menno Rompelberg](https://github.com/MasterDisaster7)
+- [Axel Frederiks](https://github.com/ProgrammerGhostPrK)
+- [Jonah Siemers](https://github.com/Doomayy)

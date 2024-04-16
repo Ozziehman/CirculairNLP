@@ -17,7 +17,7 @@ python -m spacy download en_core_web_sm
 
 ## Usage
 
-For ease of use, use the main.py file in the root directory to run the program, this way you can easily access the modules and classes in the program.
+For ease of use, use the `main.py` file in the root directory to run the program, this way you can easily access the modules and classes in the program.
 
 ## Contributors
 

@@ -33,6 +33,7 @@ class CoreferenceInContext:
         grammar_checker = language_tool_python.LanguageTool("en-US")
         corrected_text = grammar_checker.correct(input_text)
         print("New text:", corrected_text)
+        return corrected_text
 
 
 if __name__ == "__main__":

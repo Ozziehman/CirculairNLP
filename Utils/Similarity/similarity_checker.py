@@ -13,7 +13,7 @@ class similarity_calculator:
     def __init__(self):
         pass
     
-    def text_similarity(text1, text2):
+    def text_similarity(self, text1, text2):
         # Tokenize and lemmatize the texts
         tokens1 = word_tokenize(text1)
         tokens2 = word_tokenize(text2)

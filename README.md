@@ -11,9 +11,9 @@ python -m spacy download en_core_web_sm
 
 3. Run the batch file: DownloadApocAndRunNeo4j.bat as administrator, be sure to check the contents of the file as the paths will need to be set accordingly
 
-`cd /d "C:\Program Files\neo4j-community-5.18.0\plugins"` change to the correct path of the plugins folder in your Neo4j installation
+   1. `cd /d "C:\Program Files\neo4j-community-5.18.0\plugins"` change to the correct path of the plugins folder in your Neo4j installation
 
-`cd /d "C:\Program Files\neo4j-community-5.18.0\bin"` change to the correct path of the bin folder in your Neo4j installation
+   2. `cd /d "C:\Program Files\neo4j-community-5.18.0\bin"` change to the correct path of the bin folder in your Neo4j installation
 
 ## Usage
 

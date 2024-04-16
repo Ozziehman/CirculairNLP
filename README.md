@@ -1,15 +1,16 @@
 ## Setup and Installation
+1. Clone the github repository, downloading the .zip will not work due to the use of lfs(large file storage)
 
-1. Execute following commands:
+2. Execute following commands:
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-2. Download lates version Neo4j Desktop from: https://neo4j.com/deployment-center/
+3. Download lates version Neo4j Desktop from: https://neo4j.com/deployment-center/
 
-3. Run the batch file: DownloadApocAndRunNeo4j.bat as administrator, be sure to check the contents of the file as the paths will need to be set accordingly
+4. Run the batch file: DownloadApocAndRunNeo4j.bat as administrator, be sure to check the contents of the file as the paths will need to be set accordingly
 
    1. `cd /d "C:\Program Files\neo4j-community-5.18.0\plugins"` change to the correct path of the plugins folder in your Neo4j installation
 

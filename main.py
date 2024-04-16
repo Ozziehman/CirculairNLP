@@ -43,10 +43,8 @@ if __name__ == "__main__":
         print("Pipeline Executed")
     elif choice == '2':
         coref_in_context = CoreferenceInContext()
-        coref_in_context.grammar_check(coref_in_context.input())
-
+        text = coref_in_context.grammar_check(coref_in_context.input())
         sim = similarity_checker.similarity_calculator()
-
-        text = coref_in_context.input()
+        print("Similarity between the input text and circularity corpus: ")
         print(sim.text_similarity(text, "Circularity environmental sustainability pivotal quest greener future. Recycling, upcycling, reusing resources paramount minimize waste conserve ecosystems. Circular economy models promote closed-loop systems products designed reused repurposed, reducing strain natural resources. Renewable energy sources solar wind power embody circular principles harnessing nature's resources depletion. Biodegradable materials offer sustainable alternative traditional plastics, fostering circular approach packaging waste management. Eco-friendly practices, composting rainwater harvesting, enhance circularity, ensuring harmonious relationship humanity environment."))
     

@@ -1,6 +1,5 @@
 import os
 import fitz
-print(fitz.__doc__)
 
 import json
 from collections import defaultdict
@@ -97,7 +96,7 @@ class muPDF_reader:
         try:
             full_dict = {}
             for page_num, page in enumerate(file):
-                full_dict[f"page_{page_num}"] = page.get_textpage().extractDICT(sort=True)
+                full_dict[f"page_{page_num}"] = page.get_textpage().extractDICT(sort=True) # True tries to read top to bottom, false tries to read left to right for columns and top to to bottom for columns
             return full_dict
         except Exception as e:
             print(f"Error reading text from PDF: {e}")
@@ -116,13 +115,26 @@ class muPDF_reader:
         return False
         
     def generate_paragraphs_per_page(self, file, garbage_filter: bool = True):
-        # try:
+        """
+        Generate paragraphs per page from a PDF file.
+
+        Args:
+            file (PDF file object): The PDF file to process.
+            garbage_filter (bool, optional): If True, filters out non-English text. Default is True.
+
+        Returns:
+            dict: A dictionary containing the structure of text per page, with paragraph identification and text content.
+
+        Raises:
+            Exception: If there is an error reading text from the PDF.
+        """
+        try:
             text_structure = {}
             for page_num, page in enumerate(file):
                     text_structure[f"page_{page_num}"] = {}
                     current = text_structure[f"page_{page_num}"]
                     all_fonts = {}
-                    page_info = page.get_textpage().extractDICT(sort=True)
+                    page_info = page.get_textpage().extractDICT(sort=True) # True tries to read top to bottom, false tries to read left to right for columns and top to to bottom for columns
                     for block in page_info['blocks']:
                         for line in block['lines']:
                             for span in line['spans']:
@@ -174,18 +186,31 @@ class muPDF_reader:
                                         current[text_key] = {'text': span['text'], 'blocks': [block_num], 'page_num': page_num}
                                         prev_font_size = font_key[1]
             return text_structure            
-        # except Exception as e:
-        #     print(f"Error reading text from PDF: {e}")
-        #     return None
+        except Exception as e:
+            print(f"Error reading text from PDF: {e}")
+            return None
         
     def generate_paragraphs_per_file(self, file, garbage_filter: bool = True):
-        # try:
+        """
+        Generate paragraphs filewide from a PDF file.
+
+        Args:
+            file (PDF file object): The PDF file to process.
+            garbage_filter (bool, optional): If True, filters out non-English text. Default is True.
+
+        Returns:
+            dict: A dictionary containing the structure of text for the file, with paragraph identification and text content.
+
+        Raises:
+            Exception: If there is an error reading text from the PDF.
+        """
+        try:
             text_structure = {}
             all_fonts = {}
             font_occurrence = {}
             prev_font_size = None
             for page_num, page in enumerate(file):
-                    page_info = page.get_textpage().extractDICT(sort=True)
+                    page_info = page.get_textpage().extractDICT(sort=True) # True tries to read top to bottom, false tries to read left to right for columns and top to to bottom for columns
                     for block in page_info['blocks']:
                         for line in block['lines']:
                             for span in line['spans']:
@@ -220,7 +245,7 @@ class muPDF_reader:
 
 
             for page_num, page in enumerate(file):
-                page_info = page.get_textpage().extractDICT(sort=True)
+                page_info = page.get_textpage().extractDICT(sort=True) # True tries to read top to bottom, false tries to read left to right for columns and top to to bottom for columns
                 for block in page_info['blocks']:
                     block_num = block['number']
                     for line in block['lines']:
@@ -241,9 +266,9 @@ class muPDF_reader:
                                     prev_font_size = font_key[1]
             return text_structure 
                        
-        # except Exception as e:
-        #     print(f"Error reading text from PDF: {e}")
-        #     return None
+        except Exception as e:
+            print(f"Error reading text from PDF: {e}")
+            return None
         
     def add_to_nested_dict(self, nested_dict, path, new_thing):
         """Add a new thing to a nested dictionary at the specified path."""
@@ -264,6 +289,7 @@ class muPDF_reader:
         }
 
         for segment_key, segment_value in text_structure.items():
+            # Use regular expressions to extract segment type and hierarchical number from the segment key
             matches = re.match(r'([a-zA-Z]+)([0-9]+)_([0-9]+)', segment_key)
             if matches:
                 segment_type = matches.group(1)
@@ -272,6 +298,7 @@ class muPDF_reader:
                 segment_type = re.match(r'([a-zA-Z]+)', segment_key).group(1)
                 hierarchical_number = 0
             
+            # Perform hierarchical structuring
             while True:
                 if current_path == []:
                     current_path.append(segment_key)
@@ -285,15 +312,19 @@ class muPDF_reader:
                     else:
                         last_segment_type = re.match(r'([a-zA-Z]+)', last).group(1)
                         last_hierarchical_number = 0
+                    # Compare the current segment type with the last segment type in the hierarchy
                     if text_type_to_int[last_segment_type] < text_type_to_int[segment_type]:
                         current_path.append(segment_key)
                         break
+                    # If the segment type matches and hierarchical number is greater, add to current path
                     elif last_segment_type == segment_type and last_hierarchical_number < hierarchical_number:
                         current_path.append(segment_key)
                         break
+                    # If none of the above conditions are met, remove the last element from the current path
                     else:
                         del current_path[-1]
 
+            # Add the segment value to the final structured text dictionary
             self.add_to_nested_dict(final_structured_text, current_path, segment_value)
 
         return final_structured_text
@@ -305,28 +336,33 @@ class muPDF_reader:
         if text:
             output_folder = os.path.join("OutputFiles", os.path.splitext(os.path.basename(filepath))[0])
             os.makedirs(output_folder, exist_ok=True)
+
+            # Write extracted text to a text file in the output folder
             with open(os.path.join(output_folder, "text.txt"), "w", encoding='utf-8') as text_file:
                 text_file.write(text)
             os.makedirs(os.path.join(output_folder, "images"), exist_ok=True)
 
+            # Extract text blocks from the PDF file and save as JSON
             blocks = self.extract_textblocks_from_pdf(file)
             with open(os.path.join(output_folder, 'extracted_text_blocks.json'), 'w') as blocks_file:
                 json.dump(blocks, blocks_file, indent=4)
 
+            # Extract metadata from the PDF file and save as JSON
             metadata = self.get_metadata(file)
             with open(os.path.join(output_folder, 'metadata.json'), 'w') as blocks_file:
                 json.dump(metadata, blocks_file, indent=4)
 
+            # Extract images from the PDF file and save in the images subfolder
             self.extract_images_from_pdf(file, output_folder)
 
+            # Get the table of contents from the PDF file
             toc = self.get_table_of_contents(self.file)
-
             if toc != []:
                 with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
                     json.dump(toc, toc_file, indent=4)
 
+            # If tables are found, save each table as a markdown file
             tabs = self.get_tables(file)
-
             if tabs != []:
                 tables_folder = os.path.join(output_folder, 'tables')
                 if not os.path.exists(tables_folder):
@@ -337,22 +373,25 @@ class muPDF_reader:
                     with open(os.path.join(tables_folder, table_filename), "w", encoding="utf-8") as table_file:
                         table_file.write(table_data.to_markdown())
             
+            # Extract full text structure from the PDF file and save as JSON
             file_dict = self.extract_full_text_structure(self.file)
             if file_dict:
                 with open(os.path.join(output_folder, "file_structured.json"), "w") as structured_file:
                     json.dump(file_dict, structured_file, indent=4)
 
+            # Generate paragraph structure per page and save as JSON
             structure_dict_for_page = self.generate_paragraphs_per_page(file)
             if structure_dict_for_page:
                 with open(os.path.join(output_folder, "page_layout_structured_per_page.json"), "w") as structured_file:
                     json.dump(structure_dict_for_page, structured_file, indent=4)
 
+            # Generate paragraph structure per file and save as JSON
             structure_dict_for_file = self.generate_paragraphs_per_file(file)
-
             if structure_dict_for_file:
                 with open(os.path.join(output_folder, "page_layout_structured_per_file.json"), "w") as structured_file:
                     json.dump(structure_dict_for_file, structured_file, indent=4)
 
+            # Structure paragraphs per file hierarchically and save as JSON
             hierarchical_structure_for_file = self.structure_paragraphs_per_file(structure_dict_for_file)
             if structure_dict_for_file:
                 with open(os.path.join(output_folder, "hierarchical_structure_for_file.json"), "w") as structured_file:
@@ -362,10 +401,3 @@ class muPDF_reader:
 
     def main(self):
         self.process_pdf(self.file, self.filepath)
-
-
-    # if __name__ == "__main__":
-    # pdf_reader = muPDF_reader("InputFiles/NASDAQ_CEVA_2021.pdf")
-
-    # paragraphs_with_coref = pdf_reader.generate_paragraphs_per_file(pdf_reader.file) 
-

@@ -77,6 +77,19 @@ class Neo4j_Uploader:
             else: print("error")
       
     def neo4j_query_hierarchial_interpreted_structure(self, tx, file, json_block, metadata):
+        """
+        Parses a hierarchical interpreted structure from a JSON block and stores it in a Neo4j graph database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            file (str): The name of the file being processed.
+            json_block (dict): The JSON block containing hierarchical interpreted structure.
+            metadata: Additional metadata related to the file.
+
+        Returns:
+            None
+
+        """
         for key, value in json_block.items():  
             #print(key)  
             text_type = key
@@ -125,7 +138,17 @@ class Neo4j_Uploader:
                         """, last_paragraph=self.last_paragraph, text=text, file=file, page_num=page_num)
                 
     def neo4j_query_unravel_paragraphs(self, tx, file):
-        """Make paragraph_word nodes from all words in a paragraph and connect each word to paragrahps with BELONGS_TO relation."""
+        """
+        Creates paragraph_word nodes from all words in a paragraph and connects each word to paragraphs with BELONGS_TO relation.
+
+        Args:
+            tx: The Neo4j transaction object.
+            file (str): The name of the file containing the paragraphs.
+
+        Returns:
+            None
+
+        """
         tx.run("""
             // Split paragraph into Paragraph_Word nodes
             MATCH (p:Paragraph {paragraph_from_file: $file})
@@ -143,6 +166,19 @@ class Neo4j_Uploader:
             tx.run("MATCH (pw:Paragraph_Word {word: $word, word_from_file: $file}) SET pw.lemma = $lemma", word=word, lemma=lemma, file=file)
     
     def neo4j_query_text(self, tx, file, metadata, json_block):
+        """
+        Stores text data into a Neo4j graph database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            file (str): The name of the file containing the text.
+            metadata: Additional metadata related to the file.
+            json_block (dict): The JSON block containing text data.
+
+        Returns:
+            None
+
+        """
         # get data from json block
         lines = json_block["lines"]
         page_num = json_block["page_num"] + 1  #page_num+1 because page_num starts from 0 in the json file this makes it match with tables and image
@@ -174,7 +210,19 @@ class Neo4j_Uploader:
             """, file=file, metadata=metadata, lines=lines, page_num=page_num, 
             block_no=block_no, word=word, word_no=word_no, block_coords=block_coords, lemma=lemma) 
         
-    def neo4j_query_image(self, tx, file, metadata): 
+    def neo4j_query_image(self, tx, file, metadata):
+        """
+        Stores image data into a Neo4j graph database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            file (str): The name of the file containing the images.
+            metadata: Additional metadata related to the file.
+
+        Returns:
+            None
+
+        """
         images = []
         image_dir = os.path.join(file, "images")
         image_files = os.listdir(image_dir)
@@ -200,6 +248,18 @@ class Neo4j_Uploader:
             """, file=file, image_name=image_name, page_num=page_num+1, image=image, metadata=metadata)
         
     def neo4j_query_table(self, tx, file, metadata):
+        """
+        Stores table data into a Neo4j graph database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            file (str): The name of the file containing the tables.
+            metadata: Additional metadata related to the file.
+
+        Returns:
+            None
+
+        """
         tables = []
         table_dir = os.path.join(file, "tables")
         table_files = os.listdir(table_dir)
@@ -225,7 +285,17 @@ class Neo4j_Uploader:
             """, file=file, table_name=table_name, page_num=page_num, table=table, metadata=metadata)
         
     def upload_text(self, output_file, upload_text: bool):
-        """Uploads text to Neo4j database."""
+        """
+        Uploads text to Neo4j database.
+
+        Args:    
+            output_file (str): The directory path where the text files are located.
+            upload_text (bool): Flag indicating whether text upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         if upload_text and os.path.exists(os.path.join(output_file, "extracted_text_blocks.json")):
             print("Uploading text to Neo4j.")
             with driver.session() as session:
@@ -245,7 +315,17 @@ class Neo4j_Uploader:
                 print("No 'extracted_text_blocks.json' file found.")
 
     def upload_tables(self, output_file, upload_tables: bool):
-        """Uploads tables to Neo4j database."""
+        """
+        Uploads tables to Neo4j database.
+
+        Args:   
+            output_file (str): The directory path where the table files are located.
+            upload_tables (bool): Flag indicating whether table upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         if upload_tables and os.path.exists(os.path.join(output_file, "tables")):
             print("Uploading tables to Neo4j.")
             with open(os.path.join(output_file, "metadata.json"), "r") as f:
@@ -260,7 +340,17 @@ class Neo4j_Uploader:
                 print("No tables found.")
 
     def upload_images(self, output_file, upload_images: bool):
-        """Uploads images to Neo4j database."""
+        """
+        Uploads images to Neo4j database.
+
+        Args:
+            output_file (str): The directory path where the image files are located.
+            upload_images (bool): Flag indicating whether image upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         if upload_images and os.path.exists(os.path.join(output_file, "images")):
             print("Uploading images to Neo4j.")
             with open(os.path.join(output_file, "metadata.json"), "r") as f:
@@ -275,8 +365,17 @@ class Neo4j_Uploader:
                 print("No images found.")
 
     def upload_interpreted_structure(self, output_file, interpreted_structure: bool):
-        """Uploads data to Neo4j database."""
+        """
+        Uploads interpreted structure data to Neo4j database.
 
+        Args:
+            output_file (str): The directory path where the interpreted structure files are located.
+            interpreted_structure (bool): Flag indicating whether interpreted structure upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         if interpreted_structure and os.path.exists(os.path.join(output_file, "page_layout_structured_per_page.json")):
             print("Uploading interpreted structure to Neo4j.")
             with driver.session() as session:
@@ -297,8 +396,17 @@ class Neo4j_Uploader:
                 print("No 'page_layout_structured_per_page.json' file found.")     
       
     def upload_hierarchial_interpreted_structure(self, output_file, interpreted_structure: bool):
-        """Uploads data to Neo4j database."""
+        """
+        Uploads hierarchical interpreted structure data to Neo4j database.
 
+        Args: 
+            output_file (str): The directory path where the hierarchical interpreted structure files are located.
+            interpreted_structure (bool): Flag indicating whether hierarchical interpreted structure upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         if interpreted_structure and os.path.exists(os.path.join(output_file, "hierarchical_structure_for_file.json")):
             print("Uploading interpreted structure to Neo4j.")
             with driver.session() as session:
@@ -335,11 +443,34 @@ class Neo4j_Uploader:
                 print("No 'page_layout_structured_per_page.json' file found.")    
       
     def find_page_number(self, input_string):
+        """
+        Extracts the page number from a string.
+
+        Args:  
+            input_string (str): The string containing the page number.
+
+        Returns:
+            str: The extracted page number.
+
+        """
         substrings = input_string.split('_')
         return substrings[1]
                 
     def upload_data(self, output_file, upload_text: bool, upload_tables: bool, upload_images: bool, interpreted_structure: bool):
-        """Uploads data to Neo4j database."""
+        """
+        Uploads data to Neo4j database.
+
+        Args:
+            output_file (str): The directory path where the data files are located.
+            upload_text (bool): Flag indicating whether text upload is enabled or not.
+            upload_tables (bool): Flag indicating whether table upload is enabled or not.
+            upload_images (bool): Flag indicating whether image upload is enabled or not.
+            interpreted_structure (bool): Flag indicating whether interpreted structure upload is enabled or not.
+
+        Returns:
+            None
+
+        """
         # walk through all the options
         print(f"\nloaded: {output_file}")
         # absolute data
@@ -350,6 +481,3 @@ class Neo4j_Uploader:
         # interpreted data
         #self.upload_interpreted_structure(output_file, interpreted_structure)
         self.upload_hierarchial_interpreted_structure(output_file, interpreted_structure)
-    
-
-# delete all nodes:  MATCH (n) DETACH DELETE n

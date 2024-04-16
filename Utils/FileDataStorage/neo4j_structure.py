@@ -139,6 +139,16 @@ class Neo4j_Structurizer:
         """)
 
     def neo4j_query_resolve_coreferences_and_connect_words(self, tx):
+        """
+        Resolves coreferences in paragraphs and connects words to entities in Neo4j database.
+
+        Args:
+            tx: The Neo4j transaction object.
+
+        Returns:
+            None
+
+        """
         paragraphs = tx.run("MATCH (p:Paragraph) RETURN p").values()
 
         for paragraph_node in paragraphs:
@@ -157,6 +167,17 @@ class Neo4j_Structurizer:
                             
                             
     def neo4j_query_fetch_word_entity_mappings(self, tx, paragraph_name):
+        """
+        Fetches word-entity mappings for a given paragraph from Neo4j database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            paragraph_name (str): The name of the paragraph.
+
+        Returns:
+            tuple: A tuple containing the query result and the text of the paragraph.
+
+        """
         query = tx.run("MATCH (pw:Paragraph_Word)-[:BELONGS_TO]->(p:Paragraph {name: $paragraph_name}) "
                         "MATCH (pw)-[:REFERS_TO]->(e:Entity) "
                         "RETURN pw.word AS word, e.name AS entity_name", paragraph_name=paragraph_name)
@@ -165,6 +186,18 @@ class Neo4j_Structurizer:
         return query, paragraph_text
 
     def replace_pronouns_with_entities(self, tx, paragraph_name):
+        """
+        Replaces pronouns in a paragraph with corresponding entities based on word-entity mappings from Neo4j database.
+
+        Args:
+            tx: The Neo4j transaction object.
+            paragraph_name (str): The name of the paragraph.
+
+        Returns:
+            str: The paragraph with pronouns replaced by entities.
+            None: If the specified paragraph is not found or empty.
+
+        """
         result, paragraph_text = self.neo4j_query_fetch_word_entity_mappings(tx, paragraph_name)
         if paragraph_text:
             pronoun_map = {}
@@ -185,6 +218,17 @@ class Neo4j_Structurizer:
             print("Specified paragraph not found or empty")
 
     def coref_replacement(self, id):
+        """
+        Performs coreference resolution and replaces pronouns with corresponding entities in a paragraph.
+
+        Args:
+            id: The identifier of the paragraph.
+
+        Returns:
+            str: The paragraph with pronouns replaced by entities.
+            None: If the specified paragraph is not found or empty.
+
+        """
         with driver.session() as session:
             result = self.replace_pronouns_with_entities(session, id)
             return result

@@ -357,9 +357,12 @@ class muPDF_reader:
 
             # Get the table of contents from the PDF file
             toc = self.get_table_of_contents(self.file)
-            if toc != []:
-                with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
-                    json.dump(toc, toc_file, indent=4)
+            try:
+                if toc != []:
+                    with open(os.path.join(output_folder, "table_of_contents.json"), "w") as toc_file:
+                        json.dump(toc, toc_file, indent=4)
+            except Exception as e:
+                print(f"Error extracting table of contents: {e}")
 
             # If tables are found, save each table as a markdown file
             tabs = self.get_tables(file)

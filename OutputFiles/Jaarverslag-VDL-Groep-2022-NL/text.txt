@@ -4,170 +4,171 @@ JAARVERSLAG
 VDL Groep B.V.
 Hoevenweg 1
 5652 AW  Eindhoven 
- +31 (0)40 292 50 00
-  info@vdlgroep.com
-  www.vdlgroep.com
+	 +31 (0)40 292 50 00
+ 	 info@vdlgroep.com
+ 	 www.vdlgroep.com
 KRACHT DOOR SAMENWERKING
 INHOUD
-Kerncijfers 
+Kerncijfers	
 3 
-Profiel VDL Groep 
+Profiel VDL Groep	
 4 
  
-Feiten & cijfers  
+Feiten & cijfers 	
 6
-Groepsschema 
+Groepsschema	
 7
  
-Bestuursverslag  
+Bestuursverslag 	
 8
-Omzet   
+Omzet 	
+	
 10
-Divisies  
+Divisies 	
 13
-Toeleveringen 
+Toeleveringen	
 14
-Autoassemblage 
+Autoassemblage	
 19
-Bussen  
+Bussen		
 22
-Eindproducten 
+Eindproducten	
 29
-Investeringen 
+Investeringen	
 39
-Nieuwe bedrijven en activiteiten  
+Nieuwe bedrijven en activiteiten 	
 42
-Innovatie 
+Innovatie	
 43
-Digitalisering  
+Digitalisering 	
 50
-Medewerkers  
+Medewerkers 	
 51
-Maatschappelijk verantwoord ondernemen 
+Maatschappelijk verantwoord ondernemen	
 55
-Duurzaamheid  
+Duurzaamheid 	
 60
-Bedrijfsrisico's  
+Bedrijfsrisico's 	
 67
-Strategie  
+Strategie 	
 70
-Bestuur en toezicht  
+Bestuur en toezicht 	
 70
-Vooruitzichten  
+Vooruitzichten 	
 72
-Bericht van de Raad van Commissarissen 
+Bericht van de Raad van Commissarissen	
 74
-Jaarrekening 2022 
+Jaarrekening 2022	
 76
-Geconsolideerde balans 
+Geconsolideerde balans	
 78
-Geconsolideerde winst- en verliesrekening 
+Geconsolideerde winst- en verliesrekening	
 80
-Samengevat geconsolideerd kasstroomoverzicht  
+Samengevat geconsolideerd kasstroomoverzicht 	
 81
-Grondslagen voor waardering en resultaatbepaling  
+Grondslagen voor waardering en resultaatbepaling 	
 82
-Controleverklaring  
+Controleverklaring 	
 98
-Bedrijven VDL Groep  
+Bedrijven VDL Groep 	
 99
 2
 KERNCIJFERS
 (x 1.000 euro)
- 
-2022 
-2021 
-2020 
-2019 
+	
+2022	
+2021	
+2020	
+2019	
 2018
-Gecombineerde omzet 
-5.751.762 
-4.954.984 
-4.686.299 
-5.779.885 
+Gecombineerde omzet	
+5.751.762	
+4.954.984	
+4.686.299	
+5.779.885	
 5.973.358
-Netto-omzet 
-5.477.203 
-4.708.569 
-4.583.887 
-5.610.386 
+Netto-omzet	
+5.477.203	
+4.708.569	
+4.583.887	
+5.610.386	
 5.856.200
-Bedrijfsresultaat 
-403.212 
-299.990 
-135.115 
-205.319 
+Bedrijfsresultaat	
+403.212	
+299.990	
+135.115	
+205.319	
 204.936
-Winst voor belastingen 
-395.295 
-300.268 
-132.769 
-203.105 
+Winst voor belastingen	
+395.295	
+300.268	
+132.769	
+203.105	
 225.176
-Winst voor belasting / omzet 
-6,9% 
-6,1% 
-2,8% 
-3,5% 
+Winst voor belasting / omzet	
+6,9%	
+6,1%	
+2,8%	
+3,5%	
 3,8%
-Netto winst 
-297.804 
-225.048 
-97.365 
-156.162 
+Netto winst	
+297.804	
+225.048	
+97.365	
+156.162	
 178.188
-Netto winst / omzet 
-5,2% 
-4,5% 
-2,1% 
-2,7% 
+Netto winst / omzet	
+5,2%	
+4,5%	
+2,1%	
+2,7%	
 3,0%
-Afschrijvingen op (im)materiële vaste activa 
-101.270 
-101.485 
-107.879 
-110.092 
+Afschrijvingen op (im)materiële vaste activa	
+101.270	
+101.485	
+107.879	
+110.092	
 98.176
-Cashflow 
-399.074 
-326.533 
-205.244 
-266.254 
+Cashflow	
+399.074	
+326.533	
+205.244	
+266.254	
 276.364
-(Des)investeringen (im)materiële vaste activa 232.236 
-130.973 
-122.529 
-127.884 
+(Des)investeringen (im)materiële vaste activa	 232.236	
+130.973	
+122.529	
+127.884	
 119.640
-Eigen vermogen 
-1.950.367 
-1.725.041 
-1.490.466 
-1.452.319 
+Eigen vermogen	
+1.950.367	
+1.725.041	
+1.490.466	
+1.452.319	
 1.352.143
-Totaal vermogen 
-3.352.480 
-3.008.812 
-2.452.608 
-2.329.998 
+Totaal vermogen	
+3.352.480	
+3.008.812	
+2.452.608	
+2.329.998	
 2.348.113
-Eigen vermogen / totaal vermogen 
-58,2% 
-57,3% 
-60,8% 
-62,3% 
+Eigen vermogen / totaal vermogen	
+58,2%	
+57,3%	
+60,8%	
+62,3%	
 57,6%
-Netto winst / eigen vermogen 
-15,3% 
-13,0% 
-6,5% 
-10,8% 
+Netto winst / eigen vermogen	
+15,3%	
+13,0%	
+6,5%	
+10,8%	
 13,2%
-Medewerk(st)ers per 31 december 
-16.585 
-15.645 
-15.464 
-15.734 
+Medewerk(st)ers per 31 december	
+16.585	
+15.645	
+15.464	
+15.734	
 16.854
 3
 4
@@ -220,11 +221,13 @@ producten die
 VDL maakt, wordt 
 geëxporteerd naar 
 112 landen over 
- de hele wereld.
+de hele wereld.
+
 112
 VDL Groep staat in de top 6 op de 
 Nederlandse reputatieranglijst 
-Bron: RepTrak
+Bron: RepTrak
+
 6
 TOP
 5,8 miljard
@@ -240,7 +243,8 @@ Nettowinst €
 VDL Groep bestaat uit meer dan 100 bedrijven
           
            
-      
+     
+ 
      100+
  
  
@@ -474,28 +478,28 @@ De gecombineerde omzet in 2022 is uitgekomen op 5,752 miljard euro, een stijging
 opzichte van de jaaromzet van 2021 (4,955 miljard euro). De onderlinge leveringen zijn iets toegenomen 
 ten opzichte van een jaar eerder. De geconsolideerde omzet is daarmee uitgekomen op 5,477 miljard euro. 
 In 2021 bedroeg die 4,709 miljard euro.
- 
-2022  
- 
+	
+2022 	
+	
 2021
- 
-euro mln  
- 
+	
+euro mln 	
+	
 euro mln
-Gecombineerde omzet  
-5.752  
- 
-4.955  
-Onderlinge leveringen  
--275 
- 
+Gecombineerde omzet 	
+5.752 	
+	
+4.955 	
+Onderlinge leveringen 	
+-275	
+	
 -246
- 
- 
- 
-Geconsolideerde omzet  
-5.477 
- 
+	
+	
+	
+Geconsolideerde omzet 	
+5.477	
+	
 4.709
 Wanneer we kijken naar de verdeling tussen leveringen voor binnen- en buitenland, zien we dat  
 71 procent van de omzet in 2022 is behaald buiten Nederland (3,898 miljard euro) ten opzichte van  
@@ -505,31 +509,31 @@ opzichte van een jaar eerder.
 10
 11
 12
- 
-2022 
- 
+	
+2022	
+	
 2021
-  
-euro mln 
-%  
-euro mln 
+ 	
+euro mln	
+% 	
+euro mln	
 %
-Buitenland  
-3.898 
-71 
-3.526 
-75 
-Binnenland  
-1.579 
-29 
-1.182 
-25 
- 
- 
- 
- 
-5.477 
- 
+Buitenland 	
+3.898	
+71	
+3.526	
+75	
+Binnenland 	
+1.579	
+29	
+1.182	
+25	
+	
+	
+	
+	
+5.477	
+	
 4.708
 In 2022 hebben we aan 112 landen producten en diensten geëxporteerd. Verdeeld over de continenten 
 ziet de omzetverdeling er als volgt uit: Europa 3.215 miljoen euro, Azië 473 miljoen euro, Amerika 171 
@@ -557,50 +561,51 @@ Italië   20
 Finland   18
 Spanje   17
 Hong Kong   17
-Overig    196
+Overig 
+   196
 OMZET PER LAND
 (in miljoenen euro)
 DIVISIES
 Als we de gecombineerde omzet van VDL Groep opsplitsen naar de verschillende divisies, is te zien dat we 
-op alle fronten zijn gegroeid ten opzichte van 2021, maar vooral de forse groei in de semiconductor-
+op alle fronten zijn gegroeid ten opzichte van 2021, maar vooral de forse groei in de semiconductor­
 industrie heeft in de divisies Toeleveringen en Eindproducten tot een omzetstijging geleid. 
- 
-2022  
- 
+	
+2022 	
+	
 2021
- 
-euro mln  
-%  
-euro mln  
+	
+euro mln 	
+% 	
+euro mln 	
 %
-Toeleveringen 
-2.411 
-42 
-1.851 
-37  
-Autoassemblage 
-2.085 
-36 
-2.051 
-41 
-Bussen 
-454 
-8 
-384 
-8 
-Eindproducten 
-802 
-14 
-669 
-14 
- 
- 
- 
- 
-5.752 
- 
-4.955 
- 
+Toeleveringen	
+2.411	
+42	
+1.851	
+37 	
+Autoassemblage	
+2.085	
+36	
+2.051	
+41	
+Bussen	
+454	
+8	
+384	
+8	
+Eindproducten	
+802	
+14	
+669	
+14	
+	
+	
+	
+	
+5.752	
+	
+4.955	
+	
 13
 TOELEVERINGEN 
 De omzet van de divisie Toeleveringen is met 30 procent gestegen naar 2.411 miljoen euro in 2022  
@@ -614,43 +619,43 @@ terughalen van activiteiten naar het eigen land) overal ter wereld meer wordt to
 VDL-toeleveringsbedrijven in drie continenten zijn gevestigd, zijn we in staat om onze klanten wereldwijd 
 lokaal te beleveren zodat minder impact wordt ervaren van geopolitieke ontwikkelingen. De divisie 
 Toeleveringen heeft het jaar 2022 winstgevend afgesloten. 
- 
-2022  
- 
+	
+2022 	
+	
 2021
- 
-euro mln 
-%  
-euro mln 
+	
+euro mln	
+% 	
+euro mln	
 %
-Mechatronische systemen 
-1.722 
-71 
-1.321 
-71 
-Metaalbewerking  
-533 
-22 
-406 
-22 
-Kunststofverwerking  
-143 
-6 
-115 
-6 
-Oppervlaktebehandeling  
-13 
-1 
-9 
-1 
- 
- 
- 
- 
-2.411 
- 
-1.851 
-  
+Mechatronische systemen	
+1.722	
+71	
+1.321	
+71	
+Metaalbewerking 	
+533	
+22	
+406	
+22	
+Kunststofverwerking 	
+143	
+6	
+115	
+6	
+Oppervlaktebehandeling 	
+13	
+1	
+9	
+1	
+	
+	
+	
+	
+2.411	
+	
+1.851	
+ 	
 Mechatronische systemen 
 Metaalbewerking 
   
@@ -666,7 +671,8 @@ TOELEVERINGEN
 (omzet per sector)
 De verwachtingen voor de divisie Toeleveringen zijn positief. In het eerste kwartaal van 2023 is de 
 omzet van de divisie Toeleveringen gestegen van 517 miljoen euro (2022) naar 673 miljoen euro. 
-De order portefeuille is in 12 maanden opgelopen van 843 miljoen euro in week 13 van 2022 naar 
+De order­
+portefeuille is in 12 maanden opgelopen van 843 miljoen euro in week 13 van 2022 naar 
 927 miljoen euro in week 13 van 2023.
 14
 Mechatronische systemen en modulebouw
@@ -674,7 +680,8 @@ Door de explosieve vraag naar chips en dus naar machines in de halfgeleiderindus
 bedrijven in deze sector opnieuw een enorme groei doorgemaakt. De omzet van de sector mechatronische 
 systemen en modulebouw is mede daardoor in 2022 verder gestegen naar 1.722 miljoen euro ten opzichte 
 van 1.321 miljoen euro in 2021, een stijging van 30 procent. Ondanks sterke macro-economische 
-tegenwind, zoals tekorten in de wereld wijde toeleveringsketens, zijn we in staat geweest om de prognoses 
+tegenwind, zoals tekorten in de wereld­
+wijde toeleveringsketens, zijn we in staat geweest om de prognoses 
 van onze belangrijkste klanten en partners uit te voeren. Aangezien de technologieën en diensten van VDL 
 ETG van cruciaal belang zijn voor veel toonaangevende bedrijven op het gebied van halfgeleider- en 
 analyseapparatuur, brengt dit grote verantwoordelijkheden voor ons bedrijf met zich mee. De EUV-
@@ -703,7 +710,8 @@ innovatiecluster van het Paul Scherer Instituut in Zwitserland, genaamd Park Inn
 we kennis en technologie die nodig zijn om ontwikkelingen in de halfgeleiderapparatuur te versnellen en 
 voort te zetten. Door intensieve samenwerkingen met kennis- en onderzoeksinstellingen als deze kunnen 
 wij onze positie als voorkeursleverancier voor onze klanten behouden en verder uitbouwen. 
-Momenteel heeft VDL ETG productiefaciliteiten in zowel China als Singapore. Vanwege onzeker heden 
+Momenteel heeft VDL ETG productiefaciliteiten in zowel China als Singapore. Vanwege onzeker­
+heden 
 als gevolg van de geopolitieke situatie worden bestaande faciliteiten opnieuw gepositioneerd en wordt 
 tegelijkertijd ruimte gecreëerd voor het eventueel openen van extra faciliteiten. Wij zijn ervan overtuigd 
 dat een 'regio-voor-regio'-benadering cruciaal is voor de ondersteuning van onze klanten die wereldwijd 
@@ -720,7 +728,8 @@ Metaalbewerking een omzetgroei van 31 procent weten te realiseren. In 2022 is de
 andere markten zoals de automobiel- en truckmarkt, voedselverwerkende industrie en infrastructuur zijn 
 gegroeid. Om onze klanten zo goed mogelijk te bedienen en meerwaarde te leveren, ligt onze focus veelal 
 op steeds complexere producten en meer complete samenstellingen. Al dan niet geïntegreerd met 
-elektronica en software. In 2022 is veel geïnvesteerd in nieuwe machines, verdere automati sering en 
+elektronica en software. In 2022 is veel geïnvesteerd in nieuwe machines, verdere automati­
+sering en 
 digitalisering van productieprocessen en verbetering van kwaliteitsprocessen. In april 2022 is het online 
 platform OrderOn.com live gegaan. Op dit platform kunnen klanten in een afgeschermde omgeving 
 tekeningen uploaden voor de metaalbewerkingen lasersnijden en kanten, hiervan direct online een offerte 
@@ -766,10 +775,13 @@ Oppervlaktebehandeling
 De omzet in de sector Oppervlaktebehandeling is gestegen van 9 naar 13 miljoen euro in 2022. Ondanks 
 prijsstijgingen van grondstoffen en energie is in deze sector een omzetstijging gerealiseerd door diverse 
 orders voor het lakken van kunststofdelen en de assemblage van gelakte delen. Om de gewenste kwaliteit 
-voor onze klanten te blijven garanderen, zijn in 2022 diverse investeringen gedaan in mede werkers, 
-digitalisering en machines. Bijvoorbeeld in een automatische verpakkingslijn met weeg mogelijkheid om de 
+voor onze klanten te blijven garanderen, zijn in 2022 diverse investeringen gedaan in mede­
+werkers, 
+digitalisering en machines. Bijvoorbeeld in een automatische verpakkingslijn met weeg­
+mogelijkheid om de 
 aantallen per verpakkingseenheid goed te kunnen monitoren en in een nieuwe ultrafiltraat-installatie voor de 
-bestaande kataforeselijn. De vooruitzichten voor de sector Oppervlakte behandeling zijn goed. Echter, op de 
+bestaande kataforeselijn. De vooruitzichten voor de sector Oppervlakte­
+behandeling zijn goed. Echter, op de 
 huidige locatie van VDL Laktechniek is de maximale productie- en magazijncapaciteit bereikt. Er worden 
 plannen gemaakt om op termijn te verhuizen naar een andere locatie om verdere groei te kunnen realiseren. 
 17
@@ -788,9 +800,9 @@ productievolume (complete voertuigen en bodies/CKD’s) gedurende het afgelopen 
 In 2022 is er ook een aantal hoogtepunten geweest. Zo is in juni 2022 de 1.000.000ste auto geproduceerd 
 sinds de start van de samenwerking met BMW Group in 2014. Tevens zijn alle gestelde doelen op het gebied 
 van kwaliteit, leverbetrouwbaarheid en flexibiliteit behaald. Hiervoor heeft BMW wederom erkentelijkheid 
-uitgesproken. In 2022 is VDL Nedcar opnieuw bekroond met drie awards door het gerenommeerde onder-
+uitgesproken. In 2022 is VDL Nedcar opnieuw bekroond met drie awards door het gerenommeerde onder­
 zoeksinstituut J.D. Powers: de door VDL Nedcar geproduceerde MINI Cooper werd als beste beoordeeld op de 
-aspecten ‘initial quality’ en ‘appeal’ en de fabriek van VDL Nedcar is verkozen tot tweede beste automobiel-
+aspecten ‘initial quality’ en ‘appeal’ en de fabriek van VDL Nedcar is verkozen tot tweede beste automobiel­
 fabriek in Europa en Afrika. 
 Als onafhankelijk autobouwer beweegt VDL Nedcar mee met marktfluctuaties. Het totaal aantal medewerkers 
 bij VDL Nedcar is van 4.255 medewerkers eind 2021 gedaald naar 3.983 medewerkers eind 2022. Gedurende 
@@ -798,32 +810,33 @@ het jaar 2022 heeft VDL Nedcar voor BMW Group de MINI Cabrio, MINI Countryman, M
 en de BMW X1 gebouwd. De productie van dit laatste model is volgens schema geëindigd in juni 2022. De 
 omzet van de divisie Autoassemblage is in 2022 licht gegroeid: van 2.051 miljoen euro in 2021 naar 2.085 
 miljoen euro in 2022, een stijging van 2 procent. De divisie Autoassemblage is in 2022 winstgevend geweest.
- 
-2022 
- 
+	
+2022	
+	
 2021
-  
-euro mln  
-%  
-euro mln  
+ 	
+euro mln 	
+% 	
+euro mln 	
 %
-Autoassemblage 
-2.085  
-100 
-2.051  
+Autoassemblage	
+2.085 	
+100	
+2.051 	
 100
- 
- 
- 
- 
-2.085 
- 
+	
+	
+	
+	
+2.085	
+	
 2.051 
  
 BMW heeft in 2020 aan VDL Nedcar meegedeeld dat een in 2019 gesloten productiecontract tot eind 
 jaren twintig wordt opgezegd. In een in 2021 gesloten overeenkomst zijn de gevolgen van deze opzegging 
 geregeld. Hierin is onder meer vastgelegd dat BMW een vergoeding aan VDL Nedcar zal betalen.  
-In febru ari 2024 zal, met het aflopen van de huidige overeenkomsten, de autoproductie voor BMW Group 
+In febru­
+ari 2024 zal, met het aflopen van de huidige overeenkomsten, de autoproductie voor BMW Group 
 bij VDL Nedcar eindigen. 
 De ontstane situatie onderstreept de noodzaak om de afhankelijkheid van één enkele opdrachtgever te 
 beperken. Inmiddels zijn alle planologische en vergunning-technische voorwaarden om productie voor 
@@ -849,7 +862,7 @@ andere potentiële opdrachtgevers in gesprek is voor de seriematige productie va
 automotive gerelateerde activiteiten. Met sommige partijen zijn wij in een vergevorderd stadium en liggen 
 concrete opdrachten binnen handbereik. Daarnaast hebben wij andere kansrijke leads in portefeuille.
 Ondertussen maakt VDL Nedcar een transitie door van onafhankelijke autoproducent naar een bredere 
-partner in duurzame e-mobiliteit, met als doel meer toegevoegde waarde én een betere toekomst-
+partner in duurzame e-mobiliteit, met als doel meer toegevoegde waarde én een betere toekomst­
 bestendigheid. De verbreding van activiteiten bij VDL Nedcar in Born wordt zichtbaar op drie gebieden:  
 de assemblage van voertuigen voor verschillende opdrachtgevers, diverse duurzame mobiliteitsoplossingen 
 in het Mobility Innovation Centre en het faciliteren van de groeistrategie van VDL-zusterbedrijven die actief 
@@ -857,7 +870,7 @@ zijn in de mobiliteit.
 Het Mobility Innovation Centre (MIC) sluit aan op de brede mobiliteitsstrategie van VDL Groep op het 
 gebied van design, elektrificatie, connectiviteit, autonoom rijden en systemen. Binnen het MIC zijn onder 
 meer initiatieven voor de productie van batterijpakketten voor voertuigen, autonome personenvervoerders 
-en brandstofcelmodules. Zo ontwikkelen wij momenteel een demolijn om zware en complexe batterij-
+en brandstofcelmodules. Zo ontwikkelen wij momenteel een demolijn om zware en complexe batterij­
 pakketten te assembleren. Ook worden gesprekken gevoerd met gerenommeerde OEM’s voor de productie 
 en assemblage van belangrijke componenten. Deze partijen zijn zeer geïnteresseerd in het benutten van de 
 competenties van VDL Nedcar. Het voornemen is om in het MIC tevens een duurzaam hybride 
@@ -869,7 +882,7 @@ beeldherkenning ter ondersteuning van lascontrole en het automatisch oppakken va
 (bin-picking) en Robotic Process Automation (RPA). Met behulp van RPA kunnen software-robots 
 repetitieve taken uitvoeren, zoals gegevensverwerking, het maken van berekeningen en opstellen van 
 rapportages. Ook onderzoekt VDL Nedcar mogelijkheden voor het toepassen van kunstmatige intelligentie.
-Ter compensatie van de uitbreiding van het fabrieksterrein heeft VDL Nedcar talrijke compensatie-
+Ter compensatie van de uitbreiding van het fabrieksterrein heeft VDL Nedcar talrijke compensatie­
 maatregelen uitgevoerd, zowel wettelijk als bovenwettelijk. De bevoegde instanties monitoren de 
 20
 maatregelen nauwgezet en hebben vastgesteld dat deze conform regelgeving worden uitgevoerd. 
@@ -956,52 +969,52 @@ een lastig jaar worden gezien materiaaltekorten en prijsstijgingen. De omzet in 
 van de divisie Bussen is in de afgelopen 12 maanden gestegen van 430 miljoen euro in week 13 van 2022 
 naar 490 miljoen euro in week 13 van 2023.
  
- 
-2022  
- 
-2021  
- 
- 
-euro mln 
-% 
-euro mln  
-%  
-Openbaarvervoerbussen 
-267  
-59 
-189 
-49 
-Touringcars 
-47 
-10 
-75 
-19 
-Parts & services 
-99 
-22 
-96 
-25 
-Gebruikte bussen  
-29 
-6 
-10 
-3 
-Mini- & midibussen 
-12 
-3 
-12 
-3 
-Chassis & chassismodules* 
-- 
-- 
-2 
-1 
- 
- 
- 
-  
-454 
- 
+	
+2022 	
+	
+2021 	
+	
+	
+euro mln	
+%	
+euro mln 	
+% 	
+Openbaarvervoerbussen	
+267 	
+59	
+189	
+49	
+Touringcars	
+47	
+10	
+75	
+19	
+Parts & services	
+99	
+22	
+96	
+25	
+Gebruikte bussen 	
+29	
+6	
+10	
+3	
+Mini- & midibussen	
+12	
+3	
+12	
+3	
+Chassis & chassismodules*	
+-	
+-	
+2	
+1	
+	
+	
+	
+ 	
+454	
+	
 384
 Openbaarvervoerbussen
 De sector Openbaarvervoerbussen heeft een omzet gekend van 267 miljoen euro in 2022 ten opzichte van 
@@ -1013,11 +1026,13 @@ IJsland, Luxemburg, Noorwegen en in de thuismarkten Nederland en België.
 In september 2022 heeft VDL Bus & Coach de nieuwe generatie VDL Citea op de beurs InnoTrans in Berlijn 
 gelanceerd. Tijdens dit event zijn de internationale pers en vele relaties geïnformeerd over de nieuwe 
 productrange. De reacties vanuit OV-bedrijven, journalisten en andere stakeholders zijn zeer positief. 
-VDL Bus & Coach bevestigt hiermee dat de nieuwe generatie VDL Citea een game changer is voor 
+VDL Bus & Coach bevestigt hiermee dat de nieuwe generatie VDL Citea een game­
+changer is voor 
 openbaar busvervoer. Het onderscheidend vermogen op het gebied van energieverbruik, optimale 
 inzetbaarheid, passagierscapaciteit en (klimaat)comfort voor bestuurder en passagiers zijn kenmerken die 
 door klanten op waarde worden geschat. Vervolgens is de nieuwe generatie VDL Citea in Europa op meerdere 
-evenementen gepresenteerd en beloond met verschillende design- en duurzaam heidsprijzen zoals de Red Dot 
+evenementen gepresenteerd en beloond met verschillende design- en duurzaam­
+heidsprijzen zoals de Red Dot 
 Award, de iF Design Award en de Innovation Award. Gedurende 2022 heeft VDL Bus & Coach vele orders 
 23
 ontvangen voor deze nieuwe generatie VDL Citea en inmiddels zijn er meer dan 600 voertuigen verkocht. 
@@ -1164,94 +1179,94 @@ Medische systemen
 1%
 EINDPRODUCTEN
 (omzet per sector)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-2022 
- 
+	
+2022	
+	
 2021
- 
-euro mln 
- %  
-euro mln  
+	
+euro mln	
+ % 	
+euro mln 	
 %
-Veersystemen  
-193 
-24 
-195 
-29  
-Warmtewisselaars  
-147 
-18 
-104 
-16  
-Speciale voertuigen  
-123 
-15 
-80 
-12  
-Productieautomatiseringssystemen 
-116 
-15 
-87 
-13  
-Systemen voor de agrarische sector  
-81 
-10 
-86 
+Veersystemen 	
+193	
+24	
+195	
+29 	
+Warmtewisselaars 	
+147	
+18	
+104	
+16 	
+Speciale voertuigen 	
+123	
+15	
+80	
+12 	
+Productieautomatiseringssystemen	
+116	
+15	
+87	
+13 	
+Systemen voor de agrarische sector 	
+81	
+10	
+86	
 12
-Energiesystemen 
-50 
-6 
-37 
-6  
-Zonnebanken en dakkoffers  
-43 
-5 
-33 
-5  
-Verpakkingsmachines  
-20 
-3 
-24 
-3  
-Systemen voor de industriële sector  
-20 
-3 
-16 
-2  
-Maritime systemen 
-7 
-1 
-1 
+Energiesystemen	
+50	
+6	
+37	
+6 	
+Zonnebanken en dakkoffers 	
+43	
+5	
+33	
+5 	
+Verpakkingsmachines 	
+20	
+3	
+24	
+3 	
+Systemen voor de industriële sector 	
+20	
+3	
+16	
+2 	
+Maritime systemen	
+7	
+1	
+1	
 0
-Medische systemen 
-2 
-0 
-6 
+Medische systemen	
+2	
+0	
+6	
 1
- 
- 
- 
- 
-802 
- 
-669 
- 
+	
+	
+	
+	
+802	
+	
+669	
+	
 29
 30
 30
@@ -1276,7 +1291,7 @@ op het gebied van luchtveersystemen. Nu het zero COVID-beleid is opgeheven is de
 markt weer aantrekt en dat VDL Weweler Taishan, onze vestiging in China, weer kan groeien. Vanwege 
 importheffingen en lagere energie- en grondstofprijzen worden er plannen gemaakt om voor de Chinese 
 markt lokaal veerarmen te gaan produceren door VDL Weweler Taishan.
-Ook voor VDL Weweler-Colaert in België, producent en distributeur van onderdelen voor paraboolveer-
+Ook voor VDL Weweler-Colaert in België, producent en distributeur van onderdelen voor paraboolveer­
 systemen voor chassis van vrachtwagens, aanhangwagens en bussen, heeft het uitbreken van de oorlog  
 in Oekraïne grote impact gehad op de afzet in Oost-Europa en Rusland. In de OEM (Original Equipment 
 Market) van kleine en middelgrote constructeurs van speciale voertuigen, heeft VDL Weweler-Colaert 
@@ -1286,7 +1301,7 @@ Daarnaast worden er op het dak van de productiehal zonnepanelen geplaatst, goed 
 van nagenoeg 15 procent van het jaarverbruik. Door de aanhoudende crisis in Oost-Europa, zijn de 
 verwachtingen voor 2023 onzeker.
 Voor handelsorganisatie VDL Weweler Parts heeft de oorlog in Oekraïne gezorgd voor logistieke uitdagingen 
-met betrekking tot de beschikbaarheid van materialen. Desondanks heeft het bedrijf in 2022 een omzet-
+met betrekking tot de beschikbaarheid van materialen. Desondanks heeft het bedrijf in 2022 een omzet­
 stijging weten te realiseren. Medio 2022 is het nieuwe digitale platform in gebruik genomen waar alle  
 parts-activiteiten zijn ondergebracht. In 2023 wordt de webshop verder uitgebreid en zal intensiever met 
 zusterbedrijven worden samengewerkt op het gebied van online verkoop van automotive onderdelen.  
@@ -1298,7 +1313,8 @@ zes magazijnen in Noorwegen en het magazijn in Zweden voldoende onderdelen kunne
 leveringen aan klanten te kunnen waarborgen. De vooruitzichten voor de sector Veersystemen zijn goed.
 31
 Warmtewisselaars
-Gezien de marktomstandig heden kijken de bedrijven in de sector Warmtewisselaars terug op een goed 
+Gezien de marktomstandig­
+heden kijken de bedrijven in de sector Warmtewisselaars terug op een goed 
 jaar. De omzet is uitgekomen op 147 miljoen euro ten opzichte van 104 miljoen euro in 2021. 
 De gevolgen van de coronacrisis en de oorlog in Oekraïne zijn nog steeds merkbaar in de sector 
 Warmtewisselaars. Met name investeringen in LNG-schepen, de olie- en gasmarkt en de cruisemarkt zijn 
@@ -1319,7 +1335,7 @@ grote vraag naar warmtewisselaars en drukvaten vanuit de internationale petroche
 geleid dat de capaciteit en omzet op hoog niveau zijn gebleven. Door de stijgende vraag naar gas vanuit 
 Europa zijn er diverse projecten opgestart om de gasvoorziening vanuit Afrikaanse landen te vergroten. 
 VDL KTI draagt hieraan bij door het uitvoeren van engineeringsactiviteiten en levering van apparatuur. 
-Ook wordt ingezet op samenwerking voor projecten rond CO2-opslag, producten uit C02 en biogas-
+Ook wordt ingezet op samenwerking voor projecten rond CO2-opslag, producten uit C02 en biogas­
 processen uit afvalstromen. Deze projecten dragen bij aan verdere groei in de hernieuwbare energiesector. 
 De huidige orderportefeuille is historisch hoog en de verwachtingen voor 2023 zijn veelbelovend.
 VDL NPS is actief in het realiseren van mastlocaties voor mobiele telefonie (5G). In Duitsland ligt een enorme 
@@ -1343,7 +1359,7 @@ worden uitgesteld doordat onze klanten in de transitiefase zitten van brandstofm
 rijden of doordat nieuwkomers die zich richten op elektrische mobiliteit de financiering niet rond krijgen. 
 Daarnaast hebben problemen in de toeleverketen geleid tot langere levertijden en prijsstijgingen. Hoewel 
 de orderportefeuille hoog is, is niets zeker. Veel projecten staan on hold of vinden uiteindelijk geen 
-doorgang. In Amerika hebben we de stap gemaakt om het kantoor uit te breiden met eigen assemblage-
+doorgang. In Amerika hebben we de stap gemaakt om het kantoor uit te breiden met eigen assemblage­
 productie, zodat we voor Amerikaanse klanten ook lokaal productielijnen kunnen bouwen. 
 In 2022 is verder geïnvesteerd in het inrichten van een productiefaciliteit voor de serie-assemblage van 
 600V Li-ion batterijsystemen en -pakketten. Zo worden bijvoorbeeld alle batterijen voor de nieuwe 
@@ -1467,8 +1483,9 @@ geven. Voor 2023 wordt een lichte omzetdaling verwacht ten opzichte van 2022, om
 vanwege de prijsstijgingen minder zullen besteden aan luxe artikelen. 
 Verpakkingsmachines
 De omzet van de sector Verpakkingsmachines is met 20 miljoen euro in 2022 licht gedaald ten opzichte 
-van 24 miljoen euro in 2021. Waar we zijn gestegen in de verpakkingsmachines voor de voedings-
-middelen industrie, zien we dit jaar een daling vanwege minder grote projecten en enige overcapaciteit in 
+van 24 miljoen euro in 2021. Waar we zijn gestegen in de verpakkingsmachines voor de voedings­
+middelen­
+industrie, zien we dit jaar een daling vanwege minder grote projecten en enige overcapaciteit in 
 de sigarenindustrie. 
 VDL Packaging heeft zich voorbereid op de steeds groter wordende vraag naar duurzame oplossingen door 
 middel van het verwerken van recyclebare en milieuvriendelijke verpakkingsmaterialen en het verminderen 
@@ -1683,7 +1700,7 @@ Mobiliteit is van vitaal belang voor de wereld van vandaag en het economisch fun
 samenleving. Tegelijkertijd zorgt toenemende mobiliteit ook voor een uitdaging op het gebied van 
 bereikbaarheid, gezondheid en kwaliteit van natuur en milieu. Om onze wereld elke dag een stukje 
 schoner en duurzamer te maken, houdt VDL zich volop bezig met mobiliteitsoplossingen, elektrificatie en 
-het terugdringen van emissies. We zijn een belangrijke speler in de nieuwe wereld van mobiliteits-
+het terugdringen van emissies. We zijn een belangrijke speler in de nieuwe wereld van mobiliteits­
 oplossingen. Begonnen als toeleverancier van onderdelen, assembleren we inmiddels ook auto’s, zijn we 
 toonaangevend in de ontwikkeling en productie van (elektrische) bussen en spelen we een grote rol op het 
 gebied van elektrisch zware voertuigen in Europa. Tegelijkertijd richten we ons op ‘slimme’ 
@@ -1814,7 +1831,7 @@ euro om de economische kracht en het vestigingsklimaat te versterken. In 2018
 heeft de rijksoverheid een eerste financiële bijdrage gedaan van 130 miljoen 
 euro. In juli 2018 is de Nationale Actie Agenda gepresenteerd. Ook VDL draagt 
 hier zijn steentje aan bij. De Nationale Actie Agenda richt zich op concrete 
-kansen en knelpunten zoals tekort aan talent, achterblijvend investerings-
+kansen en knelpunten zoals tekort aan talent, achterblijvend investerings­
 klimaat, kennis, innovatie & ondernemen, digitalisering en maatschappelijke 
 innovaties. Daarnaast is VDL ook betrokken bij het Battery Competence Cluster 
 dat vanuit de Brainportregio Eindhoven is geïnitieerd. Het Battery Competence 
@@ -1834,8 +1851,9 @@ Digitalisering
 Gedurende het jaar 2022 zijn digitale bouwblokken verder ingericht en geconfigureerd voor gebruik door 
 onze VDL-bedrijven. De digitale bouwblokken zijn onderdeel van een bedrijfsbrede IT-architectuur voor heel 
 VDL Groep. Op basis van deze architectuur zijn in 2022 de volgende initiatieven verder ontwikkeld: 
-• 
- Make-to-Order: in april 2022 is OrderOn.com live gegaan voor de Nederlandse klanten van  
+•	
+
+Make-to-Order: in april 2022 is OrderOn.com live gegaan voor de Nederlandse klanten van  
 VDL Technics. Op dit platform kunnen klanten in een afgeschermde omgeving tekeningen uploaden 
 voor een groeiend aantal metaalbewerkingen, hiervan direct online een offerte ontvangen en een 
 bestelling plaatsen. Vervolgens start het volledig geautomatiseerde productieproces en worden 
@@ -1843,21 +1861,24 @@ producten op het gekozen adres geleverd. OrderOn.com is in eerste instantie inge
 zakelijke markt. Sinds het einde van 2022 hebben ook Belgische klanten toegang tot het online 
 platform. Na VDL Technics zullen meerdere VDL-bedrijven op het platform aangesloten worden, 
 waaronder in eerste instantie VDL Industrial Modules en VDL HMI. 
-• 
- VDL Bus & Coach Digital Twin: de digitalisering van het totale bedrijfsproces van de  
+•	
+
+VDL Bus & Coach Digital Twin: de digitalisering van het totale bedrijfsproces van de  
 VDL Bus & Coach-bedrijven; van verkoop, engineering, productie, service, garantieafhandeling en 
 onderdelenverkoop van bussen. Het grootste gedeelte van dit platform is in 2022 live gegaan, inclusief 
 een eigen connectiviteitsportaal ingericht voor het kunnen volgen van elektrische bussen die zijn 
 uitgerust met IoT-systemen.
-• 
- VDL Independent Parts Cluster: de online verkoop van automotive gerelateerde onderdelen 
+•	
+
+VDL Independent Parts Cluster: de online verkoop van automotive gerelateerde onderdelen 
 via webshops met geavanceerde zoekfunctionaliteit voor onze VDL-bedrijven VDL Parts en  
 VDL Weweler Parts. In 2022 is VDL Weweler Parts live gegaan met de eerste klanten op het 
 e-commerce platform. Begin 2023 is VDL Parts ook aangesloten. Ondertussen gebruiken al meer dan 
 100 klanten van VDL Weweler Parts deze webshop. In 2023 staat gepland om VDL Parts Sweden en 
 VDL Truck & Trailer Industry hierop te laten aansluiten. 
-• 
- Configure-to-Order / Engineer-to-Order: in 2022 is het fundament voor de configuratiemodule 
+•	
+
+Configure-to-Order / Engineer-to-Order: in 2022 is het fundament voor de configuratiemodule 
 (Configure-Price-Quote) gerealiseerd. VDL Jansen en VDL Agrotech zijn begin 2023 aangesloten op 
 ons CRM-platform. Later dit jaar zullen zij ook aansluiten op een nieuwe ERP-implementatie. 
  
@@ -1880,7 +1901,9 @@ implementatie van onder andere de overstap naar Microsoft 365 zijn ingezet en in
 voor uitrol in 2023.
 Informatiebeveiliging
 In 2022 is voortvarend doorgepakt op het verder verbeteren en optimaliseren van het beveiligingsniveau van 
-VDL. Het security team is verder uitgebreid en processen zijn gestandaardiseerd en geprofessio naliseerd. 
+VDL. Het security­
+team is verder uitgebreid en processen zijn gestandaardiseerd en geprofessio­
+naliseerd. 
 Tevens is gewerkt aan een security-architectuur die beter integreert met de rest van de IT-infrastructuur en 
 het applicatielandschap. VDL is vandaag de dag beter in staat om adequaat op (cyber) dreigingen te reageren 
 en deze in veel gevallen in een vroegtijdig stadium te neutraliseren. Ook op het gebied van betrokkenheid 
@@ -2014,7 +2037,7 @@ tevens de bedrijfsdirecteuren onderricht over de Wet op de Ondernemingsraden en 
 dialogen. Deze dagen zijn door alle partijen als zeer leerzaam ervaren. Vaste thema’s in de 
 gemeenschappelijke OR-vergaderingen zijn de financiën en marktontwikkelingen per divisie en 
 bijbehorende sectoren. 
-Daarnaast zijn in 2022 diverse onderwerpen behandeld, zoals het fietsenplan, instemming vertrouwens-
+Daarnaast zijn in 2022 diverse onderwerpen behandeld, zoals het fietsenplan, instemming vertrouwens­
 personen, kortingen voor VDL-medewerkers, aanpassingen in de bedrijfsreglementen, reiskostenvergoeding 
 en verschillende bedrijfsovernames. De GmOR heeft een aantal deelcommissies geformeerd op het gebied 
 van financiën, communicatie, personeelsbeleid, veiligheid-gezondheid-welzijn-milieu. Door gebruik te 
@@ -2120,7 +2143,7 @@ op het dagelijks leven, zowel thuis als op het werk. VDL Groep wil als werkgever
 medewerkers en vindt het belangrijk dat iedereen (financieel) gezond is en goed in zijn of haar vel zit.
 57
 Ook landelijk is de samenwerking van het Partnerfonds opgemerkt. Aangezien geldzorgen een landelijke, 
-structurele aanpak vraagt, is de Nationale Coalitie Financiële Gezondheid (NCFG) opgericht. Het Partner-
+structurele aanpak vraagt, is de Nationale Coalitie Financiële Gezondheid (NCFG) opgericht. Het Partner­
 fonds is hier nauw bij betrokken. Vanwege die gemeenschappelijke agenda heeft koningin Máxima in 
 november een werkbezoek gebracht aan VDL Groep waar ze een gezamenlijke bijeenkomst met NCFG en 
 Partnerfonds heeft bijgewoond. De koningin is daarbij in gesprek gegaan met vertegenwoordigers van 
@@ -2167,7 +2190,7 @@ ontwikkelingsmaatschappij Brainport Development zijn samen programmabureau Brain
 gestart, een werkorganisatie waarin de partijen samenwerken aan de realisatie van waardevolle sociaal-
 maatschappelijke initiatieven, programma’s en projecten voor de regio.
 VDL Foundation
-Naast onze regionale MVO-activiteiten beschikt VDL Groep sinds jaar en dag over een eigen goededoelen-
+Naast onze regionale MVO-activiteiten beschikt VDL Groep sinds jaar en dag over een eigen goededoelen­
 stichting. VDL Foundation richt zich op maatschappelijke projecten op het gebied van zorg en welzijn. In 
 2022 heeft VDL Foundation een bijdrage gedoneerd aan Stichting De Zonnebloem, dat zich inzet voor 
 mensen met een lichamelijke beperking door sociale en recreatieve activiteiten mogelijk te maken. Een start 
@@ -2291,72 +2314,89 @@ Duurzaamheidsprogramma VDL ETG
 Milieu
 Maatschappij
 Bestuur
-1.  Energie-efficiëntie
- 
+1. 	 Energie-efficiëntie
+	
 a. Totaal energieverbruik
- 
-b.  Vermindering van het 
+	
+b. 
+Vermindering van het 
 energieverbruik
-1.  Werkgelegenheid 
- 
-a.  Nieuwe medewerkers en 
+1. 	 Werkgelegenheid	
+	
+a. 
+Nieuwe medewerkers en 
 personeelsverloop
-1.  Bedrijfsethiek 
- 
-a.  Strategie voor duurzame 
+1. 	 Bedrijfsethiek	
+	
+a. 
+Strategie voor duurzame 
 ontwikkeling
- 
-b.  Anticorruptiebeleid 
+	
+b. 
+Anticorruptiebeleid 
 en procedures
- 
-c.  Vertrouwenspersoon en 
+	
+c. 
+Vertrouwenspersoon en 
 klokkenluidersregeling
-2.  Afvalbeheer
- 
+2. 	 Afvalbeheer
+	
 a. Totale hoeveelheid afval
- 
-b.  Hoeveelheid afval die 
+	
+b. 
+Hoeveelheid afval die 
 gerecycled wordt
- 
-c.  Storten of verbranden 
+	
+c. 
+Storten of verbranden 
 van afval
-2.  Gezondheid en veiligheid
- 
-a.  Managementsysteem voor 
+2. 	 Gezondheid en veiligheid
+	
+a. 
+Managementsysteem voor 
 gezondheid en veiligheid
- 
-b.  Gevaarsidentificatie, 
+	
+b. 
+Gevaarsidentificatie, 
 risicobeoordeling en 
 incidentenonderzoek
- 
-c.  Training van medewerkers op 
+	
+c. 
+Training van medewerkers op 
 het gebied van gezondheid 
 en veiligheid
- 
-d.  Werkgerelateerde ongevallen 
+	
+d. 
+Werkgerelateerde ongevallen 
 met letsel
-2.   Strategie voor continuïteit
- 
-a.  Processen voor continuïteit  
+2. 	 
+Strategie voor continuïteit
+	
+a. 
+Processen voor continuïteit  
 bij calamiteiten
-3.  CO2-voetafdruk
- 
-a.  Scope 1: wat we zelf direct 
+3. 	 CO2-voetafdruk
+	
+a. 
+Scope 1: wat we zelf direct 
 uitstoten aan broeikasgassen
-   
-b.  Scope 2: wat energie-
+  	
+b. 
+Scope 2: wat energie­
 leveranciers uitstoten voor de 
 aan ons geleverde energie
-  
-c.  Scope 3: alle overige emissies 
+ 	
+c. 
+Scope 3: alle overige emissies 
 die in de keten plaatsvinden ten 
 gevolge van onze activiteiten 
-3.  Training en onderwijs
- 
-a.  Gemiddeld aantal uren training 
+3. 	 Training en onderwijs
+	
+a. 
+Gemiddeld aantal uren training 
 per jaar per medewerker
-3.  Inkooppraktijken
- 
+3. 	 Inkooppraktijken
+	
 a. Leverancier beoordeling
 De VDL ETG-bedrijven hebben in het duurzaamheidsprogramma ook een concreet doel gesteld aan de  
 CO2-reductie: een besparing van 10 procent per 2025 en 45 procent per 2030, terwijl de omzet in deze 
@@ -2421,16 +2461,18 @@ Die hebben vooral betrekking op het verminderen van afval en energieverbruik, op
 65
 hergebruik te bevorderen en op de materiaalkeuze om de levensduur van materialen en producten te 
 verlengen. We lichten deze deelgebieden kort toe:
-• 
- Materialen/producten: het gebruik van materialen die herbruikbaar zijn, het verlengen van de 
+•	
+
+Materialen/producten: het gebruik van materialen die herbruikbaar zijn, het verlengen van de 
 levensduur van materialen, het beperken van reparatie- en onderhoudskosten, het besparen van 
 energie en zorgen voor een minimale belasting bij teruggave aan het milieu. Voorbeelden hiervan zijn 
 onze producten die zijn vervaardigd van hoogwaardig kunststof, bijvoorbeeld de duurzame flessen voor 
 drinkwater die we voor onze klant Dopper produceren. De gebruikte materialen zijn 100% recyclebaar 
 en vrij van schadelijke en giftige stoffen.
  
-• 
- Techniek & proces: dit handelt over het gebruik van energie-beperkende technologieën, het beperken 
+•	
+
+Techniek & proces: dit handelt over het gebruik van energie-beperkende technologieën, het beperken 
 van afval van materialen uit bewerking en een langere levensduur. 3D-printing is een mooi voorbeeld. 
 De onbegrensde mogelijkheden hiervan leiden tot nieuwe onderdelen waardoor producten, ten 
 opzichte van conventionele bewerkingstechnieken, compacter worden en vloeiendere kanalen worden 
@@ -2438,8 +2480,9 @@ gecreëerd. Door aan de ontwerptafel geen rekening te hoeven houden met beperkin
 maakproces is het mogelijk om optimaal gebruik te maken van materialen. De voordelen van 
 ontwerpen in 3D is dat je alleen de materialen gebruikt die je daadwerkelijk nodig hebt (nauwelijks 
 afval) en hierdoor minder materiaal- en energieverbruik hebt.
-• 
- Niet-product gerelateerd: alles wat niet rechtstreeks in een product, materiaal of proces zit, maar 
+•	
+
+Niet-product gerelateerd: alles wat niet rechtstreeks in een product, materiaal of proces zit, maar 
 waarmee wél afvalstromen kunnen of energieverbruik kan worden gereduceerd. Een voorbeeld is 
 vastgoed. Daarbij richten we ons op duurzaam materiaalgebruik, minder energieverbruik en dus minder 
 belasting voor het milieu. Dat doen we onder andere door slimme ontwerpen met veel daglicht in de 
@@ -2488,40 +2531,54 @@ lijkheid
 Strategie
 Concurrentiepositie 
 verslechterd
-•  Tijdig investeren in robotisering  
+• 
+Tijdig investeren in robotisering  
 en automatisering 
-•  Tijdig investeren in nieuwe technologieën 
+• 
+Tijdig investeren in nieuwe technologieën 
 en innovaties
-•  Producten en processen aanpassen  
+• 
+Producten en processen aanpassen  
 indien nodig 
-•  Aanbieden van marktconforme prijzen
-•  Leveren van constante  
-kwa liteitsproducten
-•  Betrouwbare supply chain
+• 
+Aanbieden van marktconforme prijzen
+• 
+Leveren van constante  
+kwa­
+liteitsproducten
+• 
+Betrouwbare supply chain
 Hoog
 Laag
 Geen/nagenoeg 
 geen nieuwe  
 innovaties
-•  Investeren in innovatie en  
+• 
+Investeren in innovatie en  
 de ontwikkeling hiervan
-•  Samenwerking met onderzoeks instellingen 
+• 
+Samenwerking met onderzoeks­
+instellingen 
 en onderwijs opzoeken 
 Medium
 Laag
 Afhankelijkheid 
 van één klant
-•  Diversificatie en verbreding  
+• 
+Diversificatie en verbreding  
 van activiteiten
-•  Actief inzetten op acquisitie  
+• 
+Actief inzetten op acquisitie  
 nieuwe klanten
 Hoog
 Medium
 Stagnatie van de 
 marktvraag
-•  Diversificatie en verbreding van  
+• 
+Diversificatie en verbreding van  
 activiteiten 
-•  Tijdig afbouwen van de voorraad
+• 
+Tijdig afbouwen van de voorraad
 Medium
 Laag
 67
@@ -2537,18 +2594,24 @@ Grondstoffen en
 materiaal zijn  
 onvoldoende of 
 niet beschikbaar
-•  Monitoring key suppliers op  
+• 
+Monitoring key suppliers op  
 hun performance 
-•  Prijsstijgingen doorbelasten aan klanten
-•  Voldoende voorraad aanleggen
+• 
+Prijsstijgingen doorbelasten aan klanten
+• 
+Voldoende voorraad aanleggen
 Medium 
 Medium
 Verstoringen in de 
 toeleverketen
-•  Voldoende voorraad aanleggen
-•  Monitoring key suppliers op  
+• 
+Voldoende voorraad aanleggen
+• 
+Monitoring key suppliers op  
 hun performance
-•  Procedures zijn onderdeel van  
+• 
+Procedures zijn onderdeel van  
 kwaliteitssysteem
 Medium
 Medium
@@ -2556,41 +2619,58 @@ Beschikbaarheid
 medewerkers 
 (behoud en 
 werving)
-•  Goed werkgeversimago 
-•  Concurrerende arbeidsvoorwaarden 
-•  Ontwikkel- en doorgroeimogelijkheden
-•  Investeren in opleidingen 
-•  Teamontwikkeling en sociale activiteiten
-•  Actieve werving door middel  
+• 
+Goed werkgeversimago 
+• 
+Concurrerende arbeidsvoorwaarden 
+• 
+Ontwikkel- en doorgroeimogelijkheden
+• 
+Investeren in opleidingen 
+• 
+Teamontwikkeling en sociale activiteiten
+• 
+Actieve werving door middel  
 van eigen recruiters
-•  Onderling in- en uitlenen van  
+• 
+Onderling in- en uitlenen van  
 medewerkers tussen de VDL-bedrijven
-•  Samenwerking met uitzend- en  
+• 
+Samenwerking met uitzend- en  
 detacheringsbureaus
 Medium
 Medium
 Beschikbaarheid 
 van energie
-•  Lobby bij overheden
-•  Samenwerking opzoeken met  
+• 
+Lobby bij overheden
+• 
+Samenwerking opzoeken met  
 energiemaatschappijen en bedrijven voor 
-gezamenlijke groene energie voorziening 
+gezamenlijke groene energie­
+voorziening 
 voor een bedrijventerrein 
-•  Initiatieven ontplooien voor eigen  
+• 
+Initiatieven ontplooien voor eigen  
 energievoorziening
-•  Investeren in vervanging van verouderd 
+• 
+Investeren in vervanging van verouderd 
 energienetwerk
 Medium
 Medium
 Cyberaanvallen
-•  Cyber security awareness trainingen voor 
+• 
+Cyber security awareness trainingen voor 
 medewerkers
-•  Continue monitoring van onze  
+• 
+Continue monitoring van onze  
 IT-systemen op aanvallen
-•  Goede back-up strategie van  
+• 
+Goede back-up strategie van  
 IT-systemen met overstap naar hybride  
 IT-omgeving naar de ‘cloud’
-•  Vergaande optimalisatie van beveiligings-
+• 
+Vergaande optimalisatie van beveiligings­
 niveau IT-systemen en applicatielandschap
 Hoog
 Medium
@@ -2609,26 +2689,32 @@ nieuwe, gewijzigde
 en/of bestaande 
 richtlijnen/ 
 wetgeving
-•  Integratie van nieuwe richtlijnen in  
+• 
+Integratie van nieuwe richtlijnen in  
 onze kwaliteitscontrolesystemen 
-•  Periodieke audits van overheden en/of  
+• 
+Periodieke audits van overheden en/of  
 klanten 
 Hoog
 Laag
 Incourante voor-
 raad door wijziging 
 in milieuwetgeving
-•  Tijdig maatregelen nemen om  
+• 
+Tijdig maatregelen nemen om  
 de voorraad te beperken 
-•  Tijdig het product aanpassen waardoor wel 
+• 
+Tijdig het product aanpassen waardoor wel 
 wordt voldaan aan milieuwetgeving 
 Hoog
 Laag
 Productaansprake-
 lijkheid / product 
 recall
-•  Kwaliteitseisen- en controles naleven 
-•  Producten worden uitgebreid getest voor 
+• 
+Kwaliteitseisen- en controles naleven 
+• 
+Producten worden uitgebreid getest voor 
 uitlevering 
 Hoog
 Laag
@@ -2638,38 +2724,48 @@ bepaalde over-
 heden (bijv. Infla-
 tion Reduction Act 
 / importheffingen)
-•  Lobby bij overheden
+• 
+Lobby bij overheden
 Medium
 Medium
 Loonstijgingen als 
 gevolg van cao-
 onderhandelingen
-•  Aansluiten bij werkgeversverenigingen  
+• 
+Aansluiten bij werkgeversverenigingen  
 voor vertegenwoordiging tijdens  
 cao-onderhandeling
 Medium
 Medium
 Corruptie- en 
 sanctierisico 
-•  Geen zaken doen met hoge  
+• 
+Geen zaken doen met hoge  
 risicolanden 
-•  Analyse van de risico’s voor landen waar 
+• 
+Analyse van de risico’s voor landen waar 
 handelssancties van toepassing zijn
 Laag
 Laag
 Financieel
 Koersrisico 
 vreemde valuta
-•  Geen financieel bancair instrument 
-•  Surplus aan USD wordt verkocht  
+• 
+Geen financieel bancair instrument 
+• 
+Surplus aan USD wordt verkocht  
 t.g.v. EUR-rekening
 Laag
 Liquiditeitsrisico
-•  Samenwerking met Triple A banken
-•  Zorgen voor voldoende eigen vermogen 
-•  Debiteurenverzekering en actief intern  
+• 
+Samenwerking met Triple A banken
+• 
+Zorgen voor voldoende eigen vermogen 
+• 
+Debiteurenverzekering en actief intern  
 credit control beleid 
-•  Actieve cash-flow monitoring 
+• 
+Actieve cash-flow monitoring 
 Laag
 Laag
 Bovenstaande risico’s geven de belangrijkste risico’s van VDL Groep weer. Ten aanzien van mogelijke 
@@ -2811,7 +2907,8 @@ VAN COMMISSARISSEN
  
  
 Met genoegen bieden wij aan de aandeelhouders ter vaststelling aan, het onder verantwoordelijkheid 
-van de hoofd directie opgestelde jaarverslag 2022. De daarin opgenomen jaarrekening is gecontroleerd 
+van de hoofd­
+directie opgestelde jaarverslag 2022. De daarin opgenomen jaarrekening is gecontroleerd 
 door Govers Accountants te Eindhoven en van een goedkeurende verklaring voorzien. Vervolgens 
 hebben wij de jaarrekening goedgekeurd. Wij stellen de aandeelhouders voor om de jaarrekening vast 
 te stellen en de hoofddirectie en de raad van commissarissen décharge te verlenen voor het gevoerde 
@@ -2863,321 +2960,321 @@ Marjan van Loon (vanaf 1 februari 2022)
 JAARREKENING
 2022
 77
-Activa 
-31 december 2022 
+Activa	
+31 december 2022	
 31 december 2021
 Vaste activa
 Immateriële vaste activa
-Goodwill 
-2.097 
-810 
-Software 
-22.013 
+Goodwill	
+2.097	
+810	
+Software	
+22.013	
 18.130
- 
- 
- 
-24.110 
+	
+	
+	
+24.110	
 18.940
 Materiële vaste activa
-Bedrijfsgebouwen en -terreinen 
-832.123 
+Bedrijfsgebouwen en -terreinen	
+832.123	
 726.872
-Machines en installaties 
-172.843 
+Machines en installaties	
+172.843	
 154.583
-Andere vaste bedrijfsmiddelen 
-79.255 
+Andere vaste bedrijfsmiddelen	
+79.255	
 61.275
- 
- 
- 
-1.084.221 
+	
+	
+	
+1.084.221	
 942.730
-Financiële vaste activa 
-Deelnemingen 
-20.807 
+Financiële vaste activa	
+Deelnemingen	
+20.807	
 17.826
-Overige financiële vaste activa 
-2.320 
+Overige financiële vaste activa	
+2.320	
 1.672
- 
- 
- 
-23.127 
+	
+	
+	
+23.127	
 19.498
 Vlottende activa
 Voorraden
-Grond- en hulpstoffen 
-418.703 
+Grond- en hulpstoffen	
+418.703	
 357.635
-Onderhanden werk 
-657.842 
+Onderhanden werk	
+657.842	
 516.066
-Gereed product en handelsgoederen 
-110.849 
+Gereed product en handelsgoederen	
+110.849	
 84.339
- 
- 
- 
-1.187.394 
+	
+	
+	
+1.187.394	
 958.040
-Onderhanden projecten 
-76.526 
+Onderhanden projecten	
+76.526	
  58.829
 Vorderingen
-Handelsdebiteuren 
-655.411 
+Handelsdebiteuren	
+655.411	
 750.554
-Belastingen 
-6.349 
+Belastingen	
+6.349	
 4.459
-Overige vorderingen en overlopende activa 
-117.065 
+Overige vorderingen en overlopende activa	
+117.065	
 69.081
- 
- 
- 
-778.825 
+	
+	
+	
+778.825	
 824.094
-Liquide middelen 
-178.277 
+Liquide middelen	
+178.277	
 186.681
- 
- 
- 
-3.352.480 
+	
+	
+	
+3.352.480	
  3.008.812
 GECONSOLIDEERDE BALANS
 (x 1.000 euro)
 78
-Passiva 
-31 december 2022 
+Passiva	
+31 december 2022	
 31 december 2021
 Groepsvermogen
-Eigen vermogen  
-1.950.367 
+Eigen vermogen 	
+1.950.367	
  1.725.041
-Aandeel derden 
-5.573 
+Aandeel derden	
+5.573	
 3.720
- 
- 
- 
-1.955.940 
+	
+	
+	
+1.955.940	
 1.728.761
 Voorzieningen
-Voor pensioenen 
-247 
+Voor pensioenen	
+247	
 368
-Voor latente belastingen 
-15.704 
+Voor latente belastingen	
+15.704	
 15.774
-Voor garantieverplichtingen 
-49.431 
+Voor garantieverplichtingen	
+49.431	
 54.117
-Overige voorzieningen 
-152.136 
+Overige voorzieningen	
+152.136	
 79.198
- 
- 
- 
-217.518 
+	
+	
+	
+217.518	
 149.457
 Langlopende schulden
-Schulden aan kredietinstellingen 
-320 
+Schulden aan kredietinstellingen	
+320	
 -
-Negatieve goodwill 
- 7.471 
+Negatieve goodwill	
+ 7.471	
 21.898
- 
- 
- 
- 7.791  
+	
+	
+	
+ 7.791 	
  21.898 
  
  
 Kortlopende schulden
-Participanten 
- 58.000  
+Participanten	
+ 58.000 	
  59.000 
-Schulden aan kredietinstellingen 
- 33.527  
+Schulden aan kredietinstellingen	
+ 33.527 	
  9.049 
-Onderhanden projecten 
- 53.079  
+Onderhanden projecten	
+ 53.079 	
  45.987 
-Schulden aan leveranciers 
- 531.108  
+Schulden aan leveranciers	
+ 531.108 	
  507.862 
-Belastingen en premies sociale verzekeringen 
- 157.928  
+Belastingen en premies sociale verzekeringen	
+ 157.928 	
  96.556 
-Overige schulden en overlopende passiva 
- 337.589  
+Overige schulden en overlopende passiva	
+ 337.589 	
  390.242
-  
- 
- 
- 1.171.231 
+ 	
+	
+	
+ 1.171.231	
  1.108.696
  
  
- 
- 
- 
- 3.352.480 
+	
+	
+	
+ 3.352.480	
  3.008.812
 79
- 
-2022 
+	
+2022	
 2021
-Netto omzet 
- 5.477.203  
+Netto omzet	
+ 5.477.203 	
  4.708.569 
-Mutaties onderhanden werk 
- 141.776  
+Mutaties onderhanden werk	
+ 141.776 	
  72.831 
-Eigen bedrijfswerk 
- 8.192  
+Eigen bedrijfswerk	
+ 8.192 	
  3.929 
-Overige bedrijfsopbrengsten 
- 176.202  
-141.523  
- 
- 
-Som van de bedrijfsopbrengsten 
- 5.803.373  
+Overige bedrijfsopbrengsten	
+ 176.202 	
+141.523 	
+	
+	
+Som van de bedrijfsopbrengsten	
+ 5.803.373 	
  4.926.852 
-Kosten van grond- en hulpstoffen 
- 3.185.619  
+Kosten van grond- en hulpstoffen	
+ 3.185.619 	
  2.820.479 
-Kosten uitbesteed werk 
- 689.525  
+Kosten uitbesteed werk	
+ 689.525 	
  481.093 
-Lonen en salarissen 
- 1.120.077  
+Lonen en salarissen	
+ 1.120.077 	
  981.620 
-Afschrijvingen op (im)materiële vaste activa 
- 101.270  
+Afschrijvingen op (im)materiële vaste activa	
+ 101.270 	
  101.485 
-Overige bedrijfskosten 
- 303.670  
+Overige bedrijfskosten	
+ 303.670 	
  242.185
-  
- 
-Som van de bedrijfslasten 
- 5.400.161  
- 4.626.862  
- 
- 
-Bedrijfsresultaat 
- 403.212  
+ 	
+	
+Som van de bedrijfslasten	
+ 5.400.161 	
+ 4.626.862 	
+	
+	
+Bedrijfsresultaat	
+ 403.212 	
 299.990
-Financiële baten en lasten 
- -7.980 
+Financiële baten en lasten	
+ -7.980	
 -3.408
-Resultaat niet-geconsolideerde deelnemingen 
-63 
+Resultaat niet-geconsolideerde deelnemingen	
+63	
 3.686
- 
- 
-Resultaat voor belastingen 
-395.295 
+	
+	
+Resultaat voor belastingen	
+395.295	
  300.268
-Belastingen 
- -97.001  
+Belastingen	
+ -97.001 	
  -72.814 
-Aandeel derden 
- -490  
+Aandeel derden	
+ -490 	
  -2.406 
- 
- 
-Resultaat na belastingen 
- 297.804  
+	
+	
+Resultaat na belastingen	
+ 297.804 	
  225.048 
 GECONSOLIDEERDE WINST- EN VERLIESREKENING 
 (x 1.000 euro)
 80
- 
-2022 
+	
+2022	
 2021
 Kasstroom operationele activiteiten
-Bedrijfsresultaat 
-403.212 
+Bedrijfsresultaat	
+403.212	
 299.990
-Afschrijvingen (im)materiële vaste activa  
-101.270 
+Afschrijvingen (im)materiële vaste activa 	
+101.270	
 101.485
-Mutatie voorzieningen 
-67.898 
+Mutatie voorzieningen	
+67.898	
 11.109
-Vrijval negatieve goodwill 
--11.586 
+Vrijval negatieve goodwill	
+-11.586	
 -3.148
-Negatieve goodwill ter dekking van uitgaven 
--2.842 
+Negatieve goodwill ter dekking van uitgaven	
+-2.842	
 -9.128
-Waardevermindering financiële vaste activa 
-0 
+Waardevermindering financiële vaste activa	
+0	
 -19
-Veranderingen in werkkapitaal 
--197.200 
+Veranderingen in werkkapitaal	
+-197.200	
 -268.533
-Betaalde interest 
--7.404 
+Betaalde interest	
+-7.404	
 -3.197
-Ontvangen dividenden 
-1.232 
+Ontvangen dividenden	
+1.232	
 4.741
-Betaalde winstbelastingen 
--61.850 
+Betaalde winstbelastingen	
+-61.850	
 -53.262
- 
- 
-Kasstroom operationele activiteiten 
-292.730 
+	
+	
+Kasstroom operationele activiteiten	
+292.730	
 80.038
 Kasstroom investeringsactiviteiten
-Verwerving groepsmaatschappijen 
- -10.648  
+Verwerving groepsmaatschappijen	
+ -10.648 	
  - 
-(Des)investeringen (im)materiele vaste activa 
- -230.640  
+(Des)investeringen (im)materiele vaste activa	
+ -230.640 	
  -130.973 
-(Des)investeringen financiële vaste activa 
- -4.798  
+(Des)investeringen financiële vaste activa	
+ -4.798 	
  -1.019 
- 
- 
-Kasstroom investeringsactiviteiten 
- -246.086 
+	
+	
+Kasstroom investeringsactiviteiten	
+ -246.086	
 -131.992
 Kasstroom financieringsactiviteiten
-Betaald dividend 
- -80.000  
+Betaald dividend	
+ -80.000 	
  - 
-Aflossing langlopende schulden 
--5.100 
+Aflossing langlopende schulden	
+-5.100	
 -
- 
- 
-Kasstroom financieringsactiviteiten 
--85.100 
+	
+	
+Kasstroom financieringsactiviteiten	
+-85.100	
 -
- 
- 
-Netto kasstroom 
- -38.456  
+	
+	
+Netto kasstroom	
+ -38.456 	
  -51.954 
-Koers- en omrekenverschillen 
- 5.574  
+Koers- en omrekenverschillen	
+ 5.574 	
  6.228 
- 
- 
-Mutatie liquide middelen 
- -32.882  
+	
+	
+Mutatie liquide middelen	
+ -32.882 	
  -45.726 
 SAMENGEVAT GECONSOLIDEERD KASSTROOMOVERZICHT
 (x 1.000 euro)
@@ -3188,16 +3285,20 @@ ALGEMENE TOELICHTING
 Activiteiten
 De activiteiten van VDL Groep B.V. - feitelijk gevestigd Hoevenweg 1, te Eindhoven met  
 KvK registratie 17017545 - en haar groepsmaatschappijen bestaan uit:
-• 
- Toeleveringsdivisie: metaalbewerking, mechatronische systemen en modulebouw,  
+•	
+
+	
+Toeleveringsdivisie: metaalbewerking, mechatronische systemen en modulebouw,  
 kunststofverwerking en oppervlaktebehandeling;
-• 
+•	
 Autodivisie: het produceren van personenauto’s voor derden;
-• 
- Busdivisie: chassis & chassis modules, touringcars, openbaarvervoerbussen,  
+•	
+
+Busdivisie: chassis & chassis modules, touringcars, openbaarvervoerbussen,  
 mini- & midibussen, speciale voertuigen en gebruikte bussen;
-• 
- Eindproductendivisie: veersystemen voor de trailer- en truckindustrie, warmte-, koel- en luchttechnische 
+•	
+
+Eindproductendivisie: veersystemen voor de trailer- en truckindustrie, warmte-, koel- en luchttechnische 
 installaties, productieautomatiseringssystemen, installaties voor de olie, gas en petrochemische 
 industrie, systemen voor de agrarische sector, zonnebanken, dakkoffers, containerhandlingsystemen, 
 afvalinzamelingsystemen, sigaren- en verpakkingsmachines, componenten voor bulkhandling en 
@@ -3275,7 +3376,7 @@ uitzondering van de aflossingsverplichtingen leningen. Kasstromen in vreemde val
 tegen vaste koersen die de per balansdatum geldende valutakoersen benaderen. Koersverschillen op 
 geldmiddelen worden afzonderlijk in het kasstroomoverzicht getoond. Ontvangsten en uitgaven uit hoofde 
 van interest, ontvangen dividenden en winstbelastingen zijn opgenomen onder de kasstroom uit 
-operationele activiteiten. Betaalde dividenden zijn opgenomen onder de kasstroom uit financierings-
+operationele activiteiten. Betaalde dividenden zijn opgenomen onder de kasstroom uit financierings­
 activiteiten. De verkrijgingsprijs van de verworven groepsmaatschappij is opgenomen onder de kasstroom 
 uit investeringsactiviteiten, voor zover betaling in geld heeft plaatsgevonden. De geldmiddelen die in de 
 verworven groepsmaatschappij aanwezig zijn, zijn op de aankoopprijs in mindering gebracht. Transacties 
@@ -3308,16 +3409,16 @@ of de actuele waarde. Indien geen specifieke waarderingsgrondslag is vermeld, vi
 tegen de verkrijgingsprijs.
 Vergelijking met voorgaand jaar
 De gehanteerde grondslagen van waardering en van resultaatbepaling zijn, met uitzondering van hetgeen 
-vermeld bij de stelselwijziging, ongewijzigd gebleven ten opzichte van het voorgaande jaar. De vergelijken-
+vermeld bij de stelselwijziging, ongewijzigd gebleven ten opzichte van het voorgaande jaar. De vergelijken­
 de cijfers zijn waar nodig aangepast voor vergelijkingsdoeleinden. 
 Vreemde valuta
 De posten in de jaarrekening van de groepsmaatschappijen worden gewaardeerd met inachtneming van 
-de valuta van de economische omgeving waarin de groepsmaatschappij haar bedrijfsactiviteiten voor-
+de valuta van de economische omgeving waarin de groepsmaatschappij haar bedrijfsactiviteiten voor­
 namelijk uitoefent (de functionele valuta). De geconsolideerde jaarrekening is opgesteld in euro’s; dit is 
 zowel de functionele als de presentatievaluta van VDL Groep B.V. Transacties in vreemde valuta gedurende 
 de verslagperiode zijn in de jaarrekening verwerkt tegen de koers op transactiedatum.
 Monetaire en niet-monetaire activa en passiva in vreemde valuta worden omgerekend in de functionele 
-valuta tegen de koers per balansdatum. De uit de afwikkeling en omrekening voortvloeiende koers-
+valuta tegen de koers per balansdatum. De uit de afwikkeling en omrekening voortvloeiende koers­
 verschillen komen ten gunste of ten laste van de winst- en verliesrekening. 
 Omrekeningsverschillen bij intragroepsleningen op lange termijn die feitelijk een uitbreiding of inkrimping 
 van de netto-investering van buitenlandse deelnemingen zijn, worden rechtstreeks ten gunste of ten laste 
@@ -3384,11 +3485,11 @@ van de betreffende activa. Op terreinen wordt niet afgeschreven. Bij de uit de o
 afkomstige herwaardering van gebouwen is rekening gehouden met een belastinglatentie van 15%.
 Voor de herwaardering op terreinen is rekening gehouden met een belastinglatentie van 0%.
 Er wordt rekening gehouden met de bijzondere waardeverminderingen die op balansdatum worden 
-verwacht. Voor de vaststelling of voor een materieel vast actief sprake is van een bijzondere waarde-
+verwacht. Voor de vaststelling of voor een materieel vast actief sprake is van een bijzondere waarde­
 vermindering wordt verwezen naar de paragraaf bijzondere waardeverminderingen van vaste activa.
 Overige vaste activa worden gewaardeerd tegen verkrijgings- of vervaardigingsprijs inclusief direct 
 toerekenbare kosten, onder aftrek van lineaire afschrijvingen gedurende de verwachte toekomstige 
-gebruiksduur en bijzondere waardeverminderingen. De vervaardigingsprijs bestaat uit de aanschaffings-
+gebruiksduur en bijzondere waardeverminderingen. De vervaardigingsprijs bestaat uit de aanschaffings­
 kosten van grond- en hulpstoffen en kosten die rechtstreeks toerekenbaar zijn aan de vervaardiging 
 inclusief installatiekosten.
 Voor verplichtingen tot herstel na afloop van het gebruik van het actief (ontmantelingskosten) wordt een 
@@ -3398,17 +3499,17 @@ Kosten voor regulier onderhoud en herstel worden rechtstreeks ten laste van het 
 Subsidies op investeringen worden in mindering gebracht op de verkrijgings- of vervaardigingsprijs van de 
 activa waarop de subsidies betrekking hebben.
 De verwachte gebruiksduur per categorie is:
-Bedrijfsgebouwen 
-:  
+Bedrijfsgebouwen	
+: 	
 33 jaar
-Verbouwingen en voorzieningen 
-: 
+Verbouwingen en voorzieningen	
+:	
 5 – 20 jaar
-Machines en installaties 
-: 
+Machines en installaties	
+:	
 5 – 10 jaar
-Andere vaste bedrijfsmiddelen 
-: 
+Andere vaste bedrijfsmiddelen	
+:	
 5 –   7 jaar 
 Financiële vaste activa
 Deelnemingen waarin invloed van betekenis kan worden uitgeoefend worden gewaardeerd volgens de 
@@ -3480,7 +3581,8 @@ De voorraden grond- en hulpstoffen worden gewaardeerd op verkrijgingsprijzen (be
 inkoopprijs vermeerderd met diverse opslagen) onder toepassing van de FIFO-methode of lagere 
 opbrengstwaarde.
 De voorraden onderhanden werk (inclusief halffabricaten) en gereed product worden gewaardeerd op 
-vervaardigingsprijs of lagere opbrengstwaarde. De vervaardigingsprijs omvat alle kosten die samen hangen 
+vervaardigingsprijs of lagere opbrengstwaarde. De vervaardigingsprijs omvat alle kosten die samen­
+hangen 
 met de verkrijging of vervaardiging, alsmede gemaakte kosten om de voorraden op hun huidige plaats en 
 in hun huidige staat te brengen. Onder de kosten van vervaardiging vallen directe loonkosten en toeslagen 
 voor aan de productie gerelateerde indirecte vaste en variabele kosten.
@@ -3514,7 +3616,7 @@ De corresponderende vrijval van de (latente) belastingverplichtingen wordt onder
 resultaat uit gewone bedrijfsuitoefening ten gunste van het resultaat gebracht.
 Aandeel derden
 Het aandeel derden als onderdeel van het groepsvermogen wordt gewaardeerd tegen het bedrag van het 
-netto-belang in de netto-activa van de desbetreffende groepsmaatschappijen. Voor zover de des-
+netto-belang in de netto-activa van de desbetreffende groepsmaatschappijen. Voor zover de des­
 betreffende groepsmaatschappij een negatieve nettovermogenswaarde heeft, worden de negatieve waarde 
 en de eventuele verdere verliezen niet toegewezen aan het aandeel derden, tenzij de derden-
 aandeelhouders een feitelijke verplichting hebben en in staat zijn om de verliezen voor hun rekening te 
@@ -3534,10 +3636,10 @@ van de verwachte uitgaven gehanteerd.
 Wanneer de verwachting is dat een derde de verplichtingen vergoedt, en wanneer het waarschijnlijk is dat 
 deze vergoeding zal worden ontvangen bij de afwikkeling van de verplichting, dan wordt deze vergoeding 
 in mindering gebracht op de voorzieningen.
- 
+ 
 Voorziening voor pensioenen
 Op de Nederlandse pensioenregelingen zijn de bepalingen van de Nederlandse Pensioenwet van toepassing 
-en worden op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en verzekerings-
+en worden op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en verzekerings­
 maatschappijen betaald door de Groep. De premies worden verantwoord als personeelskosten zodra deze 
 verschuldigd zijn. Vooruitbetaalde premies worden opgenomen als overlopende activa indien dit tot een 
 terugstorting leidt of tot een vermindering van toekomstige betalingen. Nog niet betaalde premies worden 
@@ -3634,7 +3736,7 @@ bepalingen in het contract staan die een afzonderlijke leveringsverplichting bev
 van de transactieprijs moet worden toegerekend (bijvoorbeeld garanties). Bij het bepalen van de 
 transactieprijs voor de verkoop houdt de VDL Groep rekening met de effecten van variabele vergoeding, 
 het bestaan van een significante financieringscomponent, niet-contante vergoedingen en eventuele 
-aanvullende rechten van de afnemer. 
+aanvullende rechten van de afnemer. 
 Projectopbrengsten en projectkosten
 Voor onderhanden projecten, waarvan het resultaat op betrouwbare wijze kan worden bepaald, worden 
 de projectopbrengsten en de projectkosten verwerkt als netto-omzet en kosten in de winst- en 
@@ -3645,7 +3747,7 @@ projectkosten in verhouding tot de geschatte totale projectkosten. Als het resul
 betrouwbare wijze kan worden ingeschat, dan worden de opbrengsten als netto-omzet verwerkt in de 
 winst- en verliesrekening tot het bedrag van de gemaakte projectkosten dat waarschijnlijk kan worden 
 verhaald; de projectkosten worden dan verwerkt in de winst- en verliesrekening in de periode waarin ze 
-zijn gemaakt. Zodra het resultaat wel op betrouwbare wijze kan worden bepaald, vindt opbrengst-
+zijn gemaakt. Zodra het resultaat wel op betrouwbare wijze kan worden bepaald, vindt opbrengst­
 verantwoording plaats volgens de PoC-methode naar rato van de verrichte prestaties per balansdatum.
 Het resultaat wordt bepaald als het verschil tussen de projectopbrengsten en projectkosten. Project-
 opbrengsten zijn de contractueel overeengekomen opbrengsten en opbrengsten uit hoofde van meer-  
@@ -3678,7 +3780,7 @@ verliesrekening voor zover ze verschuldigd zijn aan werknemers.
 Pensioenen
 VDL Groep B.V. heeft alle pensioenregelingen verwerkt volgens de verplichtingenbenadering. 
 De over het verslagjaar verschuldigde premie wordt als last verantwoord. 
- 
+ 
 OVERIGE
 Kosten uitbesteed werk en andere externe kosten
 Onder de kosten uitbesteed werk en andere externe kosten zijn begrepen alle kosten ten aanzien van 
@@ -3747,7 +3849,8 @@ consistent met de gecontroleerde jaarrekening 2022 van VDL Groep B.V. op basis v
 zoals beschreven in de toelichting.
 De samengevatte jaarrekening bestaat uit:
 1.  de geconsolideerde balans per 31 december 2022;
-2.   de volgende overzichten over 2022:  
+2.  
+de volgende overzichten over 2022:  
 de geconsolideerde winst- en verliesrekening en het samengevatte kasstroomoverzicht; en
 3.  de bijbehorende toelichtingen.
 Samengevatte jaarrekening
@@ -3798,15 +3901,15 @@ Geert Jakobs
 John van Soerland
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 00
- info@vdlgroep.com
-  www.vdlgroep.com
+	 +31 (0)40 - 292 50 00
+	 info@vdlgroep.com
+ 	www.vdlgroep.com
 VDL Nederland B.V.
 Directeur: Paul van Vroonhoven
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 00
- info@vdlgroep.com 
+	 +31 (0)40 - 292 50 00
+	 info@vdlgroep.com 
 Ondersteuning van alle bedrijven in
 de groep op het gebied van
 financiële zaken, ICT, P&O, sociale
@@ -3816,8 +3919,8 @@ VDL Holding Belgium N.V.
 Directeur: Leen Van de Voorde
 Antwerpsesteenweg 124
 2630  Aartselaar, België
- +32 (0)3 - 870 55 40
- info@vdlholding.be 
+	 +32 (0)3 - 870 55 40
+	 info@vdlholding.be 
 Ondersteuning van alle Belgische en 
 Franse bedrijven in de groep op het 
 gebied van administratie en 
@@ -3826,14 +3929,14 @@ VDL International B.V.
 Directie: VDL Groep B.V.
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 35 
+	 +31 (0)40 - 292 50 35 
 Houdstermaatschappij buitenlandse 
 werkmaatschappijen.
 VDL Nederland Beheer B.V.
 Directie: VDL Groep B.V.
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 35
+	 +31 (0)40 - 292 50 35
  
 Houdstermaatschappij Nederlandse 
 werkmaatschappijen.
@@ -3841,14 +3944,14 @@ VDL Bus Beheer B.V.
 Directie: VDL Groep B.V.
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 35
+	 +31 (0)40 - 292 50 35
  
 Houdstermaatschappij busbedrijven.
 VDL Vastgoed B.V.
 Directeur: Pieter van der Leegte
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 00
+	 +31 (0)40 - 292 50 00
  
 Onroerendgoedmaatschappij  
 voor VDL-bedrijfspanden.
@@ -3856,15 +3959,16 @@ VDL Participatie B.V.
 Directeur: Bart Rooijmans
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 35 
+	 +31 (0)40 - 292 50 35 
  
 Participatiemaatschappij met 
-minderheids deelnemingen.
+minderheids­
+deelnemingen.
 VDL Car Beheer B.V.
 Directie: VDL Groep B.V.
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 35
+	 +31 (0)40 - 292 50 35
  
 Houdstermaatschappij 
 autoassemblage.
@@ -3876,15 +3980,15 @@ VD Leegte Metaal B.V.
 Directeur: Toine van de Rijdt 
 Handelsweg 21 
 5527 AL  Hapert, Nederland 
- +31 (0)497 - 33 11 00
- info@vdleegtemetaal.nl
-  www.vdleegtemetaal.nl 
+	 +31 (0)497 - 33 11 00
+	 info@vdleegtemetaal.nl
+ 	www.vdleegtemetaal.nl 
  
 Specialiteit: zwaar constructiewerk, 
 complexe lassamenstellingen  
 (uitgebreide lasrobotafdeling),  
 engineering en turnkey projecten. 
-Geautomatiseerde metaal-
+Geautomatiseerde metaal­
 bewerkingen o.a. fiber-lasersnijden, 
 gerobotiseerd zetten, ponsen en 
 dieptrekken. We beschikken over een 
@@ -3895,9 +3999,9 @@ VDL Gereedschapmakerij B.V.
 Directeur: Pieter Aarts
 Industrieweg 29
 5527 AJ  Hapert, Nederland
- +31 (0)497 - 38 10 62
- info@vdlgereedschapmakerij.nl
-  www.vdlgereedschapmakerij.nl 
+	 +31 (0)497 - 38 10 62
+	 info@vdlgereedschapmakerij.nl
+ 	www.vdlgereedschapmakerij.nl 
 Zowel complexe, hoogwaardige 
 gereedschappen als eenvoudige 
 gereedschappen. Complexe volg-snij- 
@@ -3911,9 +4015,9 @@ VDL TIM Hapert B.V.
 Directeur: Mark Verdonschot
 Energieweg 2
 5527 AH  Hapert, Nederland
- +31 (0)497 - 38 38 05
- info@vdl-tim.nl
-  www.vdltimhapert.nl
+	 +31 (0)497 - 38 38 05
+	 info@vdl-tim.nl
+ 	www.vdltimhapert.nl
  
 Gespecialiseerd in het mechanisch 
 bewerken van giet- en smeedwerk en 
@@ -3927,9 +4031,9 @@ Industrie B.V.
 Directeur: Pieter Aarts 
 Industrieweg 29 
 5527 AJ  Hapert, Nederland 
- +31 (0)497 - 38 38 44 
- info@vdlvds.nl 
-  www.vdlvds.nl
+	 +31 (0)497 - 38 38 44 
+	 info@vdlvds.nl 
+ 	www.vdlvds.nl
  
 Zowel mechanisch als hydraulisch 
 stampen, buigen en trekken tot max. 
@@ -3948,9 +4052,9 @@ Directeur: Jos van Meijl
 Industrielaan 15
 Industriezone III - Erembodegem
 9320  Aalst, België
- +32 (0)53 - 83 70 90
- info@vdlbelgium.com
-  www.vdlbelgium.com 
+	 +32 (0)53 - 83 70 90
+	 info@vdlbelgium.com
+ 	www.vdlbelgium.com 
 Specialiteit: CNC-pijpenbuigen tot 
 diameter 160 mm. Produceren van 
 buis/koker gerelateerde (geïsoleerde) 
@@ -3966,9 +4070,9 @@ VDL Technics B.V.
 Directeur: Hans Sanders
 Korenmolen 2
 5281 PB  Boxtel, Nederland
- +31 (0)411 - 68 29 80
- info@vdltechnics.nl
-  www.vdltechnics.nl
+	 +31 (0)411 - 68 29 80
+	 info@vdltechnics.nl
+ 	www.vdltechnics.nl
  
 Lasersnijden, 4 en 6 KW Co2 lasers, 
 8 KW en 12 KW fiberlasers. Deze zijn 
@@ -3990,24 +4094,25 @@ VDL HMI B.V.
 Directeur: Hans van Raak
 Kleibeemd 1
 5705 DP  Helmond, Nederland
- +31 (0)492 - 54 08 00
- info@vdlhmi.nl
-  www.vdlhmi.nl
+	 +31 (0)492 - 54 08 00
+	 info@vdlhmi.nl
+ 	www.vdlhmi.nl
 Metaalbewerkingen zoals knippen, 
 zagen, stampen, zetten, 
 pijpenbuigen, zwenkbuigen, 
-CNC-ponsen, CNC-plaatsnijden en 
-3D-buizen lasersnijden, (robot)lassen 
-en solderen. Plaatwerk, constructie-
+CNC‑ponsen, CNC-plaatsnijden en 
+3D-buizen­
+lasersnijden, (robot)lassen 
+en solderen. Plaatwerk, constructie­
 werk en assemblagewerkzaamheden.
 1991
 VDL NSA Metaal B.V.
 Directeur: Bart Spackler
 De Run 4234
 5503 LL  Veldhoven, Nederland
- +31 (0)40 - 254 45 65
- info@vdlnsametaal.nl
-  www.vdlnsametaal.nl
+	 +31 (0)40 - 254 45 65
+	 info@vdlnsametaal.nl
+ 	www.vdlnsametaal.nl
  
 Specialist op het gebied van 
 plaatbewerking. CNC ponsen, 
@@ -4022,19 +4127,20 @@ VDL MPC B.V.
 Directeur: Thijs Garben
 Terminalweg 40
 3821 AJ  Amersfoort, Nederland
- +31 (0)33 - 454 29 00
- info@vdlmpc.com
-  www.vdlmpc.com
+	 +31 (0)33 - 454 29 00
+	 info@vdlmpc.com
+ 	www.vdlmpc.com
  
 Productie, ketenmanagement, 
 montage en prototyping van complexe 
 plaatwerkonderdelen, mechanische 
-precisie componenten en samen-
+precisie componenten en samen­
 stellingen. Gespecialiseerd in het snel 
 volume waardig maken van uw proto’s 
 op aspecten logistiek, kwaliteit en 
 integrale kosten.
-Alle gang bare plaatbewerkings- en 
+Alle gang­
+bare plaatbewerkings- en 
 verspanende technieken zoals laser-
 pons snijden, precisie buigen, lassen, 
 draaien, frezen, draadvonken en 
@@ -4044,11 +4150,12 @@ VDL Staalservice B.V.
 Directeur: Paul Malcontent
 Celsiusstraat 13
 6003 DG  Weert, Nederland
- +31 (0)495 - 54 08 38
- info@vdlstaalservice.nl
-  www.vdlstaalservice.nl 
+	 +31 (0)495 - 54 08 38
+	 info@vdlstaalservice.nl
+ 	www.vdlstaalservice.nl 
 Het vervaardigen van klantspecifieke 
-lassamen stellingen uit hoge sterkte 
+lassamen­
+stellingen uit hoge sterkte 
 staal. Gesneden, gekante en 
 mechanisch bewerkte producten, 
 lassen (MIG/MAG/TIG). Montage.
@@ -4057,9 +4164,9 @@ VDL Lasindustrie B.V.
 Directeur: Ted Havermans
 Wekkerstraat 1
 5652 AN  Eindhoven, Nederland
- +31 (0)40 - 292 33 00
- info@vdllasindustrie.nl
-  www.vdllasindustrie.nl 
+	 +31 (0)40 - 292 33 00
+	 info@vdllasindustrie.nl
+ 	www.vdllasindustrie.nl 
 Van engineering en prototype tot 
 productie van zowel kleine als grote 
 series. Gespecialiseerd in plaat- en 
@@ -4076,9 +4183,9 @@ Directeur: Hans de Bresser
 Nijverheidsweg 40
 3341 LJ  Hendrik-Ido-Ambacht, 
 Nederland
- +31 (0)78 - 683 18 00
- info@vdlrpimetaal.nl
-  www.vdlrpimetaal.nl 
+	 +31 (0)78 - 683 18 00
+	 info@vdlrpimetaal.nl
+ 	www.vdlrpimetaal.nl 
 Plaatbewerking: staal, rvs en 
 aluminium met als specialisatie 
 framebouw, skids, piping en 
@@ -4098,14 +4205,14 @@ VDL Rotech S.R.L.
 Directeur: Dragan Jankovic
 Zona industriala NV str. 1 nr. 5
 310419  Arad, Roemenië
- +40 (0)257 - 25 66 43
- mail@vdlrotech.ro
+	 +40 (0)257 - 25 66 43
+	 mail@vdlrotech.ro
  www.vdlrotech.ro 
 Metaalbewerking, gespecialiseerd in 
 CNC-werk als frezen en draaien. 
 Productie van las- en assemblagewerk 
 (PE&I). Dunplaatwerk zoals knippen, 
-stampen en puntlassen. Deze compe-
+stampen en puntlassen. Deze compe­
 tenties gecombineerd leidt tot turn-
 key projecten.
 1998
@@ -4113,9 +4220,9 @@ VDL Systems B.V.
 Directeur: Willem Maathuis
 Erfstraat 3
 5405 BE  Uden, Nederland
- +31 (0)413 - 25 05 05
- info@vdlsystems.nl
-  www.vdlsystems.nl
+	 +31 (0)413 - 25 05 05
+	 info@vdlsystems.nl
+ 	www.vdlsystems.nl
 Ontwikkeling, productie en installatie 
 van machines en interne 
 transportsystemen voor OEM’ers van 
@@ -4129,25 +4236,25 @@ VDL Postma B.V.
 Directeur: Johan Zwarts
 Leeuwarderstraatweg 121d
 8441 PK  Heerenveen, Nederland
- +31 (0)513 - 62 25 36
- info@vdlpostma.nl
-  www.vdlpostma.nl 
+	 +31 (0)513 - 62 25 36
+	 info@vdlpostma.nl
+ 	www.vdlpostma.nl 
 Plaatbewerking: lasersnijden, CNC-
 ponsnibbelen, knippen, kanten. 
 Buisbewerking: CNC-buigen, walsen, 
 (robot)lassen, verspanen en 
 3D-buislaser. Poedercoating inclusief 
 chemische voorbehandeling door 
-middel van gescheiden dompel-
+middel van gescheiden dompel­
 badenreeks voor staal en aluminium.
 2005
 VDL Konings B.V.
 Directeur: Jeroen Boekema
 Bosstraat 93
 6071 XT  Swalmen, Nederland
- +31 (0)475 - 50 01 00
- info@vdlkonings.com
-  www.vdlkonings.com 
+	 +31 (0)475 - 50 01 00
+	 info@vdlkonings.com
+ 	www.vdlkonings.com 
 Ontwerp, engineering, prototyping, 
 productie, assemblage en installatie 
 van klantspecifieke mechanisaties, 
@@ -4166,9 +4273,9 @@ VDL Services B.V.
 Directeur: Rob Diepstraten
 Handelsweg 21
 5527 AL  Hapert, Nederland
- +31 (0)497 - 38 01 00
- info@vdlservices.nl
-  www.vdlservices.nl 
+	 +31 (0)497 - 38 01 00
+	 info@vdlservices.nl
+ 	www.vdlservices.nl 
 Reparatie, onderhoud en installatie 
 van diverse (VDL-)producten met 
 behulp van een 24/7 service 
@@ -4185,9 +4292,9 @@ VDL Castings Heerlen B.V.
 Directeur: Ruud Pisters
 De Koumen 2
 6433 KD  Hoensbroek, Nederland
- +31 (0)45 - 528 35 00
- info@vdlcastingsheerlen.nl
-  www.vdlcastings.nl 
+	 +31 (0)45 - 528 35 00
+	 info@vdlcastingsheerlen.nl
+ 	www.vdlcastings.nl 
 IJzergieterij die gespecialiseerd is in 
 de productie van complexe 
 gietstukken voor onder andere 
@@ -4200,9 +4307,9 @@ VDL Mast Solutions B.V.
 Directeur: Eric Janssen
 Gasstraat Oost 7
 5349 AH  Oss, Nederland
- +31 (0)412 - 67 47 47
- info@vdlmastsolutions.nl
-  www.vdlmastsolutions.nl 
+	 +31 (0)412 - 67 47 47
+	 info@vdlmastsolutions.nl
+ 	www.vdlmastsolutions.nl 
 Ontwerpt, produceert en plaatst 
 kwalitatief hoogwaardige masten, 
 zoals verlichtingsmasten, 
@@ -4218,9 +4325,9 @@ France s.a.r.l.
 Directeur: Eric Janssen 
 45 Rue Maryse Bastié
 59810 Lesquin, Frankrijk
- +33 (0)3.62.26.49.22
- info@vdlmastsolutions.fr
-  www.vdlmastsolutions.fr
+	 +33 (0)3.62.26.49.22
+	 info@vdlmastsolutions.fr
+ 	www.vdlmastsolutions.fr
 Verkoop van masten en 
 mastgerelateerde producten 
 in Frankrijk.
@@ -4231,9 +4338,9 @@ Directeur: Rick van Haren
 5459 Aloha Way
 Flowery Branch, GA 30542
 Georgia, Verenigde Staten
- +470 778 51 89
- info@vdlindustriesga.com
-  www.vdlindustriesga.com
+	 +470 778 51 89
+	 info@vdlindustriesga.com
+ 	www.vdlindustriesga.com
  
 Specialist in plaatbewerking, 
 robotlassen, MIG en TIG lassen,  
@@ -4246,9 +4353,9 @@ VDL Laktechniek B.V.
 Directeur: Ad Pasmans
 Meerenakkerweg 20
 5652 AV  Eindhoven, Nederland
- +31 (0)40 - 250 19 00
- info@vdllaktechniek.nl
-  www.vdllaktechniek.nl
+	 +31 (0)40 - 250 19 00
+	 info@vdllaktechniek.nl
+ 	www.vdllaktechniek.nl
  
 Staalstralen, zinkfosfateren, 
 kataforeselakken, poedercoaten, 
@@ -4265,14 +4372,16 @@ VDL Kunststoffen B.V.
 Directeur: Ger Stappers
 Magnesiumstraat 55
 6031 RV  Nederweert, Nederland
- +31 (0)495 - 65 36 53
- info@vdlkunststoffen.com
-  www.vdlkunststoffen.com
+	 +31 (0)495 - 65 36 53
+	 info@vdlkunststoffen.com
+ 	www.vdlkunststoffen.com
 Hoogwaardige technische kunststof 
-spuitgiet componenten, 
+spuitgiet­
+componenten, 
 2K-spuitgiettechniek, insert en 
 outsert moulding. Engineering, 
-product ontwikkeling en 
+product­
+ontwikkeling en 
 projectmatige ondersteuning van 
 klanten in ontwikkelingstrajecten. 
 Assemblage en finishing van 
@@ -4283,9 +4392,9 @@ VDL Parree B.V.
 Directeur: Pieter Melisse
 Spoorstraat 8
 5975 RK  Sevenum, Nederland
- +31 (0)77 - 467 70 88
- info@vdlparree.nl
-  www.vdlparree.com 
+	 +31 (0)77 - 467 70 88
+	 info@vdlparree.nl
+ 	www.vdlparree.com 
 Specialist op het gebied van 
 hoogwaardige technische kunststof 
 spuitgietonderdelen, samenstellingen 
@@ -4293,7 +4402,7 @@ en metaal- en kunststofcombinaties.
 2K-technieken, gasinjectie, in mould 
 labeling, insert en outsert moulding, 
 prägen en MuCell. Co-designfunctie, 
-productinnovaties, product-
+productinnovaties, product­
 optimalisatie en engineering. 
 Gespecialiseerd in automotive. 
 Eigen gereedschapmakerij en 
@@ -4303,9 +4412,9 @@ VDL Wientjes Roden B.V.
 Directeur: Wouter Arents
 Ceintuurbaan Noord 130
 9301 NZ  Roden, Nederland
- +31 (0)50 - 502 48 11
- info@vdlwientjesroden.nl
-  www.vdlwientjesroden.nl 
+	 +31 (0)50 - 502 48 11
+	 info@vdlwientjesroden.nl
+ 	www.vdlwientjesroden.nl 
 Ontwikkeling, engineering, 
 projectmanagement en productie  
 van hoogwaardige kunststofproducten. 
@@ -4321,9 +4430,9 @@ VDL Wientjes Emmen B.V.
 Directeur: Hans Meuleman
 Phileas Foggstraat 30
 7825 AK  Emmen, Nederland
- +31 (0)591 - 66 96 66
- info@vdlwientjesemmen.nl
-  www.vdlwientjesemmen.nl 
+	 +31 (0)591 - 66 96 66
+	 info@vdlwientjesemmen.nl
+ 	www.vdlwientjesemmen.nl 
 Ontwikkeling, engineering en productie 
 van hoogwaardige kunststof producten. 
 Productietechnieken: spuitgieten  
@@ -4341,9 +4450,9 @@ VDL Fibertech Industries B.V.
 Directeur: Michiel Wassink
 Diamantweg 54
 5527 LC  Hapert, Nederland
- +31 (0)497 - 33 84 00
- info@vdlfibertechindustries.com
-  www.vdlfibertechindustries.com 
+	 +31 (0)497 - 33 84 00
+	 info@vdlfibertechindustries.com
+ 	www.vdlfibertechindustries.com 
 Ontwikkeling en productie van carbon 
 en glasvezel composiet (sandwich 
 bouw) en hardfoamed polyurethaan. 
@@ -4361,19 +4470,20 @@ VDL GL Plastics B.V.
 Directeur: Bert van der Velden
 Ekkersrijt 5711
 5692 EP  Son, Nederland
- +31 (0)40 - 264 26 00
- info@gl-plastics.nl
-  www.gl-plastics.nl
+	 +31 (0)40 - 264 26 00
+	 info@gl-plastics.nl
+ 	www.gl-plastics.nl
 Specialist op het gebied van 
 hoogwaardige technische kunststof 
-spuitgietonderdelen en geautomati-
-seerde metaal- en kunststof-
+spuitgietonderdelen en geautomati­
+seerde metaal- en kunststof­
 combinaties. Reel-to-reel moulding, 
 insert-en outsert moulding, 
 2K-technieken, in mould labeling. 
 Product-en proces optimalisatie, 
 engineering, industrial automation  
-en eigen gereedschap makerij. 
+en eigen gereedschap­
+makerij. 
 Gespecialiseerd in automotive, 
 medical en HVAC industrie. IATF 
 16949 en ISO 14001 gecertificeerd. 
@@ -4385,9 +4495,9 @@ VDL Apparatenbouw B.V.
 Directeur: Roel Verschuren
 Sigarenmaker 8
 5521 DJ  Eersel, Nederland
- +31 (0)497 - 51 51 50
- info@vdlapparatenbouw.com
-  www.vdlapparatenbouw.com 
+	 +31 (0)497 - 51 51 50
+	 info@vdlapparatenbouw.com
+ 	www.vdlapparatenbouw.com 
 Systeemleverancier op het gebied van 
 (complexe) medische, optische en 
 mechatronische modules en 
@@ -4405,9 +4515,9 @@ VDL Smart Spaces B.V.
 Directeur: Ietze van der Meer
 Wetterwille 12
 8447 GC  Heerenveen, Nederland
- +31 (0)513 - 61 85 00
- info@vdlsmartspaces.nl
-  www.vdlsmartspaces.nl 
+	 +31 (0)513 - 61 85 00
+	 info@vdlsmartspaces.nl
+ 	www.vdlsmartspaces.nl 
 Produceren van bouwmodules voor 
 zowel grondgebonden woningen als 
 appartementen.
@@ -4416,9 +4526,9 @@ VDL Industrial Modules B.V.
 Directeur: Peter van der Horst
 Brandevoortse Dreef 4
 5707 DG  Helmond, Nederland
- +31 (0)492 - 50 58 00
- info@vdlindustrialmodules.nl
-  www.vdlindustrialmodules.nl 
+	 +31 (0)492 - 50 58 00
+	 info@vdlindustrialmodules.nl
+ 	www.vdlindustrialmodules.nl 
 Contractontwikkelaar en producent 
 van machine- en apparatenbouw 
 voor OEM’s. Eigen engineering 
@@ -4437,13 +4547,14 @@ Group B.V.
 Directeur: Geert Jakobs 
 De Schakel 22
 5651 GH  Eindhoven, Nederland
- +31 (0)40 - 263 86 66
- info@vdletg.com 
-  www.vdletg.com  
+	 +31 (0)40 - 263 86 66
+	 info@vdletg.com 
+ 	www.vdletg.com  
 VDL Enabling Technologies Group 
 richt zich op systeemintegratie en 
 logistiek / supply chain management 
-van mechatronische (sub) systemen 
+van mechatronische (sub)­
+systemen 
 voor OEM’s van hightech 
 kapitaalgoederen. De supervisie over 
 de VDL ETG-vestigingen in 
@@ -4460,12 +4571,12 @@ VDL ETG Eindhoven B.V.
 Directeur: Wil-Jan Schutte
 Achtseweg Noord 5
 5651 GG  Eindhoven, Nederland
- +31 (0)40 - 263 88 88
- info@vdletg.com 
-  www.vdletg.com 
+	 +31 (0)40 - 263 88 88
+	 info@vdletg.com 
+ 	www.vdletg.com 
 Realiseert systeemintegraties van 
 mechatronische (sub)systemen en 
-modules voor OEM’s van hightech-
+modules voor OEM’s van hightech­
 kapitaalgoederen. Systeemleverancier 
 van (co-)ontwerp tot 
 onderdelenproductie, montage en 
@@ -4475,9 +4586,9 @@ VDL ETG Projects B.V.
 Directeur: Harrie Schonewille
 Wekkerstraat 1
 5652 AN  Eindhoven, Nederland
- +31 (0)40 - 292 33 77
- infoprojects@vdletg.com
-  www.vdletgprojects.com 
+	 +31 (0)40 - 292 33 77
+	 infoprojects@vdletg.com
+ 	www.vdletgprojects.com 
 Turnkey machinefabrikant die 
 ondersteunt vanaf ontwikkeling tot 
 en met wereldwijde installatie en 
@@ -4493,12 +4604,12 @@ VDL ETG Precision B.V.
 Directeur: Jadranko Dovic
 Hurksestraat 13
 5652 AH  Eindhoven, Nederland
- +31 (0)40 - 263 82 18
- info@vdletg.com
-  www.vdletg.com 
+	 +31 (0)40 - 263 82 18
+	 info@vdletg.com
+ 	www.vdletg.com 
 Productie van fijnmechanische, ultra 
 precieze onderdelen en assemblages 
-voor OEM’s van hightech-
+voor OEM’s van hightech­
 kapitaalgoederen in onder andere de 
 semiconductorindustrie, analytische 
 industrie, lucht- en ruimtevaart en 
@@ -4511,12 +4622,12 @@ VDL ETG Almelo B.V.
 Directeur: Sander Verschoor
 Bornsestraat 345
 7601 PB  Almelo, Nederland
- +31 (0)546 - 54 00 00
- info@vdletg.com
-  www.vdletg.com 
+	 +31 (0)546 - 54 00 00
+	 info@vdletg.com
+ 	www.vdletg.com 
 Realiseert systeemintegraties van 
 mechatronische (sub)systemen en 
-modules voor OEM’s van hightech-
+modules voor OEM’s van hightech­
 kapitaalgoederen. Systeemleverancier 
 van (co-)ontwerp tot 
 onderdelenproductie, montage en 
@@ -4527,14 +4638,15 @@ Group of Suzhou Ltd.
 Directeur: Dennis van Opzeeland
 288 Su Hong Xi Road
 Suzhou Industrial Park,
-Jiangsu P.R.C. 215021, China
- +86 512 - 85 18 89 98
- info@vdletg.com
-  www.vdletg.com 
+Jiangsu P
+.R.C. 215021, China
+	 +86 512 - 85 18 89 98
+	 info@vdletg.com
+ 	www.vdletg.com 
 106
 Realiseert systeemintegraties van 
 mechatronische (sub)systemen en 
-modules voor OEM’s van hightech-
+modules voor OEM’s van hightech­
 kapitaalgoederen. Systeemleverancier 
 van (co-)ontwerp tot 
 onderdelenproductie, montage en 
@@ -4545,12 +4657,12 @@ Group (Singapore) Pte Ltd.
 Directeur: Chiam Sing Chung 
 259 Jalan Ahmad Ibrahim 
 Singapore 629148, Singapore
- +65 650 803 20
- info@vdletg.com
-  www.vdletg.com 
+	 +65 650 803 20
+	 info@vdletg.com
+ 	www.vdletg.com 
 Realiseert systeemintegraties van 
 mechatronische (sub)systemen en 
-modules voor OEM’s van hightech-
+modules voor OEM’s van hightech­
 kapitaalgoederen. Systeemleverancier 
 van (co-)ontwerp tot 
 onderdelenproductie, montage en 
@@ -4561,16 +4673,18 @@ Development B.V.
 Directeur: Hans Evers 
 De Schakel 22
 5651 GH  Eindhoven, Nederland
- +31 (0)40 - 263 86 66
- info@vdletg.com 
-  www.vdletg.com 
+	 +31 (0)40 - 263 86 66
+	 info@vdletg.com 
+ 	www.vdletg.com 
  
 Ontwikkelorganisatie die 
 verantwoordelijk is voor het 
 ontwikkelen van hightech 
-mechatronische  (sub)systemen en het 
+mechatronische ­
+(sub)systemen en het 
 verder optimaliseren van de 
-productie processen binnen VDL ETG 
+productie­
+processen binnen VDL ETG 
 zodat de klant een optimale 
 oplossing krijgt aangeboden.
 2015
@@ -4578,12 +4692,12 @@ VDL GL Precision B.V.
 Directeur: Herman Rusch
 Hurksestraat 23
 5652 AH  Eindhoven, Nederland
- +31 (0)40 - 292 20 55
- info@vdlglprecision.nl
-  www.vdlglprecision.nl 
+	 +31 (0)40 - 292 20 55
+	 info@vdlglprecision.nl
+ 	www.vdlglprecision.nl 
 Produceert zeer nauwkeurige 
 fijnmechanische componenten en 
-modules voor de semiconductor-
+modules voor de semiconductor­
 industrie, optische industrie, 
 apparatenbouw en de lucht- en 
 ruimtevaartindustrie. Het bedrijf 
@@ -4597,9 +4711,9 @@ VDL ETG Switzerland AG
 Directeur: John Piggen 
 Hauptstrasse 1a 
 9477  Trübbach, Zwitserland
- +41 (0)81 784 64 00
- info.switzerland@vdletg.com
-  www.vdletg.com 
+	 +41 (0)81 784 64 00
+	 info.switzerland@vdletg.com
+ 	www.vdletg.com 
  
 Realiseert systeemintegraties van 
 mechatronische (sub)systemen voor 
@@ -4615,28 +4729,31 @@ Directeur: Geert Jakobs
 1880 Milmont Drive
 Milpitas, CA 95035, Verenigde 
 Staten
- +1 510 996 46 60
- info@vdletg.com
-  www.vdletg.com
+	 +1 510 996 46 60
+	 info@vdletg.com
+ 	www.vdletg.com
 Biedt lokale ondersteuning op het 
 gebied van verkoop en technische 
 kennis aan klanten van diverse VDL 
 ETG-vestigingen wereldwijd. 
 2018
 VDL ETG Technology & 
-Development Hengelo B.V.  
+Development Hengelo B.V. 
+ 
 Directeur: Hans Evers
 Bornsestraat 345
 7601 PB  Almelo, Nederland
- +31 (0)40 - 263 86 66
- info@vdletg.com 
-  www.vdletg.com
+	 +31 (0)40 - 263 86 66
+	 info@vdletg.com 
+ 	www.vdletg.com
 Ontwikkelorganisatie die 
 verantwoordelijk is voor het 
 ontwikkelen van hightech 
-mechatronische  (sub)systemen en het 
+mechatronische ­
+(sub)systemen en het 
 verder optimaliseren van de 
-productie processen binnen VDL ETG 
+productie­
+processen binnen VDL ETG 
 zodat de klant een optimale 
 oplossing krijgt aangeboden. 
 2020
@@ -4644,9 +4761,9 @@ VDL TBP Electronics B.V.
 Directeur: Joost van Haperen
 Vlakbodem 10
 3247 CP  Dirksland, Nederland
- +31 (0)187 - 60 27 44
- info@vdltbpelectronics.com
-  www.vdltbpelectronics.com 
+	 +31 (0)187 - 60 27 44
+	 info@vdltbpelectronics.com
+ 	www.vdltbpelectronics.com 
 Deze Electronics Manufacturing 
 Services (EMS) onderneming biedt 
 diensten aan op het gebied van de 
@@ -4670,9 +4787,9 @@ VDL Nedcar B.V.
 Directeur: John van Soerland
 Dr. Hub van Doorneweg 1
 6121 RD  Born, Nederland
- +31 (0)46 - 489 44 44
- info@vdlnedcar.nl
-  www.vdlnedcar.nl 
+	 +31 (0)46 - 489 44 44
+	 info@vdlnedcar.nl
+ 	www.vdlnedcar.nl 
 Onafhankelijke contract producent 
 van voertuigen met als hoofdactiviteit 
 de serieproductie van personenauto’s. 
@@ -4691,21 +4808,24 @@ VDL Bus & Coach B.V.
 Directeur: Rolf-Jan Zweep
 De Vest 7
 5555 XL  Valkenswaard, Nederland
- +31 (0)40 - 208 44 00
- info@vdlbuscoach.com
-  www.vdlbuscoach.com 
+	 +31 (0)40 - 208 44 00
+	 info@vdlbuscoach.com
+ 	www.vdlbuscoach.com 
 VDL Bus & Coach biedt een 
-uitgebreid product programma: 
+uitgebreid product­
+programma: 
 chassis & chassismodules, 
 touringcars, openbaarvervoerbussen, 
 mini- & midibussen, speciale 
 voertuigen en gebruikte bussen. Het 
-product gamma bestaat daarnaast uit 
+product­
+gamma bestaat daarnaast uit 
 diverse e-mobility oplossingen voor 
 openbaar vervoer. VDL Bus & Coach 
 heeft een uitgebreid, internationaal 
 netwerk van vestigingen, agenten en 
-importeurs voor onder steuning op 
+importeurs voor onder­
+steuning op 
 het gebied van sales & after sales.
 Productie
 1998
@@ -4713,9 +4833,9 @@ VDL Bus Venlo B.V.
 Directeur: Robbert Smolders
 Huiskensstraat 49
 5916 PN  Venlo, Nederland
- +31 (0)77 - 320 00 80
- info@vdlbusvenlo.nl
-  www.vdlbuscoach.com 
+	 +31 (0)77 - 320 00 80
+	 info@vdlbusvenlo.nl
+ 	www.vdlbuscoach.com 
 Productie van mini- & midibussen 
 voor tour- en openbaar vervoer, 
 politievoertuigen, taxibussen, 
@@ -4727,9 +4847,9 @@ VDL Bus Roeselare N.V.
 Directeur: Alain Doucet
 Schoolstraat 50
 8800  Roeselare, België
- +32 (0)51 - 23 26 11
- info@vdlbusroeselare.be
-  www.vdlbuscoach.com 
+	 +32 (0)51 - 23 26 11
+	 info@vdlbusroeselare.be
+ 	www.vdlbuscoach.com 
 Ontwikkeling en productie van 
 bussen voor openbaar vervoer met 
 zowel hybride als elektrische 
@@ -4739,9 +4859,9 @@ VDL Bus Valkenswaard B.V.
 Directeur: Marc van Doorn
 De Vest 9
 5555 XL  Valkenswaard, Nederland
- +31 (0)40 - 208 46 11
- info@vdlbusvalkenswaard.nl
-  www.vdlbuscoach.com 
+	 +31 (0)40 - 208 46 11
+	 info@vdlbusvalkenswaard.nl
+ 	www.vdlbuscoach.com 
 Ontwikkeling en assemblage van luxe 
 touringcars, VIP-bussen en elektrische 
 openbaar vervoer bussen.
@@ -4752,10 +4872,11 @@ France sarl
 Directeur: Julien Bahri 
 45 rue Maryse Bastié
 59810 Lesquin, Frankrijk
- +33 (0)3 - 622 64 910
- info@vdlbuscoach.fr
-  www.vdlbuscoach.com 
-Verkoop, after sales en parts voor alle  
+	 +33 (0)3 - 622 64 910
+	 info@vdlbuscoach.fr
+ 	www.vdlbuscoach.com 
+Verkoop, after sales en parts voor alle 
+ 
 VDL Bus & Coach producten in 
 Frankrijk.
 2003
@@ -4764,9 +4885,9 @@ socio unico
 Directeur: Massimiliano Costantini
 Piazza dei Beccadori, 12
 41057  Spilamberto (MO), Italië
- +39 059 - 78 29 31
- info@vdlbuscoach.it
-  www.vdlbuscoach.com 
+	 +39 059 - 78 29 31
+	 info@vdlbuscoach.it
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor alle 
 VDL Bus & Coach producten in Italië.
 2003
@@ -4774,9 +4895,9 @@ VDL Bus & Coach Belgium N.V.
 Directeur: Filip Malefason
 Vloedstraat 4
 8800  Roeselare, België
- +32 (0)51 - 23 26 06
- info@vdlbuscoach.be
-  www.vdlbuscoach.com 
+	 +32 (0)51 - 23 26 06
+	 info@vdlbuscoach.be
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor alle 
 VDL Bus & Coach producten in België  
 en Luxemburg.
@@ -4786,9 +4907,9 @@ z.o.o.
 Directeur: Ferdinand Brouwers
 ul. Katowicka 121/123
 95-030 Rzgów k. Łodzi, Polen
- +48 63 - 261 60 91
- info@vdlbuscoach.pl
-  www.vdlbuscoach.com 
+	 +48 63 - 261 60 91
+	 info@vdlbuscoach.pl
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor alle 
 VDL Bus & Coach producten in Polen.
  
@@ -4799,9 +4920,9 @@ Directeur: Boris Höltermann
 Oberer Westring 1
 Industriegebiet West
 33142  Büren, Duitsland
- +49 (0)2951 - 60 80
- info@vdlbuscoach.de
-  www.vdlbuscoach.com 
+	 +49 (0)2951 - 60 80
+	 info@vdlbuscoach.de
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor  
 alle VDL Bus & Coach producten in 
 Duitsland en Oostenrijk.
@@ -4812,9 +4933,9 @@ Nederland B.V.
 Directeur: Rob Mol
 De Vest 3
 5555 XL  Valkenswaard, Nederland
- +31 (0)40 - 208 44 90
- info@vdlbuscoach.com
-  www.vdlbuscoach.com 
+	 +31 (0)40 - 208 44 90
+	 info@vdlbuscoach.com
+ 	www.vdlbuscoach.com 
 Verkoop en after sales van alle VDL 
 Bus & Coach producten in Nederland. 
 Gespecialiseerde werkplaats voor 
@@ -4827,9 +4948,9 @@ d.o.o. Beograd
 Directeur: Branislav Radovanović
 Gandijeva 99d
 11070  Belgrado, Servië 
- +381 (0)11 2166 525
- info@vdlbuscoach.rs
-  www.vdlbuscoach.com 
+	 +381 (0)11 2166 525
+	 info@vdlbuscoach.rs
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor  
 alle VDL Bus & Coach producten in 
 Servië.
@@ -4839,9 +4960,9 @@ Danmark A/S
 Directeur: Anita Palm Laursen
 Naverland 21 
 2600  Glostrup, Denemarken
- +45 70 23 83 23   
- info@vdlbuscoach.dk
-  www.vdlbuscoach.com 
+	 +45 70 23 83 23   
+	 info@vdlbuscoach.dk
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor alle 
 VDL Bus & Coach producten in 
 Denemarken.
@@ -4853,10 +4974,11 @@ Carretera Nacional II, Dir. Madrid
 Vía de Servicio KM 33,600 
 28805 Alcalá de Henares
 Madrid, Spanje
- +34 910 07 59 37
- info@vdlbuscoach.es
-  www.vdlbuscoach.com  
-Verkoop, after sales en parts voor alle  
+	 +34 910 07 59 37
+	 info@vdlbuscoach.es
+ 	www.vdlbuscoach.com  
+Verkoop, after sales en parts voor alle 
+ 
 VDL Bus & Coach producten in 
 Spanje.
 2018
@@ -4865,10 +4987,11 @@ AB
 Directeur: Fredrik Dahlborg
 Okvistavägen 18
 186 21 Vallentuna, Zweden
- +46 (0)8 40 80 77 50
- info@vdlbuscoach.se
-  www.vdlbuscoach.com 
-Verkoop, after sales en parts voor alle  
+	 +46 (0)8 40 80 77 50
+	 info@vdlbuscoach.se
+ 	www.vdlbuscoach.com 
+Verkoop, after sales en parts voor alle 
+ 
 VDL Bus & Coach producten in 
 Zweden.
 2018
@@ -4877,10 +5000,11 @@ AS
 Directeur: Frank Reichel
 Håndverksveien 12
 1405 Langhus, Noorwegen
- +47 41 77 96 00
- info@vdlbuscoach.no 
-  www.vdlbuscoach.com 
-Verkoop, after sales en parts voor alle  
+	 +47 41 77 96 00
+	 info@vdlbuscoach.no 
+ 	www.vdlbuscoach.com 
+Verkoop, after sales en parts voor alle 
+ 
 VDL Bus & Coach producten in 
 Noorwegen.
 2018
@@ -4889,9 +5013,9 @@ Finland Oy
 Directeur: Peter Sandin
 Koivukummuntie 9 
 FI-01510 Vantaa, Finland
- +35 82 07 34 45 55
- info@vdlbuscoach.fi
-  www.vdlbuscoach.com 
+	 +35 82 07 34 45 55
+	 info@vdlbuscoach.fi
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor  
 alle VDL Bus & Coach producten  
 in Finland.
@@ -4902,9 +5026,9 @@ Directeur: Darren Dowsett
 Carlton Industrial Estate
 Barnsley 
 S71 3HU
- +44 333 700 8999
- info@vdlbuscoach.co.uk
-  www.vdlbuscoach.com 
+	 +44 333 700 8999
+	 info@vdlbuscoach.co.uk
+ 	www.vdlbuscoach.com 
 Verkoop, after sales en parts voor alle  
 VDL Bus & Coach producten in Engeland, 
 Schotland en Wales.
@@ -4916,9 +5040,9 @@ Directeur: Ferdinand Brouwers
 Oberer Westring 2
 Industriegebiet West
 33142  Büren, Duitsland
- +49 (0)2951 - 98 920
- info@vdlbuscenter.de
-  www.vdlbuscenter.com 
+	 +49 (0)2951 - 98 920
+	 info@vdlbuscenter.de
+ 	www.vdlbuscenter.com 
 In- en verkoop van gebruikte bussen van 
 alle merken en typen.
 110
@@ -4928,9 +5052,9 @@ VDL Parts B.V.
 Directeur: Peter Schellens
 De Run 5410
 5504 DE  Veldhoven, Nederland
- +31 (0)40 - 208 41 00
- info@vdlparts.nl
-  www.vdlparts.com 
+	 +31 (0)40 - 208 41 00
+	 info@vdlparts.nl
+ 	www.vdlparts.com 
 Verantwoordelijk voor alle after sales 
 activiteiten voor de VDL Bus & Coach 
 productrange en de distributie van 
@@ -4943,9 +5067,9 @@ Brabant B.V.
 Directeur: Ton Behr 
 De Vest 3 
 5555 XL  Valkenswaard, Nederland 
- +31 (0)40 - 208 44 60 
- info@vdlbusland.nl
-  www.vdlbuscoach.com  
+	 +31 (0)40 - 208 44 60 
+	 info@vdlbusland.nl
+ 	www.vdlbuscoach.com  
 Gespecialiseerde werkplaats voor 
 onderhoud, reparatie en 
 schadeherstel van touringcars, bussen 
@@ -4958,12 +5082,12 @@ Solutions B.V.
 Directeur: Menno Kleingeld
 De Vest 11
 5555 XL  Valkenswaard, Nederland
- +31 (0)40 - 208 44 88 
- info@vdlets.nl
-  www.vdlets.nl 
+	 +31 (0)40 - 208 44 88 
+	 info@vdlets.nl
+ 	www.vdlets.nl 
 Onderzoek, ontwikkeling en testen 
 van nieuwe mogelijkheden voor met 
-name transport- en energie-
+name transport- en energie­
 gerelateerde activiteiten van de  
 VDL-bedrijven. Het doel is om 
 milieuvriendelijke, innovatieve  
@@ -4973,7 +5097,7 @@ elektrisch vervoer (e-mobility),
 batterijtechnologie, laadinfra, 
 energieopslag, energiemanagement, 
 automatisch geleide voertuigen 
-(AGV’s), geleidings- en navigatie-
+(AGV’s), geleidings- en navigatie­
 technologie en het gebruik en de 
 opwekking van waterstof.
 111
@@ -4983,24 +5107,25 @@ VDL Agrotech B.V.
 Directeur: Kevin Michellys
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 55 00
- info@vdlagrotech.nl
-  www.vdlagrotech.com 
+	 +31 (0)40 - 292 55 00
+	 info@vdlagrotech.nl
+ 	www.vdlagrotech.com 
 Levert wereldwijd complete oplossingen 
 voor de moderne, professionele 
 pluimveehouderij, varkenshouderij en 
 insectenkweek. Van gedetailleerde 
 engineering tot volledige montage van 
-turnkey-projecten en droog- techniek 
+turnkey-projecten en droog-­
+techniek 
 voor mest en industriële toepassingen.
 2020
 VDL Jansen B.V.
 Directeur: Brian van Hooff
 Harselaarseweg 32
 3771 MB  Barneveld, Nederland
- +31 (0)342 - 427 000
- info@vdljansen.com
-  www.vdljansen.com 
+	 +31 (0)342 - 427 000
+	 info@vdljansen.com
+ 	www.vdljansen.com 
 Internationaal toonaangevend bedrijf 
 gespecialiseerd in het ontwikkelen en 
 produceren van hoogwaardige en 
@@ -5014,20 +5139,21 @@ VDL Steelweld B.V.
 Directeur: Peter de Vos
 Terheijdenseweg 169
 4825 BJ  Breda, Nederland
- +31 (0)76 - 579 27 00
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +31 (0)76 - 579 27 00
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
 industrie. Tevens actief in de 
 productontwikkeling, prototypebouw 
 en productie van speciale machines 
-en serie productie van mechatronische 
+en serie­
+productie van mechatronische 
 modules en systemen, o.a. voor 
 toepassingen in industriële 
 voertuigtechniek zoals automatisch 
@@ -5041,14 +5167,14 @@ Unit 8a-8b Tournament Court
 Edgehill Drive, Tournament Fields
 Warwick, CV34 6LG
 Groot-Brittannië
- +44 (0)1926 - 62 47 10
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +44 (0)1926 - 62 47 10
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
 industrie. Tevens actief in de 
@@ -5065,17 +5191,17 @@ VDL Steelweld GmbH
 Directeur: Peter de Vos
 Max-Planck-Straße 38
 50858  Keulen, Duitsland 
- +49 (0)2234 - 988 23 110 
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +49 (0)2234 - 988 23 110 
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
-industrie. Tevens actief in de product-
+industrie. Tevens actief in de product­
 ontwikkeling, prototypebouw en 
 productie van speciale machines en 
 serieproductie van mechatronische 
@@ -5090,14 +5216,14 @@ Directeur: Peter de Vos
 Flygfältsgatan 16A
 423 37  Torslanda, Göteborg, 
 Zweden
- +46 (0)733 90 90 83
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +46 (0)733 90 90 83
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
 industrie. Tevens actief in de 
@@ -5118,15 +5244,16 @@ Production Line Co., Ltd.
 Directeur: Peter de Vos
 288, Su Hong Xi Road, Suzhou 
 Industrial Park, Jiangsu
-215021 SIP, China
- +86 (0)512 8817 4337  
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+215021 SIP
+, China
+	 +86 (0)512 8817 4337  
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
 industrie. Tevens actief in de 
@@ -5144,14 +5271,14 @@ LLC
 Directeur: David Goralczyk
 1880 Milmont Drive
 Milpitas CA 95035, Verenigde Staten
- +1 510 996 46 60
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +1 510 996 46 60
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
 industrie. Tevens actief in de 
@@ -5169,17 +5296,17 @@ Directeur: David Goralczyk
 1500 East Highwood Boulevard 
 Pontiac, 48340, Michigan, 
 Verenigde Staten
- +1 248 781 81 40 
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +1 248 781 81 40 
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
-industrie. Tevens actief in de product-
+industrie. Tevens actief in de product­
 ontwikkeling, prototypebouw en 
 productie van speciale machines en 
 serieproductie van mechatronische 
@@ -5195,17 +5322,17 @@ Directeur: David Goralczyk
 105 Corporate Drive Suite B
 Spartanburg, SC 29303, 
 Verenigde Staten
- +1 864 308 78 06
- info@vdlsteelweld.com
-  www.vdlsteelweld.com 
+	 +1 864 308 78 06
+	 info@vdlsteelweld.com
+ 	www.vdlsteelweld.com 
 Ontwerp, productie, installatie en 
 service van gerobotiseerde 
 productieautomatiseringssystemen 
 met een breed scala aan handling-, 
-assemblage- en verbindings-
+assemblage- en verbindings­
 technieken voor industriële 
 toepassingen o.a. voor de automotive 
-industrie. Tevens actief in de product-
+industrie. Tevens actief in de product­
 ontwikkeling, prototypebouw en 
 productie van speciale machines en 
 serieproductie van mechatronische 
@@ -5223,9 +5350,9 @@ Plot No. 302, Sector 7 Road, Sector 2
 Industrial Area, MIDC Bhosari, Pune, 
 Maharashtra, 
 India – 411026 
- +91 20 6741 4040 
- info@vdlpinnacle.com
-  www.vdlpinnacle.com 
+	 +91 20 6741 4040 
+	 info@vdlpinnacle.com
+ 	www.vdlpinnacle.com 
 Deze joint venture van VDL Groep en 
 Pinnacle Industries richt zich op 
 engineeringsprojecten voor 
@@ -5239,15 +5366,15 @@ VDL Hapro B.V.
 Directeur: Dick van de Linde
 Fleerbosseweg 33
 4421 RR  Kapelle, Nederland
- +31 (0)113 - 36 23 62
- info@vdlhapro.com
-  www.vdlhapro.com 
+	 +31 (0)113 - 36 23 62
+	 info@vdlhapro.com
+ 	www.vdlhapro.com 
 Ontwikkeling, productie, assemblage 
 en verkoop van zonnebanken, 
 huidverbeteringsapparatuur, 
 autodakkoffers, autodaktenten, dak-/
 fietsendragers alsmede bijbehorende 
-accessoires en waterzuiverings-
+accessoires en waterzuiverings­
 systemen voor zwembaden en vijvers.
 113
 Warmtewisselaars
@@ -5256,16 +5383,19 @@ VDL Klima B.V.
 Directeur: Wim Jenniskens
 Meerenakkerweg 30
 5652 AV  Eindhoven, Nederland
- +31 (0)40 - 298 18 18
- info@vdlklima.com 
-  www.vdlklima.com  
+	 +31 (0)40 - 298 18 18
+	 info@vdlklima.com 
+ 	www.vdlklima.com  
 Ontwikkeling en productie van 
 warmtewisselaars (o.a. lucht/lucht en 
 lucht/water koelers, boxcoolers en 
-buizenwarmte wisselaars) en 
+buizenwarmte­
+wisselaars) en 
 ventilatiesystemen voor diverse 
-applicaties, zoals (elektrische) voort -
-stuwing systemen, 
+applicaties, zoals (elektrische) voort­
+­
+stuwing­
+systemen, 
 energiegeneratoren en 
 transformatoren. 
 1998
@@ -5273,9 +5403,9 @@ VDL Klima Belgium N.V.
 Directeur: Wim Jenniskens
 Industriestraat 13
 3930  Hamont-Achel, België
- +32 (0)11 - 80 47 00
- belgium@vdlklima.com
-  www.vdlklima.com 
+	 +32 (0)11 - 80 47 00
+	 belgium@vdlklima.com
+ 	www.vdlklima.com 
 Productiebedrijf van de producten 
 van VDL Klima.
 1998
@@ -5283,9 +5413,9 @@ VDL Klima France sarl
 Directeur: Stéphane Lelou
 Le Wedge 101, rue Louis Constant 
 59491 Villeneuve d’Ascq, Frankrijk
- +33 (0)320 - 65 91 65
- info@vdlklimafrance.com
-  www.vdlklimafrance.com 
+	 +33 (0)320 - 65 91 65
+	 info@vdlklimafrance.com
+ 	www.vdlklimafrance.com 
 Ontwikkeling en verkoop van 
 warmtewisselaars, koelinstallaties 
 voor de elektromechanische industrie 
@@ -5296,14 +5426,14 @@ VDL KTI N.V.
 Directeur: Dorus van Leeuwen
 Nijverheidsstraat 10, Industrial Area II
 2400  Mol, België
- +32 (0)14 - 34 62 62
- info@vdlkti.be
-  www.vdlkti.be 
+	 +32 (0)14 - 34 62 62
+	 info@vdlkti.be
+ 	www.vdlkti.be 
 Ontwerp en productie van 
 procesapparatuur voor de olie-,  
 gas- en petrochemische industrie 
 alsmede hernieuwbare energie. 
-Productie van speciale metaal-
+Productie van speciale metaal­
 constructies, het machinaal bewerken 
 van halffabricaten en het produceren 
 van hoogspanningsmasten. 
@@ -5312,9 +5442,9 @@ VDL Delmas GmbH
 Directeur: Jörg Nelius
 Kienhorststraße 59
 13403  Berlijn, Duitsland
- +49 (0)30 - 438 09 20
- info@vdldelmas.de
-  www.vdldelmas.de 
+	 +49 (0)30 - 438 09 20
+	 info@vdldelmas.de
+ 	www.vdldelmas.de 
 Ontwikkeling, productie en verkoop 
 van warmtewisselaars, koelinstallaties 
 en gerelateerde aggregaten voor 
@@ -5324,13 +5454,13 @@ VDL Network Supplies B.V.
 Directeur: Henri Koolen
 Handelsweg 21
 5527 AL  Hapert, Nederland
- +31 (0)497 - 33 11 00
- info@vdlnetworksupplies.nl
-  www.vdlnetworksupplies.nl 
+	 +31 (0)497 - 33 11 00
+	 info@vdlnetworksupplies.nl
+ 	www.vdlnetworksupplies.nl 
 Gespecialiseerd in productie van 
 halffabricaten, eindproducten en 
 aanverwante diensten voor aanleg, 
-ombouw en uitbreiding van groot-
+ombouw en uitbreiding van groot­
 schalige en landelijke netwerken 
 zoals mobiele telefonie, vaste 
 telecom-, energie- en 
@@ -5341,9 +5471,9 @@ Service GmbH
 Directeur: Jorg Vermaas
 Saalhofferstr. 17
 47495 Rheinberg, Duitsland
- +49 2844 9037380
- info@nps.gmbh
-  www.nps.gmbh 
+	 +49 2844 9037380
+	 info@nps.gmbh
+ 	www.nps.gmbh 
 Project- en ingenieursbureau 
 gespecialiseerd in nieuwe mastbouw, 
 mastaanpassing, tunnelvoorziening 
@@ -5352,7 +5482,7 @@ antennebouw. Speciale bouw- en
 planningsdiensten voor het opzetten, 
 ombouwen en uitbreiden van grote 
 en landelijke netwerken zoals 
-mobiele telefonie, vaste telecom-
+mobiele telefonie, vaste telecom­
 municatienetwerken, energie- en 
 laadinfra.
 Speciale voertuigen
@@ -5361,9 +5491,9 @@ VDL Special Vehicles B.V.
 Directeur: Frans van Dommelen
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 250 05 00
- info@vdlspecialvehicles.com
-  www.vdlspecialvehicles.com 
+	 +31 (0)40 - 250 05 00
+	 info@vdlspecialvehicles.com
+ 	www.vdlspecialvehicles.com 
 Ontwerp, ontwikkeling, 
 implementatie en fabricage van 
 emissievrije oplossingen voor het 
@@ -5378,13 +5508,13 @@ VDL Container Systems B.V.
 Directeur: Mark Francot
 Industrieweg 21
 5527 AJ  Hapert, Nederland
- +31 (0)497 - 38 70 50
- info@vdlcontainersystems.com
-  www.vdlcontainersystems.com 
+	 +31 (0)497 - 38 70 50
+	 info@vdlcontainersystems.com
+ 	www.vdlcontainersystems.com 
 Ontwikkeling, productie, verkoop, 
 reparatie en opbouw van hydraulische 
 containerhandlingsystemen (haakarm-, 
-portaalarm-, kabel- en ketting-
+portaalarm-, kabel- en ketting­
 installaties), containeraanhangers en 
 containers. Ontwikkeling, productie, 
 verkoop en reparatie van spreaders voor 
@@ -5397,9 +5527,9 @@ GmbH
 Directeur: Mark Francot
 Oberer Westring 2 
 33142  Büren, Duitsland
- +31 (0)497 - 38 70 50
- info@vdlcontainersystems.com
-  www.vdlcontainersystems.com 
+	 +31 (0)497 - 38 70 50
+	 info@vdlcontainersystems.com
+ 	www.vdlcontainersystems.com 
 Verkoop en after sales van 
 containerhandling-systemen in 
 Duitsland.
@@ -5408,14 +5538,15 @@ VDL Translift B.V.
 Directeur: Mathijs van der Mast
 Staalwijk 7
 8251 JP  Dronten, Nederland 
- +31 (0)321 - 38 67 00 
- info@vdltranslift.nl 
-  www.vdltranslift.nl  
+	 +31 (0)321 - 38 67 00 
+	 info@vdltranslift.nl 
+ 	www.vdltranslift.nl  
 Ontwikkeling, productie, assemblage, 
 verkoop en service van 
 afvalinzamelingsystemen. Het bedrijf 
 heeft een eigen lijn van innovatieve 
-zijlader systemen voor het optimaliseren 
+zijlader­
+systemen voor het optimaliseren 
 van de inzameling van bovengrondse 
 en ondergrondse afvalcontainers. 
 Veersystemen
@@ -5424,9 +5555,9 @@ VDL Weweler B.V.
 Directeur: Dick Aalderink
 Ecofactorij 10
 7325 WC  Apeldoorn, Nederland
- +31 (0)55 - 538 51 00
- info@vdlweweler.nl
-  www.vdlweweler.nl 
+	 +31 (0)55 - 538 51 00
+	 info@vdlweweler.nl
+ 	www.vdlweweler.nl 
 Ontwikkeling, productie en verkoop 
 van luchtveer- en asliftsystemen voor 
 producenten van assen, trailers, 
@@ -5436,9 +5567,9 @@ VDL Weweler Parts B.V.
 Directeur: Danny Orgers
 De Run 5410
 5504 DE  Veldhoven, Nederland
- +31 (0)499 - 32 00 00
- info@vdlwewelerparts.nl 
-  www.vdlwewelerparts.nl 
+	 +31 (0)499 - 32 00 00
+	 info@vdlwewelerparts.nl 
+ 	www.vdlwewelerparts.nl 
 Distributie van technisch 
 hoogwaardige onderdelen voor 
 vrachtwagens, aanhangwagens en 
@@ -5449,13 +5580,14 @@ VDL Weweler-Colaert N.V.
 Directeur: Jacques Colaert
 Beneluxlaan 1-3
 8970  Poperinge, België
- +32 (0)57 - 34 62 05
- info@weweler.eu
-  www.weweler.eu 
+	 +32 (0)57 - 34 62 05
+	 info@weweler.eu
+ 	www.weweler.eu 
 Ontwikkeling, productie en verkoop 
 van blad- en paraboolveren voor de 
 automotive industrie. Distributie van 
-technisch hoogwaardige onder delen 
+technisch hoogwaardige onder­
+delen 
 voor vrachtwagens, aanhangwagens 
 en bussen.
 2001
@@ -5464,12 +5596,13 @@ Industry AS
 Directeur: Øyvind Stenersen
 Håndverksveien 12
 1405  Langhus, Noorwegen
- +47 (0)48 - 09 33 23
- post@tti.no
-  www.tti.no 
+	 +47 (0)48 - 09 33 23
+	 post@tti.no
+ 	www.tti.no 
 Verkoop vanuit acht filialen in 
 Noorwegen van VDL Weweler 
-veersystemen en reserve onderdelen 
+veersystemen en reserve­
+onderdelen 
 voor vrachtwagens, trailers en 
 bussen.
 2018
@@ -5479,9 +5612,9 @@ Directeur: Dick Aalderink
 No. 1 Chenyixi Road North
 Shuibu town, Taishan City
 529262 Guangdong, China
- +86 13822301747
- taishan@vdlweweler.nl
-  www.vdlweweler.com 
+	 +86 13822301747
+	 taishan@vdlweweler.nl
+ 	www.vdlweweler.com 
 Verkoop VDL Weweler veersystemen 
 en onderdelen voor vrachtwagens, 
 trailers en bussen in China. 
@@ -5490,9 +5623,9 @@ VDL Parts Sweden AB
 Directeur: Göran Andersson
 Vattenverksgatan 2
 41502 Göteborg, Zweden
- +46 (0)31 22 81 01
- info@vdlpartssweden.se
-  www.vdlpartssweden.se 
+	 +46 (0)31 22 81 01
+	 info@vdlpartssweden.se
+ 	www.vdlpartssweden.se 
 In- en verkoop van onderdelen voor 
 bussen, vrachtwagens en trailers in 
 Zweden. 
@@ -5503,15 +5636,15 @@ VDL Packaging B.V.
 Directeur: Danny Heuvelmans
 Langendijk 10
 5652 AX  Eindhoven, Nederland
- +31 (0)40 - 282 50 00
- sales@vdlpackaging.com
-  www.vdlpackaging.com 
+	 +31 (0)40 - 282 50 00
+	 sales@vdlpackaging.com
+ 	www.vdlpackaging.com 
 Ontwikkeling, productie en verkoop 
 van machines en service voor de 
 verpakkingsindustrie. Verticale 
 verpakkingsmachines voor onder 
 andere de levensmiddelen-, 
-dierenvoeding- en wasmiddelen-
+dierenvoeding- en wasmiddelen­
 branche. 
 2003
 VDL USA, Inc.
@@ -5519,14 +5652,14 @@ Directeur: Bart van Lieshout
 8111 Virginia Pine Ct.
 Richmond VA 23237, 
 Verenigde Staten
- +1 804 - 275 80 67
- info@vdlusa.com
-  www.vdlusa.com 
+	 +1 804 - 275 80 67
+	 info@vdlusa.com
+ 	www.vdlusa.com 
  
 Verkoop en service van producten van 
 VDL Packaging en assemblage, opslag 
 en logistiek voor diverse VDL-
-bedrijven in Noord-Amerika.
+bedrijven in Noord‑Amerika.
 Systemen voor de 
 industriële sector
 2007
@@ -5535,18 +5668,18 @@ B.V.
 Directeur: Carlos Ooijen
 Hoevenweg 3
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 55 80
- info@vdlindustrialproducts.com
-  www.vdlindustrialproducts.com 
+	 +31 (0)40 - 292 55 80
+	 info@vdlindustrialproducts.com
+ 	www.vdlindustrialproducts.com 
 Verkoop en service van componenten 
-voor afzuiginstallaties en stortgoed-
+voor afzuiginstallaties en stortgoed­
 behandeling zoals modulaire 
 buissystemen, roterende sluizen, 
 ventilatoren en triltransporteurs. 
 Beveiliging van processen, objecten 
-en terreinen tegen brand, stof-
+en terreinen tegen brand, stof­
 explosie en indringing zoals 
-suppressie-, watermist- en camera-
+suppressie-, watermist- en camera­
 systemen. Nevelsystemen voor 
 klimaat, desinfectie en stofbestrijding.
 2022
@@ -5554,9 +5687,9 @@ VDL Olocco Srl
 Directeur: Umberto Olocco
 Strada del Santuario, 41
 12045 Fossano CN, Italië
- +39 0172 692 579
- olocco@olocco.it
-  www.olocco.eu
+	 +39 0172 692 579
+	 olocco@olocco.it
+ 	www.olocco.eu
 Productie, verkoop en assistentie van 
 industriële afsluiters en componenten 
 voor het transport en de dosering 
@@ -5575,9 +5708,9 @@ VDL AEC Maritime B.V.
 Directeur: Rob de Vries
 Meerenakkerweg 30
 5652 AV  Eindhoven, Nederland
- +31 (0)40 - 851 90 15
- info@vdlaecmaritime.com
-  www.vdlaecmaritime.com 
+	 +31 (0)40 - 851 90 15
+	 info@vdlaecmaritime.com
+ 	www.vdlaecmaritime.com 
 Ontwikkelt, verkoopt en onderhoudt 
 filtersystemen voor het verwijderen 
 van onder meer zwaveldeeltjes uit de 
@@ -5589,8 +5722,8 @@ V-Storage B.V.
 Directeur: Rob van Gennip
 Hoevenweg 1
 5652 AW  Eindhoven, Nederland
- +31 (0)40 - 292 50 00
- info@v-storage.com 
+	 +31 (0)40 - 292 50 00
+	 info@v-storage.com 
 Deze joint venture van VDL Groep en 
 Scholt Energy Control richt zich op 
 innovaties op het gebied van 
@@ -5600,13 +5733,13 @@ VDL Energy Systems B.V.
 Directeur: Ivo Wessels
 Darwin 10
 7609 RL  Almelo, Nederland
- +31 (0)74 - 240 2000
- info@vdlenergysystems.com
-  www.vdlenergysystems.com 
+	 +31 (0)74 - 240 2000
+	 info@vdlenergysystems.com
+ 	www.vdlenergysystems.com 
 Ontwikkeling, productie en verkoop 
 van ‘zero-emissie’ energiesystemen. 
 Levering van systemen, oplossingen 
-en diensten gericht op de opwek-
+en diensten gericht op de opwek­
 king, de omzetting, het transport en 
 het gebruik van ‘groene’ energie.  
 Medische  
@@ -5616,9 +5749,9 @@ Dutch PPE Solutions
 Directeur: Mark Bakermans
 Hoevenweg 1
 5652 AW, Eindhoven, Nederland
- +31 (0)40 - 292 50 00
- info@dutchppesolutions.com
-  www.dutchppesolutions.com 
+	 +31 (0)40 - 292 50 00
+	 info@dutchppesolutions.com
+ 	www.dutchppesolutions.com 
 Deze joint venture van VDL Groep en 
 Koninklijke DSM produceert 
 medische gezichtmaskers, type FFP2, 
@@ -5626,10 +5759,11 @@ in Helmond en meltblown
 polypropyleen in Geleen. 
 116
 COLOFON 
-Productie: 
+Productie:	
 VDL Groep, afdeling Communicatie 
-Vormgeving:  Ontwerp van de Buren
-Fotografie:  
- Paul Jespers, Bram Saeys, Bart van Vlijmen, The Mute Zone en ARA/Bovil
-Drukwerk: 
+Vormgeving: 	Ontwerp van de Buren
+Fotografie: 	
+
+Paul Jespers, Bram Saeys, Bart van Vlijmen, The Mute Zone en ARA/Bovil
+Drukwerk:	
 Drukkerij Hendrix

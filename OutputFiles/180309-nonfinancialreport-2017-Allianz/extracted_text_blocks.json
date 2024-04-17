@@ -3133,13 +3133,25 @@
     },
     {
         "coords": [
-            323.2099914550781,
+            324.8900146484375,
             112.66100311279297,
             518.4288330078125,
+            136.36749267578125
+        ],
+        "lines": "\u2212 23.4 % women in Board of Management in 2017.   \n\u2212 36.1 % women in talent pools in 2017. \n",
+        "block_no": 31,
+        "block_type": 0,
+        "page_num": 7
+    },
+    {
+        "coords": [
+            323.2099914550781,
+            137.60601806640625,
+            325.058837890625,
             148.18785095214844
         ],
-        "lines": "\u2212 23.4 % women in Board of Management in 2017.   \n\u2212 36.1 % women in talent pools in 2017. \n \n",
-        "block_no": 31,
+        "lines": " \n",
+        "block_no": 32,
         "block_type": 0,
         "page_num": 7
     },
@@ -3151,7 +3163,7 @@
             160.12744140625
         ],
         "lines": "\u2212 Targets:  \n",
-        "block_no": 32,
+        "block_no": 33,
         "block_type": 0,
         "page_num": 7
     },
@@ -3163,7 +3175,7 @@
             183.887451171875
         ],
         "lines": "\u2212 20 % women in Board of Management by the end of 2018.   \n\u2212 40 % women in talent pools the end of 2018. \n",
-        "block_no": 33,
+        "block_no": 34,
         "block_type": 0,
         "page_num": 7
     },
@@ -3175,7 +3187,7 @@
             231.4678192138672
         ],
         "lines": "The diversity concept for our Board of Directors and Supervisory \nBoard is published in our group governance declaration, which can \nbe found on our website at \n www.allianz.com/corporate-\n",
-        "block_no": 34,
+        "block_no": 35,
         "block_type": 0,
         "page_num": 7
     },
@@ -3187,7 +3199,7 @@
             243.3478240966797
         ],
         "lines": "governance. \n",
-        "block_no": 35,
+        "block_no": 36,
         "block_type": 0,
         "page_num": 7
     },
@@ -3199,7 +3211,7 @@
             298.90997314453125
         ],
         "lines": "Compliance / Anti-Corruption and Bribery \nMatters  \n",
-        "block_no": 36,
+        "block_no": 37,
         "block_type": 0,
         "page_num": 7
     },
@@ -3211,7 +3223,7 @@
             362.4178466796875
         ],
         "lines": "In this chapter, we describe how we address the impacts on compli-\nance, anti-corruption, and bribery matters that can result from our \nbusiness activities and relationships, differentiating by concepts and \nKPIs/targets. \n",
-        "block_no": 37,
+        "block_no": 38,
         "block_type": 0,
         "page_num": 7
     },
@@ -3223,7 +3235,7 @@
             433.8178405761719
         ],
         "lines": "CONCEPTS AND PROGRAMS \nThe Allianz Compliance Management System (CMS) aims at ensur-\ning adherence with internationally recognized laws, rules and regula-\ntions, and to promote a culture of integrity in order to safeguard the \ncompany's reputation. \n",
-        "block_no": 38,
+        "block_no": 39,
         "block_type": 0,
         "page_num": 7
     },
@@ -3235,7 +3247,7 @@
             445.6978454589844
         ],
         "lines": "Compliance is firmly embedded in Allianz\u2019s corporate culture. \n",
-        "block_no": 39,
+        "block_no": 40,
         "block_type": 0,
         "page_num": 7
     },
@@ -3247,7 +3259,7 @@
             493.35784912109375
         ],
         "lines": "The standards of conduct established by the Allianz Group\u2019s Code of \nConduct for Business Ethics and Compliance (\u201cCode of Conduct\u201d) are \nobligatory for all employees worldwide. The Code of Conduct was \nimplemented in 2000. \n",
-        "block_no": 40,
+        "block_no": 41,
         "block_type": 0,
         "page_num": 7
     },
@@ -3259,7 +3271,7 @@
             505.2378234863281
         ],
         "lines": "Management plays a key role in acting as a role model and \n",
-        "block_no": 41,
+        "block_no": 42,
         "block_type": 0,
         "page_num": 7
     },
@@ -3271,7 +3283,7 @@
             600.3978271484375
         ],
         "lines": "providing the so-called \u201ctone from the top\u201d. Members of manage-\nment must consistently demonstrate their commitment to integrity \nand high ethical values through their attitudes and actions. They are \nresponsible for effectively implementing compliance programs and \nbest practices in consideration of local laws and regulations and \nethical market practices. In 2015 and 2017, a global value-based \nintegrity campaign was initiated and approximately 6,000 executives \nparticipated in integrity encounters. \n",
-        "block_no": 42,
+        "block_no": 43,
         "block_type": 0,
         "page_num": 7
     },
@@ -3283,7 +3295,7 @@
             612.27783203125
         ],
         "lines": "Compliance risk is covered as part of the operational risk in  \n",
-        "block_no": 43,
+        "block_no": 44,
         "block_type": 0,
         "page_num": 7
     },
@@ -3295,7 +3307,7 @@
             659.9178466796875
         ],
         "lines": "Allianz\u2019s Integrated Risk and Control System (IRCS). In 2017, all OEs \nconducted a compliance risk assessment based on the compliance-\nrisk scenarios. The following top inherent compliance risk areas have \nbeen identified: \n",
-        "block_no": 44,
+        "block_no": 45,
         "block_type": 0,
         "page_num": 7
     },
@@ -3307,7 +3319,7 @@
             719.5274658203125
         ],
         "lines": "\u2212 economic sanctions,  \n\u2212 money laundering, \n\u2212 anti-trust, and \n\u2212 corruption. \n",
-        "block_no": 45,
+        "block_no": 46,
         "block_type": 0,
         "page_num": 7
     },
@@ -3319,7 +3331,7 @@
             789.0479736328125
         ],
         "lines": "1_Figure does not include Allianz Re.  \n",
-        "block_no": 46,
+        "block_no": 47,
         "block_type": 0,
         "page_num": 7
     },

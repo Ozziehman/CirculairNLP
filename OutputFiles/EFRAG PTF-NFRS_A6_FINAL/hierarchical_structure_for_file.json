@@ -93,7 +93,7 @@
                 3
             ],
             "subtitle4_1": {
-                "text": "EXECUTIVE SUMMARY INTRODUCTION AND OBJECTIVES DETAILED ANALYSIS OF THE CURRENT STATE OF PLAY ",
+                "text": "EXECUTIVE SUMMARY\bINTRODUCTION AND OBJECTIVES\bDETAILED ANALYSIS OF THE CURRENT STATE OF PLAY\b",
                 "blocks": [
                     2,
                     3,
@@ -103,7 +103,7 @@
                     3
                 ],
                 "paragraph_4": {
-                    "text": "FRAMING OF THE WORK SECTION 1: HOW NON-FINANCIAL INFORMATION IS PRODUCED SECTION 2: HOW NON-FINANCIAL INFORMATION IS PROVIDED SECTION 3: WHAT ARE THE CHALLENGES FACED FOR PRODUCING  OR USING THE PROVIDED NON-FINANCIAL INFORMATION SECTION 4: WHAT IS THE SPECIFIC SITUATION OF SMEs RELATED TO NON-FINANCIAL REPORTING? ",
+                    "text": "FRAMING OF THE WORK\bSECTION 1: HOW NON-FINANCIAL INFORMATION IS PRODUCED\bSECTION 2: HOW NON-FINANCIAL INFORMATION IS PROVIDED\bSECTION 3: WHAT ARE THE CHALLENGES FACED FOR PRODUCING  OR USING THE PROVIDED NON-FINANCIAL INFORMATION\bSECTION 4: WHAT IS THE SPECIFIC SITUATION OF SMEs RELATED TO NON-FINANCIAL REPORTING?\b",
                     "blocks": [
                         5,
                         6,
@@ -118,7 +118,7 @@
                 }
             },
             "subtitle4_2": {
-                "text": "SALIENT ASSESSMENT POINTS APPENDIX: SOURCES USED FOR DESKTOP LITERATURE REVIEW ",
+                "text": "SALIENT ASSESSMENT POINTS\bAPPENDIX: SOURCES USED FOR DESKTOP LITERATURE REVIEW\b",
                 "blocks": [
                     11,
                     12
@@ -151,7 +151,7 @@
             }
         },
         "subtitle2_4": {
-            "text": "DETAILED ANALYSIS OF  THE CURRENT STATE OF PLAY",
+            "text": "DETAILED ANALTHE CURRENT STATE OF PLAY",
             "blocks": [
                 25
             ],
@@ -524,7 +524,7 @@
                     13
                 ],
                 "subtext3_2": {
-                    "text": " How many companies report to meet regulatory requirements or other mandatory obligations on a voluntary basis?While many companies in the EU are subject to non-financial reporting laws and regulations, that number falls significantly short of the entire population of companies of the respective size. In particular:a) EU rules on non-financial reporting cover approximately 6 000 large companies and groups across the EUto a total of 38 368 large companies and of 16 616 PIEs in the EU (2017)b) Stock exchange regulations apply to a total of 7 770 listed companies in the EU, and only 6 300 of these (81%), possibly including SMEs, cover sustainability reporting in some way in their annual filings (2019)",
+                    "text": "How many companies report to meet regulatory requirements or other mandatory obligations on a voluntary basis?While many companies in the EU are subject to non-financial reporting laws and regulations, that number falls significantly short of the entire population of companies of the respective size. In particular:a) EU rules on non-financial reporting cover approximately 6 000 large companies and groups across the EUto a total of 38 368 large companies and of 16 616 PIEs in the EU (2017)b) Stock exchange regulations apply to a total of 7 770 listed companies in the EU, and only 6 300 of these (81%), possibly including SMEs, cover sustainability reporting in some way in their annual filings (2019)",
                     "blocks": [
                         5,
                         6,
@@ -665,7 +665,7 @@
                     16
                 ],
                 "subtext3_4": {
-                    "text": " What topics are most reported upon and by what types of entities?This question requires both an evaluation of the non-financial reporting topics dealt with companies and the degree to which the disclosure has been addressed. Considering this from several possible classification angles, the assessment was structured by following the topic classification and level of disclosure as articulated in the NFRD. The 2019 ACT report forms the backbone of this analysis. Where possible, this was supplemented with additional data from other sources, and in particular with TCFD data on climate-related disclosures.In the 2019 ACT report, topics are presented under the NFRD classification in the following way:Table 7: 2019 ACT report classification of topics",
+                    "text": "What topics are most reported upon and by what types of entities?This question requires both an evaluation of the non-financial reporting topics dealt with companies and the degree to which the disclosure has been addressed. Considering this from several possible classification angles, the assessment was structured by following the topic classification and level of disclosure as articulated in the NFRD. The 2019 ACT report forms the backbone of this analysis. Where possible, this was supplemented with additional data from other sources, and in particular with TCFD data on climate-related disclosures.In the 2019 ACT report, topics are presented under the NFRD classification in the following way:Table 7: 2019 ACT report classification of topics",
                     "blocks": [
                         4,
                         5,
@@ -754,13 +754,15 @@
                     }
                 },
                 "subtitle6_1": {
-                    "text": "Climate Change Use of NaturalWasteBiodiversity andResourcesPollutingDischargesecosystemconservation",
+                    "text": "Climate Change Use of NaturalPollutingWasteBiodiversity andResourcesDischargesecosystemconservation",
                     "blocks": [
                         16,
-                        19,
-                        17,
                         18,
-                        20
+                        20,
+                        17,
+                        19,
+                        21,
+                        22
                     ],
                     "page_nums": [
                         17
@@ -768,9 +770,9 @@
                     "subtext2_11": {
                         "text": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019)The 2019 ACT report finds that a great majority of companies address climate change in their disclosure (90,9%). This could reflect the increased demands in recent years from investors and other stakeholders for disclosure around climate risk, whether due to mandatory requirements or voluntary reporting initiatives. Climate risk has been a focus of established reporting standards, frameworks and principles including GRI, CDP and CDSB, as well as the NFRD. Disclosure on waste is the second most frequent topic, but with varying levels of disclosure provided, as shown later in paragraph 66.The 2019 ACT report indicates that only a minority of companies cover biodiversity and ecosystem conservation in their reports, as further elaborated in paragraph 67.This conclusion on biodiversity and ecosystem conservation, however, is not consistent across all sectors, as companies in certain high-risk sectors such as the Energy & Resource Extraction and Infrastructure, typically do provide such disclosure. Yet, in other high-risk sectors such as Apparel & Textiles, Hospitality & Recreation and Food & Beverages, the percentage of companies disclosing on this topic is strikingly low.Size emerges as a key criterion for environmental disclosures, as the proportion of companies providing relevant disclosures increases for all climate change topics as turnover increases. This is shown in Table 9.Table 9: Number of companies addressing climate change by revenue size",
                         "blocks": [
-                            21,
-                            22,
                             23,
+                            24,
+                            25,
                             1,
                             2,
                             3,
@@ -917,23 +919,25 @@
                                 25
                             ],
                             "subtext11_1": {
-                                "text": "GeneralHuman RightsHigh riskDataHuman Rightsin supplyareas for civilConflictresourcesprotectionchainsImpacts onindigenousand local/ politicalcriteriacommunitiesrights",
+                                "text": "GeneralHuman RightsHigh riskConflictDataHuman Rightsin supplyImpacts onindigenousareas for civilresourcesprotectionchainsand local/ politicalcriteriacommunitiesrights",
                                 "blocks": [
                                     9,
-                                    12,
-                                    17,
-                                    22,
-                                    10,
                                     13,
-                                    18,
-                                    21,
-                                    23,
-                                    14,
-                                    15,
                                     19,
-                                    11,
+                                    23,
+                                    25,
+                                    10,
+                                    14,
                                     16,
-                                    20
+                                    20,
+                                    24,
+                                    26,
+                                    15,
+                                    17,
+                                    21,
+                                    12,
+                                    18,
+                                    22
                                 ],
                                 "page_nums": [
                                     25
@@ -943,28 +947,30 @@
                         "subtext2_13": {
                             "text": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019)Given the discretionary nature of disclosing human rights issues, it is interesting to see how few companies consider any human rights dimension for disclosure purposes, particularly on topics that have a cross-sectoral impact, such as data protection of the supply chain. Figure 15 below was prepared using information from the 2019 ACT report.Figure 15: Proportion of companies that identify salient human rights issues",
                             "blocks": [
-                                24,
-                                25,
-                                26
+                                27,
+                                28,
+                                29
                             ],
                             "page_nums": [
                                 25
                             ],
                             "subtext11_2": {
-                                "text": "Human Rights inImpacts onHigh risk areasGeneral HumanRights reportingsupply chainsindigenous andfor civil / politicalConflictresourcescriterialocalrightscommunities",
+                                "text": "General HumanHuman Rights inImpacts onHigh risk areasConflictRights reportingsupply chainsindigenous andfor civil / politicalresourcescriterialocalrightscommunities",
                                 "blocks": [
-                                    34,
-                                    36,
-                                    40,
-                                    32,
                                     35,
-                                    37,
-                                    41,
-                                    43,
-                                    33,
                                     38,
+                                    40,
+                                    44,
+                                    47,
+                                    36,
+                                    39,
+                                    41,
+                                    45,
+                                    48,
+                                    37,
                                     42,
-                                    39
+                                    46,
+                                    43
                                 ],
                                 "page_nums": [
                                     25
@@ -974,7 +980,7 @@
                         "subtext2_14": {
                             "text": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019)According to the 2019 ACT report, corporate disclosure on human rights is often narrative and case specific. Methodologies that allow to report on human rights in quantitative terms are not common, which in broad terms can be explained by the very nature of the matter, namely, that quantifying human rights issues and impacts is challenging.For the purposes of the research leading to the 2019 ACT report, the methodology adopted for the assessment of human rights related disclosures focused on general criteria was derived from the UN Guiding Principles on Business and Human Rights Reporting Framework, concerning the identification of the salient human rights issues by companies and their management. It was stated that these criteria naturally fitted the categories of information the NFRD requires companies to report on, namely policies and due diligence procedures, outcomes, principal risks and KPIs. This approach leaves the choice of salient issues at the discretion of companies.According to the research, most companies refer to and disclose policies on human rights, suggesting that many businesses view human rights as material. However relatively few companies disclosed relevant and specific details on policies. An important finding included in the 2019 ACT report, based on the sample of 1 000 companies analysed, concerns disclosure on human rights due diligence. Only 22.2% of companies reported on due diligence processes and only 6.9% referred to their commitment to provide remedy for harmed people.Figure 16: Disclosure on human rights due diligenceSource: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019) \u2013 page 19The high percentage of companies reporting on human rights policies (over 80%) is in contrast with a much lower share describing policy outcomes (less than 40%, and only 6.2% with respect to policy targets). The fact that only 26.4% of companies report data or KPIs is more difficult to evaluate given the lack of methodologies to quantify human rights impacts and their management.Figure 17: Description of policy outcomesSource: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019) \u2013 page 69A minority of companies address impacts on indigenous and/or local community rights across all sectors. However a different outcome is observed when reviewing the disclosures of companies on this topic in the Energy & Resource Extraction sector, where more companies refer to this issue in their reports.The relevance of reporting on high risk areas for civil and political rights depends on a company\u2019s operational context. These risks are most often associated with the Energy & Resource Extraction sector. It is difficult to accurately estimate how many European companies operate in high-risk areas. The results provide a basic perspective on the level of awareness among businesses.Only a small proportion of companies referred to high risk areas for civil and political rights in their reports and to a lesser extend identify high risk areas as a salient human rights issue. While a larger proportion of companies in the Energy & Resource Extraction sector addressed this issue in their reports, results in other sectors are lower still, including potentially high-risk sectors such as Technology & Communications, Apparel & Textiles, and Food & Beverages.Conflict resources include conflict minerals covered by the EU Conflict Minerals Regulation \u2013 tin, tungsten, tantalum and gold \u2013 as well as other resources, such as timber. Technology & Communications and Resource Transformation are considered to be the two sectors most at risk of being linked to conflict minerals. The research behind the 2019 ACT report shows that most of the 1 000 companies reviewed did not cover the issue in their non-financial reporting, although a slightly higher number of companies in the Technology & Communications and Resource Transformation sectors reported on the topic.Anti-corruption & WhistleblowingAccording to the 2019 ACT report, anti-corruption issues are addressed by 96.4% of the sample of 1 000 companies reviewed, with similar results across industries.Issues regarding whistleblowing have lower, but still significant coverage, with almost 77% of the sample of companies reviewed describing policies about this to some extent. Social mattersThe 2019 ACT report notes the difficulty in identifying concrete social issues that would not be classified as either a matter of respecting human rights or as employee-related matters as understood in the previous section.To this end, the issues examined by the 2019 ACT report under the social matters umbrella are employee & workforce matters and taxes.Employee & workforce matters are addressed by 98% of the sample of 1 000 companies analysed, to the degree shown in Figure 18 below.Figure 18: Proportion of companies addressing employee and workforce matters by level of disclosureSource: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019)Further detail, regarding specific topics of particular social relevance, can be seen in Figure 19 below, prepared using information from the 2019 ACT report on the sample of 1 000 companies analysed.Figure 19: Proportion of companies addressing specific topics of employee & workforce matters",
                             "blocks": [
-                                44,
+                                49,
                                 1,
                                 2,
                                 3,
@@ -1024,18 +1030,21 @@
                                 29
                             ],
                             "subtext8_1": {
-                                "text": "CommitmentProvision ofIncome taxes paidTax policiesCommitment topay taxes whereeffective tax ratesProfit before tax\u2013by countrythe profitsagainst taxavoidancestrategiescountry",
+                                "text": "Tax policiesCommitment toCommitmentProvision ofProfit before tax\u2013Income taxes paidpay taxes whereagainst taxeffective tax ratesavoidanceby countrythe profitsstrategiescountry",
                                 "blocks": [
-                                    11,
+                                    9,
+                                    12,
+                                    16,
+                                    18,
+                                    21,
+                                    10,
                                     13,
                                     17,
-                                    9,
                                     14,
+                                    20,
+                                    11,
                                     15,
-                                    16,
-                                    10,
-                                    12,
-                                    20
+                                    24
                                 ],
                                 "page_nums": [
                                     29
@@ -1045,14 +1054,14 @@
                         "subtext2_16": {
                             "text": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019)The results of the research for the 2019 ACT report suggest relatively low coverage of reporting on tax-related policies and commitments from a country-by-country perspective. While most companies report on tax policies, only a few companies express specific commitment about paying taxes where profits are generated, and even fewer companies provide information on income taxes paid disaggregated by country.GovernanceThe NFRD does not explicitly require any specific governance-related disclosures even though such disclosures are recommended in a majority of reporting frameworks.The 2019 ACT report notes that only 14% of the sample of 1 000 companies reviewed, report that their Boards discussed specific issues in their non-financial reporting, and only 15% report a link between sustainability objectives and executive remuneration.Based on the sample of 1 000 companies analysed for the purposes of the 2019 ACT report, in terms of reporting in line with the NFRD:a) Between 40 and 50% of companies disclose a declaration of social purpose, the Board\u2019s mandate and supportive procedural governance arrangements;b) Nearly 30% of companies disclose information on Board engagement with workforce representatives; andc) About 14% of companies disclose matters that have more immediate impact on the Board\u2019s accountability for sustainability performance, including compensation, independent assessment, and transparency concerning decisions.Figure 21: Reporting practicesSource: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-Financial Reporting Directive, The Alliance for Corporate Transparency (2019) \u2013 page 40UN Sustainable Development Goals (SDGs)The 2019 ACT report concluded that although many companies espouse the Paris Agreement or the SDGs, they still fail to set specific targets in line with them, or measure their progress accordingly. Of those who set climate targets, only 14% align to Paris Agreement goals, for example. Most of all, given the high level of business debate around the SDGs, the 2019 ACT report notes that with the exception of Austria, Belgium, Denmark, Spain and Sweden, only a minority of companies in other EU countries make any reference to the SDGs in their reports across the rest of the European Union. The Carrots & Sticks 2020 report, which performed an analysis and high-level connections between reporting provisions and the SDGs, notes that the SDGs most implied by reporting provisions, directly or indirectly, are the ones more directly associated with business operations, e.g. SDG 12 on responsible production and consumption, SDG 16 on inclusive societies and accountable institutions, as well as SDG 8 on decent work and economic growth. These SDGs ",
                             "blocks": [
-                                21,
-                                22,
-                                23,
-                                24,
                                 25,
                                 26,
                                 27,
                                 28,
+                                29,
+                                30,
+                                31,
+                                32,
                                 1,
                                 2,
                                 3,
@@ -1134,7 +1143,7 @@
                     32
                 ],
                 "subtext3_5": {
-                    "text": " Where is non-financial information found in companies\u2019 publications?The NFRD provides an option for non-financial statements to be included in the annual report or in a stand-alone report (depending on Member States\u2019 decisions and choices). This leads to obvious variations in presentation of non-financial information across companies in the EU.The examination of 145 European issuers in 2019 for the purposes of ESMA\u2019s enforcement and regulatory activitiesshowed that 67% of the companies examined included their non-financial statements directly in the management report ",
+                    "text": "Where is non-financial information found in companies\u2019 publications?The NFRD provides an option for non-financial statements to be included in the annual report or in a stand-alone report (depending on Member States\u2019 decisions and choices). This leads to obvious variations in presentation of non-financial information across companies in the EU.The examination of 145 European issuers in 2019 for the purposes of ESMA\u2019s enforcement and regulatory activitiesshowed that 67% of the companies examined included their non-financial statements directly in the management report ",
                     "blocks": [
                         12,
                         13,
@@ -1241,7 +1250,7 @@
                     36
                 ],
                 "subtext3_6": {
-                    "text": " Are there any reporting initiatives which provide normalised metrics, digital electronic format representation, reporting tools or data repository for the reporting of non-financial information?According to the European Commission\u2019 request for technical advice from the European Lab, users have difficulty in finding and exploiting the reported non-financial information, in part because the information is not sufficiently digitalised. As a matter of fact, non-financial reporting requires not only guidelines for reporting, but also normalised metrics, digital electronic format representation, reporting tools and data repository solutions to enable easier disclosure, accessibility and analysis of non-financial information. This assessment is supported by the information presented in Table 10 below:Table 10: Non-financial reporting initiatives and disclosure production/consumption resources",
+                    "text": "Are there any reporting initiatives which provide normalised metrics, digital electronic format representation, reporting tools or data repository for the reporting of non-financial information?According to the European Commission\u2019 request for technical advice from the European Lab, users have difficulty in finding and exploiting the reported non-financial information, in part because the information is not sufficiently digitalised. As a matter of fact, non-financial reporting requires not only guidelines for reporting, but also normalised metrics, digital electronic format representation, reporting tools and data repository solutions to enable easier disclosure, accessibility and analysis of non-financial information. This assessment is supported by the information presented in Table 10 below:Table 10: Non-financial reporting initiatives and disclosure production/consumption resources",
                     "blocks": [
                         2,
                         3,
@@ -1349,7 +1358,7 @@
                     40
                 ],
                 "subtext3_7": {
-                    "text": " Which type of technology framework/platform was used to provide non-financial information?The Association of Accountants and Financial Professionals in Business (IMA) published a report in 2020 entitled \u2018A digital transformation brief: Business reporting in the fourth industrial revolution\u2019, presenting research relevant to digital transformation. From the preparers\u2019 perspective, many entities covered by the NFRD rely on manual processes, large teams, third-party consultants, and a variety of proprietary point solutions, such as business productivity software, email, and general-purpose collaboration software, to provide the requested data and disclosure. Exacerbating these reporting challenges is the continued growth in size and complexity of many organisations with employees and data located all around the world. One of the issues identified is that traditional information management solutions may not provide the agility, scalability and scope to economically permit a more comprehensive NFRD information management process. Physically connecting disparate information from internal and external data systems creates a costly information processing environment that is not adequate or agile enough to support both internal and external supply chain non-financial information sources. Traditional information management solutions may not provide the agility, scalability and scope to economically permit this more comprehensive NFRD information management process.According to a recent report by the Transparency Market Research Group (a global market intelligence company), preparers are starting to implement cloud-based disclosure management solutions in order to publish statutory disclosures. The report states that disclosure management solutions are one of the steps expected to gain significant traction in the near future due to the rising need for managing disclosure information within organisations. Many software vendors are venturing into the disclosure management software market. Key players operating in the market include SAP, Oracle, Certent, IRIS Business Services, Workiva, CoreFiling, DataTracks, LucaNet, OCR Services, Tagetik Software, Synthesis Technology, Anaqua, Trintech, and Lecorpio. Accelerating digitisation has become more urgent as the COVID-19 pandemic highlighted the inadequacies of systems that rely on outdated, insecure technology and that operate with vast voids of fragmented disclosure information.The abovementioned IMA study showed that physically connecting disparate information systems from internal and external data systems creates a costly information processing environment that may not be adequate or agile enough to support both internal and external supply chain information sources for non-financial information.A challenge for non-financial information data management control systems and sustainability control systems is to support the implementation of an integrated sustainability strategy. The configuration of an organisation\u2019s control system and reporting system may vary across sustainability dimensions and type of company due to its size and activity. For example, it is plausible that an organisation\u2019s environmental and financial control systems might be tightly coupled in cases where there is a clear association between environmental performance (e.g. energy efficiency and waste reduction) and cost reduction. On the other hand, it may be difficult to determine such an association with respect to social activities (e.g. engagement in community activities) and financial performance. Thus, there is a need for empirical evidence that examines these differences so reporting alone may not be enough. NFRD reporting entities are seeking management systems that can meet many versions of non-financial information reporting. Assessing relevant information from across these comprehensive strategic areas is one of the most difficult tasks for NFRD reporting teams. It requires establishing common definitions for critical information and potentially rethinking the association between strategy drivers and the underlying processes and related performance metrics. This often requires a better, more holistic approach to company KPIs \u2013 those that are integrated into the company\u2019s long-term strategy for value creation across all stakeholders.Building on these requirements, there is a need for well trained professional resources within companies that are responsible for sourcing, aggregating and consolidating this information, with well-designed controls, processes and procedures that ensure that the data is reliable, timely, comparable and accurate (Figure 30).",
+                    "text": "Which type of technology framework/platform was used to provide non-financial information?The Association of Accountants and Financial Professionals in Business (IMA) published a report in 2020 entitled \u2018A digital transformation brief: Business reporting in the fourth industrial revolution\u2019, presenting research relevant to digital transformation. From the preparers\u2019 perspective, many entities covered by the NFRD rely on manual processes, large teams, third-party consultants, and a variety of proprietary point solutions, such as business productivity software, email, and general-purpose collaboration software, to provide the requested data and disclosure. Exacerbating these reporting challenges is the continued growth in size and complexity of many organisations with employees and data located all around the world. One of the issues identified is that traditional information management solutions may not provide the agility, scalability and scope to economically permit a more comprehensive NFRD information management process. Physically connecting disparate information from internal and external data systems creates a costly information processing environment that is not adequate or agile enough to support both internal and external supply chain non-financial information sources. Traditional information management solutions may not provide the agility, scalability and scope to economically permit this more comprehensive NFRD information management process.According to a recent report by the Transparency Market Research Group (a global market intelligence company), preparers are starting to implement cloud-based disclosure management solutions in order to publish statutory disclosures. The report states that disclosure management solutions are one of the steps expected to gain significant traction in the near future due to the rising need for managing disclosure information within organisations. Many software vendors are venturing into the disclosure management software market. Key players operating in the market include SAP, Oracle, Certent, IRIS Business Services, Workiva, CoreFiling, DataTracks, LucaNet, OCR Services, Tagetik Software, Synthesis Technology, Anaqua, Trintech, and Lecorpio. Accelerating digitisation has become more urgent as the COVID-19 pandemic highlighted the inadequacies of systems that rely on outdated, insecure technology and that operate with vast voids of fragmented disclosure information.The abovementioned IMA study showed that physically connecting disparate information systems from internal and external data systems creates a costly information processing environment that may not be adequate or agile enough to support both internal and external supply chain information sources for non-financial information.A challenge for non-financial information data management control systems and sustainability control systems is to support the implementation of an integrated sustainability strategy. The configuration of an organisation\u2019s control system and reporting system may vary across sustainability dimensions and type of company due to its size and activity. For example, it is plausible that an organisation\u2019s environmental and financial control systems might be tightly coupled in cases where there is a clear association between environmental performance (e.g. energy efficiency and waste reduction) and cost reduction. On the other hand, it may be difficult to determine such an association with respect to social activities (e.g. engagement in community activities) and financial performance. Thus, there is a need for empirical evidence that examines these differences so reporting alone may not be enough. NFRD reporting entities are seeking management systems that can meet many versions of non-financial information reporting. Assessing relevant information from across these comprehensive strategic areas is one of the most difficult tasks for NFRD reporting teams. It requires establishing common definitions for critical information and potentially rethinking the association between strategy drivers and the underlying processes and related performance metrics. This often requires a better, more holistic approach to company KPIs \u2013 those that are integrated into the company\u2019s long-term strategy for value creation across all stakeholders.Building on these requirements, there is a need for well trained professional resources within companies that are responsible for sourcing, aggregating and consolidating this information, with well-designed controls, processes and procedures that ensure that the data is reliable, timely, comparable and accurate (Figure 30).",
                     "blocks": [
                         2,
                         3,
@@ -1394,7 +1403,7 @@
                     41
                 ],
                 "subtext3_8": {
-                    "text": " How many companies report through which technology framework/platform?Currently, every EU Member State has its own Officially Appointed Mechanism (OAM), which typically works as a storage facility that publishes statutory information related to its listed companies. Hence, any investor who wants to compare companies across different member states must access a different OAM for each company. Furthermore, member states have different national mechanisms for storing information about companies, which all work in slightly different ways, and the information they provide varies in terms of scope and quality. Figure 31: The Transparency Directive reporting flowSource: IMP\u2019s Non-Financial Digitisation Working Group and IMAAll companies, regardless of size, file reports to a national business registry in EU Member States. Different business registers operate within different legal frameworks, and companies need to comply with the laws of each jurisdiction. The national business registers validate the completeness of the filed reports and calculations and those reports are offered to the general public as a public database normally subject to a specific cost. It is important to note that there were estimated to be approximately 25.1 million SMEs in the European Union in 2018, with the vast majority being micro-sized enterprises which employed fewer than nine people. Only 1.47 million of those enterprises had between 10 and 49 employees and approximately 236 thousand had 50 to 249 employers.Figure 32: Company annual reports and Business Registers disclosure processSource: Graph Source: IMP\u2019s Non-Financial Digitisation Working Group",
+                    "text": "How many companies report through which technology framework/platform?Currently, every EU Member State has its own Officially Appointed Mechanism (OAM), which typically works as a storage facility that publishes statutory information related to its listed companies. Hence, any investor who wants to compare companies across different member states must access a different OAM for each company. Furthermore, member states have different national mechanisms for storing information about companies, which all work in slightly different ways, and the information they provide varies in terms of scope and quality. Figure 31: The Transparency Directive reporting flowSource: IMP\u2019s Non-Financial Digitisation Working Group and IMAAll companies, regardless of size, file reports to a national business registry in EU Member States. Different business registers operate within different legal frameworks, and companies need to comply with the laws of each jurisdiction. The national business registers validate the completeness of the filed reports and calculations and those reports are offered to the general public as a public database normally subject to a specific cost. It is important to note that there were estimated to be approximately 25.1 million SMEs in the European Union in 2018, with the vast majority being micro-sized enterprises which employed fewer than nine people. Only 1.47 million of those enterprises had between 10 and 49 employees and approximately 236 thousand had 50 to 249 employers.Figure 32: Company annual reports and Business Registers disclosure processSource: Graph Source: IMP\u2019s Non-Financial Digitisation Working Group",
                     "blocks": [
                         5,
                         6,
@@ -1449,7 +1458,7 @@
                     43
                 ],
                 "subtext3_9": {
-                    "text": " What are the issues identified with what is reported in terms of content?CDSB\u2019s 2020 report \u2018Falling short? Why environmental and climate-related disclosures under the EU Non-Financial Reporting Directive must improve\u2019, analysing the 2019 environmental and climate-related disclosures of Europe\u2019s 50 largest listed companies with a combined market capitalisation of USD 4.3 trillion, observes that these companies report data which lack quality, comparability and coherence.An article by CDP Europe notes that achieving the urgent transition to a resource-secure economy depends on companies being accountable for their impact, as well as investors and other users having usable information when making their capital allocation decisions. Yet the scope of the directive as it stands today falls short on both principles.The 2019 ACT report observes that about half of the 1 000 companies analysed do not generally disclose information useful for decision making. Approximately a third of the companies report well-developed sustainability policies, but these fail to provide evidence around impacts. Only 20% of the companies provide information that allows such understanding. This research concludes that the quality and comparability of companies\u2019 sustainability reporting across the NFRD\u2019s five topics is not sufficient for understanding their impacts, risks or plans.In October 2019, the UK\u2019s Financial Reporting Council (FRC) issued an online consultation seeking stakeholder views and expectations for the future of corporate reporting. According to the published survey conclusions, 51% of respondents said that they are always interested in information about how a company\u2019s activities affect the environment, communities, customers and suppliers. Contrasting this, the FRC noted that existing sustainability reports rank among the least read ",
+                    "text": "What are the issues identified with what is reported in terms of content?CDSB\u2019s 2020 report \u2018Falling short? Why environmental and climate-related disclosures under the EU Non-Financial Reporting Directive must improve\u2019, analysing the 2019 environmental and climate-related disclosures of Europe\u2019s 50 largest listed companies with a combined market capitalisation of USD 4.3 trillion, observes that these companies report data which lack quality, comparability and coherence.An article by CDP Europe notes that achieving the urgent transition to a resource-secure economy depends on companies being accountable for their impact, as well as investors and other users having usable information when making their capital allocation decisions. Yet the scope of the directive as it stands today falls short on both principles.The 2019 ACT report observes that about half of the 1 000 companies analysed do not generally disclose information useful for decision making. Approximately a third of the companies report well-developed sustainability policies, but these fail to provide evidence around impacts. Only 20% of the companies provide information that allows such understanding. This research concludes that the quality and comparability of companies\u2019 sustainability reporting across the NFRD\u2019s five topics is not sufficient for understanding their impacts, risks or plans.In October 2019, the UK\u2019s Financial Reporting Council (FRC) issued an online consultation seeking stakeholder views and expectations for the future of corporate reporting. According to the published survey conclusions, 51% of respondents said that they are always interested in information about how a company\u2019s activities affect the environment, communities, customers and suppliers. Contrasting this, the FRC noted that existing sustainability reports rank among the least read ",
                     "blocks": [
                         7,
                         8,
@@ -1577,7 +1586,7 @@
                     }
                 },
                 "paragraph_24": {
-                    "text": "For the UK, the BEIS research report on stakeholder perceptions of non-financial reporting, points out that over half of the respondents that participated in the research mentioned the variations in reporting between companies and the consequent difficulties in comparing reports. The need for clarity or greater guidance around some of the terminology was also suggested by the respondents.Lack of common and standardised metricsThe Frank Bold paper comparing the implementation of the NFRD in the UK, Germany, France and Italy, notes that the NFRD fails to provide any specific KPIs that should be applied by companies, or any guidance as to what they should be trying to illustrate. From the countries surveyed for the Frank Bold paper only France sets out KPIs in the implementing legislation (such as frequency and severity of workplace accidents), while the other countries do not set out specific KPIs or how they should be measured. According to the BEIS research report the multitude of KPIs used across companies makes comparative analysis very difficult.Inconsistent implementation of the NFRD in different member statesMember States have implemented the NFRD in varying ways, with different approaches on key issues, such as the definition of PIEs or the level of assurance required (see Section 1 for more details).Differing levels of maturity across reporting organisations of the reporting process including responsibilities,  systems and processes According to a report by ECIIA \u2018Non-Financial Reporting: Building trust with internal audit\u2019, the implementation of the NFRD has impacted organisations in differing ways. Some have already established reporting on non-financial information whereas others have not. Indeed, some may have decided not to implement the new reporting requirements and prefer to explain their reasons for not complying. The ECIIA report notes that in order to fulfil their corporate social responsibility, companies should have in place a process to integrate social, environmental, ethical, human rights and consumer concerns into their business operations and core strategy, in close collaboration with their stakeholders, with the aim of: (a) maximising the creation of shared value for owners/shareholders, other stakeholders and society at large, and (b) identifying, preventing and mitigating possible adverse impact from operations.A recent series of roundtables jointly conducted by ecoDa and Mazars during 2019 and 2020, highlighted that one of the key challenges for a wholehearted commitment to sustainability across the business community in Europe, was that the focus on sustainability is often seen by many businesses as primarily a box-ticking compliance exercise, rather than a process for deeply embedding considerations of sustainability across all aspects of the business. It was further noted that the emphasis of company boards tends to be on short-term financial performance, without much attention on sustainability considerations at board level.According to the European Commission Summary Report of the Public Consultation on the Review of the Non-Financial Reporting Directive, there is strong support for assurance for non-financial information, with 67% of respondents believing that the EU should impose stronger audit requirements for non-financial information. The summary goes on to say that some respondents stated that auditors are best placed to provide assurance on non-financial information, while a smaller number mentioned that this should not necessarily be the case.",
+                    "text": "For the UK, the BEIS research report on stakeholder perceptions of non-financial reporting, points out that over half of the respondents that participated in the research mentioned the variations in reporting between companies and the consequent difficulties in comparing reports. The need for clarity or greater guidance around some of the terminology was also suggested by the respondents.Lack of common and standardised metricsThe Frank Bold paper comparing the implementation of the NFRD in the UK, Germany, France and Italy, notes that the NFRD fails to provide any specific KPIs that should be applied by companies, or any guidance as to what they should be trying to illustrate. From the countries surveyed for the Frank Bold paper only France sets out KPIs in the implementing legislation (such as frequency and severity of workplace accidents), while the other countries do not set out specific KPIs or how they should be measured. According to the BEIS research report the multitude of KPIs used across companies makes comparative analysis very difficult.Inconsistent implementation of the NFRD in different member statesMember States have implemented the NFRD in varying ways, with different approaches on key issues, such as the definition of PIEs or the level of assurance required (see Section 1 for more details).Differing levels of maturity across reporting organisations of the reporting process including responsibilities, systems and processes According to a report by ECIIA \u2018Non-Financial Reporting: Building trust with internal audit\u2019, the implementation of the NFRD has impacted organisations in differing ways. Some have already established reporting on non-financial information whereas others have not. Indeed, some may have decided not to implement the new reporting requirements and prefer to explain their reasons for not complying. The ECIIA report notes that in order to fulfil their corporate social responsibility, companies should have in place a process to integrate social, environmental, ethical, human rights and consumer concerns into their business operations and core strategy, in close collaboration with their stakeholders, with the aim of: (a) maximising the creation of shared value for owners/shareholders, other stakeholders and society at large, and (b) identifying, preventing and mitigating possible adverse impact from operations.A recent series of roundtables jointly conducted by ecoDa and Mazars during 2019 and 2020, highlighted that one of the key challenges for a wholehearted commitment to sustainability across the business community in Europe, was that the focus on sustainability is often seen by many businesses as primarily a box-ticking compliance exercise, rather than a process for deeply embedding considerations of sustainability across all aspects of the business. It was further noted that the emphasis of company boards tends to be on short-term financial performance, without much attention on sustainability considerations at board level.According to the European Commission Summary Report of the Public Consultation on the Review of the Non-Financial Reporting Directive, there is strong support for assurance for non-financial information, with 67% of respondents believing that the EU should impose stronger audit requirements for non-financial information. The summary goes on to say that some respondents stated that auditors are best placed to provide assurance on non-financial information, while a smaller number mentioned that this should not necessarily be the case.",
                     "blocks": [
                         1,
                         2,
@@ -1870,7 +1879,7 @@
                     64
                 ],
                 "subtext3_10": {
-                    "text": " What are the issues identified regarding how non-financial information is displayed?The current landscape for non-financial reporting is fragmented.",
+                    "text": "What are the issues identified regarding how non-financial information is displayed?The current landscape for non-financial reporting is fragmented.",
                     "blocks": [
                         8,
                         9
@@ -1915,7 +1924,7 @@
                     66
                 ],
                 "subtext3_11": {
-                    "text": " What are the issues identified in respect of the means through which non-financial information is reported?The non-financial reporting ecosystem is fragmented at various levels and variables, including data formats, modes of submission, data definitions for certain common elements, business rules, access controls, and validations for similar reporting elements across different forms and regulators.",
+                    "text": "What are the issues identified in respect of the means through which non-financial information is reported?The non-financial reporting ecosystem is fragmented at various levels and variables, including data formats, modes of submission, data definitions for certain common elements, business rules, access controls, and validations for similar reporting elements across different forms and regulators.",
                     "blocks": [
                         9,
                         10
@@ -2052,7 +2061,7 @@
                     69
                 ],
                 "subtext3_12": {
-                    "text": " On what basis do SMEs report? Do they report to meet regulatory requirements, other mandatory obligations or on a voluntary basis? What are the relevant rules?",
+                    "text": "On what basis do SMEs report? Do they report to meet regulatory requirements, other mandatory obligations or on a voluntary basis? What are the relevant rules?",
                     "blocks": [
                         2
                     ],
@@ -2070,7 +2079,7 @@
                     69
                 ],
                 "subtext3_13": {
-                    "text": " How many SMEs report to meet regulatory requirements or other mandatory obligations on a voluntary basis?The number of SMEs that disclose non-financial information due to the trickle-down effect or on a voluntary basis is not known, nor is what they disclose and how they disclose it. In a March 2017 report, the European Federation of Accountants and Auditors for SMEs (EFAA) analysed the trickle-down effect in financial reporting. This survey covered Germany, the Netherlands, Portugal, Spain and the UK. Preparers were asked to identify and provide details of the application (or not) to SMEs of what were judged the main (not all) accounting treatments in full IFRS. The EFAA report concludes \u2018that the impact of \u2018trickle down\u2019 is significant in all five countries. In all cases, convergence (\u2026) of SME accounting with IFRS is at least 57% and the countries fall into a relatively narrow range of between 57% for Germany and the Netherlands, and 72% for the UK. All show clear signs that \u2018trickle down\u2019 has been a major factor in producing that convergence (ranging from 33% in the Netherlands to 59% in Portugal). It should be noted that distinguishing whether a current treatment derived from IFRS or from pre-existing practice can be a difficult matter to judge, in some cases. Difference in country ranges arise from specific actions taken by individual countries.It is also observed that the extent of \u2018trickle down\u2019 is clearly greater for larger SMEs.Figure 43: Extent of financial reporting standards trickle-down for SMEsSource: The Trickle Down Effect \u2013 IFRS and accounting by SMEs, EFAA (2017) \u2013 page 5266 The EFAA report further concludes \u2018Having concluded that the largest SMEs were most likely to have \u2018trickle down\u2019, a more detailed analysis of the medium-sized entities was carried out to ascertain what other conclusions might be drawn. The following factors were noted:a) More \u2018trickle down\u2019 is likely in areas where the Accounting Directive is silent, because national GAAP will tend to use IFRS where that is so (\u2026)",
+                    "text": "How many SMEs report to meet regulatory requirements or other mandatory obligations on a voluntary basis?The number of SMEs that disclose non-financial information due to the trickle-down effect or on a voluntary basis is not known, nor is what they disclose and how they disclose it. In a March 2017 report, the European Federation of Accountants and Auditors for SMEs (EFAA) analysed the trickle-down effect in financial reporting. This survey covered Germany, the Netherlands, Portugal, Spain and the UK. Preparers were asked to identify and provide details of the application (or not) to SMEs of what were judged the main (not all) accounting treatments in full IFRS. The EFAA report concludes \u2018that the impact of \u2018trickle down\u2019 is significant in all five countries. In all cases, convergence (\u2026) of SME accounting with IFRS is at least 57% and the countries fall into a relatively narrow range of between 57% for Germany and the Netherlands, and 72% for the UK. All show clear signs that \u2018trickle down\u2019 has been a major factor in producing that convergence (ranging from 33% in the Netherlands to 59% in Portugal). It should be noted that distinguishing whether a current treatment derived from IFRS or from pre-existing practice can be a difficult matter to judge, in some cases. Difference in country ranges arise from specific actions taken by individual countries.It is also observed that the extent of \u2018trickle down\u2019 is clearly greater for larger SMEs.Figure 43: Extent of financial reporting standards trickle-down for SMEsSource: The Trickle Down Effect \u2013 IFRS and accounting by SMEs, EFAA (2017) \u2013 page 5266 The EFAA report further concludes \u2018Having concluded that the largest SMEs were most likely to have \u2018trickle down\u2019, a more detailed analysis of the medium-sized entities was carried out to ascertain what other conclusions might be drawn. The following factors were noted:a) More \u2018trickle down\u2019 is likely in areas where the Accounting Directive is silent, because national GAAP will tend to use IFRS where that is so (\u2026)",
                     "blocks": [
                         3,
                         4,
@@ -2118,7 +2127,7 @@
                     70
                 ],
                 "subtext3_14": {
-                    "text": " Where is non-financial information found in SMEs\u2019 publications?Although there is no legal obligation deriving from the NFRD for SMEs to disclose non-financial information, many of them are under increasing pressure from their parent companies to provide certain non-financial information in order to meet group reporting obligations. Key stakeholders such as corporate clients that are introducing sustainability and transparency requirements in their supply chain, are also exercising pressure in this field (see also section above about the trickle-down effect). Those SMEs that cannot meet such requests due to insufficient human and financial resources, are penalised in terms of market access. Furthermore, with the increase in requests for non-financial information from investors or other finance providers, linked to new regulatory obligations, these SMEs could be denied access to finance.Information reported by SMEs is often scattered across various documents, some of which are not accessible to the public. SMEs do not use the reporting tools used and developed for big corporations. SMEs work in a more informal way, while the existing non-financial information tools rather follow formal practices which require investment in time, resources and energy that SMEs cannot afford.Classification",
+                    "text": "Where is non-financial information found in SMEs\u2019 publications?Although there is no legal obligation deriving from the NFRD for SMEs to disclose non-financial information, many of them are under increasing pressure from their parent companies to provide certain non-financial information in order to meet group reporting obligations. Key stakeholders such as corporate clients that are introducing sustainability and transparency requirements in their supply chain, are also exercising pressure in this field (see also section above about the trickle-down effect). Those SMEs that cannot meet such requests due to insufficient human and financial resources, are penalised in terms of market access. Furthermore, with the increase in requests for non-financial information from investors or other finance providers, linked to new regulatory obligations, these SMEs could be denied access to finance.Information reported by SMEs is often scattered across various documents, some of which are not accessible to the public. SMEs do not use the reporting tools used and developed for big corporations. SMEs work in a more informal way, while the existing non-financial information tools rather follow formal practices which require investment in time, resources and energy that SMEs cannot afford.Classification",
                     "blocks": [
                         6,
                         7,
@@ -2139,7 +2148,7 @@
                     70
                 ],
                 "subtext3_15": {
-                    "text": " What are the topics the most reported upon and by what types of entities?No information was traced as readily available to indicate the non-financial information topics most reported upon by The question arises whether additional disclosure of non-financial information adds value for the stakeholders of every SME. In addition, depending on the type of SME one could argue that the value of additional information does not necessarily outweigh the costs. Examples are family-owned companies with closely involved shareholders. Those shareholders are aware of the purpose of the company and do not have to rely on non-financial information reporting to gain insights due to family involvement.The size of an SME influences the reporting possibilities and capacities of that SME in terms of time, cost and from a technical perspective. Subsequently, the size and transparency of the suppliers of the SME influences the possibilities to obtain and provide information by the SME on specific topics.",
+                    "text": "What are the topics the most reported upon and by what types of entities?No information was traced as readily available to indicate the non-financial information topics most reported upon by The question arises whether additional disclosure of non-financial information adds value for the stakeholders of every SME. In addition, depending on the type of SME one could argue that the value of additional information does not necessarily outweigh the costs. Examples are family-owned companies with closely involved shareholders. Those shareholders are aware of the purpose of the company and do not have to rely on non-financial information reporting to gain insights due to family involvement.The size of an SME influences the reporting possibilities and capacities of that SME in terms of time, cost and from a technical perspective. Subsequently, the size and transparency of the suppliers of the SME influences the possibilities to obtain and provide information by the SME on specific topics.",
                     "blocks": [
                         10,
                         11,

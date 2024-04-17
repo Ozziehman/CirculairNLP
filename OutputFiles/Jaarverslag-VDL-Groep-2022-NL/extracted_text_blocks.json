@@ -150,7 +150,7 @@
             339.1858825683594,
             299.88800048828125
         ],
-        "lines": "Omzet   \n10\n",
+        "lines": "Omzet  \n \n10\n",
         "block_no": 4,
         "block_type": 0,
         "page_num": 3
@@ -1156,9 +1156,9 @@
             62.13880157470703,
             665.9338989257812,
             510.6307067871094,
-            784.0234985351562
+            775.8985595703125
         ],
-        "lines": "\uf7a2 de hele wereld.\n112\nVDL Groep staat in de top 6 op de \n",
+        "lines": "de hele wereld.\n\uf7a2\n112\nVDL Groep staat in de top 6 op de \n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 7
@@ -1182,7 +1182,7 @@
             206.362548828125,
             774.8960571289062
         ],
-        "lines": "Bron: RepTrak\uf091\n6\n",
+        "lines": "Bron: RepTrak\n\uf091\n6\n",
         "block_no": 16,
         "block_type": 0,
         "page_num": 7
@@ -1326,7 +1326,7 @@
             288.814208984375,
             272.5745849609375
         ],
-        "lines": "\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad\n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad  \n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad 100+\n",
+        "lines": "\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad\n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad \n \n\uf1ad \uf1ad \uf1ad \uf1ad \uf1ad 100+\n",
         "block_no": 28,
         "block_type": 0,
         "page_num": 7
@@ -4518,7 +4518,7 @@
             435.6678161621094,
             514.7099609375
         ],
-        "lines": "Overig    196\n",
+        "lines": "Overig \n   196\n",
         "block_no": 32,
         "block_type": 0,
         "page_num": 14
@@ -4566,7 +4566,7 @@
             459.6817932128906,
             583.1054077148438
         ],
-        "lines": "op alle fronten zijn gegroeid ten opzichte van 2021, maar vooral de forse groei in de semiconductor-\n",
+        "lines": "op alle fronten zijn gegroeid ten opzichte van 2021, maar vooral de forse groei in de semiconductor\u00ad\n",
         "block_no": 37,
         "block_type": 0,
         "page_num": 14
@@ -5058,7 +5058,7 @@
             449.6481628417969,
             653.9743041992188
         ],
-        "lines": "De order portefeuille is in 12 maanden opgelopen van 843 miljoen euro in week 13 van 2022 naar \n",
+        "lines": "De order\u00ad\nportefeuille is in 12 maanden opgelopen van 843 miljoen euro in week 13 van 2022 naar \n",
         "block_no": 30,
         "block_type": 0,
         "page_num": 15
@@ -5154,7 +5154,7 @@
             479.8321838378906,
             200.4366455078125
         ],
-        "lines": "tegenwind, zoals tekorten in de wereld wijde toeleveringsketens, zijn we in staat geweest om de prognoses \n",
+        "lines": "tegenwind, zoals tekorten in de wereld\u00ad\nwijde toeleveringsketens, zijn we in staat geweest om de prognoses \n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 16
@@ -5502,7 +5502,7 @@
             463.3697814941406,
             668.1420288085938
         ],
-        "lines": "Momenteel heeft VDL ETG productiefaciliteiten in zowel China als Singapore. Vanwege onzeker heden \n",
+        "lines": "Momenteel heeft VDL ETG productiefaciliteiten in zowel China als Singapore. Vanwege onzeker\u00ad\nheden \n",
         "block_no": 34,
         "block_type": 0,
         "page_num": 16
@@ -5706,7 +5706,7 @@
             457.15380859375,
             299.65484619140625
         ],
-        "lines": "elektronica en software. In 2022 is veel ge\u00efnvesteerd in nieuwe machines, verdere automati sering en \n",
+        "lines": "elektronica en software. In 2022 is veel ge\u00efnvesteerd in nieuwe machines, verdere automati\u00ad\nsering en \n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 17
@@ -6246,7 +6246,7 @@
             451.07818603515625,
             611.4573974609375
         ],
-        "lines": "voor onze klanten te blijven garanderen, zijn in 2022 diverse investeringen gedaan in mede werkers, \n",
+        "lines": "voor onze klanten te blijven garanderen, zijn in 2022 diverse investeringen gedaan in mede\u00ad\nwerkers, \n",
         "block_no": 30,
         "block_type": 0,
         "page_num": 18
@@ -6258,7 +6258,7 @@
             472.552001953125,
             625.6334228515625
         ],
-        "lines": "digitalisering en machines. Bijvoorbeeld in een automatische verpakkingslijn met weeg mogelijkheid om de \n",
+        "lines": "digitalisering en machines. Bijvoorbeeld in een automatische verpakkingslijn met weeg\u00ad\nmogelijkheid om de \n",
         "block_no": 31,
         "block_type": 0,
         "page_num": 18
@@ -6282,7 +6282,7 @@
             476.7072448730469,
             653.9853515625
         ],
-        "lines": "bestaande kataforeselijn. De vooruitzichten voor de sector Oppervlakte behandeling zijn goed. Echter, op de \n",
+        "lines": "bestaande kataforeselijn. De vooruitzichten voor de sector Oppervlakte\u00ad\nbehandeling zijn goed. Echter, op de \n",
         "block_no": 33,
         "block_type": 0,
         "page_num": 18
@@ -6498,7 +6498,7 @@
             468.4559326171875,
             327.992919921875
         ],
-        "lines": "uitgesproken. In 2022 is VDL Nedcar opnieuw bekroond met drie awards door het gerenommeerde onder-\n",
+        "lines": "uitgesproken. In 2022 is VDL Nedcar opnieuw bekroond met drie awards door het gerenommeerde onder\u00ad\n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 20
@@ -6522,7 +6522,7 @@
             472.9959716796875,
             356.34490966796875
         ],
-        "lines": "aspecten \u2018initial quality\u2019 en \u2018appeal\u2019 en de fabriek van VDL Nedcar is verkozen tot tweede beste automobiel-\n",
+        "lines": "aspecten \u2018initial quality\u2019 en \u2018appeal\u2019 en de fabriek van VDL Nedcar is verkozen tot tweede beste automobiel\u00ad\n",
         "block_no": 15,
         "block_type": 0,
         "page_num": 20
@@ -6726,7 +6726,7 @@
             481.2817077636719,
             639.8093872070312
         ],
-        "lines": "In febru ari 2024 zal, met het aflopen van de huidige overeenkomsten, de autoproductie voor BMW Group \n",
+        "lines": "In febru\u00ad\nari 2024 zal, met het aflopen van de huidige overeenkomsten, de autoproductie voor BMW Group \n",
         "block_no": 32,
         "block_type": 0,
         "page_num": 20
@@ -7038,7 +7038,7 @@
             452.48187255859375,
             384.6802062988281
         ],
-        "lines": "partner in duurzame e-mobiliteit, met als doel meer toegevoegde waarde \u00e9n een betere toekomst-\n",
+        "lines": "partner in duurzame e-mobiliteit, met als doel meer toegevoegde waarde \u00e9n een betere toekomst\u00ad\n",
         "block_no": 17,
         "block_type": 0,
         "page_num": 21
@@ -7134,7 +7134,7 @@
             463.9618835449219,
             512.2561645507812
         ],
-        "lines": "en brandstofcelmodules. Zo ontwikkelen wij momenteel een demolijn om zware en complexe batterij-\n",
+        "lines": "en brandstofcelmodules. Zo ontwikkelen wij momenteel een demolijn om zware en complexe batterij\u00ad\n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 21
@@ -7278,7 +7278,7 @@
             448.6818542480469,
             710.7041015625
         ],
-        "lines": "Ter compensatie van de uitbreiding van het fabrieksterrein heeft VDL Nedcar talrijke compensatie-\n",
+        "lines": "Ter compensatie van de uitbreiding van het fabrieksterrein heeft VDL Nedcar talrijke compensatie\u00ad\n",
         "block_no": 37,
         "block_type": 0,
         "page_num": 21
@@ -8514,7 +8514,7 @@
             450.5538024902344,
             653.9835205078125
         ],
-        "lines": "VDL Bus & Coach bevestigt hiermee dat de nieuwe generatie VDL Citea een game changer is voor \n",
+        "lines": "VDL Bus & Coach bevestigt hiermee dat de nieuwe generatie VDL Citea een game\u00ad\nchanger is voor \n",
         "block_no": 32,
         "block_type": 0,
         "page_num": 24
@@ -8562,7 +8562,7 @@
             480.4883728027344,
             710.6644287109375
         ],
-        "lines": "evenementen gepresenteerd en beloond met verschillende design- en duurzaam heidsprijzen zoals de Red Dot \n",
+        "lines": "evenementen gepresenteerd en beloond met verschillende design- en duurzaam\u00ad\nheidsprijzen zoals de Red Dot \n",
         "block_no": 36,
         "block_type": 0,
         "page_num": 24
@@ -10950,7 +10950,7 @@
             466.785888671875,
             455.5744934082031
         ],
-        "lines": "Ook voor VDL Weweler-Colaert in Belgi\u00eb, producent en distributeur van onderdelen voor paraboolveer-\n",
+        "lines": "Ook voor VDL Weweler-Colaert in Belgi\u00eb, producent en distributeur van onderdelen voor paraboolveer\u00ad\n",
         "block_no": 21,
         "block_type": 0,
         "page_num": 32
@@ -11070,7 +11070,7 @@
             466.123291015625,
             611.451904296875
         ],
-        "lines": "met betrekking tot de beschikbaarheid van materialen. Desondanks heeft het bedrijf in 2022 een omzet-\n",
+        "lines": "met betrekking tot de beschikbaarheid van materialen. Desondanks heeft het bedrijf in 2022 een omzet\u00ad\n",
         "block_no": 31,
         "block_type": 0,
         "page_num": 32
@@ -11214,7 +11214,7 @@
             469.3777770996094,
             143.7325439453125
         ],
-        "lines": "Gezien de marktomstandig heden kijken de bedrijven in de sector Warmtewisselaars terug op een goed \n",
+        "lines": "Gezien de marktomstandig\u00ad\nheden kijken de bedrijven in de sector Warmtewisselaars terug op een goed \n",
         "block_no": 1,
         "block_type": 0,
         "page_num": 33
@@ -11466,7 +11466,7 @@
             456.2279052734375,
             485.6900329589844
         ],
-        "lines": "Ook wordt ingezet op samenwerking voor projecten rond CO2-opslag, producten uit C02 en biogas-\n",
+        "lines": "Ook wordt ingezet op samenwerking voor projecten rond CO2-opslag, producten uit C02 en biogas\u00ad\n",
         "block_no": 22,
         "block_type": 0,
         "page_num": 33
@@ -11754,7 +11754,7 @@
             475.5697326660156,
             242.9647216796875
         ],
-        "lines": "doorgang. In Amerika hebben we de stap gemaakt om het kantoor uit te breiden met eigen assemblage-\n",
+        "lines": "doorgang. In Amerika hebben we de stap gemaakt om het kantoor uit te breiden met eigen assemblage\u00ad\n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 34
@@ -13242,7 +13242,7 @@
             451.937744140625,
             568.9322509765625
         ],
-        "lines": "van 24 miljoen euro in 2021. Waar we zijn gestegen in de verpakkingsmachines voor de voedings-\n",
+        "lines": "van 24 miljoen euro in 2021. Waar we zijn gestegen in de verpakkingsmachines voor de voedings\u00ad\n",
         "block_no": 29,
         "block_type": 0,
         "page_num": 37
@@ -13254,7 +13254,7 @@
             476.5777282714844,
             583.1082153320312
         ],
-        "lines": "middelen industrie, zien we dit jaar een daling vanwege minder grote projecten en enige overcapaciteit in \n",
+        "lines": "middelen\u00ad\nindustrie, zien we dit jaar een daling vanwege minder grote projecten en enige overcapaciteit in \n",
         "block_no": 30,
         "block_type": 0,
         "page_num": 37
@@ -15834,7 +15834,7 @@
             450.0497741699219,
             285.47601318359375
         ],
-        "lines": "het terugdringen van emissies. We zijn een belangrijke speler in de nieuwe wereld van mobiliteits-\n",
+        "lines": "het terugdringen van emissies. We zijn een belangrijke speler in de nieuwe wereld van mobiliteits\u00ad\n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 46
@@ -17394,7 +17394,7 @@
             486.8186950683594,
             356.3673095703125
         ],
-        "lines": "kansen en knelpunten zoals tekort aan talent, achterblijvend investerings-\n",
+        "lines": "kansen en knelpunten zoals tekort aan talent, achterblijvend investerings\u00ad\n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 50
@@ -17622,7 +17622,7 @@
             449.3609619140625,
             257.12677001953125
         ],
-        "lines": "\u2022 \n Make-to-Order: in april 2022 is OrderOn.com live gegaan voor de Nederlandse klanten van  \n",
+        "lines": "\u2022 \n\u0007\nMake-to-Order: in april 2022 is OrderOn.com live gegaan voor de Nederlandse klanten van  \n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 51
@@ -17718,7 +17718,7 @@
             427.4817810058594,
             370.5348815917969
         ],
-        "lines": "\u2022 \n VDL Bus & Coach Digital Twin: de digitalisering van het totale bedrijfsproces van de  \n",
+        "lines": "\u2022 \n\u0007\nVDL Bus & Coach Digital Twin: de digitalisering van het totale bedrijfsproces van de  \n",
         "block_no": 16,
         "block_type": 0,
         "page_num": 51
@@ -17778,7 +17778,7 @@
             452.9857482910156,
             441.41485595703125
         ],
-        "lines": "\u2022 \n VDL Independent Parts Cluster: de online verkoop van automotive gerelateerde onderdelen \n",
+        "lines": "\u2022 \n\u0007\nVDL Independent Parts Cluster: de online verkoop van automotive gerelateerde onderdelen \n",
         "block_no": 21,
         "block_type": 0,
         "page_num": 51
@@ -17850,7 +17850,7 @@
             467.66656494140625,
             526.4708251953125
         ],
-        "lines": "\u2022 \n Configure-to-Order / Engineer-to-Order: in 2022 is het fundament voor de configuratiemodule \n",
+        "lines": "\u2022 \n\u0007\nConfigure-to-Order / Engineer-to-Order: in 2022 is het fundament voor de configuratiemodule \n",
         "block_no": 27,
         "block_type": 0,
         "page_num": 51
@@ -18126,7 +18126,7 @@
             462.3983459472656,
             313.81402587890625
         ],
-        "lines": "VDL. Het security team is verder uitgebreid en processen zijn gestandaardiseerd en geprofessio naliseerd. \n",
+        "lines": "VDL. Het security\u00ad\nteam is verder uitgebreid en processen zijn gestandaardiseerd en geprofessio\u00ad\nnaliseerd. \n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 52
@@ -19662,7 +19662,7 @@
             467.6793518066406,
             540.6083984375
         ],
-        "lines": "Daarnaast zijn in 2022 diverse onderwerpen behandeld, zoals het fietsenplan, instemming vertrouwens-\n",
+        "lines": "Daarnaast zijn in 2022 diverse onderwerpen behandeld, zoals het fietsenplan, instemming vertrouwens\u00ad\n",
         "block_no": 26,
         "block_type": 0,
         "page_num": 55
@@ -20934,7 +20934,7 @@
             468.38580322265625,
             143.7353515625
         ],
-        "lines": "structurele aanpak vraagt, is de Nationale Coalitie Financi\u00eble Gezondheid (NCFG) opgericht. Het Partner-\n",
+        "lines": "structurele aanpak vraagt, is de Nationale Coalitie Financi\u00eble Gezondheid (NCFG) opgericht. Het Partner\u00ad\n",
         "block_no": 1,
         "block_type": 0,
         "page_num": 59
@@ -21498,7 +21498,7 @@
             475.3674011230469,
             257.118408203125
         ],
-        "lines": "Naast onze regionale MVO-activiteiten beschikt VDL Groep sinds jaar en dag over een eigen goededoelen-\n",
+        "lines": "Naast onze regionale MVO-activiteiten beschikt VDL Groep sinds jaar en dag over een eigen goededoelen\u00ad\n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 60
@@ -22986,7 +22986,7 @@
             204.42648315429688,
             194.67608642578125
         ],
-        "lines": " \nb.  Vermindering van het \n",
+        "lines": " \nb. \u0007\nVermindering van het \n",
         "block_no": 4,
         "block_type": 0,
         "page_num": 64
@@ -23022,7 +23022,7 @@
             336.3758544921875,
             183.672119140625
         ],
-        "lines": " \na.  Nieuwe medewerkers en \n",
+        "lines": " \na. \u0007\nNieuwe medewerkers en \n",
         "block_no": 7,
         "block_type": 0,
         "page_num": 64
@@ -23058,7 +23058,7 @@
             458.7294921875,
             183.6651611328125
         ],
-        "lines": " \na.  Strategie voor duurzame \n",
+        "lines": " \na. \u0007\nStrategie voor duurzame \n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 64
@@ -23082,7 +23082,7 @@
             442.7904052734375,
             205.6591796875
         ],
-        "lines": " \nb.  Anticorruptiebeleid \n",
+        "lines": " \nb. \u0007\nAnticorruptiebeleid \n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 64
@@ -23106,7 +23106,7 @@
             455.9014587402344,
             227.6531982421875
         ],
-        "lines": " \nc.  Vertrouwenspersoon en \n",
+        "lines": " \nc. \u0007\nVertrouwenspersoon en \n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 64
@@ -23154,7 +23154,7 @@
             203.64947509765625,
             271.564208984375
         ],
-        "lines": " \nb.  Hoeveelheid afval die \n",
+        "lines": " \nb. \u0007\nHoeveelheid afval die \n",
         "block_no": 18,
         "block_type": 0,
         "page_num": 64
@@ -23178,7 +23178,7 @@
             205.20343017578125,
             293.5582275390625
         ],
-        "lines": " \nc.  Storten of verbranden \n",
+        "lines": " \nc. \u0007\nStorten of verbranden \n",
         "block_no": 20,
         "block_type": 0,
         "page_num": 64
@@ -23214,7 +23214,7 @@
             341.4304504394531,
             260.55322265625
         ],
-        "lines": " \na.  Managementsysteem voor \n",
+        "lines": " \na. \u0007\nManagementsysteem voor \n",
         "block_no": 23,
         "block_type": 0,
         "page_num": 64
@@ -23238,7 +23238,7 @@
             323.14642333984375,
             282.5472412109375
         ],
-        "lines": " \nb.  Gevaarsidentificatie, \n",
+        "lines": " \nb. \u0007\nGevaarsidentificatie, \n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 64
@@ -23274,7 +23274,7 @@
             349.7394714355469,
             315.53826904296875
         ],
-        "lines": " \nc.  Training van medewerkers op \n",
+        "lines": " \nc. \u0007\nTraining van medewerkers op \n",
         "block_no": 28,
         "block_type": 0,
         "page_num": 64
@@ -23310,7 +23310,7 @@
             349.9984130859375,
             348.529296875
         ],
-        "lines": " \nd.  Werkgerelateerde ongevallen \n",
+        "lines": " \nd. \u0007\nWerkgerelateerde ongevallen \n",
         "block_no": 31,
         "block_type": 0,
         "page_num": 64
@@ -23334,7 +23334,7 @@
             463.0345458984375,
             249.5283203125
         ],
-        "lines": "2.   Strategie voor continu\u00efteit\n",
+        "lines": "2.  \u0007\nStrategie voor continu\u00efteit\n",
         "block_no": 33,
         "block_type": 0,
         "page_num": 64
@@ -23346,7 +23346,7 @@
             467.1714172363281,
             260.52532958984375
         ],
-        "lines": " \na.  Processen voor continu\u00efteit  \n",
+        "lines": " \na. \u0007\nProcessen voor continu\u00efteit  \n",
         "block_no": 34,
         "block_type": 0,
         "page_num": 64
@@ -23382,7 +23382,7 @@
             220.6251678466797,
             381.52093505859375
         ],
-        "lines": " \na.  Scope 1: wat we zelf direct \n",
+        "lines": " \na. \u0007\nScope 1: wat we zelf direct \n",
         "block_no": 37,
         "block_type": 0,
         "page_num": 64
@@ -23406,7 +23406,7 @@
             203.65086364746094,
             403.51495361328125
         ],
-        "lines": "   \nb.  Scope 2: wat energie-\n",
+        "lines": "   \nb. \u0007\nScope 2: wat energie\u00ad\n",
         "block_no": 39,
         "block_type": 0,
         "page_num": 64
@@ -23442,7 +23442,7 @@
             226.9748992919922,
             436.5059814453125
         ],
-        "lines": "  \nc.  Scope 3: alle overige emissies \n",
+        "lines": "  \nc. \u0007\nScope 3: alle overige emissies \n",
         "block_no": 42,
         "block_type": 0,
         "page_num": 64
@@ -23490,7 +23490,7 @@
             355.69781494140625,
             381.5
         ],
-        "lines": " \na.  Gemiddeld aantal uren training \n",
+        "lines": " \na. \u0007\nGemiddeld aantal uren training \n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 64
@@ -24294,7 +24294,7 @@
             456.353759765625,
             157.911376953125
         ],
-        "lines": "\u2022 \n Materialen/producten: het gebruik van materialen die herbruikbaar zijn, het verlengen van de \n",
+        "lines": "\u2022 \n\u0007\nMaterialen/producten: het gebruik van materialen die herbruikbaar zijn, het verlengen van de \n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 67
@@ -24378,7 +24378,7 @@
             481.7137756347656,
             257.1435546875
         ],
-        "lines": "\u2022 \n Techniek & proces: dit handelt over het gebruik van energie-beperkende technologie\u00ebn, het beperken \n",
+        "lines": "\u2022 \n\u0007\nTechniek & proces: dit handelt over het gebruik van energie-beperkende technologie\u00ebn, het beperken \n",
         "block_no": 9,
         "block_type": 0,
         "page_num": 67
@@ -24474,7 +24474,7 @@
             468.3521728515625,
             384.71966552734375
         ],
-        "lines": "\u2022 \n Niet-product gerelateerd: alles wat niet rechtstreeks in een product, materiaal of proces zit, maar \n",
+        "lines": "\u2022 \n\u0007\nNiet-product gerelateerd: alles wat niet rechtstreeks in een product, materiaal of proces zit, maar \n",
         "block_no": 17,
         "block_type": 0,
         "page_num": 67
@@ -24978,7 +24978,7 @@
             332.1967468261719,
             420.8581237792969
         ],
-        "lines": "\u2022  Tijdig investeren in robotisering  \n",
+        "lines": "\u2022 \u0007\nTijdig investeren in robotisering  \n",
         "block_no": 19,
         "block_type": 0,
         "page_num": 68
@@ -25002,7 +25002,7 @@
             360.7217712402344,
             442.8521423339844
         ],
-        "lines": "\u2022  Tijdig investeren in nieuwe technologie\u00ebn \n",
+        "lines": "\u2022 \u0007\nTijdig investeren in nieuwe technologie\u00ebn \n",
         "block_no": 21,
         "block_type": 0,
         "page_num": 68
@@ -25026,7 +25026,7 @@
             342.9355163574219,
             464.8461608886719
         ],
-        "lines": "\u2022  Producten en processen aanpassen  \n",
+        "lines": "\u2022 \u0007\nProducten en processen aanpassen  \n",
         "block_no": 23,
         "block_type": 0,
         "page_num": 68
@@ -25050,7 +25050,7 @@
             349.77447509765625,
             486.8401794433594
         ],
-        "lines": "\u2022  Aanbieden van marktconforme prijzen\n",
+        "lines": "\u2022 \u0007\nAanbieden van marktconforme prijzen\n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 68
@@ -25062,7 +25062,7 @@
             305.310546875,
             497.8371887207031
         ],
-        "lines": "\u2022  Leveren van constante  \n",
+        "lines": "\u2022 \u0007\nLeveren van constante  \n",
         "block_no": 26,
         "block_type": 0,
         "page_num": 68
@@ -25074,7 +25074,7 @@
             293.6407470703125,
             508.8341979980469
         ],
-        "lines": "kwa liteitsproducten\n",
+        "lines": "kwa\u00ad\nliteitsproducten\n",
         "block_no": 27,
         "block_type": 0,
         "page_num": 68
@@ -25086,7 +25086,7 @@
             312.1984558105469,
             519.8311767578125
         ],
-        "lines": "\u2022  Betrouwbare supply chain\n",
+        "lines": "\u2022 \u0007\nBetrouwbare supply chain\n",
         "block_no": 28,
         "block_type": 0,
         "page_num": 68
@@ -25146,7 +25146,7 @@
             315.0335388183594,
             530.7442016601562
         ],
-        "lines": "\u2022  Investeren in innovatie en  \n",
+        "lines": "\u2022 \u0007\nInvesteren in innovatie en  \n",
         "block_no": 33,
         "block_type": 0,
         "page_num": 68
@@ -25170,7 +25170,7 @@
             364.9434509277344,
             552.7382202148438
         ],
-        "lines": "\u2022  Samenwerking met onderzoeks instellingen \n",
+        "lines": "\u2022 \u0007\nSamenwerking met onderzoeks\u00ad\ninstellingen \n",
         "block_no": 35,
         "block_type": 0,
         "page_num": 68
@@ -25230,7 +25230,7 @@
             319.2958068847656,
             574.6552734375
         ],
-        "lines": "\u2022  Diversificatie en verbreding  \n",
+        "lines": "\u2022 \u0007\nDiversificatie en verbreding  \n",
         "block_no": 40,
         "block_type": 0,
         "page_num": 68
@@ -25254,7 +25254,7 @@
             321.75347900390625,
             596.6492309570312
         ],
-        "lines": "\u2022  Actief inzetten op acquisitie  \n",
+        "lines": "\u2022 \u0007\nActief inzetten op acquisitie  \n",
         "block_no": 42,
         "block_type": 0,
         "page_num": 68
@@ -25314,7 +25314,7 @@
             331.7348327636719,
             618.5662841796875
         ],
-        "lines": "\u2022  Diversificatie en verbreding van  \n",
+        "lines": "\u2022 \u0007\nDiversificatie en verbreding van  \n",
         "block_no": 47,
         "block_type": 0,
         "page_num": 68
@@ -25338,7 +25338,7 @@
             333.6045227050781,
             640.5602416992188
         ],
-        "lines": "\u2022  Tijdig afbouwen van de voorraad\n",
+        "lines": "\u2022 \u0007\nTijdig afbouwen van de voorraad\n",
         "block_no": 49,
         "block_type": 0,
         "page_num": 68
@@ -25434,7 +25434,7 @@
             322.1805114746094,
             151.56475830078125
         ],
-        "lines": "\u2022  Monitoring key suppliers op  \n",
+        "lines": "\u2022 \u0007\nMonitoring key suppliers op  \n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 69
@@ -25458,7 +25458,7 @@
             353.2884826660156,
             173.55877685546875
         ],
-        "lines": "\u2022  Prijsstijgingen doorbelasten aan klanten\n",
+        "lines": "\u2022 \u0007\nPrijsstijgingen doorbelasten aan klanten\n",
         "block_no": 7,
         "block_type": 0,
         "page_num": 69
@@ -25470,7 +25470,7 @@
             328.4104919433594,
             184.5557861328125
         ],
-        "lines": "\u2022  Voldoende voorraad aanleggen\n",
+        "lines": "\u2022 \u0007\nVoldoende voorraad aanleggen\n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 69
@@ -25518,7 +25518,7 @@
             328.40350341796875,
             195.475830078125
         ],
-        "lines": "\u2022  Voldoende voorraad aanleggen\n",
+        "lines": "\u2022 \u0007\nVoldoende voorraad aanleggen\n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 69
@@ -25530,7 +25530,7 @@
             322.17352294921875,
             206.47283935546875
         ],
-        "lines": "\u2022  Monitoring key suppliers op  \n",
+        "lines": "\u2022 \u0007\nMonitoring key suppliers op  \n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 69
@@ -25554,7 +25554,7 @@
             327.6188049316406,
             228.46685791015625
         ],
-        "lines": "\u2022  Procedures zijn onderdeel van  \n",
+        "lines": "\u2022 \u0007\nProcedures zijn onderdeel van  \n",
         "block_no": 15,
         "block_type": 0,
         "page_num": 69
@@ -25638,7 +25638,7 @@
             307.760498046875,
             261.3739013671875
         ],
-        "lines": "\u2022  Goed werkgeversimago \n",
+        "lines": "\u2022 \u0007\nGoed werkgeversimago \n",
         "block_no": 22,
         "block_type": 0,
         "page_num": 69
@@ -25650,7 +25650,7 @@
             343.9497985839844,
             272.37091064453125
         ],
-        "lines": "\u2022  Concurrerende arbeidsvoorwaarden \n",
+        "lines": "\u2022 \u0007\nConcurrerende arbeidsvoorwaarden \n",
         "block_no": 23,
         "block_type": 0,
         "page_num": 69
@@ -25662,7 +25662,7 @@
             351.9787292480469,
             283.367919921875
         ],
-        "lines": "\u2022  Ontwikkel- en doorgroeimogelijkheden\n",
+        "lines": "\u2022 \u0007\nOntwikkel- en doorgroeimogelijkheden\n",
         "block_no": 24,
         "block_type": 0,
         "page_num": 69
@@ -25674,7 +25674,7 @@
             311.53350830078125,
             294.36492919921875
         ],
-        "lines": "\u2022  Investeren in opleidingen \n",
+        "lines": "\u2022 \u0007\nInvesteren in opleidingen \n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 69
@@ -25686,7 +25686,7 @@
             354.4154357910156,
             305.3619384765625
         ],
-        "lines": "\u2022  Teamontwikkeling en sociale activiteiten\n",
+        "lines": "\u2022 \u0007\nTeamontwikkeling en sociale activiteiten\n",
         "block_no": 26,
         "block_type": 0,
         "page_num": 69
@@ -25698,7 +25698,7 @@
             324.4835510253906,
             316.35894775390625
         ],
-        "lines": "\u2022  Actieve werving door middel  \n",
+        "lines": "\u2022 \u0007\nActieve werving door middel  \n",
         "block_no": 27,
         "block_type": 0,
         "page_num": 69
@@ -25722,7 +25722,7 @@
             326.0515441894531,
             338.35296630859375
         ],
-        "lines": "\u2022  Onderling in- en uitlenen van  \n",
+        "lines": "\u2022 \u0007\nOnderling in- en uitlenen van  \n",
         "block_no": 29,
         "block_type": 0,
         "page_num": 69
@@ -25746,7 +25746,7 @@
             332.65252685546875,
             360.34698486328125
         ],
-        "lines": "\u2022  Samenwerking met uitzend- en  \n",
+        "lines": "\u2022 \u0007\nSamenwerking met uitzend- en  \n",
         "block_no": 31,
         "block_type": 0,
         "page_num": 69
@@ -25806,7 +25806,7 @@
             295.31451416015625,
             382.2640075683594
         ],
-        "lines": "\u2022  Lobby bij overheden\n",
+        "lines": "\u2022 \u0007\nLobby bij overheden\n",
         "block_no": 36,
         "block_type": 0,
         "page_num": 69
@@ -25818,7 +25818,7 @@
             327.9835510253906,
             393.2610168457031
         ],
-        "lines": "\u2022  Samenwerking opzoeken met  \n",
+        "lines": "\u2022 \u0007\nSamenwerking opzoeken met  \n",
         "block_no": 37,
         "block_type": 0,
         "page_num": 69
@@ -25842,7 +25842,7 @@
             357.4114990234375,
             415.2550354003906
         ],
-        "lines": "gezamenlijke groene energie voorziening \n",
+        "lines": "gezamenlijke groene energie\u00ad\nvoorziening \n",
         "block_no": 39,
         "block_type": 0,
         "page_num": 69
@@ -25866,7 +25866,7 @@
             338.8755187988281,
             437.2490539550781
         ],
-        "lines": "\u2022  Initiatieven ontplooien voor eigen  \n",
+        "lines": "\u2022 \u0007\nInitiatieven ontplooien voor eigen  \n",
         "block_no": 41,
         "block_type": 0,
         "page_num": 69
@@ -25890,7 +25890,7 @@
             353.6588134765625,
             459.2430725097656
         ],
-        "lines": "\u2022  Investeren in vervanging van verouderd \n",
+        "lines": "\u2022 \u0007\nInvesteren in vervanging van verouderd \n",
         "block_no": 43,
         "block_type": 0,
         "page_num": 69
@@ -25926,7 +25926,7 @@
             359.3427734375,
             481.1600646972656
         ],
-        "lines": "Cyberaanvallen\n\u2022  Cyber security awareness trainingen voor \n",
+        "lines": "Cyberaanvallen\n\u2022 \u0007\nCyber security awareness trainingen voor \n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 69
@@ -25950,7 +25950,7 @@
             330.321533203125,
             503.1540832519531
         ],
-        "lines": "\u2022  Continue monitoring van onze  \n",
+        "lines": "\u2022 \u0007\nContinue monitoring van onze  \n",
         "block_no": 48,
         "block_type": 0,
         "page_num": 69
@@ -25974,7 +25974,7 @@
             324.8615417480469,
             525.1480712890625
         ],
-        "lines": "\u2022  Goede back-up strategie van  \n",
+        "lines": "\u2022 \u0007\nGoede back-up strategie van  \n",
         "block_no": 50,
         "block_type": 0,
         "page_num": 69
@@ -26010,7 +26010,7 @@
             357.9154052734375,
             558.13916015625
         ],
-        "lines": "\u2022  Vergaande optimalisatie van beveiligings-\n",
+        "lines": "\u2022 \u0007\nVergaande optimalisatie van beveiligings\u00ad\n",
         "block_no": 53,
         "block_type": 0,
         "page_num": 69
@@ -26154,7 +26154,7 @@
             341.9974670410156,
             151.42584228515625
         ],
-        "lines": "\u2022  Integratie van nieuwe richtlijnen in  \n",
+        "lines": "\u2022 \u0007\nIntegratie van nieuwe richtlijnen in  \n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 70
@@ -26178,7 +26178,7 @@
             352.903564453125,
             173.41986083984375
         ],
-        "lines": "\u2022  Periodieke audits van overheden en/of  \n",
+        "lines": "\u2022 \u0007\nPeriodieke audits van overheden en/of  \n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 70
@@ -26250,7 +26250,7 @@
             328.423828125,
             206.33392333984375
         ],
-        "lines": "\u2022  Tijdig maatregelen nemen om  \n",
+        "lines": "\u2022 \u0007\nTijdig maatregelen nemen om  \n",
         "block_no": 16,
         "block_type": 0,
         "page_num": 70
@@ -26274,7 +26274,7 @@
             366.0418395996094,
             228.32794189453125
         ],
-        "lines": "\u2022  Tijdig het product aanpassen waardoor wel \n",
+        "lines": "\u2022 \u0007\nTijdig het product aanpassen waardoor wel \n",
         "block_no": 18,
         "block_type": 0,
         "page_num": 70
@@ -26346,7 +26346,7 @@
             346.51873779296875,
             261.24200439453125
         ],
-        "lines": "\u2022  Kwaliteitseisen- en controles naleven \n",
+        "lines": "\u2022 \u0007\nKwaliteitseisen- en controles naleven \n",
         "block_no": 24,
         "block_type": 0,
         "page_num": 70
@@ -26358,7 +26358,7 @@
             359.5115051269531,
             272.239013671875
         ],
-        "lines": "\u2022  Producten worden uitgebreid getest voor \n",
+        "lines": "\u2022 \u0007\nProducten worden uitgebreid getest voor \n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 70
@@ -26466,7 +26466,7 @@
             459.97552490234375,
             305.13909912109375
         ],
-        "lines": "\u2022  Lobby bij overheden\nMedium\nMedium\n",
+        "lines": "\u2022 \u0007\nLobby bij overheden\nMedium\nMedium\n",
         "block_no": 34,
         "block_type": 0,
         "page_num": 70
@@ -26514,7 +26514,7 @@
             353.5188293457031,
             371.0511169433594
         ],
-        "lines": "\u2022  Aansluiten bij werkgeversverenigingen  \n",
+        "lines": "\u2022 \u0007\nAansluiten bij werkgeversverenigingen  \n",
         "block_no": 38,
         "block_type": 0,
         "page_num": 70
@@ -26586,7 +26586,7 @@
             322.1455993652344,
             403.9651184082031
         ],
-        "lines": "\u2022  Geen zaken doen met hoge  \n",
+        "lines": "\u2022 \u0007\nGeen zaken doen met hoge  \n",
         "block_no": 44,
         "block_type": 0,
         "page_num": 70
@@ -26610,7 +26610,7 @@
             356.7528991699219,
             425.9591369628906
         ],
-        "lines": "\u2022  Analyse van de risico\u2019s voor landen waar \n",
+        "lines": "\u2022 \u0007\nAnalyse van de risico\u2019s voor landen waar \n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 70
@@ -26670,7 +26670,7 @@
             341.17852783203125,
             447.8761291503906
         ],
-        "lines": "\u2022  Geen financieel bancair instrument \n",
+        "lines": "\u2022 \u0007\nGeen financieel bancair instrument \n",
         "block_no": 51,
         "block_type": 0,
         "page_num": 70
@@ -26682,7 +26682,7 @@
             335.61993408203125,
             458.8731384277344
         ],
-        "lines": "\u2022  Surplus aan USD wordt verkocht  \n",
+        "lines": "\u2022 \u0007\nSurplus aan USD wordt verkocht  \n",
         "block_no": 52,
         "block_type": 0,
         "page_num": 70
@@ -26718,7 +26718,7 @@
             341.31854248046875,
             491.7871398925781
         ],
-        "lines": "Liquiditeitsrisico\n\u2022  Samenwerking met Triple A banken\n",
+        "lines": "Liquiditeitsrisico\n\u2022 \u0007\nSamenwerking met Triple A banken\n",
         "block_no": 55,
         "block_type": 0,
         "page_num": 70
@@ -26730,7 +26730,7 @@
             356.36859130859375,
             502.7841491699219
         ],
-        "lines": "\u2022  Zorgen voor voldoende eigen vermogen \n",
+        "lines": "\u2022 \u0007\nZorgen voor voldoende eigen vermogen \n",
         "block_no": 56,
         "block_type": 0,
         "page_num": 70
@@ -26742,7 +26742,7 @@
             353.2241516113281,
             513.7811279296875
         ],
-        "lines": "\u2022  Debiteurenverzekering en actief intern  \n",
+        "lines": "\u2022 \u0007\nDebiteurenverzekering en actief intern  \n",
         "block_no": 57,
         "block_type": 0,
         "page_num": 70
@@ -26766,7 +26766,7 @@
             324.45556640625,
             535.775146484375
         ],
-        "lines": "\u2022  Actieve cash-flow monitoring \n",
+        "lines": "\u2022 \u0007\nActieve cash-flow monitoring \n",
         "block_no": 59,
         "block_type": 0,
         "page_num": 70
@@ -28446,7 +28446,7 @@
             467.7937316894531,
             554.764404296875
         ],
-        "lines": "van de hoofd directie opgestelde jaarverslag 2022. De daarin opgenomen jaarrekening is gecontroleerd \n",
+        "lines": "van de hoofd\u00ad\ndirectie opgestelde jaarverslag 2022. De daarin opgenomen jaarrekening is gecontroleerd \n",
         "block_no": 4,
         "block_type": 0,
         "page_num": 75
@@ -30702,7 +30702,7 @@
             410.5777587890625,
             271.29718017578125
         ],
-        "lines": "\u2022 \n Toeleveringsdivisie: metaalbewerking, mechatronische systemen en modulebouw,  \n",
+        "lines": "\u2022 \n\u0007\n \nToeleveringsdivisie: metaalbewerking, mechatronische systemen en modulebouw,  \n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 83
@@ -30738,7 +30738,7 @@
             387.84979248046875,
             313.82525634765625
         ],
-        "lines": "\u2022 \n Busdivisie: chassis & chassis modules, touringcars, openbaarvervoerbussen,  \n",
+        "lines": "\u2022 \n\u0007\nBusdivisie: chassis & chassis modules, touringcars, openbaarvervoerbussen,  \n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 83
@@ -30762,7 +30762,7 @@
             484.09710693359375,
             342.1772766113281
         ],
-        "lines": "\u2022 \n Eindproductendivisie: veersystemen voor de trailer- en truckindustrie, warmte-, koel- en luchttechnische \n",
+        "lines": "\u2022 \n\u0007\nEindproductendivisie: veersystemen voor de trailer- en truckindustrie, warmte-, koel- en luchttechnische \n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 83
@@ -31698,7 +31698,7 @@
             457.3057556152344,
             384.69403076171875
         ],
-        "lines": "operationele activiteiten. Betaalde dividenden zijn opgenomen onder de kasstroom uit financierings-\n",
+        "lines": "operationele activiteiten. Betaalde dividenden zijn opgenomen onder de kasstroom uit financierings\u00ad\n",
         "block_no": 17,
         "block_type": 0,
         "page_num": 85
@@ -32094,7 +32094,7 @@
             479.6017761230469,
             313.81402587890625
         ],
-        "lines": "vermeld bij de stelselwijziging, ongewijzigd gebleven ten opzichte van het voorgaande jaar. De vergelijken-\n",
+        "lines": "vermeld bij de stelselwijziging, ongewijzigd gebleven ten opzichte van het voorgaande jaar. De vergelijken\u00ad\n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 86
@@ -32142,7 +32142,7 @@
             461.48980712890625,
             384.6802062988281
         ],
-        "lines": "de valuta van de economische omgeving waarin de groepsmaatschappij haar bedrijfsactiviteiten voor-\n",
+        "lines": "de valuta van de economische omgeving waarin de groepsmaatschappij haar bedrijfsactiviteiten voor\u00ad\n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 86
@@ -32202,7 +32202,7 @@
             455.3217468261719,
             469.7281799316406
         ],
-        "lines": "valuta tegen de koers per balansdatum. De uit de afwikkeling en omrekening voortvloeiende koers-\n",
+        "lines": "valuta tegen de koers per balansdatum. De uit de afwikkeling en omrekening voortvloeiende koers\u00ad\n",
         "block_no": 19,
         "block_type": 0,
         "page_num": 86
@@ -33006,7 +33006,7 @@
             458.2505798339844,
             342.1800842285156
         ],
-        "lines": "verwacht. Voor de vaststelling of voor een materieel vast actief sprake is van een bijzondere waarde-\n",
+        "lines": "verwacht. Voor de vaststelling of voor een materieel vast actief sprake is van een bijzondere waarde\u00ad\n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 88
@@ -33054,7 +33054,7 @@
             468.2081604003906,
             413.05206298828125
         ],
-        "lines": "gebruiksduur en bijzondere waardeverminderingen. De vervaardigingsprijs bestaat uit de aanschaffings-\n",
+        "lines": "gebruiksduur en bijzondere waardeverminderingen. De vervaardigingsprijs bestaat uit de aanschaffings\u00ad\n",
         "block_no": 18,
         "block_type": 0,
         "page_num": 88
@@ -34062,7 +34062,7 @@
             478.0498046875,
             568.9351806640625
         ],
-        "lines": "vervaardigingsprijs of lagere opbrengstwaarde. De vervaardigingsprijs omvat alle kosten die samen hangen \n",
+        "lines": "vervaardigingsprijs of lagere opbrengstwaarde. De vervaardigingsprijs omvat alle kosten die samen\u00ad\nhangen \n",
         "block_no": 26,
         "block_type": 0,
         "page_num": 90
@@ -34470,7 +34470,7 @@
             446.5777282714844,
             554.7589111328125
         ],
-        "lines": "netto-belang in de netto-activa van de desbetreffende groepsmaatschappijen. Voor zover de des-\n",
+        "lines": "netto-belang in de netto-activa van de desbetreffende groepsmaatschappijen. Voor zover de des\u00ad\n",
         "block_no": 23,
         "block_type": 0,
         "page_num": 91
@@ -34746,7 +34746,7 @@
             469.1617431640625,
             299.640869140625
         ],
-        "lines": "en worden op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en verzekerings-\n",
+        "lines": "en worden op verplichte, contractuele of vrijwillige basis premies aan pensioenfondsen en verzekerings\u00ad\n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 92
@@ -36042,7 +36042,7 @@
             452.52972412109375,
             356.350830078125
         ],
-        "lines": "zijn gemaakt. Zodra het resultaat wel op betrouwbare wijze kan worden bepaald, vindt opbrengst-\n",
+        "lines": "zijn gemaakt. Zodra het resultaat wel op betrouwbare wijze kan worden bepaald, vindt opbrengst\u00ad\n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 95
@@ -37266,7 +37266,7 @@
             251.20179748535156,
             327.98736572265625
         ],
-        "lines": "2.   de volgende overzichten over 2022:  \n",
+        "lines": "2.  \u0007\nde volgende overzichten over 2022:  \n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 99
@@ -38586,7 +38586,7 @@
             449.4098205566406,
             344.1853942871094
         ],
-        "lines": "minderheids deelnemingen.\n",
+        "lines": "minderheids\u00ad\ndeelnemingen.\n",
         "block_no": 81,
         "block_type": 0,
         "page_num": 101
@@ -38874,7 +38874,7 @@
             192.77906799316406,
             339.5433654785156
         ],
-        "lines": "Geautomatiseerde metaal-\n",
+        "lines": "Geautomatiseerde metaal\u00ad\n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 102
@@ -40146,7 +40146,7 @@
             219.20480346679688,
             277.86651611328125
         ],
-        "lines": "CNC-ponsen, CNC-plaatsnijden en \n",
+        "lines": "CNC\u2011ponsen, CNC-plaatsnijden en \n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 103
@@ -40158,7 +40158,7 @@
             222.75869750976562,
             290.86553955078125
         ],
-        "lines": "3D-buizen lasersnijden, (robot)lassen \n",
+        "lines": "3D-buizen\u00ad\nlasersnijden, (robot)lassen \n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 103
@@ -40170,7 +40170,7 @@
             220.40875244140625,
             303.86456298828125
         ],
-        "lines": "en solderen. Plaatwerk, constructie-\n",
+        "lines": "en solderen. Plaatwerk, constructie\u00ad\n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 103
@@ -40518,7 +40518,7 @@
             209.6612091064453,
             732.873291015625
         ],
-        "lines": "precisie componenten en samen-\n",
+        "lines": "precisie componenten en samen\u00ad\n",
         "block_no": 41,
         "block_type": 0,
         "page_num": 103
@@ -40578,7 +40578,7 @@
             344.3951721191406,
             120.38031005859375
         ],
-        "lines": "Alle gang bare plaatbewerkings- en \n",
+        "lines": "Alle gang\u00ad\nbare plaatbewerkings- en \n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 103
@@ -40734,7 +40734,7 @@
             348.10089111328125,
             328.37811279296875
         ],
-        "lines": "lassamen stellingen uit hoge sterkte \n",
+        "lines": "lassamen\u00ad\nstellingen uit hoge sterkte \n",
         "block_no": 59,
         "block_type": 0,
         "page_num": 103
@@ -41382,7 +41382,7 @@
             481.3089599609375,
             484.37493896484375
         ],
-        "lines": "stampen en puntlassen. Deze compe-\n",
+        "lines": "stampen en puntlassen. Deze compe\u00ad\n",
         "block_no": 113,
         "block_type": 0,
         "page_num": 103
@@ -41754,7 +41754,7 @@
             208.87979125976562,
             316.86358642578125
         ],
-        "lines": "middel van gescheiden dompel-\n",
+        "lines": "middel van gescheiden dompel\u00ad\n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 105
@@ -43230,7 +43230,7 @@
             184.5687713623047,
             280.70306396484375
         ],
-        "lines": "spuitgiet componenten, \n",
+        "lines": "spuitgiet\u00ad\ncomponenten, \n",
         "block_no": 9,
         "block_type": 0,
         "page_num": 106
@@ -43266,7 +43266,7 @@
             186.5826873779297,
             319.70013427734375
         ],
-        "lines": "product ontwikkeling en \n",
+        "lines": "product\u00ad\nontwikkeling en \n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 106
@@ -43506,7 +43506,7 @@
             196.1747589111328,
             618.69677734375
         ],
-        "lines": "productinnovaties, product-\n",
+        "lines": "productinnovaties, product\u00ad\n",
         "block_no": 32,
         "block_type": 0,
         "page_num": 106
@@ -44334,7 +44334,7 @@
             476.1211242675781,
             264.86749267578125
         ],
-        "lines": "spuitgietonderdelen en geautomati-\n",
+        "lines": "spuitgietonderdelen en geautomati\u00ad\n",
         "block_no": 101,
         "block_type": 0,
         "page_num": 106
@@ -44346,7 +44346,7 @@
             454.1348876953125,
             277.86651611328125
         ],
-        "lines": "seerde metaal- en kunststof-\n",
+        "lines": "seerde metaal- en kunststof\u00ad\n",
         "block_no": 102,
         "block_type": 0,
         "page_num": 106
@@ -44418,7 +44418,7 @@
             459.78387451171875,
             355.860595703125
         ],
-        "lines": "en eigen gereedschap makerij. \n",
+        "lines": "en eigen gereedschap\u00ad\nmakerij. \n",
         "block_no": 108,
         "block_type": 0,
         "page_num": 106
@@ -45210,7 +45210,7 @@
             219.05079650878906,
             745.8662719726562
         ],
-        "lines": "van mechatronische (sub) systemen \n",
+        "lines": "van mechatronische (sub)\u00ad\nsystemen \n",
         "block_no": 40,
         "block_type": 0,
         "page_num": 107
@@ -45462,7 +45462,7 @@
             343.4109191894531,
             419.3769836425781
         ],
-        "lines": "modules voor OEM\u2019s van hightech-\n",
+        "lines": "modules voor OEM\u2019s van hightech\u00ad\n",
         "block_no": 61,
         "block_type": 0,
         "page_num": 107
@@ -45834,7 +45834,7 @@
             445.71392822265625,
             264.86749267578125
         ],
-        "lines": "voor OEM\u2019s van hightech-\n",
+        "lines": "voor OEM\u2019s van hightech\u00ad\n",
         "block_no": 92,
         "block_type": 0,
         "page_num": 107
@@ -46038,7 +46038,7 @@
             470.9698791503906,
             524.8672485351562
         ],
-        "lines": "modules voor OEM\u2019s van hightech-\n",
+        "lines": "modules voor OEM\u2019s van hightech\u00ad\n",
         "block_no": 109,
         "block_type": 0,
         "page_num": 107
@@ -46158,7 +46158,7 @@
             456.34698486328125,
             680.873291015625
         ],
-        "lines": "Jiangsu P.R.C. 215021, China\n",
+        "lines": "Jiangsu P\n.R.C. 215021, China\n",
         "block_no": 119,
         "block_type": 0,
         "page_num": 107
@@ -46242,7 +46242,7 @@
             215.85182189941406,
             146.3841552734375
         ],
-        "lines": "modules voor OEM\u2019s van hightech-\n",
+        "lines": "modules voor OEM\u2019s van hightech\u00ad\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 108
@@ -46422,7 +46422,7 @@
             215.85182189941406,
             380.377197265625
         ],
-        "lines": "modules voor OEM\u2019s van hightech-\n",
+        "lines": "modules voor OEM\u2019s van hightech\u00ad\n",
         "block_no": 17,
         "block_type": 0,
         "page_num": 108
@@ -46626,7 +46626,7 @@
             227.80780029296875,
             627.3760375976562
         ],
-        "lines": "mechatronische  (sub)systemen en het \n",
+        "lines": "mechatronische \u00ad\n(sub)systemen en het \n",
         "block_no": 34,
         "block_type": 0,
         "page_num": 108
@@ -46650,7 +46650,7 @@
             224.1887969970703,
             653.3740234375
         ],
-        "lines": "productie processen binnen VDL ETG \n",
+        "lines": "productie\u00ad\nprocessen binnen VDL ETG \n",
         "block_no": 36,
         "block_type": 0,
         "page_num": 108
@@ -46794,7 +46794,7 @@
             339.1549072265625,
             251.8685302734375
         ],
-        "lines": "modules voor de semiconductor-\n",
+        "lines": "modules voor de semiconductor\u00ad\n",
         "block_no": 48,
         "block_type": 0,
         "page_num": 108
@@ -47250,7 +47250,7 @@
             482.96636962890625,
             149.39193725585938
         ],
-        "lines": "Development Hengelo B.V.  \n",
+        "lines": "Development Hengelo B.V. \n \n",
         "block_no": 86,
         "block_type": 0,
         "page_num": 108
@@ -47370,7 +47370,7 @@
             483.16217041015625,
             291.5750732421875
         ],
-        "lines": "mechatronische  (sub)systemen en het \n",
+        "lines": "mechatronische \u00ad\n(sub)systemen en het \n",
         "block_no": 96,
         "block_type": 0,
         "page_num": 108
@@ -47394,7 +47394,7 @@
             479.54315185546875,
             317.5731201171875
         ],
-        "lines": "productie processen binnen VDL ETG \n",
+        "lines": "productie\u00ad\nprocessen binnen VDL ETG \n",
         "block_no": 98,
         "block_type": 0,
         "page_num": 108
@@ -48066,7 +48066,7 @@
             207.71632385253906,
             266.7503662109375
         ],
-        "lines": "uitgebreid product programma: \n",
+        "lines": "uitgebreid product\u00ad\nprogramma: \n",
         "block_no": 9,
         "block_type": 0,
         "page_num": 110
@@ -48126,7 +48126,7 @@
             226.3720703125,
             331.7454528808594
         ],
-        "lines": "product gamma bestaat daarnaast uit \n",
+        "lines": "product\u00ad\ngamma bestaat daarnaast uit \n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 110
@@ -48186,7 +48186,7 @@
             218.2248077392578,
             396.74041748046875
         ],
-        "lines": "importeurs voor onder steuning op \n",
+        "lines": "importeurs voor onder\u00ad\nsteuning op \n",
         "block_no": 19,
         "block_type": 0,
         "page_num": 110
@@ -48738,7 +48738,7 @@
             356.2699279785156,
             669.7511596679688
         ],
-        "lines": "Verkoop, after sales en parts voor alle  \n",
+        "lines": "Verkoop, after sales en parts voor alle \n \n",
         "block_no": 65,
         "block_type": 0,
         "page_num": 110
@@ -49854,7 +49854,7 @@
             356.1980285644531,
             277.86749267578125
         ],
-        "lines": "Verkoop, after sales en parts voor alle  \n",
+        "lines": "Verkoop, after sales en parts voor alle \n \n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 111
@@ -49986,7 +49986,7 @@
             356.1980285644531,
             459.8692626953125
         ],
-        "lines": "Verkoop, after sales en parts voor alle  \n",
+        "lines": "Verkoop, after sales en parts voor alle \n \n",
         "block_no": 57,
         "block_type": 0,
         "page_num": 111
@@ -50118,7 +50118,7 @@
             356.1980285644531,
             641.8692626953125
         ],
-        "lines": "Verkoop, after sales en parts voor alle  \n",
+        "lines": "Verkoop, after sales en parts voor alle \n \n",
         "block_no": 68,
         "block_type": 0,
         "page_num": 111
@@ -51042,7 +51042,7 @@
             453.0989074707031,
             651.35546875
         ],
-        "lines": "name transport- en energie-\n",
+        "lines": "name transport- en energie\u00ad\n",
         "block_no": 38,
         "block_type": 0,
         "page_num": 112
@@ -51162,7 +51162,7 @@
             467.4979248046875,
             781.345458984375
         ],
-        "lines": "(AGV\u2019s), geleidings- en navigatie-\n",
+        "lines": "(AGV\u2019s), geleidings- en navigatie\u00ad\n",
         "block_no": 48,
         "block_type": 0,
         "page_num": 112
@@ -51366,7 +51366,7 @@
             224.95748901367188,
             357.03765869140625
         ],
-        "lines": "turnkey-projecten en droog- techniek \n",
+        "lines": "turnkey-projecten en droog-\u00ad\ntechniek \n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 113
@@ -51702,7 +51702,7 @@
             325.8135070800781,
             187.9696044921875
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 41,
         "block_type": 0,
         "page_num": 113
@@ -51774,7 +51774,7 @@
             355.6965026855469,
             265.9637451171875
         ],
-        "lines": "en serie productie van mechatronische \n",
+        "lines": "en serie\u00ad\nproductie van mechatronische \n",
         "block_no": 47,
         "block_type": 0,
         "page_num": 113
@@ -52014,7 +52014,7 @@
             325.8114929199219,
             564.962646484375
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 67,
         "block_type": 0,
         "page_num": 113
@@ -52290,7 +52290,7 @@
             453.37054443359375,
             305.0386962890625
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 90,
         "block_type": 0,
         "page_num": 113
@@ -52326,7 +52326,7 @@
             480.664306640625,
             344.0357360839844
         ],
-        "lines": "industrie. Tevens actief in de product-\n",
+        "lines": "industrie. Tevens actief in de product\u00ad\n",
         "block_no": 93,
         "block_type": 0,
         "page_num": 113
@@ -52578,7 +52578,7 @@
             453.37054443359375,
             656.0374145507812
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 114,
         "block_type": 0,
         "page_num": 113
@@ -52818,7 +52818,7 @@
             167.95779418945312,
             227.04656982421875
         ],
-        "lines": "215021 SIP, China\n",
+        "lines": "215021 SIP\n, China\n",
         "block_no": 6,
         "block_type": 0,
         "page_num": 114
@@ -52914,7 +52914,7 @@
             197.79180908203125,
             344.0376892089844
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 114
@@ -53202,7 +53202,7 @@
             198.5687713623047,
             695.0384521484375
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 38,
         "block_type": 0,
         "page_num": 114
@@ -53490,7 +53490,7 @@
             325.35089111328125,
             382.96478271484375
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 62,
         "block_type": 0,
         "page_num": 114
@@ -53526,7 +53526,7 @@
             353.421630859375,
             421.9617614746094
         ],
-        "lines": "industrie. Tevens actief in de product-\n",
+        "lines": "industrie. Tevens actief in de product\u00ad\n",
         "block_no": 65,
         "block_type": 0,
         "page_num": 114
@@ -53790,7 +53790,7 @@
             325.35089111328125,
             746.9646606445312
         ],
-        "lines": "assemblage- en verbindings-\n",
+        "lines": "assemblage- en verbindings\u00ad\n",
         "block_no": 87,
         "block_type": 0,
         "page_num": 114
@@ -53826,7 +53826,7 @@
             353.421630859375,
             785.961669921875
         ],
-        "lines": "industrie. Tevens actief in de product-\n",
+        "lines": "industrie. Tevens actief in de product\u00ad\n",
         "block_no": 90,
         "block_type": 0,
         "page_num": 114
@@ -54306,7 +54306,7 @@
             461.7081604003906,
             759.9646606445312
         ],
-        "lines": "accessoires en waterzuiverings-\n",
+        "lines": "accessoires en waterzuiverings\u00ad\n",
         "block_no": 130,
         "block_type": 0,
         "page_num": 114
@@ -54474,7 +54474,7 @@
             198.8243865966797,
             316.86651611328125
         ],
-        "lines": "buizenwarmte wisselaars) en \n",
+        "lines": "buizenwarmte\u00ad\nwisselaars) en \n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 115
@@ -54498,7 +54498,7 @@
             220.5964813232422,
             342.8645324707031
         ],
-        "lines": "applicaties, zoals (elektrische) voort -\n",
+        "lines": "applicaties, zoals (elektrische) voort\u00ad\n\u00ad\n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 115
@@ -54510,7 +54510,7 @@
             168.29949951171875,
             355.863525390625
         ],
-        "lines": "stuwing systemen, \n",
+        "lines": "stuwing\u00ad\nsystemen, \n",
         "block_no": 14,
         "block_type": 0,
         "page_num": 115
@@ -54930,7 +54930,7 @@
             331.3064880371094,
             290.86553955078125
         ],
-        "lines": "Productie van speciale metaal-\n",
+        "lines": "Productie van speciale metaal\u00ad\n",
         "block_no": 49,
         "block_type": 0,
         "page_num": 115
@@ -55230,7 +55230,7 @@
             344.634521484375,
             693.8662719726562
         ],
-        "lines": "ombouw en uitbreiding van groot-\n",
+        "lines": "ombouw en uitbreiding van groot\u00ad\n",
         "block_no": 74,
         "block_type": 0,
         "page_num": 115
@@ -55482,7 +55482,7 @@
             467.5455627441406,
             355.861572265625
         ],
-        "lines": "mobiele telefonie, vaste telecom-\n",
+        "lines": "mobiele telefonie, vaste telecom\u00ad\n",
         "block_no": 95,
         "block_type": 0,
         "page_num": 115
@@ -55842,7 +55842,7 @@
             203.65077209472656,
             290.62237548828125
         ],
-        "lines": "portaalarm-, kabel- en ketting-\n",
+        "lines": "portaalarm-, kabel- en ketting\u00ad\n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 116
@@ -56190,7 +56190,7 @@
             232.11270141601562,
             745.6211547851562
         ],
-        "lines": "zijlader systemen voor het optimaliseren \n",
+        "lines": "zijlader\u00ad\nsystemen voor het optimaliseren \n",
         "block_no": 39,
         "block_type": 0,
         "page_num": 116
@@ -56634,7 +56634,7 @@
             351.9508972167969,
             706.6221313476562
         ],
-        "lines": "technisch hoogwaardige onder delen \n",
+        "lines": "technisch hoogwaardige onder\u00ad\ndelen \n",
         "block_no": 76,
         "block_type": 0,
         "page_num": 116
@@ -56790,7 +56790,7 @@
             476.7588806152344,
             290.62335205078125
         ],
-        "lines": "veersystemen en reserve onderdelen \n",
+        "lines": "veersystemen en reserve\u00ad\nonderdelen \n",
         "block_no": 89,
         "block_type": 0,
         "page_num": 116
@@ -57258,7 +57258,7 @@
             211.28077697753906,
             357.03765869140625
         ],
-        "lines": "dierenvoeding- en wasmiddelen-\n",
+        "lines": "dierenvoeding- en wasmiddelen\u00ad\n",
         "block_no": 13,
         "block_type": 0,
         "page_num": 117
@@ -57426,7 +57426,7 @@
             198.05076599121094,
             565.0384521484375
         ],
-        "lines": "bedrijven in Noord-Amerika.\n",
+        "lines": "bedrijven in Noord\u2011Amerika.\n",
         "block_no": 27,
         "block_type": 0,
         "page_num": 117
@@ -57570,7 +57570,7 @@
             348.0957336425781,
             147.551513671875
         ],
-        "lines": "voor afzuiginstallaties en stortgoed-\n",
+        "lines": "voor afzuiginstallaties en stortgoed\u00ad\n",
         "block_no": 39,
         "block_type": 0,
         "page_num": 117
@@ -57630,7 +57630,7 @@
             333.7878112792969,
             212.546630859375
         ],
-        "lines": "en terreinen tegen brand, stof-\n",
+        "lines": "en terreinen tegen brand, stof\u00ad\n",
         "block_no": 44,
         "block_type": 0,
         "page_num": 117
@@ -57654,7 +57654,7 @@
             345.62481689453125,
             238.544677734375
         ],
-        "lines": "suppressie-, watermist- en camera-\n",
+        "lines": "suppressie-, watermist- en camera\u00ad\n",
         "block_no": 46,
         "block_type": 0,
         "page_num": 117
@@ -58326,7 +58326,7 @@
             470.2349853515625,
             498.12603759765625
         ],
-        "lines": "en diensten gericht op de opwek-\n",
+        "lines": "en diensten gericht op de opwek\u00ad\n",
         "block_no": 102,
         "block_type": 0,
         "page_num": 117
@@ -58578,7 +58578,7 @@
             387.5959167480469,
             725.2430419921875
         ],
-        "lines": "Fotografie:  \n Paul Jespers, Bram Saeys, Bart van Vlijmen, The Mute Zone en ARA/Bovil\n",
+        "lines": "Fotografie:  \n\u0007\nPaul Jespers, Bram Saeys, Bart van Vlijmen, The Mute Zone en ARA/Bovil\n",
         "block_no": 3,
         "block_type": 0,
         "page_num": 118

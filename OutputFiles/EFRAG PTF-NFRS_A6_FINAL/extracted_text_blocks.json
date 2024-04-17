@@ -318,7 +318,7 @@
             538.5809326171875,
             190.61688232421875
         ],
-        "lines": "EXECUTIVE SUMMARY \n3\n",
+        "lines": "EXECUTIVE SUMMARY\b\n3\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 3
@@ -330,7 +330,7 @@
             538.5809326171875,
             210.284912109375
         ],
-        "lines": "INTRODUCTION AND OBJECTIVES \n5\n",
+        "lines": "INTRODUCTION AND OBJECTIVES\b\n5\n",
         "block_no": 3,
         "block_type": 0,
         "page_num": 3
@@ -342,7 +342,7 @@
             538.5809326171875,
             229.952880859375
         ],
-        "lines": "DETAILED ANALYSIS OF THE CURRENT STATE OF PLAY \n6\n",
+        "lines": "DETAILED ANALYSIS OF THE CURRENT STATE OF PLAY\b\n6\n",
         "block_no": 4,
         "block_type": 0,
         "page_num": 3
@@ -354,7 +354,7 @@
             538.5870971679688,
             243.34738159179688
         ],
-        "lines": "FRAMING OF THE WORK \n6\n",
+        "lines": "FRAMING OF THE WORK\b\n6\n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 3
@@ -366,7 +366,7 @@
             538.5870971679688,
             260.1863708496094
         ],
-        "lines": "SECTION 1: HOW NON-FINANCIAL INFORMATION IS PRODUCED \n8\n",
+        "lines": "SECTION 1: HOW NON-FINANCIAL INFORMATION IS PRODUCED\b\n8\n",
         "block_no": 6,
         "block_type": 0,
         "page_num": 3
@@ -378,7 +378,7 @@
             538.5870971679688,
             277.0253601074219
         ],
-        "lines": "SECTION 2: HOW NON-FINANCIAL INFORMATION IS PROVIDED \n17\n",
+        "lines": "SECTION 2: HOW NON-FINANCIAL INFORMATION IS PROVIDED\b\n17\n",
         "block_no": 7,
         "block_type": 0,
         "page_num": 3
@@ -402,7 +402,7 @@
             538.5780029296875,
             307.8683776855469
         ],
-        "lines": "OR USING THE PROVIDED NON-FINANCIAL INFORMATION \n44\n",
+        "lines": "OR USING THE PROVIDED NON-FINANCIAL INFORMATION\b\n44\n",
         "block_no": 9,
         "block_type": 0,
         "page_num": 3
@@ -414,7 +414,7 @@
             538.5834350585938,
             324.7073669433594
         ],
-        "lines": "SECTION 4: WHAT IS THE SPECIFIC SITUATION OF SMEs RELATED TO NON-FINANCIAL REPORTING? \n69\n",
+        "lines": "SECTION 4: WHAT IS THE SPECIFIC SITUATION OF SMEs RELATED TO NON-FINANCIAL REPORTING?\b\n69\n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 3
@@ -426,7 +426,7 @@
             538.58642578125,
             347.7980041503906
         ],
-        "lines": "SALIENT ASSESSMENT POINTS \n72\n",
+        "lines": "SALIENT ASSESSMENT POINTS\b\n72\n",
         "block_no": 11,
         "block_type": 0,
         "page_num": 3
@@ -438,7 +438,7 @@
             538.5819702148438,
             367.46600341796875
         ],
-        "lines": "APPENDIX: SOURCES USED FOR DESKTOP LITERATURE REVIEW \n74\n",
+        "lines": "APPENDIX: SOURCES USED FOR DESKTOP LITERATURE REVIEW\b\n74\n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 3
@@ -834,7 +834,7 @@
             353.00189208984375,
             139.27862548828125
         ],
-        "lines": "DETAILED ANALYSIS OF  \nTHE CURRENT STATE OF PLAY\n",
+        "lines": "DETAILED ANAL\nYSIS OF  \nTHE CURRENT STATE OF PLAY\n",
         "block_no": 25,
         "block_type": 0,
         "page_num": 5
@@ -1950,7 +1950,7 @@
             576.4459838867188,
             809.6732788085938
         ],
-        "lines": "1111\n",
+        "lines": "11\n11\n",
         "block_no": 0,
         "block_type": 0,
         "page_num": 10
@@ -2886,7 +2886,7 @@
             506.48394775390625,
             594.9860229492188
         ],
-        "lines": "QUESTION 1.2:\n How many companies report to meet regulatory requirements or other mandatory obligations on a voluntary basis?\n",
+        "lines": "QUESTION 1.2:\n\u0007\nHow many companies report to meet regulatory requirements or other mandatory obligations on a voluntary basis?\n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 13
@@ -3462,7 +3462,7 @@
             320.3648986816406,
             244.04603576660156
         ],
-        "lines": "QUESTION 2.1:\n What topics are most reported upon and by what types of entities?\n",
+        "lines": "QUESTION 2.1:\n\u0007\nWhat topics are most reported upon and by what types of entities?\n",
         "block_no": 4,
         "block_type": 0,
         "page_num": 16
@@ -3961,13 +3961,25 @@
     },
     {
         "coords": [
-            272.2243957519531,
+            276.35931396484375,
             597.6267700195312,
+            316.6602783203125,
+            609.3665161132812
+        ],
+        "lines": "Polluting\n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 17
+    },
+    {
+        "coords": [
+            272.2243957519531,
+            610.6979370117188,
             324.7764587402344,
             622.4376831054688
         ],
-        "lines": "Polluting\nDischarges\n",
-        "block_no": 18,
+        "lines": "Discharges\n",
+        "block_no": 19,
         "block_type": 0,
         "page_num": 17
     },
@@ -3979,19 +3991,31 @@
             609.3665161132812
         ],
         "lines": "Waste\nBiodiversity and\n",
-        "block_no": 19,
+        "block_no": 20,
+        "block_type": 0,
+        "page_num": 17
+    },
+    {
+        "coords": [
+            431.34381103515625,
+            610.6979370117188,
+            481.5630798339844,
+            622.4376831054688
+        ],
+        "lines": "ecosystem\n",
+        "block_no": 21,
         "block_type": 0,
         "page_num": 17
     },
     {
         "coords": [
             426.3407897949219,
-            610.6979370117188,
+            623.512939453125,
             485.9139709472656,
             635.252685546875
         ],
-        "lines": "ecosystem\nconservation\n",
-        "block_no": 20,
+        "lines": "conservation\n",
+        "block_no": 22,
         "block_type": 0,
         "page_num": 17
     },
@@ -4003,7 +4027,7 @@
             690.2223510742188
         ],
         "lines": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-\nFinancial Reporting Directive, The Alliance for Corporate Transparency (2019)\n",
-        "block_no": 21,
+        "block_no": 23,
         "block_type": 0,
         "page_num": 17
     },
@@ -4015,7 +4039,7 @@
             750.7113647460938
         ],
         "lines": "39 \nThe 2019 ACT report finds that a great majority of companies address climate change in their disclosure (90,9%). This \ncould reflect the increased demands in recent years from investors and other stakeholders for disclosure around \nclimate risk, whether due to mandatory requirements or voluntary reporting initiatives. Climate risk has been a focus of \nestablished reporting standards, frameworks and principles including GRI, CDP and CDSB, as well as the NFRD. \n",
-        "block_no": 22,
+        "block_no": 24,
         "block_type": 0,
         "page_num": 17
     },
@@ -4027,7 +4051,7 @@
             785.2083129882812
         ],
         "lines": "40 \nDisclosure on waste is the second most frequent topic, but with varying levels of disclosure provided, as shown later in \nparagraph 66.\n",
-        "block_no": 23,
+        "block_no": 25,
         "block_type": 0,
         "page_num": 17
     },
@@ -5104,10 +5128,22 @@
             168.10299682617188,
             378.8839111328125,
             198.43902587890625,
+            387.4722900390625
+        ],
+        "lines": "reporting\n",
+        "block_no": 11,
+        "block_type": 0,
+        "page_num": 25
+    },
+    {
+        "coords": [
+            171.65220642089844,
+            388.4464111328125,
+            194.7158660888672,
             397.0347900390625
         ],
-        "lines": "reporting\ncriteria\n",
-        "block_no": 11,
+        "lines": "criteria\n",
+        "block_no": 12,
         "block_type": 0,
         "page_num": 25
     },
@@ -5119,7 +5155,7 @@
             368.7222900390625
         ],
         "lines": "Human Rights\n",
-        "block_no": 12,
+        "block_no": 13,
         "block_type": 0,
         "page_num": 25
     },
@@ -5131,7 +5167,7 @@
             378.0972900390625
         ],
         "lines": "in supply\n",
-        "block_no": 13,
+        "block_no": 14,
         "block_type": 0,
         "page_num": 25
     },
@@ -5143,7 +5179,7 @@
             387.4722900390625
         ],
         "lines": "chains\n",
-        "block_no": 14,
+        "block_no": 15,
         "block_type": 0,
         "page_num": 25
     },
@@ -5152,10 +5188,22 @@
             256.08740234375,
             360.1339111328125,
             293.6881408691406,
+            378.0972900390625
+        ],
+        "lines": "Impacts on\nindigenous\n",
+        "block_no": 16,
+        "block_type": 0,
+        "page_num": 25
+    },
+    {
+        "coords": [
+            259.3335876464844,
+            378.8839111328125,
+            290.1003112792969,
             387.4722900390625
         ],
-        "lines": "Impacts on\nindigenous\nand local\n",
-        "block_no": 15,
+        "lines": "and local\n",
+        "block_no": 17,
         "block_type": 0,
         "page_num": 25
     },
@@ -5167,7 +5215,7 @@
             397.0347900390625
         ],
         "lines": "communities\n",
-        "block_no": 16,
+        "block_no": 18,
         "block_type": 0,
         "page_num": 25
     },
@@ -5179,7 +5227,7 @@
             368.7222900390625
         ],
         "lines": "High risk\n",
-        "block_no": 17,
+        "block_no": 19,
         "block_type": 0,
         "page_num": 25
     },
@@ -5191,7 +5239,7 @@
             378.0972900390625
         ],
         "lines": "areas for civil\n",
-        "block_no": 18,
+        "block_no": 20,
         "block_type": 0,
         "page_num": 25
     },
@@ -5203,7 +5251,7 @@
             387.4722900390625
         ],
         "lines": "/ political\n",
-        "block_no": 19,
+        "block_no": 21,
         "block_type": 0,
         "page_num": 25
     },
@@ -5215,19 +5263,31 @@
             397.0347900390625
         ],
         "lines": "rights\n",
-        "block_no": 20,
+        "block_no": 22,
+        "block_type": 0,
+        "page_num": 25
+    },
+    {
+        "coords": [
+            351.9996032714844,
+            360.1339111328125,
+            377.62847900390625,
+            368.7222900390625
+        ],
+        "lines": "Conflict\n",
+        "block_no": 23,
         "block_type": 0,
         "page_num": 25
     },
     {
         "coords": [
             348.7370910644531,
-            360.1339111328125,
+            369.5089111328125,
             382.4852600097656,
             378.0972900390625
         ],
-        "lines": "Conflict\nresources\n",
-        "block_no": 21,
+        "lines": "resources\n",
+        "block_no": 24,
         "block_type": 0,
         "page_num": 25
     },
@@ -5239,7 +5299,7 @@
             368.7222900390625
         ],
         "lines": "Data\n",
-        "block_no": 22,
+        "block_no": 25,
         "block_type": 0,
         "page_num": 25
     },
@@ -5251,7 +5311,7 @@
             378.0972900390625
         ],
         "lines": "protection\n",
-        "block_no": 23,
+        "block_no": 26,
         "block_type": 0,
         "page_num": 25
     },
@@ -5263,7 +5323,7 @@
             445.3473205566406
         ],
         "lines": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-\nFinancial Reporting Directive, The Alliance for Corporate Transparency (2019)\n",
-        "block_no": 24,
+        "block_no": 27,
         "block_type": 0,
         "page_num": 25
     },
@@ -5275,7 +5335,7 @@
             492.84033203125
         ],
         "lines": "69 \nGiven the discretionary nature of disclosing human rights issues, it is interesting to see how few companies consider any \nhuman rights dimension for disclosure purposes, particularly on topics that have a cross-sectoral impact, such as data \nprotection of the supply chain. Figure 15 below was prepared using information from the 2019 ACT report.\n",
-        "block_no": 25,
+        "block_no": 28,
         "block_type": 0,
         "page_num": 25
     },
@@ -5287,7 +5347,7 @@
             514.9173583984375
         ],
         "lines": "Figure 15: Proportion of companies that identify salient human rights issues\n",
-        "block_no": 26,
+        "block_no": 29,
         "block_type": 0,
         "page_num": 25
     },
@@ -5299,7 +5359,7 @@
             549.5071411132812
         ],
         "lines": "27%\n",
-        "block_no": 27,
+        "block_no": 30,
         "block_type": 0,
         "page_num": 25
     },
@@ -5311,7 +5371,7 @@
             630.6946411132812
         ],
         "lines": "10%\n",
-        "block_no": 28,
+        "block_no": 31,
         "block_type": 0,
         "page_num": 25
     },
@@ -5323,7 +5383,7 @@
             664.4446411132812
         ],
         "lines": "3%\n",
-        "block_no": 29,
+        "block_no": 32,
         "block_type": 0,
         "page_num": 25
     },
@@ -5335,7 +5395,7 @@
             646.2571411132812
         ],
         "lines": "7%\n",
-        "block_no": 30,
+        "block_no": 33,
         "block_type": 0,
         "page_num": 25
     },
@@ -5347,19 +5407,31 @@
             614.9446411132812
         ],
         "lines": "13%\n",
-        "block_no": 31,
+        "block_no": 34,
+        "block_type": 0,
+        "page_num": 25
+    },
+    {
+        "coords": [
+            162.6616973876953,
+            689.2312622070312,
+            216.9212188720703,
+            697.8196411132812
+        ],
+        "lines": "General Human\n",
+        "block_no": 35,
         "block_type": 0,
         "page_num": 25
     },
     {
         "coords": [
             162.1116943359375,
-            689.2312622070312,
-            216.9212188720703,
+            698.6062622070312,
+            216.3712158203125,
             707.1946411132812
         ],
-        "lines": "General Human\nRights reporting\n",
-        "block_no": 32,
+        "lines": "Rights reporting\n",
+        "block_no": 36,
         "block_type": 0,
         "page_num": 25
     },
@@ -5371,7 +5443,7 @@
             716.569580078125
         ],
         "lines": "criteria\n",
-        "block_no": 33,
+        "block_no": 37,
         "block_type": 0,
         "page_num": 25
     },
@@ -5383,7 +5455,7 @@
             697.8196411132812
         ],
         "lines": "Human Rights in\n",
-        "block_no": 34,
+        "block_no": 38,
         "block_type": 0,
         "page_num": 25
     },
@@ -5395,7 +5467,7 @@
             707.1946411132812
         ],
         "lines": "supply chains\n",
-        "block_no": 35,
+        "block_no": 39,
         "block_type": 0,
         "page_num": 25
     },
@@ -5407,7 +5479,7 @@
             697.8196411132812
         ],
         "lines": "Impacts on\n",
-        "block_no": 36,
+        "block_no": 40,
         "block_type": 0,
         "page_num": 25
     },
@@ -5419,7 +5491,7 @@
             707.1946411132812
         ],
         "lines": "indigenous and\n",
-        "block_no": 37,
+        "block_no": 41,
         "block_type": 0,
         "page_num": 25
     },
@@ -5431,7 +5503,7 @@
             716.569580078125
         ],
         "lines": "local\n",
-        "block_no": 38,
+        "block_no": 42,
         "block_type": 0,
         "page_num": 25
     },
@@ -5443,7 +5515,7 @@
             726.132080078125
         ],
         "lines": "communities\n",
-        "block_no": 39,
+        "block_no": 43,
         "block_type": 0,
         "page_num": 25
     },
@@ -5455,7 +5527,7 @@
             697.8196411132812
         ],
         "lines": "High risk areas\n",
-        "block_no": 40,
+        "block_no": 44,
         "block_type": 0,
         "page_num": 25
     },
@@ -5467,7 +5539,7 @@
             707.1946411132812
         ],
         "lines": "for civil / political\n",
-        "block_no": 41,
+        "block_no": 45,
         "block_type": 0,
         "page_num": 25
     },
@@ -5479,19 +5551,31 @@
             716.569580078125
         ],
         "lines": "rights\n",
-        "block_no": 42,
+        "block_no": 46,
+        "block_type": 0,
+        "page_num": 25
+    },
+    {
+        "coords": [
+            392.7658996582031,
+            689.2312622070312,
+            418.394775390625,
+            697.8196411132812
+        ],
+        "lines": "Conflict\n",
+        "block_no": 47,
         "block_type": 0,
         "page_num": 25
     },
     {
         "coords": [
             389.50518798828125,
-            689.2312622070312,
+            698.6062622070312,
             423.25335693359375,
             707.1946411132812
         ],
-        "lines": "Conflict\nresources\n",
-        "block_no": 43,
+        "lines": "resources\n",
+        "block_no": 48,
         "block_type": 0,
         "page_num": 25
     },
@@ -5503,7 +5587,7 @@
             775.0072631835938
         ],
         "lines": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-\nFinancial Reporting Directive, The Alliance for Corporate Transparency (2019)\n",
-        "block_no": 44,
+        "block_no": 49,
         "block_type": 0,
         "page_num": 25
     },
@@ -6207,11 +6291,23 @@
         "coords": [
             123.2405014038086,
             427.61968994140625,
+            231.6814422607422,
+            436.6191711425781
+        ],
+        "lines": "Tax policies\nCommitment to\n",
+        "block_no": 9,
+        "block_type": 0,
+        "page_num": 29
+    },
+    {
+        "coords": [
+            176.4145965576172,
+            437.4434814453125,
             235.06788635253906,
             446.4429626464844
         ],
-        "lines": "Tax policies\nCommitment to\npay taxes where\n",
-        "block_no": 9,
+        "lines": "pay taxes where\n",
+        "block_no": 10,
         "block_type": 0,
         "page_num": 29
     },
@@ -6223,7 +6319,7 @@
             466.28717041015625
         ],
         "lines": "the profits\ngenerated\n",
-        "block_no": 10,
+        "block_no": 11,
         "block_type": 0,
         "page_num": 29
     },
@@ -6235,7 +6331,7 @@
             436.6191711425781
         ],
         "lines": "Commitment\n",
-        "block_no": 11,
+        "block_no": 12,
         "block_type": 0,
         "page_num": 29
     },
@@ -6244,10 +6340,34 @@
             246.6083984375,
             437.4434814453125,
             285.5647888183594,
+            446.4429626464844
+        ],
+        "lines": "against tax\n",
+        "block_no": 13,
+        "block_type": 0,
+        "page_num": 29
+    },
+    {
+        "coords": [
+            247.6011962890625,
+            447.46380615234375,
+            284.3193359375,
+            456.4632873535156
+        ],
+        "lines": "avoidance\n",
+        "block_no": 14,
+        "block_type": 0,
+        "page_num": 29
+    },
+    {
+        "coords": [
+            248.25860595703125,
+            457.2876892089844,
+            283.17919921875,
             466.28717041015625
         ],
-        "lines": "against tax\navoidance\nstrategies\n",
-        "block_no": 12,
+        "lines": "strategies\n",
+        "block_no": 15,
         "block_type": 0,
         "page_num": 29
     },
@@ -6259,7 +6379,7 @@
             436.6191711425781
         ],
         "lines": "Provision of\n",
-        "block_no": 13,
+        "block_no": 16,
         "block_type": 0,
         "page_num": 29
     },
@@ -6271,7 +6391,7 @@
             446.4429626464844
         ],
         "lines": "effective tax rates\n",
-        "block_no": 14,
+        "block_no": 17,
         "block_type": 0,
         "page_num": 29
     },
@@ -6279,11 +6399,23 @@
         "coords": [
             356.6023864746094,
             427.61968994140625,
+            416.9230651855469,
+            436.6191711425781
+        ],
+        "lines": "Profit before tax\u2013\n",
+        "block_no": 18,
+        "block_type": 0,
+        "page_num": 29
+    },
+    {
+        "coords": [
+            357.22320556640625,
+            437.6399841308594,
             423.49700927734375,
             446.63946533203125
         ],
-        "lines": "Profit before tax\u2013\nKPI disaggregated\n",
-        "block_no": 15,
+        "lines": "KPI disaggregated\n",
+        "block_no": 19,
         "block_type": 0,
         "page_num": 29
     },
@@ -6295,7 +6427,7 @@
             456.4632873535156
         ],
         "lines": "by country\n",
-        "block_no": 16,
+        "block_no": 20,
         "block_type": 0,
         "page_num": 29
     },
@@ -6307,7 +6439,7 @@
             436.6191711425781
         ],
         "lines": "Income taxes paid\n",
-        "block_no": 17,
+        "block_no": 21,
         "block_type": 0,
         "page_num": 29
     },
@@ -6319,7 +6451,7 @@
             446.63946533203125
         ],
         "lines": "\u2013 KPI\n",
-        "block_no": 18,
+        "block_no": 22,
         "block_type": 0,
         "page_num": 29
     },
@@ -6331,7 +6463,7 @@
             456.4632873535156
         ],
         "lines": "disaggregated by\n",
-        "block_no": 19,
+        "block_no": 23,
         "block_type": 0,
         "page_num": 29
     },
@@ -6343,7 +6475,7 @@
             466.28717041015625
         ],
         "lines": "country\n",
-        "block_no": 20,
+        "block_no": 24,
         "block_type": 0,
         "page_num": 29
     },
@@ -6355,7 +6487,7 @@
             514.026123046875
         ],
         "lines": "Source: An analysis of the sustainability reports of 1 000 companies pursuant to the EU Non-\nFinancial Reporting Directive, The Alliance for Corporate Transparency (2019)\n",
-        "block_no": 21,
+        "block_no": 25,
         "block_type": 0,
         "page_num": 29
     },
@@ -6367,7 +6499,7 @@
             574.5151977539062
         ],
         "lines": "87 \nThe results of the research for the 2019 ACT report suggest relatively low coverage of reporting on tax-related policies \nand commitments from a country-by-country perspective. While most companies report on tax policies, only a few \ncompanies express specific commitment about paying taxes where profits are generated, and even fewer companies \nprovide information on income taxes paid disaggregated by country.\n",
-        "block_no": 22,
+        "block_no": 26,
         "block_type": 0,
         "page_num": 29
     },
@@ -6379,7 +6511,7 @@
             596.5921630859375
         ],
         "lines": "Governance\n",
-        "block_no": 23,
+        "block_no": 27,
         "block_type": 0,
         "page_num": 29
     },
@@ -6391,7 +6523,7 @@
             630.51318359375
         ],
         "lines": "88 \nThe NFRD does not explicitly require any specific governance-related disclosures even though such disclosures are \nrecommended in a majority of reporting frameworks.\n",
-        "block_no": 24,
+        "block_no": 28,
         "block_type": 0,
         "page_num": 29
     },
@@ -6403,7 +6535,7 @@
             678.0061645507812
         ],
         "lines": "89 \nThe 2019 ACT report notes that only 14% of the sample of 1 000 companies reviewed, report that their Boards discussed \nspecific issues in their non-financial reporting, and only 15% report a link between sustainability objectives and executive \nremuneration.\n",
-        "block_no": 25,
+        "block_no": 29,
         "block_type": 0,
         "page_num": 29
     },
@@ -6415,7 +6547,7 @@
             712.5032348632812
         ],
         "lines": "90 \nBased on the sample of 1 000 companies analysed for the purposes of the 2019 ACT report, in terms of reporting in line \nwith the NFRD:\n",
-        "block_no": 26,
+        "block_no": 30,
         "block_type": 0,
         "page_num": 29
     },
@@ -6427,7 +6559,7 @@
             747.0001831054688
         ],
         "lines": "a) Between 40 and 50% of companies disclose a declaration of social purpose, the Board\u2019s mandate and supportive \nprocedural governance arrangements;\n",
-        "block_no": 27,
+        "block_no": 31,
         "block_type": 0,
         "page_num": 29
     },
@@ -6439,7 +6571,7 @@
             768.501220703125
         ],
         "lines": "b) Nearly 30% of companies disclose information on Board engagement with workforce representatives; and\n",
-        "block_no": 28,
+        "block_no": 32,
         "block_type": 0,
         "page_num": 29
     },
@@ -6858,7 +6990,7 @@
             328.3919677734375,
             671.3410034179688
         ],
-        "lines": "QUESTION 2.2:\n Where is non-financial information found in companies\u2019 publications?\n",
+        "lines": "QUESTION 2.2:\n\u0007\nWhere is non-financial information found in companies\u2019 publications?\n",
         "block_no": 12,
         "block_type": 0,
         "page_num": 32
@@ -7218,7 +7350,7 @@
             531.4959716796875,
             186.4538116455078
         ],
-        "lines": "QUESTION 2.3:\n Are there any reporting initiatives which provide normalised metrics, digital electronic format representation, reporting \ntools or data repository for the reporting of non-financial information?\n",
+        "lines": "QUESTION 2.3:\n\u0007\nAre there any reporting initiatives which provide normalised metrics, digital electronic format representation, reporting \ntools or data repository for the reporting of non-financial information?\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 36
@@ -8250,7 +8382,7 @@
             422.16387939453125,
             173.45814514160156
         ],
-        "lines": "QUESTION 2.5:\n Which type of technology framework/platform was used to provide non-financial information?\n",
+        "lines": "QUESTION 2.5:\n\u0007\nWhich type of technology framework/platform was used to provide non-financial information?\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 40
@@ -8406,7 +8538,7 @@
             360.5769348144531,
             621.8215942382812
         ],
-        "lines": "QUESTION 2.6:\n How many companies report through which technology framework/platform?\n",
+        "lines": "QUESTION 2.6:\n\u0007\nHow many companies report through which technology framework/platform?\n",
         "block_no": 5,
         "block_type": 0,
         "page_num": 41
@@ -8598,7 +8730,7 @@
             340.23675537109375,
             466.55780029296875
         ],
-        "lines": "QUESTION 3.1:\n What are the issues identified with what is reported in terms of content?\n",
+        "lines": "QUESTION 3.1:\n\u0007\nWhat are the issues identified with what is reported in terms of content?\n",
         "block_no": 7,
         "block_type": 0,
         "page_num": 43
@@ -9486,7 +9618,7 @@
             540.8873901367188,
             385.60833740234375
         ],
-        "lines": " \nDiffering levels of maturity across reporting organisations of the reporting process including responsibilities,  \nsystems and processes \n",
+        "lines": " \nDiffering levels of maturity across reporting organisations of the reporting process including responsibilities, \n \nsystems and processes \n",
         "block_no": 7,
         "block_type": 0,
         "page_num": 47
@@ -10278,7 +10410,7 @@
             540.9490966796875,
             212.55044555664062
         ],
-        "lines": "187 \nThe Frank Bold paper78 comparing the implementation of the NFRD in the UK, Germany, Italy and France, points out \nthat the NFRD requires a brief description of a company\u2019s business model to be included in its non-financial statement. \nHowever, it does not clarify how the description of the business model should refer to the ESG factors that the non-\nfinancial information statement considers. There is therefore a risk that companies provide a description of their business \nmodel that is disconnected from the ESG matters at hand (for example the impacts of carbon risk in the forecasting of an \nenergy company), thus undermining the usefulness of such reporting.\n",
+        "lines": "187 \nThe Frank Bold paper\n78 comparing the implementation of the NFRD in the UK, Germany, Italy and France, points out \nthat the NFRD requires a brief description of a company\u2019s business model to be included in its non-financial statement. \nHowever, it does not clarify how the description of the business model should refer to the ESG factors that the non-\nfinancial information statement considers. There is therefore a risk that companies provide a description of their business \nmodel that is disconnected from the ESG matters at hand (for example the impacts of carbon risk in the forecasting of an \nenergy company), thus undermining the usefulness of such reporting.\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 53
@@ -11706,7 +11838,7 @@
             386.1997985839844,
             605.666015625
         ],
-        "lines": "QUESTION 3.2:\n What are the issues identified regarding how non-financial information is displayed?\n",
+        "lines": "QUESTION 3.2:\n\u0007\nWhat are the issues identified regarding how non-financial information is displayed?\n",
         "block_no": 8,
         "block_type": 0,
         "page_num": 64
@@ -11958,7 +12090,7 @@
             474.0036926269531,
             648.9857177734375
         ],
-        "lines": "QUESTION 3.3:\n What are the issues identified in respect of the means through which non-financial information is reported?\n",
+        "lines": "QUESTION 3.3:\n\u0007\nWhat are the issues identified in respect of the means through which non-financial information is reported?\n",
         "block_no": 9,
         "block_type": 0,
         "page_num": 66
@@ -12486,7 +12618,7 @@
             531.4689331054688,
             186.4538116455078
         ],
-        "lines": "QUESTION 4.1:\n On what basis do SMEs report? Do they report to meet regulatory requirements, other mandatory obligations or on a \nvoluntary basis? What are the relevant rules?\n",
+        "lines": "QUESTION 4.1:\n\u0007\nOn what basis do SMEs report? Do they report to meet regulatory requirements, other mandatory obligations or on a \nvoluntary basis? What are the relevant rules?\n",
         "block_no": 2,
         "block_type": 0,
         "page_num": 69
@@ -12498,7 +12630,7 @@
             485.7759094238281,
             242.16419982910156
         ],
-        "lines": "QUESTION 4.2:\n How many SMEs report to meet regulatory requirements or other mandatory obligations on a voluntary basis?\n",
+        "lines": "QUESTION 4.2:\n\u0007\nHow many SMEs report to meet regulatory requirements or other mandatory obligations on a voluntary basis?\n",
         "block_no": 3,
         "block_type": 0,
         "page_num": 69
@@ -12690,7 +12822,7 @@
             307.6829833984375,
             324.473876953125
         ],
-        "lines": "QUESTION 4.3:\n Where is non-financial information found in SMEs\u2019 publications?\n",
+        "lines": "QUESTION 4.3:\n\u0007\nWhere is non-financial information found in SMEs\u2019 publications?\n",
         "block_no": 6,
         "block_type": 0,
         "page_num": 70
@@ -12738,7 +12870,7 @@
             349.65087890625,
             561.6920776367188
         ],
-        "lines": "QUESTION 4.4:\n What are the topics the most reported upon and by what types of entities?\n",
+        "lines": "QUESTION 4.4:\n\u0007\nWhat are the topics the most reported upon and by what types of entities?\n",
         "block_no": 10,
         "block_type": 0,
         "page_num": 70

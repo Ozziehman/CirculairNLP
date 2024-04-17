@@ -2,17 +2,17 @@
 |    | members. develop tools and share best practice                                | 2021                         |
 |    | within the network.                                                           | OBJECTIVE                    |
 |    | The work of the MACN network is based                                         |                              |
-|    | – Culture of integrity                                                        |                              |
+|    | – Culture of integrity                                                       |                              |
 |    | on three pillars:                                                             |                              |
 |    | Raising awareness of challenges and                                           |                              |
-|    | – Collective action                                                           |                              |
+|    | – Collective action                                                          |                              |
 |    | enhancing integrity standards within                                          |                              |
 |    | Working with governments, non-go- the maritime community.                     |                              |
 |    | vernmental organisations and civil                                            |                              |
 |    | society to identify and mitigate the root                                     |                              |
 |    | causes of corruption and improving the                                        |                              |
 |    | operational environment.                                                      |                              |
-|    | – Strengthening capacities                                                    |                              |
+|    | – Strengthening capacities                                                   |                              |
 |    | Helping member companies imple-                                               |                              |
 |    | CCCCI ISS                                                                     |                              |
 |---:|:------------------------------------------------------------------------------|:-----------------------------|
@@ -22,10 +22,10 @@
 |    |                                                                               | CGM Group scope (including   |
 |    |                                                                               | CEVA Logistics)              |
 |    |                                                                               | 55 %: HR problem             |
-|    |                                                                               | 3 2 %: Fraud / Theft /       |
+|    |                                                                               | 32 %: Fraud / Theft /       |
 |    |                                                                               | Financial Default            |
-|    |                                                                               | 7 %: Inappropriate or        |
+|    |                                                                               | 7 %: Inappropriate or       |
 |    |                                                                               | unethical business practice  |
-|    |                                                                               | 4 %: Health and Safety Risk  |
-|    |                                                                               | 2 %:Violation of law or      |
+|    |                                                                               | 4 %: Health and Safety Risk |
+|    |                                                                               | 2 %:Violation of law or     |
 |    |                                                                               | regulation                   |

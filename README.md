@@ -17,7 +17,7 @@ python -m spacy download en_core_web_sm
    2. `cd /d "C:\Program Files\neo4j-community-5.18.0\bin"` change to the correct path of the bin folder in your Neo4j installation
   
 ## Optional
-If `Utils\Coreference\model.pth` is not filled and only contains the LFS(Large File Storage) pointer, it maybe because the LFS bandwidth limit was reached. In that case go to [model.pth download](https://osf.io/xavdh) to download the file and replace it within the project files.
+If `Utils\Coreference\model.pth` is not filled and only contains the LFS(Large File Storage) pointer, it maybe because the LFS bandwidth limit was reached. In that case go to [model.pth download](https://osf.io/xavdh)(https://osf.io/xavdh) to download the file and replace it within the project files.
 
 ## Usage
 

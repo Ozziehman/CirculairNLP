@@ -15,10 +15,13 @@ python -m spacy download en_core_web_sm
    1. `cd /d "C:\Program Files\neo4j-community-5.18.0\plugins"` change to the correct path of the plugins folder in your Neo4j installation
 
    2. `cd /d "C:\Program Files\neo4j-community-5.18.0\bin"` change to the correct path of the bin folder in your Neo4j installation
+  
+## Optional
+If `Utils\Coreference\model.pth` is not filled and only contains the LFS(Large File Storage) pointer, it maybe because the LFS bandwidth limit was reached. In that case go to [model.pth download](https://osf.io/xavdh) to download the file and replace it within the project files.
 
 ## Usage
 
-For ease of use, use the `main.py` file in the root directory to run the program, this way you can easily access the modules and classes in the program.
+For ease of use, use the `main.py` file in the root directory to run the program, this way you can easily access the modules and classes in the program. 
 
 ## Contributors
 
